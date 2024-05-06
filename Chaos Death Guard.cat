@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="65" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="73" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="72" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="79" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="Death Guard Maladictum" hidden="false">
       <categoryLinks>
@@ -1373,14 +1373,13 @@ Can include one of the following:
   <sharedSelectionEntries>
     <selectionEntry id="c5296162-eacf-4fe4-bbc4-6e3f1c6711c6" name="Plague Marines" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6640189c-1462-439a-98c1-c79db57020b3" name="Plague Marines" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="6640189c-1462-439a-98c1-c79db57020b3" name="Plague Marines" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">4&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">5+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Feel No Pain, Implacable</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1398,6 +1397,24 @@ Can include one of the following:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4929d5f-dba4-4494-af6c-b25dc4639ddd" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="267e-4fac-b53c-ce69" name="Plague Knives" hidden="false" collective="false" import="true" targetId="ed54-f374-f22f-eee2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5658-cc72-ca1a-03ad" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0442-c273-311e-19e0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a048-a224-6f56-f650" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="8539-d4d9-dc1a-ebae" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bbf-80c9-8b78-3d05" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="459c-f267-eaf9-a123" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="110f-ae45-501d-66c3" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="75dd-ffb7-8fa0-632e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be5d-efe2-fded-0c8c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e584-62db-f42d-9fbf" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
@@ -1406,14 +1423,13 @@ Can include one of the following:
     </selectionEntry>
     <selectionEntry id="005365d1-601a-4fb5-9c7a-d64fa14ec427" name="Pox Walkers" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5a52614b-fcac-4316-93a3-ec7d0b751f9f" name="Pox Walkers" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="5a52614b-fcac-4316-93a3-ec7d0b751f9f" name="Pox Walkers" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">4&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">6+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">-</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Feel No Pain, Furious Charge, Subordinate, Implacable</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Furious Charge, Subordinate, Implacable</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1432,7 +1448,7 @@ Can include one of the following:
         <categoryLink id="f6f7de09-f5f2-4c53-925d-b5ea3e1dd97c" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="6b0ab8be-4fb3-49c3-830a-e40f6437aeb9" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="ba87b1ba-9322-4912-9da0-97f19daf774b" type="selectionEntry">
+        <entryLink id="6b0ab8be-4fb3-49c3-830a-e40f6437aeb9" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="8aa6-ac49-6ebe-a3f5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ee806d-5ed3-4a80-a8bc-9265acc97ae8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1616e88-4f4c-4b25-8483-503f2351cdff" type="max"/>
@@ -1444,33 +1460,15 @@ Can include one of the following:
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ba87b1ba-9322-4912-9da0-97f19daf774b" name="Improvised Weapons" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="695dd467-b196-440a-88e5-efd3f96366b4" name="Improvised Weapons" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="84a44f86-7fe3-46e8-8ac3-4774d01955f6" name="Blightlord Terminators" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="5cd06b6e-2e7a-41e8-9a90-e096bdaee08d" name="Blightlord Terminators" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="5cd06b6e-2e7a-41e8-9a90-e096bdaee08d" name="Blightlord Terminators" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">4&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+4</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Bulky, Feel No Pain, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Feel No Pain, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1532,16 +1530,16 @@ Can include one of the following:
       <profiles>
         <profile id="ba73b5d4-0518-42f8-9e82-858a0adb55dc" name="Baleswords &amp; Flails" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="10b91cbd-1262-4a42-bdcb-85e68d02158e" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+        <infoLink id="5dad-e60e-6b78-0eab" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -1578,6 +1576,12 @@ Can include one of the following:
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4a438aa-00c7-4333-8f19-92e61fd4c96e" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="59520b19-cb01-4eef-b69b-8d18526adc51" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="4e77-e307-4d49-cfd9" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5db-9b9d-ac32-72ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f0-b0f4-0067-f6bf" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1622,6 +1626,12 @@ Can include one of the following:
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca06d3e0-e8f2-42f1-b769-fb6ef138195a" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="61b041fa-54d6-451e-84c7-01a0ace230d9" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="904e-d446-1581-173b" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f7-4549-feb4-c1e8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf9-4fb8-41ef-3bcf" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1705,7 +1715,7 @@ Can include one of the following:
         <infoLink id="c6ad7e11-c037-4294-96a4-bde63ce2c2c7" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Plague Marines w/ Lord of Contagion"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain"/>
           </modifiers>
         </infoLink>
         <infoLink id="ca7892c2-1da0-4976-b975-68235c217a70" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -1734,6 +1744,24 @@ Can include one of the following:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6a7ad2c-88c2-4102-80a2-2233e71d77ff" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="8f79-5da4-f59c-5587" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="75dd-ffb7-8fa0-632e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6a-3d2f-6835-f396" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e78b-ef81-2af6-0f5e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1b7c-141b-4a7d-0b69" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="8539-d4d9-dc1a-ebae" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8a1-ce70-27e1-0c97" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a60-8a2a-c117-3a75" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8c18-981c-0d1f-f5b0" name="Plague Knives" hidden="false" collective="false" import="true" targetId="ed54-f374-f22f-eee2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c64c-5a34-aee6-beb9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d3-52ef-daa4-e496" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -1744,16 +1772,16 @@ Can include one of the following:
       <profiles>
         <profile id="a02f9ab9-07f0-4ac8-8041-f51809ced9c3" name="Plaguereaper" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">4</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8e4dc1eb-ee2d-4c7e-8ea7-6442b6a1c6a0" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+        <infoLink id="a7de-884c-e226-6818" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -1768,7 +1796,7 @@ Can include one of the following:
         <infoLink id="7f25775c-c33f-4e6c-828d-4bf85d214da2" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Blightlord Terminators w/ Lord of Contagion"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain"/>
           </modifiers>
         </infoLink>
         <infoLink id="143b2317-d7e1-40fb-bd8d-51d06b8e7433" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -1817,7 +1845,7 @@ Can include one of the following:
         <infoLink id="20fe0af2-b37d-4a20-8c2a-b22bc44b2dd0" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Pox Walkers w/ Lord of Contagion"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain, Furious Charge"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain, Furious Charge"/>
           </modifiers>
         </infoLink>
         <infoLink id="99eb02c6-d94d-4c48-bd0d-da80ed8e7b56" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -1841,7 +1869,7 @@ Can include one of the following:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a31c7c0-6d24-4fa1-87ac-0edcd979944c" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="0ce0cb2f-c8c9-4147-8af4-4ac2260a7d0f" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="ba87b1ba-9322-4912-9da0-97f19daf774b" type="selectionEntry">
+        <entryLink id="0ce0cb2f-c8c9-4147-8af4-4ac2260a7d0f" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="8aa6-ac49-6ebe-a3f5" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fb1c55a-e32b-43ff-b35f-46d289dd53a8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16892d69-bcb3-496a-8a8c-dbc2c20df835" type="max"/>
@@ -1855,14 +1883,13 @@ Can include one of the following:
     </selectionEntry>
     <selectionEntry id="53224e49-edda-4d4e-906c-7940f9b3c308" name="Miasmic Malignifier" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="111a3ab3-3cc1-4b96-a2bd-a72adbee7122" name="Miasmic Malignifier" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="111a3ab3-3cc1-4b96-a2bd-a72adbee7122" name="Miasmic Malignifier" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">-</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">5+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">-3</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">-</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Automated Sentry, Infiltrate, Smokescreen Aura (4&quot;), Disgustingly Resilient, Patrol</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">-</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Automated Sentry, Infiltrate, Smokescreen Aura (4&quot;), Disgustingly Resilient, Patrol</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1913,14 +1940,13 @@ Can include one of the following:
     </selectionEntry>
     <selectionEntry id="9357c082-c809-4836-afee-148d7a8f08b0" name="Myphitic Blight-hauler" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="6cebbcaa-e690-4e9f-a2b0-43f63f09e04e" name="Myphitic Blight-hauler" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="6cebbcaa-e690-4e9f-a2b0-43f63f09e04e" name="Myphitic Blight-hauler" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Disgustingly Resilient, Implacable</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient, Implacable</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1945,6 +1971,12 @@ Can include one of the following:
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e37e72b1-f8bd-4ac9-8f5a-71a691090059" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e39e94a-ef7c-4ca4-a57e-9f0471f51e4b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="eaab-d9cc-7a9a-c5d3" name="Gnashing Maw" hidden="false" collective="false" import="true" targetId="f7f7-ae10-21c5-af2b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec02-cd28-ac3c-4497" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e05-4dfc-560a-937f" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2005,7 +2037,6 @@ Can include one of the following:
         <infoLink id="ab549d50-763c-44f9-aa4f-15ac65936dfa" name="Foetid Bloat-Drone" hidden="false" targetId="a2f061a8-3779-4b88-846d-0382150805dd" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Foetid Bloat-drone w/ Fleshmower"/>
-            <modifier type="set" field="1005d6d4-41dc-4599-930a-f52b7bec4f33" value="+5"/>
           </modifiers>
         </infoLink>
         <infoLink id="fae23f9e-b087-40d3-ba17-5ec478a75a04" name="Jink (X)" hidden="false" targetId="ba59b638-f2f0-4524-84ba-162bb4a3cb31" type="rule">
@@ -2022,6 +2053,12 @@ Can include one of the following:
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9c9453c-22e5-496f-96bd-5f85a45b3819" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0917881a-699e-478a-afc3-22bcefdca5f5" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="81eb-fb23-7bdd-6c71" name="Plague Probe" hidden="false" collective="false" import="true" targetId="0837-84e6-eec6-5143" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d67-e631-2c47-4eb7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4dc-1ad2-ab64-6160" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2054,6 +2091,12 @@ Can include one of the following:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c791bf7-4fc8-441d-8656-3970739d2b35" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="5c5d-9224-3ffa-108e" name="Plague Probe" hidden="false" collective="false" import="true" targetId="0837-84e6-eec6-5143" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c299-e0c0-ee0d-89e0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e120-d840-b97d-7320" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="27.0"/>
@@ -2064,16 +2107,16 @@ Can include one of the following:
       <profiles>
         <profile id="bdbd44c2-b0b5-455e-aadf-b0d64592c1df" name="Fleshmower" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="31a596d5-1f40-4afb-a24d-d605f4982e3e" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+        <infoLink id="3d91-bc79-6580-b284" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -2123,14 +2166,14 @@ Can include one of the following:
         <infoLink id="33df32a2-8204-45f9-8521-3ddf883d64ca" name="Drop Pod" hidden="false" targetId="eda58121-69ec-4b82-87f1-4c51909ea813" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Nurgle Drop Pod"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Drop Pod, Large Transport (2), Disgustingly Resilient"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Drop Pod, Large Transport (2), Disgustingly Resilient"/>
           </modifiers>
         </infoLink>
         <infoLink id="2ec2fffe-8dc0-44f7-8243-212768adb98e" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
         <infoLink id="02b58160-5dab-4d35-9c13-1355d2827577" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
       <entryLinks>
-        <entryLink id="4dabd4b8-d62f-49b8-ba8a-42fc2fcfc284" name="Turret Mounted twin bolter" hidden="false" collective="false" import="true" targetId="8026a888-36aa-4ff5-8d5a-30cd2f7100fd" type="selectionEntry">
+        <entryLink id="4dabd4b8-d62f-49b8-ba8a-42fc2fcfc284" name="Turret Mounted Twin Bolter" hidden="false" collective="false" import="true" targetId="8026a888-36aa-4ff5-8d5a-30cd2f7100fd" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51697cd9-9bcc-4446-8af8-34c000fa3e88" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d92d78-722a-4a46-9600-f9d05603f4fc" type="min"/>
@@ -2144,14 +2187,13 @@ Can include one of the following:
     </selectionEntry>
     <selectionEntry id="42ee516e-6094-4d4a-878f-275db3db1cb0" name="Nurgle Fellblade Super-Heavy Tank" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="47112d9f-fa0a-4da0-b766-2c01ab55fea1" name="Nurgle Fellblade Super-Heavy Tank" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="47112d9f-fa0a-4da0-b766-2c01ab55fea1" name="Nurgle Fellblade Super-Heavy Tank" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">7&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+4</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">2</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Disgustingly Resilient, Implacable, Explorator Adaption</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">7&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient, Implacable, Explorator Adaption</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2185,6 +2227,12 @@ Can include one of the following:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdd2e4a5-537e-4ea5-9ee4-17976ab4fce4" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="01d1-fcf1-08f6-bd0d" name="Large Ram" hidden="false" collective="false" import="true" targetId="90a0-fefb-d48f-6363" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4976-0632-21db-9e98" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a643-f138-51fe-1f76" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="108.0"/>
@@ -2213,6 +2261,12 @@ Can include one of the following:
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b2e6bde-d2ec-45dc-ac61-89b504dad808" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c3a4767-f9d7-428a-8fa5-5bf30ecef055" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bb14-bd2a-fae4-de98" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf3-2956-1daa-6099" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cbc-11fa-7478-66c0" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2271,16 +2325,97 @@ Can include one of the following:
       <profiles>
         <profile id="cfcb28ad-c8d9-4fa6-9c26-65e905146735" name="Helbrute Hammer" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">4</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d2662057-72d0-4585-8617-a52eddec9f54" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+        <infoLink id="b8fc-4306-48b9-d046" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ed54-f374-f22f-eee2" name="Plague Knives" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2aa7-0066-7fb9-9e1d" name="Plague Knives" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0745-d6d5-d929-392e" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="75dd-ffb7-8fa0-632e" name="Blight Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2226-2f10-fed2-b5c7" name="Blight Grenades" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Ignores Cover, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1d9c-5f8e-6ce5-3e80" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+        <infoLink id="a279-8215-c6ee-4ece" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0837-84e6-eec6-5143" name="Plague Probe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e904-40fa-4c11-a28d" name="Plague Probe" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ef93-1707-72e6-9689" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7f7-ae10-21c5-af2b" name="Gnashing Maw" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9af7-9e23-0c55-24ba" name="Gnashing Maw" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6fcf-7166-3181-5c31" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -2289,14 +2424,13 @@ Can include one of the following:
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="f76dde12-1cdc-4717-95fc-84089e25234e" name="Lord of Contagion" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+    <profile id="f76dde12-1cdc-4717-95fc-84089e25234e" name="Lord of Contagion" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">4&quot;</characteristic>
-        <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
-        <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+5</characteristic>
-        <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2+</characteristic>
-        <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-        <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain</characteristic>
       </characteristics>
     </profile>
     <profile id="d9f20591-d16c-4edb-9ffe-bc9b5c3f063f" name="Entropy Cannons" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -2308,14 +2442,13 @@ Can include one of the following:
         <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Anti-Tank</characteristic>
       </characteristics>
     </profile>
-    <profile id="a2f061a8-3779-4b88-846d-0382150805dd" name="Foetid Bloat-Drone" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+    <profile id="a2f061a8-3779-4b88-846d-0382150805dd" name="Foetid Bloat-Drone" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
-        <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
-        <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-        <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
-        <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-        <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Disgustingly Resilient, Implacable, Jink (6+), Skimmer, Outflank</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient, Implacable, Jink (6+), Skimmer, Outflank</characteristic>
       </characteristics>
     </profile>
     <profile id="100b9b25-c908-4d79-932d-e08f80138d37" name="Plaguespitters" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">

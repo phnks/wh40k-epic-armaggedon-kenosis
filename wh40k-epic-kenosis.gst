@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="74" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="79" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -32,6 +32,15 @@
     <profileType id="308a9d45-51e7-4950-8aea-5ad963f4d166" name="Special Rules">
       <characteristicTypes>
         <characteristicType id="2b3e2673-8561-4b2e-b2f7-78810e28cb0c" name="Description"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="654f-da76-0b3e-9e23" name="Model">
+      <characteristicTypes>
+        <characteristicType id="abb2-3af0-6b13-5cbf" name="Move"/>
+        <characteristicType id="535f-6cc6-83ea-24d1" name="Sv"/>
+        <characteristicType id="95ab-2193-7eea-0530" name="Morale"/>
+        <characteristicType id="cf02-ebac-aa4c-7750" name="W"/>
+        <characteristicType id="b4db-c43f-148e-920a" name="Traits"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -470,17 +479,14 @@
       <profiles>
         <profile id="8fdadc1b-c070-41c2-a950-652a9bc5d6f2" name="Reaper Chainsword" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">8</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="b9d3ed35-4a6e-4f9e-8f7f-978e3949b3a6" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -490,16 +496,15 @@
       <profiles>
         <profile id="e8895dda-6b62-4edd-8961-6a349ae8704b" name="Thunderstrike Gauntlet" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend, Wrecker (1)</characteristic>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">4</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Wrecker (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="038b1d68-e231-41bc-9abe-0626fc94e762" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
         <infoLink id="dbce8cf5-322c-4c31-94e4-5776d8b790de" name="Wrecker (X)" hidden="false" targetId="e40-19fc-8c79-9a12" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Wrecker (1)"/>
@@ -1279,6 +1284,132 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8539-d4d9-dc1a-ebae" name="Krak Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a04d-1a14-43de-caa2" name="Krak Grenades" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3680-7490-7f52-f8f9" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c852-46e6-b5de-4f40" name="Ram" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="621f-e930-b3f3-2186" name="Ram" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8aa6-ac49-6ebe-a3f5" name="Improvised Weapons" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dfdf-9333-7561-1396" name="Improvised Weapons" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">6+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="46dd-d21e-19f3-ce10" name="Frag Grenades" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="e748-54e4-4962-4ae9" name="Frag Grenades" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Ignores Cover, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="051f-cd09-b0ff-4e91" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+        <infoLink id="e2a8-0443-d5fd-0054" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="90a0-fefb-d48f-6363" name="Large Ram" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a1ea-ed9f-bd7a-77b9" name="Large Ram" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7d15-af0a-ca9c-5e20" name="Titanic Feet (Knight)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="dd35-37a9-01bb-84e3" name="Titanic Feet (Knight)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">4</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d21b-1f03-5792-21d4" name="Titanic Feet (Warhound)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="0346-cf77-4742-86a4" name="Titanic Feet (Warhound)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">8</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="902de2f1-98ab-4f73-8d55-cde249634685" name="Assault" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="77" hidden="false">
@@ -1764,14 +1895,13 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="faaef022-e3e3-4911-9288-8fbca6b1bab4" name="Questoris Knight" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+    <profile id="faaef022-e3e3-4911-9288-8fbca6b1bab4" name="Questoris Knight" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">8&quot;</characteristic>
-        <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
-        <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+8</characteristic>
-        <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2+</characteristic>
-        <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">3</characteristic>
-        <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Independent, Ion Shield (4+), Nimble</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">8&quot;</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Independent, Ion Shield (4+), Nimble</characteristic>
       </characteristics>
     </profile>
     <profile id="8e434bed-96a9-4676-9e48-e11ddf8d78a5" name="Multi-Melta" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -1801,24 +1931,22 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Ignores Cover, Light</characteristic>
       </characteristics>
     </profile>
-    <profile id="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" name="Warhound Titan" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+    <profile id="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" name="Warhound Titan" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">7&quot;</characteristic>
-        <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
-        <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+10</characteristic>
-        <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">-</characteristic>
-        <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">4</characteristic>
-        <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Agile, Void Shields (2)</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">7&quot;</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">4</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Void Shields (2)</characteristic>
       </characteristics>
     </profile>
-    <profile id="eda58121-69ec-4b82-87f1-4c51909ea813" name="Drop Pod" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+    <profile id="eda58121-69ec-4b82-87f1-4c51909ea813" name="Drop Pod" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">-</characteristic>
-        <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
-        <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">-3</characteristic>
-        <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">-</characteristic>
-        <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-        <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Drop Pod, Large Transport (2)</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">-</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Drop Pod, Large Transport (2)</characteristic>
       </characteristics>
     </profile>
     <profile id="df5d2753-e995-4356-ab73-f253374299a9" name="Lascannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">

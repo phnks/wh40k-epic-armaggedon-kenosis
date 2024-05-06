@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="25" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="68" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="28" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="79" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3c7dc790-e3af-423b-b378-cb98910b7684" name="Daemon Host" hidden="false">
       <categoryLinks>
@@ -178,8 +178,8 @@
         <infoLink id="e8e3c2f0-50dc-4ee0-8cbb-f26f96641dd9" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
         <infoLink id="9d5b9241-265f-4108-8043-ca12d813f773" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient, Implacable"/>
-            <modifier type="set" field="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120" value="7&quot;"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient, Implacable"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="7&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Crusader"/>
           </modifiers>
         </infoLink>
@@ -219,6 +219,12 @@
             <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
           </costs>
         </entryLink>
+        <entryLink id="4708-1547-6f90-4084" name="Titanic Feet (Knight)" hidden="false" collective="false" import="true" targetId="7d15-af0a-ca9c-5e20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6147-14bc-2039-6e2e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce9d-6939-5386-804b" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
@@ -236,8 +242,8 @@
         <infoLink id="d752bac1-b032-4d52-87d9-517052193d52" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
         <infoLink id="6a8aefb3-a153-4392-a4f2-f293c0e4af6f" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient, Implacable"/>
-            <modifier type="set" field="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120" value="7&quot;"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient, Implacable"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="7&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Paladin"/>
           </modifiers>
         </infoLink>
@@ -288,6 +294,12 @@
             <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
           </costs>
         </entryLink>
+        <entryLink id="f617-1db2-f41e-65b0" name="Titanic Feet (Knight)" hidden="false" collective="false" import="true" targetId="7d15-af0a-ca9c-5e20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="435f-11aa-7118-0bcf" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b97-318e-d839-2bfb" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
@@ -305,8 +317,8 @@
         <infoLink id="8c3d080b-ab94-4a22-8c1a-7e8ae1196756" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
         <infoLink id="168ef87f-8af4-4057-918a-0250d1c982fd" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient, Implacable"/>
-            <modifier type="set" field="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120" value="7&quot;"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient, Implacable"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="7&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Warden"/>
           </modifiers>
         </infoLink>
@@ -357,6 +369,12 @@
             <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
           </costs>
         </entryLink>
+        <entryLink id="f74c-9888-76bf-f352" name="Titanic Feet (Knight)" hidden="false" collective="false" import="true" targetId="7d15-af0a-ca9c-5e20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14ab-2429-b39e-a87d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f49-28df-f4c0-43c5" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
@@ -374,8 +392,8 @@
         <infoLink id="a24e178b-6920-4eff-908b-811b7e789f25" name="Warhound Titan" hidden="false" targetId="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Nurgle Warhound Titan"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Agile, Void Shields (2), Disgustingly Resilient, Implacable"/>
-            <modifier type="set" field="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120" value="6&quot;"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Void Shields (2), Disgustingly Resilient, Implacable"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="6&quot;"/>
           </modifiers>
         </infoLink>
         <infoLink id="25e3e9f3-65b8-4976-ab2e-36e9501a1f85" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
@@ -423,7 +441,7 @@
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="392c3228-c877-4128-8cd5-b831fc05f0d8" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="bb20e840-5c69-4445-a3eb-bee426e1ad96" name="Turbo-laser Destructor" hidden="false" collective="false" import="true" targetId="69359609-2c66-4c96-9889-e6732c0ff2d2" type="selectionEntry">
+            <entryLink id="bb20e840-5c69-4445-a3eb-bee426e1ad96" name="Turbo-Laser Destructor" hidden="false" collective="false" import="true" targetId="69359609-2c66-4c96-9889-e6732c0ff2d2" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d1db4c-c188-49b5-9c48-cf742a38c2c2" type="max"/>
               </constraints>
@@ -451,6 +469,14 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ca45-651a-c365-b1eb" name="Titanic Feet (Warhound)" hidden="false" collective="false" import="true" targetId="d21b-1f03-5792-21d4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac24-b995-024d-637b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8454-1468-1f1c-0114" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="321.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
