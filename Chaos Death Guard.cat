@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="62" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="65" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="73" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="Death Guard Maladictum" hidden="false">
       <categoryLinks>
@@ -243,18 +243,6 @@
   </forceEntries>
   <selectionEntries>
     <selectionEntry id="3e4fb88f-eee2-4a7d-a3c8-4fc59321a33f" name="Colony Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fdc2e11-b983-4142-9064-b5ac00da70cd" type="max"/>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4cc8c60-51b4-460d-ae6c-3ac0defaab96" type="min"/>
@@ -422,18 +410,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="3457fe7d-77bc-4f2c-b1f1-c0f26f03fc1c" name="Blightlord Terminator Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3782918c-3e29-46fe-8637-334c39971d6e" type="max"/>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8befdc3b-3ced-4ac8-83db-23c0c2f5a195" type="min"/>
@@ -534,18 +510,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2404cbf9-33ec-4915-8037-a29f14482e43" name="Nurgle Rhino Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="6fa93c90-21bd-4faf-bf09-9e44505f55c7" name="New CategoryLink" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
         <categoryLink id="3999cb91-70f6-43fb-9fce-98f72f551ee2" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -566,18 +530,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="071c374a-4d52-4012-97d9-da056764abd9" name="Plagueburst Crawler Squadron" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="8b5cd55d-e8bb-4710-96c4-9fba84815107" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="true"/>
         <categoryLink id="75395182-59ba-4715-841c-0fa17a9b534b" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -603,18 +555,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="4b2e0fc6-dd2b-4643-9baa-3a3d16f7ca9f" name="Colony Command Detachment" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0be0c29-6d02-4509-a085-df0751d2eff8" type="max"/>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="44384e73-ae4b-463d-a1c2-fdc8c878fd2a" type="min"/>
@@ -1183,18 +1123,6 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="71d7df1a-d1e5-40a3-bf0a-87cf054b43fc" name="Miasmic Malignifier Fortification" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="6aa6dde2-262f-40e7-baed-cdfbdc1592ca" name="New CategoryLink" hidden="false" targetId="f79826ca-ef67-4196-9091-0fc9dc0a4ae2" primary="true"/>
         <categoryLink id="4859d11b-fb74-4114-91f1-b232a38dbad6" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -1220,18 +1148,6 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="c13f6788-7c5c-432e-9b2f-4a9bc2b51956" name="Myphitic Blight-hauler Squadron" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="c52faca6-2c3b-4641-86fb-49a7d201df89" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
         <categoryLink id="a00b2e1c-1a43-418e-9f47-902ed1f8c707" name="Light Armour" hidden="false" targetId="83c74a0d-b23e-40b4-a8f1-28a77a09d881" primary="true"/>
@@ -1257,18 +1173,6 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="4b08449a-fd1f-4c97-ad0a-61c1f2079097" name="Foetid Bloat-Drone Squadron" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="ccc06e5d-8ef5-42bd-bd96-70d167d01372" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
         <categoryLink id="5ba9f968-9d88-4e31-8a28-303bd7e1acd2" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="true"/>
@@ -1291,18 +1195,6 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="6fd71b68-6c3f-40cc-817d-f2f274b4a0bc" name="Nurgle Drop Pod Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="e1ac69e2-ec96-4d62-9358-5964ef2145c7" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
         <categoryLink id="d3441c21-c7ab-4cab-bcf3-7a2be03111cd" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -1328,18 +1220,6 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="8ed0b100-9f05-4a02-96ba-baa2e9898c08" name="Nurgle Fellblade Super-Heavy Tank Squadron" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="072f90d4-cab2-4632-ae67-f75a05cd8ba9" name="New CategoryLink" hidden="false" targetId="aad0755c-ad6d-4523-864d-95e59cd132d2" primary="false"/>
         <categoryLink id="7e5cf267-d17e-420a-bd1c-55cb41569499" name="New CategoryLink" hidden="false" targetId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" primary="true"/>
@@ -1365,18 +1245,6 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="94531006-7e56-430e-a5eb-d12fb4c7421e" name="Nurgle Vindicator Squadron" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="8d9849a1-5931-4978-bb31-35122725ac17" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
         <categoryLink id="11a7a9f3-0776-4f39-ac06-88241e46a4ad" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="true"/>
@@ -1402,18 +1270,6 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="45e13e17-199a-453e-9ac8-d214feae6086" name="Nurgle Helbrute Talon" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be2459ba-19f0-4a3a-9d20-409f0feb4290" type="min"/>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06e23150-03c8-44bf-8aa2-bf88f03eedf0" type="max"/>
@@ -1561,6 +1417,11 @@ Can include one of the following:
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="f0b4-b683-6f10-95cf" name="Curse of the Walking Pox" hidden="false">
+          <description>Each time an enemy Infantry model is slain by a Poxwalker in the Fight phase, add one model to the Poxwalker’s detachment.</description>
+        </rule>
+      </rules>
       <infoLinks>
         <infoLink id="e9177fbf-04ba-4585-b520-79a7ba16cba9" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="1e70eb4a-9f90-4087-8896-072fb1fc6edf" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
@@ -1844,7 +1705,7 @@ Can include one of the following:
         <infoLink id="c6ad7e11-c037-4294-96a4-bde63ce2c2c7" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Plague Marines w/ Lord of Contagion"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain, Master Tactician"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain"/>
           </modifiers>
         </infoLink>
         <infoLink id="ca7892c2-1da0-4976-b975-68235c217a70" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -1859,7 +1720,6 @@ Can include one of the following:
           </modifiers>
         </infoLink>
         <infoLink id="845a8052-1c81-4736-a595-1355444f9a02" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
-        <infoLink id="812b314a-2dcf-4e27-8480-25c28abf2725" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="b96d2795-73f4-41b4-b8a6-fca1ba5f433d" name="Bolters" hidden="false" collective="false" import="true" targetId="85097f56-b91c-4bcb-8d33-daa1388a87d7" type="selectionEntry">
@@ -1908,7 +1768,7 @@ Can include one of the following:
         <infoLink id="7f25775c-c33f-4e6c-828d-4bf85d214da2" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Blightlord Terminators w/ Lord of Contagion"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain, Master Tactician"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain"/>
           </modifiers>
         </infoLink>
         <infoLink id="143b2317-d7e1-40fb-bd8d-51d06b8e7433" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -1923,7 +1783,6 @@ Can include one of the following:
           </modifiers>
         </infoLink>
         <infoLink id="f7491017-1efa-411e-9cb1-ee3769a124aa" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
-        <infoLink id="e1ca2a9d-7689-49bc-8aaf-543c984d5605" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="71f0afd7-904c-4020-93c8-d261767f1f25" name="Plaguereaper" hidden="false" collective="false" import="true" targetId="68280b43-c319-455b-9466-e3a25c706f82" type="selectionEntry">
@@ -1958,7 +1817,7 @@ Can include one of the following:
         <infoLink id="20fe0af2-b37d-4a20-8c2a-b22bc44b2dd0" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Pox Walkers w/ Lord of Contagion"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain, Furious Charge, Master Tactician"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain, Furious Charge"/>
           </modifiers>
         </infoLink>
         <infoLink id="99eb02c6-d94d-4c48-bd0d-da80ed8e7b56" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -1974,7 +1833,6 @@ Can include one of the following:
         </infoLink>
         <infoLink id="f93081d0-2407-4983-916d-60fb1f1330d8" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="95301360-c007-4777-bf45-edf5a9adf0be" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
-        <infoLink id="e7d96f3a-a78e-458d-883c-9797a7cd67ea" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="d22bff66-d718-4380-a030-6eac4057732f" name="Plaguereaper" hidden="false" collective="false" import="true" targetId="68280b43-c319-455b-9466-e3a25c706f82" type="selectionEntry">

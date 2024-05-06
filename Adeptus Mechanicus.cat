@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="60" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="62" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="73" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -320,16 +320,6 @@
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
           </conditions>
         </modifier>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
       </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55821ea4-7fe8-4c80-9211-932c0b2d3805" type="max"/>
@@ -461,16 +451,6 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
           </conditions>
-        </modifier>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -704,18 +684,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="ee9755ee-afdf-46b9-a9aa-caeb49fa0e99" name="Karacnos Assault Tank Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="b179cfb5-e7fa-4831-9cbe-aef3ef707347" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
           <modifiers>
@@ -752,18 +720,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="31afb0df-89d5-4952-9e0a-84b1861ac38c" name="Onager Dunecrawler Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="63aa86bf-3bb4-4485-aebf-c6e2ecc199fb" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
           <modifiers>
@@ -800,18 +756,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="7482dffd-b159-4e4c-b8c8-071a0d13ec92" name="Battle Maniple Command Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a308a892-003b-4aa6-9df2-8c9f1d147fa7" type="max"/>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8f78cf-cb53-4bb5-99b5-15993f287684" type="min"/>
@@ -1100,18 +1044,6 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="cd0e959f-7729-469c-921b-bd01a7b02428" name="Triaros Armoured Conveyer Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="f369d7f2-238e-4902-ba22-8e46a835549c" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
         <categoryLink id="0c809840-6f7d-4a9d-a719-979df35b6dc0" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -1120,7 +1052,6 @@
         <selectionEntryGroup id="21681d4e-82e6-4683-9536-44271e1caa22" name="Models" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d454b66-0695-41c7-bcb0-2fef879a3032" type="min"/>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247c7b04-04cb-4204-88ad-19a6c0b45a1d" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="57e5eea0-a5eb-4f7c-b0d5-f30abe29305e" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
@@ -1416,18 +1347,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="8f628408-b569-4ac1-93bb-d7b87166fb44" name="Domitar-Ferrum Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="712ab98c-7953-42ac-8054-f88238f76730" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
           <modifiers>
@@ -1464,18 +1383,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="1682d46b-ec8e-4672-b18c-e39bdd872a52" name="Krios Battle Tank Squadron" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <infoLinks>
         <infoLink id="edfd79b9-5866-4baa-95ce-c2e0a1a4b51d" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
           <modifiers>
@@ -1512,18 +1419,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="ec3491a8-c917-4122-b42e-b7eadbff3487" name="Stormhammer Super-Heavy Tank Squadron" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="e477e5ca-0fbf-43e5-b2de-c40f5219e211" name="Heavy Armour" hidden="false" targetId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" primary="true"/>
         <categoryLink id="fa3d345f-2357-4397-8204-c229677db6d6" name="Super-heavy Vehicle (3)" hidden="false" targetId="aad0755c-ad6d-4523-864d-95e59cd132d2" primary="false"/>
@@ -1549,18 +1444,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="6990d3c5-2f88-4eec-b8ad-c3fe47cbefae" name="Ironstrider Battle Maniple" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="39e4cc60-ca0e-4c47-9fe3-7a16f3d1b606" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="true"/>
         <categoryLink id="0f3f688c-96c6-4be7-8564-783ca649eb1d" name="Cavalry (1)" hidden="false" targetId="91c7ab08-c46f-43c2-ae1e-13153ac87f0b" primary="false"/>
@@ -1586,18 +1469,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="ad6788e2-1e23-49c2-8459-302f4c9e622d" name="Colossus Bombard Crawler Detachment" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="b9775c50-d4be-43fe-91a9-b20da14d4185" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
         <categoryLink id="5708e9af-7414-412a-983a-9b80d6d5a81a" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="true"/>
@@ -1911,8 +1782,8 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
         <infoLink id="bae35faa-7334-49cc-bb6b-3e5f937e83b3" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Tech-Priest Dominus w/ Myrmidon Secutors"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Bulky, Implacable, Steadfast, Cybernetica Cortex"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Bulky, Implacable, Steadfast, Infiltrate, Cybernetica Cortex">
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Bulky, Implacable, Steadfast, Cybernetica Cortex"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Bulky, Implacable, Steadfast, Infiltrate, Cybernetica Cortex">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -1930,7 +1801,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="0743d3f1-0305-4a68-af71-8212baf1b3ee" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
         <infoLink id="143799d6-aa9f-4e84-b803-4771205de1b8" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
         <infoLink id="755d6dfd-9fee-4c64-9303-1c3689b70bf8" name="Cybernetica Cortex" hidden="false" targetId="1b3aec2b-9da8-45de-a17b-36451765e8c4" type="rule"/>
       </infoLinks>
@@ -2020,12 +1890,11 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="232baa70-8606-4835-a634-7db7f8aff1db" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
         <infoLink id="95b4fdf6-fd83-4458-ac5c-437ac819d8ec" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Tech-Priest Dominus w/ Skitarii Rangers"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Scout, Cybernetica Cortex"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Scout, Infiltrate, Cybernetica Cortex">
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+),, Battlesmith, Line, Scout, Cybernetica Cortex"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Scout, Infiltrate, Cybernetica Cortex">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -2066,8 +1935,8 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
         <infoLink id="dbb4bd92-2899-4841-8fdb-6285bcd7436c" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Tech-Priest Dominus w/ Skitarii Vanguard"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Rad-Phage Aura (4&quot;), Cybernetica Cortex"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Rad-Phage Aura (4&quot;), Infiltrate, Cybernetica Cortex">
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Rad-Phage Aura (4&quot;), Cybernetica Cortex"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Rad-Phage Aura (4&quot;), Infiltrate, Cybernetica Cortex">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -2085,7 +1954,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="76eb5664-e153-4b2d-8d5d-24fb268bb488" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
         <infoLink id="4f78d368-5f6b-4392-b22f-f6933692219e" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
         <infoLink id="f46afa93-d68d-43ee-9238-cd20242a5780" name="Rad-Phage Aura (X)" hidden="false" targetId="65f46419-7366-4cf1-b7ef-76eabe3b54b4" type="rule">
           <modifiers>

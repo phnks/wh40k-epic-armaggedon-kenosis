@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="71" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="74" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -53,17 +53,18 @@
     <categoryEntry id="8b218ff5-659c-47e7-8d79-b11e18633f5b" name="Loyalist" hidden="false"/>
     <categoryEntry id="c746156d-4642-44a4-8330-bfb18c1026c8" name="Traitor" hidden="false"/>
     <categoryEntry id="bb4ea268-8da2-48d4-943c-24c2801a09c7" name="Battle Tank" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="128" hidden="false"/>
-    <categoryEntry id="49b3-dae7-33f8-f8e" name="Vehicle (2)" hidden="false"/>
-    <categoryEntry id="a35ba915-3e05-457a-8ef8-0d5df2428203" name="Walker (1)" hidden="false"/>
-    <categoryEntry id="aad0755c-ad6d-4523-864d-95e59cd132d2" name="Super-heavy Vehicle (3)" hidden="false"/>
+    <categoryEntry id="49b3-dae7-33f8-f8e" name="Vehicle (3)" hidden="false"/>
+    <categoryEntry id="a35ba915-3e05-457a-8ef8-0d5df2428203" name="Walker (2)" hidden="false"/>
+    <categoryEntry id="aad0755c-ad6d-4523-864d-95e59cd132d2" name="Super-heavy Vehicle (4)" hidden="false"/>
     <categoryEntry id="ab9832ae-ca72-4369-8e32-c77111a7f6e6" name="Allied Units" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="129" hidden="false"/>
     <categoryEntry id="9f4e7362-03b5-4882-9637-8804395daea1" name="Knight" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="128" hidden="false"/>
     <categoryEntry id="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" name="Titan" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="128" hidden="false"/>
-    <categoryEntry id="91c7ab08-c46f-43c2-ae1e-13153ac87f0b" name="Cavalry (1)" hidden="false"/>
+    <categoryEntry id="91c7ab08-c46f-43c2-ae1e-13153ac87f0b" name="Cavalry (2)" hidden="false"/>
     <categoryEntry id="439db3b2-0ad8-4ef8-a47a-00e1c9c5b414" name="Knight (4)" hidden="false"/>
     <categoryEntry id="63f171a5-0b43-47a2-aee7-373c4059403f" name="Strategic Assets" hidden="false"/>
     <categoryEntry id="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" name="Titan (5)" hidden="false"/>
     <categoryEntry id="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" name="Daemon" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="128" hidden="false"/>
+    <categoryEntry id="a1b7-ffdc-38b2-e92b" name="Monster (3)" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7b2ad190-c99d-4007-a23f-8490f37e186e" name="Unbound Formation (Open Play)" hidden="true">
@@ -85,136 +86,6 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <selectionEntries>
-    <selectionEntry id="d732909c-8556-4d6e-ad12-fd92ccd5ace4" name="Allegiance" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="greaterThan"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="greaterThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="54d8a868-4d18-4773-907c-a9134b450eb0" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="37942724-8919-441e-bfac-5a10f6b3e82f" type="greaterThan"/>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="greaterThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54d8a868-4d18-4773-907c-a9134b450eb0" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05bb5391-5561-41fc-b735-c8c39cbf6ae3" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="08bfdd3b-5de9-43d7-8381-f052da428728" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="b639c1e8-817e-4ee4-ac59-aba6a0a26f4e" name="Allegiance" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="127" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e540663-cacf-40ec-b2ba-ba8a8e08a2c0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e50-3814-49a5-8e48" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d8627011-8299-450a-9c7e-f0cd6ea1ad63" name="Loyalist" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="7a-6e7d-947f-b554" value="0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c746156d-4642-44a4-8330-bfb18c1026c8" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a-6e7d-947f-b554" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="86a68a43-060e-4aaf-970b-f160e361204c" name="Traitor" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="5a255f11-6e28-4dea-85d9-0166c1b6b4f8" value="0">
-                  <conditions>
-                    <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="8b218ff5-659c-47e7-8d79-b11e18633f5b" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a255f11-6e28-4dea-85d9-0166c1b6b4f8" type="max"/>
-              </constraints>
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="715bc7b5-0697-44b4-8a30-6083eee1fec1" name="Primary Army" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="127" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="4e88241e-ccf2-4c4f-aa77-ac54569bb01c" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e88241e-ccf2-4c4f-aa77-ac54569bb01c" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62eefd69-4771-4212-a9cd-8afd8f57d706" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="b904ee03-3f93-4d22-b3b7-6b4b7a0999a5" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="352c3a91-b91a-4358-97b5-31cb4ff0ea0d" name="Primary Army" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9f8f024-5154-408c-af26-dcdf7d055ecf" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cae8a12d-626c-44d2-a31b-78e2e52e9a39" type="max"/>
-          </constraints>
-          <selectionEntries>
-            <selectionEntry id="d6519a58-2069-422c-9158-b077fce7d43c" name="Solar Auxilia" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="288d-7913-984c-5d0" name="Legiones Astartes" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="37942724-8919-441e-bfac-5a10f6b3e82f" name="Chaos: Death Guard" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" name="Adeptus Mechanicus" hidden="false" collective="false" import="true" type="upgrade">
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="2d1c9b51-14e3-460c-a788-78d99a88637c" name="Power Axes" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -1563,7 +1434,7 @@ A weapon with the Bombing Run trait can damage Structures.</description>
 These additional Hits can only be allocated to models within the target Detachment that are within range and line of sight of at least one firing model. Any Wounds caused by these additional Hits cannot generate more Hits themselves.</description>
     </rule>
     <rule id="788-9d12-3358-b236" name="Demolisher" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="80" hidden="false">
-      <description>A weapon with the Demolisher trait can damage Structures.</description>
+      <description>A weapon with the Demolisher trait can damage Structures. A weapon with this trait targeting a building adds +2 to it&apos;s hit rolls.</description>
     </rule>
     <rule id="0ec42a2b-d2dd-4320-b291-a708aea407da" name="Firestorm" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="80" hidden="false">
       <description>When firing a weapon with the Firestorm trait, place the Flame template (denoted as T in the weapon profile&apos;s range) so the narrow end is touching the weapon, or the firing model if the weapon is not physically represented. Make Hit rolls for each Detachment that has one of more models that are under the Flame template equal to the number of models from that Detachment that are at least 50% under the Flame template. Roll a D6 for each model that is less than 50% covered by the template - on a 5+, the model is counted for the purpose of calculating Hit rolls and allocating Hits. On a 1-3, the model is ignored for such purposes. If a weapon has the Firestorm trait and the Skyfire trait, the template only hits models with the Flyer special rule, while if it does not have the Skyfire trait then Flyers are ignored and cannot be hit.
@@ -1659,9 +1530,7 @@ In addition, each Hit scored by a weapon with Shock Pulse that is allocated to a
 In addition, Hits scored by a weapon with the Warp trait bypass the following: Armour Saves, Cover Saves, Invulnerable Saves, Ion Shields, Void Shields.</description>
     </rule>
     <rule id="e40-19fc-8c79-9a12" name="Wrecker (X)" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="85" hidden="false">
-      <description>A model with a weapon with the Wrecker trait may attempt to destroy a Structure when activated in the First Fire stage or Advancing Fire stage. Choose a Structure the model is in base contact with - the opposing player makes a Save roll for that Structure, taking into account the AP characteristic of the weapon. If the Save roll is failed, the Structure suffers a number of Wounds equal to the value shown in brackets.
-
-If a model has more than one Wrecker (X) weapon, then it may attempt to destroy a number of Structures equal to the number of Wrecker weapons it has. Alternatively, a model may attempt to destroy a single Structure with all its Wrecker weapons, in which case the combined total of the weapons&apos; AP is taken into account when making a Save roll for the Structure and the Structure suffers a number of Wounds equal to the combined total of the Wrecker values for all weapons the model is using against that Structure.</description>
+      <description>A weapon with the Wrecker trait can damage Structures.The Structure suffers a number of Wounds equal to the value shown in brackets. A weapon with this trait targeting a building automatically hits.</description>
     </rule>
     <rule id="36b7-c82d-3af9-3a0" name="Agile" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="86" hidden="false">
       <description>A Titan with the Agile special rule can turn up to 2 times during its movement, instead of the usual 1.</description>
@@ -1796,9 +1665,9 @@ Models with the Jump Packs special rule count as having the Bulky special rule f
       <description>When a model with both the Orbital Assault and Drop Pod special rule is deployed on the battlefield via Deep Strike, it may immediately fire with all its weapons, following the rules for Firing. If the model in question also has the Transport (X) special rule, it fires before any models Disembark.</description>
     </rule>
     <rule id="8785-676-b80f-8709" name="Outflank" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="94" hidden="false">
-      <description>Instead of being deployed on the battlefield as normal, if all models in a Detachment have the Outflank special rule, the Detachment may be placed in Reserve. While in Reserve, Detachments with the Outflank special rule can only be issued the Advance Order or March Order.
+      <description>Instead of being deployed on the battlefield as normal, if all models in a Detachment have the Outflank special rule, the Detachment may be placed in Reserve. While in Reserve, Detachments with the Outflank special rule cannot Fire Fire or Charge.
 
-When a Detachment with the Outflank special rule that is in Reserve is activated in any Movement phase other than the first, the controlling player may choose to leave it in Reserve or Flank the enemy. When a Detachment Flanks the enemy, the controlling player places the models in that Detachment in base contact with any battlefield edge, although no model can be deployed within 8&quot; of the enemy&apos;s battlefield edge. Once deployed in this way, the Detachment may complete its activation as normal (i.e., it may move during the Movement phase and/or fire during the Combat phase, etc.).</description>
+When a Detachment with the Outflank special rule that is in Reserve is activated in any Movement phase other than the first, the controlling player may choose to leave it in Reserve or Flank the enemy. When a Detachment Flanks the enemy, the controlling player places the models in that Detachment in base contact with any battlefield edge though no model can be placed within 8&quot; of an enemy detachment. Once deployed in this way, the Detachment may complete its activation as normal (i.e., it may move during the Movement phase and/or fire during the Combat phase, etc.).</description>
     </rule>
     <rule id="84b30288-3444-407c-9b20-06bba1d7f474" name="Phosphex" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="95" hidden="false">
       <description>Models Engaged with an enemy Detachment with the Phosphex special rule gain no positive modifiers to the CAF characteristic for being Garrison within a Structure.</description>
