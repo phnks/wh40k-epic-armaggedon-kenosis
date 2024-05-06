@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="60" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="70" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
+      <categoryLinks>
+        <categoryLink id="c7e192dc-4035-4b90-baa2-23bd25d97f37" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="fe1680a7-ddbb-4ff2-990b-6cda670cebfa" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="false">
+          <modifiers>
+            <modifier type="set" field="8decee22-8e29-40c1-abbd-b8a1c23074fb" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e355801-f2d5-4802-8247-a824c63f7cc0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb4ea268-8da2-48d4-943c-24c2801a09c7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8decee22-8e29-40c1-abbd-b8a1c23074fb" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="358a3fec-a5bc-4f3d-9281-18056390ad64" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="false">
+          <modifiers>
+            <modifier type="set" field="833f3d37-48d4-4285-985d-b863783c2f3d" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb87bb84-d070-4682-8558-ecb2d33eeca0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb4ea268-8da2-48d4-943c-24c2801a09c7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="833f3d37-48d4-4285-985d-b863783c2f3d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d4fcd8f2-ba64-4cfd-abdb-4a32167d868e" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
+          <modifiers>
+            <modifier type="set" field="d1307864-ed00-4aef-942f-8e0f226f267b" value="4.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb87bb84-d070-4682-8558-ecb2d33eeca0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e355801-f2d5-4802-8247-a824c63f7cc0" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7977aa5-c575-4cce-9035-8d236e3a484e" type="min"/>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1307864-ed00-4aef-942f-8e0f226f267b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="75f88766-9274-4e02-a0c1-714d39ac5a54" name="Heavy Armour" hidden="false" targetId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a506df8-871c-411a-9ebc-4256f5b0486c" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530bd866-63aa-4a21-8ad9-ae3a9492619d" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="b0a6804c-253f-4078-9069-6c4c64b22287" name="Mechanicus Artillery Company" hidden="false">
+      <categoryLinks>
+        <categoryLink id="dcb6b960-0d18-4294-b36e-eb0d30b545c5" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="2f48b2ee-a410-49a6-94a3-b6cfbb2ede07" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df22551d-ba1c-43c8-bbba-b074ce9e1182" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07d5b221-700f-4a17-8a5a-defbea541a96" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ee140ba3-fffd-489d-806a-83e792a94226" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcdf2f81-bbe4-433d-a917-f38d5385c1b6" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71812f51-32f1-44c7-ab22-15b8fa6ef88d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="dce2e2d1-c447-4a31-a20b-1957f6aebc31" name="Bastion" hidden="false" targetId="f79826ca-ef67-4196-9091-0fc9dc0a4ae2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="168fbc6a-bf9a-43d2-8255-4bfdd00bb64d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="19ff6638-0ff3-49e2-9ac4-a765afca851f" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba018453-97ac-45d9-80fd-07637a20d06c" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" name="Mechanicus Destructor Infantry Cohort" hidden="false">
+      <categoryLinks>
+        <categoryLink id="34d2ff87-fe6e-4343-9970-3340d3f8680b" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="eb75cb51-247f-4b0c-abdf-f32e989062a0" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f8f3326-0455-46f1-abfc-ce026e1e8a11" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f751f379-8dc0-4312-b671-42e291005913" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d5da3f08-56ac-4965-9408-712ac4473abe" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5d91fa2-1270-4315-9e39-0a6e1c41e470" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ac56f73-2aec-497c-834a-b041f9fe314b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="25d147ec-7f3a-4ce2-bada-820899d9bedd" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6d743a-6280-46c5-9780-fb0eb99a24e6" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="650015c4-e6a3-467d-9cd3-0e34d8feef9f" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f42710c6-9017-417d-a277-3784f8e45205" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df6dbbd-5cb6-46db-ab30-b7e131f1397c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="422cca52-591f-4d49-b1cb-84ea2da431f0" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa138d83-b61f-4f8a-800d-2adda119218a" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" name="Mechanicus Scout Company" hidden="false">
+      <categoryLinks>
+        <categoryLink id="f3785457-5b92-4c58-8971-25783867875d" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="4ba63a73-b68c-4741-8f2b-a12f50cee037" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b15da72-4a9e-4188-8b3a-cbaf7841c969" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fcde516d-7e4e-4d72-9e05-40e4f036f5e9" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="82e228d7-8835-457e-8c00-5b2d77a0dc7a" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70b95133-174d-4bc8-9785-59693dec8638" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4f44ad1-a804-41cf-8591-ab2f032b65f7" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e4d8d851-4841-45bd-b62c-6bee37c5173b" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="false">
+          <modifiers>
+            <modifier type="set" field="b52dc1b2-0b4b-4e9a-89b8-1acfd61aef5b" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e355801-f2d5-4802-8247-a824c63f7cc0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb4ea268-8da2-48d4-943c-24c2801a09c7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52dc1b2-0b4b-4e9a-89b8-1acfd61aef5b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="4d6a6ee1-65ed-45bd-88bb-901386a18a2c" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="false">
+          <modifiers>
+            <modifier type="set" field="251a55da-00f2-4898-a172-f1f840c63556" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb87bb84-d070-4682-8558-ecb2d33eeca0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb4ea268-8da2-48d4-943c-24c2801a09c7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="251a55da-00f2-4898-a172-f1f840c63556" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="1c577496-7660-4085-84c6-f6ff9ca3ee90" name="Bastion" hidden="false" targetId="f79826ca-ef67-4196-9091-0fc9dc0a4ae2" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82ede60a-0d73-4958-a509-1913621a8fa8" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccdee119-f6b2-4fe1-b11d-1d5e47ab033f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="a1be967e-4af0-4ba7-831a-6f570249d0d9" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
+          <modifiers>
+            <modifier type="set" field="85950387-75d9-4722-9a64-85147d563e6e" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb87bb84-d070-4682-8558-ecb2d33eeca0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e355801-f2d5-4802-8247-a824c63f7cc0" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85950387-75d9-4722-9a64-85147d563e6e" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="637ec02e-3018-4285-8377-b2558be2a730" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5da33dcf-ff9c-44f1-8ff9-1b419941bf6d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5e8e6a93-ffd3-460f-bcde-b77452de70da" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="853c2cbd-180a-4774-aa62-8ca0304c0ed1" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="a018b943-ffe6-4741-91e9-eccf235fbb59" name="Mechanicus War Cohort" hidden="false">
+      <categoryLinks>
+        <categoryLink id="35afc92b-47f1-4027-ba5f-e9b82d6387bb" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="bd15e878-0299-4f3f-9dd4-5df0fb2c38c2" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05dc60a4-d3c2-4f79-8bf5-ab68b45ec36d" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c04fbbe0-b3c2-4e83-a6c8-e38e5eb67330" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="ffecb7d2-ea64-4566-bdf0-abaacaadcc0a" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87fc2c66-f7dd-40a0-933b-15ef7d818f74" type="max"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c0d7601-09da-481a-aa77-1427ba4d711e" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="68b82cd4-3403-44f8-9a9f-91a20f084e47" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="false">
+          <modifiers>
+            <modifier type="set" field="81d29310-8155-4cae-b3cd-f9b8b20186b0" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e355801-f2d5-4802-8247-a824c63f7cc0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb4ea268-8da2-48d4-943c-24c2801a09c7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81d29310-8155-4cae-b3cd-f9b8b20186b0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f789f189-622a-4c75-95a9-23e5df400090" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="false">
+          <modifiers>
+            <modifier type="set" field="9f4f4212-f535-442c-9dd4-855cd3ea9bab" value="0.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb87bb84-d070-4682-8558-ecb2d33eeca0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="bb4ea268-8da2-48d4-943c-24c2801a09c7" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f4f4212-f535-442c-9dd4-855cd3ea9bab" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="dcf025cd-4ba2-4402-bd26-5ae1aa411631" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
+          <modifiers>
+            <modifier type="set" field="c5f89766-5f84-4a93-a48b-9f3716a96d6f" value="1.0">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb87bb84-d070-4682-8558-ecb2d33eeca0" type="greaterThan"/>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2e355801-f2d5-4802-8247-a824c63f7cc0" type="greaterThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f89766-5f84-4a93-a48b-9f3716a96d6f" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="862b2a68-42a0-496c-8c35-9fead06254ae" name="Light Armour" hidden="false" targetId="83c74a0d-b23e-40b4-a8f1-28a77a09d881" primary="false">
+          <modifiers>
+            <modifier type="set" field="b659d84c-b608-490f-88f4-2b333fbe6ace" value="0.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8416-456c-a6f-e059" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b659d84c-b608-490f-88f4-2b333fbe6ace" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="b2d8153a-69e2-4883-aa06-e2f3b66676a5" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d9f136-6449-4683-8bf2-cc1411393bb4" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8de2eeed-0852-4b89-9f89-bae87ea6901b" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="fe6c1e4e-b887-475c-86aa-5d7a7bbe87cc" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="035a6828-5ae7-4fde-bc78-db901c9d362d" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="81c40c4d-cd4d-49ec-8430-44a3b248cbbb" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="false">
+          <modifiers>
+            <modifier type="set" field="75eca7b0-bce2-49a6-9d07-02871ae7cb81" value="0.0">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="83c74a0d-b23e-40b4-a8f1-28a77a09d881" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75eca7b0-bce2-49a6-9d07-02871ae7cb81" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="5e3c6038-bf80-4309-8974-53fa9d1c99ce" name="Scout Battle Maniple Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="a5391d48-b281-40d7-93e6-a33fa6f2d6f3" value="1.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55821ea4-7fe8-4c80-9211-932c0b2d3805" type="max"/>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d6be9e-8707-4f10-865e-85fc1a48a845" type="min"/>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5391d48-b281-40d7-93e6-a33fa6f2d6f3" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="4c5f5f8c-d555-43b8-8b65-99a988b8c8a8" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="fc32d016-a52f-429e-be4c-30e70bd94f69" name="New CategoryLink" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9d31017b-a811-4ff4-b73d-06cdceb899ae" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef46466f-bac3-46ff-a92c-59ec2bb82344" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="364f555a-4c32-426e-a2d2-92ec0304d2d9" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="5a81ae9e-cb4d-4b20-89b6-a9899b99437c" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="0280a782-2435-4f77-9172-9217c51a3d66" name="Skitarii Vanguard" hidden="false" collective="false" import="true" targetId="c14257a5-a405-48a0-bd7f-85ddb4e45b0b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="5e3c6038-bf80-4309-8974-53fa9d1c99ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36c413b9-ca8a-4e68-a995-46c1b7310ced" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="2dce30da-7ec3-40b7-ae5e-7d1bfb6446af" name="Skitarii Rangers" hidden="false" collective="false" import="true" targetId="afc43c83-3406-467a-b5ee-6699ad3a6716" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="5e3c6038-bf80-4309-8974-53fa9d1c99ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36c413b9-ca8a-4e68-a995-46c1b7310ced" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52b9aa05-3221-4b64-9722-58ff2b660a48" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3b408337-c4a2-4cff-bdde-29afb01507e7" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="5e3c6038-bf80-4309-8974-53fa9d1c99ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36c413b9-ca8a-4e68-a995-46c1b7310ced" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e5f64241-0094-4fb6-ad97-8ce8dfc4d4ef" name="Dedicated Transports" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="36c413b9-ca8a-4e68-a995-46c1b7310ced" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="11a43fdc-51b8-4416-a166-c2c84514192e" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cad0863-03d1-4864-ac56-88cf8f4916f3" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a43fdc-51b8-4416-a166-c2c84514192e" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="a1266775-ce5f-4b73-8853-ebb1eae5d23b" name="Triaros Armoured Converyors" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="36c413b9-ca8a-4e68-a995-46c1b7310ced" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c747239d-07c1-43eb-a5e2-c497adc0795c" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b48aa428-5083-448a-9809-b4cfb3f3d4ee" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
+                      <conditions>
+                        <condition field="selections" scope="5e3c6038-bf80-4309-8974-53fa9d1c99ce" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="36c413b9-ca8a-4e68-a995-46c1b7310ced" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0e47716-1b1d-4a19-840c-da03087f8ffc" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="267c5545-5aab-466a-a4fc-dda51ec9beb9" name="Vanguard Battle Maniple Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="da67acec-733e-44c6-a801-850b259f4096" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b89ae89-b1cb-4ffa-aaa0-488b95312058" type="max"/>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dff4582-72c0-48c7-8924-b786aee28402" type="min"/>
+        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da67acec-733e-44c6-a801-850b259f4096" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="09a1b188-f73d-483e-be8a-a73ae115c647" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="8dc2f67c-f5bb-45ce-aea4-a471b89c16ba" name="New CategoryLink" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a2d00a9c-dfd2-4572-91b2-87a5abe8c130" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="692c0d25-333f-49e0-9b4a-490107ae3bd7" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="027a0b9f-e7bd-4617-8d28-44cd66aa2b79" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="95138d18-39af-418e-92c9-2ec8c0ec66f1" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="4f2f8c07-46c8-4a78-84fd-2360850e2e06" name="Skitarii Vanguard" hidden="false" collective="false" import="true" targetId="c14257a5-a405-48a0-bd7f-85ddb4e45b0b" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="267c5545-5aab-466a-a4fc-dda51ec9beb9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad0c0d76-46fc-4ea6-b9fd-7b773ae291cf" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba51a156-d7f2-4a5a-b8c7-cca611e187b3" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="31f05ebe-9ac8-42f8-b392-a3fe702b5f58" name="Skitarii Rangers" hidden="false" collective="false" import="true" targetId="afc43c83-3406-467a-b5ee-6699ad3a6716" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="267c5545-5aab-466a-a4fc-dda51ec9beb9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad0c0d76-46fc-4ea6-b9fd-7b773ae291cf" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="56026289-88cf-4f5a-941d-db5ac7fbebf1" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="267c5545-5aab-466a-a4fc-dda51ec9beb9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad0c0d76-46fc-4ea6-b9fd-7b773ae291cf" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="b3cd1349-cc6b-4cf0-885c-4d957e56592a" name="Dedicated Transports" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="ad0c0d76-46fc-4ea6-b9fd-7b773ae291cf" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="7f9e91c2-2dc2-40df-803a-c28085342a34" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96ee83d4-a430-426d-8c0c-7cc94f9fa77e" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f9e91c2-2dc2-40df-803a-c28085342a34" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="46af4ebb-6d50-45b7-bad4-17420ac23faa" name="Triaros Armoured Converyors" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ad0c0d76-46fc-4ea6-b9fd-7b773ae291cf" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb626e42-f667-41b0-a4ae-2421e4e7c239" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="46054674-f52d-4620-86f6-0d9df307025b" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
+                      <conditions>
+                        <condition field="selections" scope="267c5545-5aab-466a-a4fc-dda51ec9beb9" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad0c0d76-46fc-4ea6-b9fd-7b773ae291cf" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9570f8c8-a820-4abc-af1f-b958fd2f3a95" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4df50ef3-34ed-457a-ad83-0599d6833322" name="Myrmidon Detachment" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9526395-5616-4cbf-8288-6b59e89f6d39" type="max"/>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd2e465-cb6f-45de-ba09-42983f4ed6d8" type="min"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="5225c7c1-fbb4-4242-9445-10ca065b79f6" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c644d2f2-9fcf-4c14-8bfb-9732528c9285" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="f62b56ca-3a6b-439e-8332-a0bfa446a952" name="New CategoryLink" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fc336e5a-75ea-4f55-9701-3fe4626981b0" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="097f5759-5946-4933-a0b8-49ea40f9f91a">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12b2dd5-301b-42b6-b679-ba5c283e962e" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a5f318d-0353-445c-826e-c3e088891bad" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="097f5759-5946-4933-a0b8-49ea40f9f91a" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="4df50ef3-34ed-457a-ad83-0599d6833322" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5606b565-009e-473d-a888-ecac22a391c0" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a246c1a0-3218-4965-b6a8-e56607fae624" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="d01804ca-55c9-4eac-a2b0-f897a533fa6e" name="Dedicated Transports" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="5606b565-009e-473d-a888-ecac22a391c0" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="f7b17c3c-aaf8-4f84-a32c-fe03bf80bdb6" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab46e765-09a5-4fd0-94d8-864cb31529b5" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7b17c3c-aaf8-4f84-a32c-fe03bf80bdb6" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="aa2116c0-8fb4-4bdd-b9e0-e6503434f6aa" name="Triaros Armoured Converyors" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5606b565-009e-473d-a888-ecac22a391c0" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ba9ea5-7f29-4b0a-a8af-1d8539686877" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="033085a7-9543-411e-b898-7f5d8a6bec17" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
+                      <conditions>
+                        <condition field="selections" scope="4df50ef3-34ed-457a-ad83-0599d6833322" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5606b565-009e-473d-a888-ecac22a391c0" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bafbb8cf-87c3-4c99-b80e-7c60bea0d314" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ee9755ee-afdf-46b9-a9aa-caeb49fa0e99" name="Karacnos Assault Tank Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="b179cfb5-e7fa-4831-9cbe-aef3ef707347" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f09b5454-7b48-4438-b2bf-d8c88a77de00" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
+        <categoryLink id="56b06855-4856-4935-be66-0e9bd67cb3b7" name="New CategoryLink" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="48c461c3-3994-4ed8-b9d1-f7c882729d71" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="876c8451-5ac2-4e3e-90d6-032cb89549dc">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91ef2b1c-7041-4987-bc8f-1fbb58e02969" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d4d29d0-4cda-4c31-a9d3-17ec83b176e3" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="876c8451-5ac2-4e3e-90d6-032cb89549dc" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" targetId="99408d48-159a-40c4-8dd1-8eef29d3e724" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97bf8347-e95c-46d8-8497-e417297d94b8" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="28.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31afb0df-89d5-4952-9e0a-84b1861ac38c" name="Onager Dunecrawler Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="63aa86bf-3bb4-4485-aebf-c6e2ecc199fb" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="289f7e68-63b5-44d9-aa40-9ac1d58ff677" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
+        <categoryLink id="a62245b9-989d-48b7-9204-d30cc3696268" name="New CategoryLink" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ba1a4689-51f1-4224-ac88-47bc0d33ed8d" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="d102a323-0cdc-412f-add3-63653eb715d4">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f3392c97-fe73-4f73-9899-e03e350ee0ca" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53181fc4-09cb-4cda-ad60-2977bf0ea240" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="d102a323-0cdc-412f-add3-63653eb715d4" name="Onager Dunecrawler w/ Neutron Beam Laser" hidden="false" collective="false" import="true" targetId="fe931145-e769-4ff0-9232-ce3d28313e8b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="959a13d4-06d2-4e28-8cc0-6b030ae63003" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="25.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7482dffd-b159-4e4c-b8c8-071a0d13ec92" name="Battle Maniple Command Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a308a892-003b-4aa6-9df2-8c9f1d147fa7" type="max"/>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b8f78cf-cb53-4bb5-99b5-15993f287684" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="9bf34916-9837-4fb6-8776-d04177357891" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="2bb1a72a-6e42-4c9b-a075-b0e47a747f2d" name="New CategoryLink" hidden="false" targetId="d950-ad23-9b2-9325" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="60b3ffd8-7676-4bf7-85c5-8eb57400e37a" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23196690-3edf-4188-8f95-b61191318d3d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c3615bf-2fc9-4698-a403-1b853985c68c" type="min"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="3a1fd758-7b98-4db8-82b4-7a2b81adcd23" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="20ba30ad-05b1-4253-ad5f-66ecfb9265de" name="Myrmidon Secutors w/ Tech-Priest Dominus" hidden="false" collective="false" import="true" targetId="a432bf6a-44f5-4f9e-81e6-16f448a16211" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="7482dffd-b159-4e4c-b8c8-071a0d13ec92" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d251d383-b796-4911-892d-1b559a3f60e9" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1992c0b5-19ad-4b08-8e54-0eadfddab2b8" name="Skitarii Rangers w/ Tech-Priest Dominus" hidden="false" collective="false" import="true" targetId="f1eb8ab6-9695-4b6d-9276-8c460343d0dc" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="7482dffd-b159-4e4c-b8c8-071a0d13ec92" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac21bfd1-0a80-4c4f-b8dd-336e03c6c483" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="52d26d4b-6ce9-4500-8dd0-051e28b0df30" name="Skitarii Vanguard w/ Tech-Priest Dominus" hidden="false" collective="false" import="true" targetId="0494cc27-c368-40e3-8eb3-3f535bb52e78" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="7482dffd-b159-4e4c-b8c8-071a0d13ec92" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5f6af9c-6730-4e77-97d5-047fc086fc1f" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="7fd45c74-1961-4a6e-9758-ccbdd78b9d5b" name="Dedicated Transports" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="d4cfd6cc-2329-43e0-b56f-4d9fc25b97a6" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f94f426-32b2-4b96-80f3-df21115d4a44" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cfd6cc-2329-43e0-b56f-4d9fc25b97a6" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="4b2814d9-538d-4608-aba9-e4ea3a95ecbc" name="Triaros Armoured Converyors" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26eff49c-6c41-4ef9-9064-b11716dd7625" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b966fb64-169b-4f02-b66c-bc2341369c41" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
+                      <conditions>
+                        <condition field="selections" scope="7482dffd-b159-4e4c-b8c8-071a0d13ec92" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d395b2e-a8f9-460a-88c1-fc2e905c67d9" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1a790951-2b71-466e-94ff-e8b388ebfdda" name="Elimination Volley" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb44133-7651-4187-8810-3d8022f86514" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee8264a3-f56f-49c0-bd48-5de23ad39238" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ec97132e-b3e1-4cc9-914d-a1536406c9cd" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="13fdf022-69dd-4a16-a359-0d0b63632b60" name="Elimination Volley" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4848a9de-a9ea-46e7-b805-d7c709a4c404" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6661857b-f4b9-43e2-bfbf-baff81fd17d3" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="33da39f7-4c2d-4611-a835-81a176f7eb8c" name="Elimination Volley" hidden="false" typeId="308a9d45-51e7-4950-8aea-5ad963f4d166" typeName="Special Rules">
+              <characteristics>
+                <characteristic name="Description" typeId="2b3e2673-8561-4b2e-b2f7-78810e28cb0c">If an Adeptus Mechanicus Infantry, Cavalry or Walker Detachment is issued with the First Fire Order, any weapons models within the Detachment have that have the Light or Light AT trait gain the Accurate trait until the end of that round:</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="72cf470b-5866-49d4-a2a4-1148d5c41f27" name="Pulverising Volleys (Mechanicus Artillery Company)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7cf56947-d02d-40ab-9e59-9935af2a6636" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf56947-d02d-40ab-9e59-9935af2a6636" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd15d7b-6ada-4583-ab68-b3973b157b80" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="38aa91cc-742f-40f2-a600-d18bcd78a006" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="8c89949d-4cb5-4ce8-a9d0-a83cd5ee5b3d" name="Pulverising Volleys (Mechanicus Artillery Company)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="912534ed-7b50-4c15-9564-c96302c3d4aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d280a8f1-05bc-49ce-9b0c-6f63d508b87f" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="98b79661-3f83-44a1-95e7-9f8fad7e6ad3" name="Pulverising Volleys (Mechanicus Artillery Company)" hidden="false">
+              <description>Barrage weapons that models in this Formation are equipped with do not suffer a -1 penalty to all Hit rolls when firing against a target they cannot draw line of sight to.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b5a437c-4087-4f21-ad6c-cf9c2b63ec04" name="Dedicated Transports (Mechanicus Destructor Infantry Sub-cohort)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="de924477-4a70-4f63-bea0-4946f99c94df" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de924477-4a70-4f63-bea0-4946f99c94df" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c84cb37d-4cc2-42ce-93bb-c0b59bbe1b85" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="26fa25d4-7218-47c3-a204-b37fb51a2851" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="e5e0e134-290d-47aa-8344-fdaca651176c" name="Dedicated Transports (Mechanicus Destructor Infantry Sub-cohort)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c3025f8-78a3-4970-bbb7-015c881ec0e9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63c05a2-44bb-40a8-8133-c2143cf7ade7" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="7d4687f5-5963-4838-8b08-15f6667c6ecc" name="Dedicated Transports (Mechanicus Destructor Infantry Sub-cohort)" hidden="false">
+              <description>All Adeptus Mechanicus Detachments within the Formation that contain only Infantry models (excluding models with the Deep Strike special rule) must be upgraded with Triaros Armoured Conveyers as Dedicated Transports.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="622ab507-6f02-4289-bc51-2b9945c36c90" name="Forward Positions (Mechanicus Scout Company)" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="7e252f5d-4494-468e-8f0c-d60c43355488" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e252f5d-4494-468e-8f0c-d60c43355488" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe6f93e-801e-4897-8066-fc0f848500b0" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="0ac381cd-b8c0-4382-bedb-eeb0572a7ff5" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4147d684-dadc-4476-8ebf-d168932f9f02" name="Forward Positions (Mechanicus Scout Company)" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80855eb8-4fb2-465c-9db2-b5363996f0ae" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df4e0333-e3d9-4bf1-8d47-5a104d183008" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="89e10da5-143a-4cc3-9b76-142099f968c4" name="Forward Positions (Mechanicus Scout Company)" hidden="false">
+              <description>Compulsory Core Detachment slots in a Mechanicus Scout Company Formation must be filled with Scout Battle Maniple Detachments. All Adeptus Mechanicus Detachments within a Mechanicus Scout Company that consists entirely of Infantry models gain the Infiltrate special rule. All other Adeptus Mechanicus Detachments within the Mechanicus Scout Company gain the Forward Deployment special rule.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cd0e959f-7729-469c-921b-bd01a7b02428" name="Triaros Armoured Conveyer Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f369d7f2-238e-4902-ba22-8e46a835549c" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
+        <categoryLink id="0c809840-6f7d-4a9d-a719-979df35b6dc0" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="21681d4e-82e6-4683-9536-44271e1caa22" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d454b66-0695-41c7-bcb0-2fef879a3032" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="247c7b04-04cb-4204-88ad-19a6c0b45a1d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="57e5eea0-a5eb-4f7c-b0d5-f30abe29305e" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0493255-5cd7-42e0-bb00-d11d57fc18f0" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0ac6d3a8-4dfa-4fe4-8147-5704abfee4ba" name="Mechanicus Destructor Infantry Sub-cohort" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="706fab77-e1df-4ceb-84d6-63cb1509bb26" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="706fab77-e1df-4ceb-84d6-63cb1509bb26" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a273b2a2-de7a-4a3c-b613-ced6a416c6d4" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="34897890-fdb6-4818-bb58-a1c51eaed483" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f87c7996-e6a4-4946-9df9-e9f14536611d" name="Mechanicus Destructor Infantry Sub-cohort" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b14c27f0-ddba-4684-a7cb-25ba1d764c9d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa789f16-d562-4246-b090-756bbc2ac3a5" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="1da48d38-5007-4c41-b626-399e20c2c439" name="Mechanicus Destructor Infantry Sub-cohort" hidden="false">
+              <description>Compulsory Detachments:
+1 HQ
+1 Support
+2 Core
+
+Optional Detachments:
+2 Vanguard
+1 Air Support
+1 Support
+
+Requires dedicated transports for all Infantry detachments.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e7a95f3d-c469-4132-a793-f32a929bcb95" name="Mechanicus Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200f8047-27ad-46d2-9435-58ba4111fa6f" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="d969731a-8c89-48bb-b1b3-efbd35d51a73" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200f8047-27ad-46d2-9435-58ba4111fa6f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d969731a-8c89-48bb-b1b3-efbd35d51a73" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b34adbe-2d44-42b9-a328-8b0225a9a230" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d9fef067-3edf-4b18-9289-69440d90a53a" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="050bbfaa-4ad6-4f9f-b455-a1848379096b" name="Mechanicus Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8004f665-e7eb-409c-8b4b-d8626d998775" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daa43c4f-d817-4110-8485-1f08c46d0394" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="a27fe6ff-2f99-4ed7-acf3-131d0c705df2" name="Mechanicus Armoured Company" hidden="false">
+              <description>Compulsory Detachments:
+2 Battle Tanks
+1 Heavy Armour
+
+Optional Detachments:
+2 Battle Tanks
+1 Heavy Armour
+
+Can include one of the following:
+1 Battle Tank
+1 Artillery
+1 Air Support</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="62b4dc29-0567-4c3b-9b8f-211ca1d9bd65" name="Mechanicus Scout Company" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="4229bdce-e7de-4e66-a98d-b76ccb6f73ce" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4229bdce-e7de-4e66-a98d-b76ccb6f73ce" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35927e0b-654f-4806-9753-f1030068758a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="24c9daf8-5c6f-4a3e-83f6-40842b466758" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="be7fb43a-6cc1-4087-ac38-58a7a2d0f166" name="Mechanicus Scout Company" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff917964-c02a-4ad9-bdb8-9f0d370526e5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0063a7d4-f3e7-4a16-88f8-682be235c728" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="48eb4775-915e-472b-8699-b18f1b40bf13" name="Mechanicus Scout Company" hidden="false">
+              <description>Compulsory Detachments:
+1 HQ
+2 Bastion
+1 Scout Battle Maniple
+
+Optional Detachments:
+1 Support
+1 Core
+1 Air Support
+2 Vanguard
+
+Can include one of the following:
+1 Battle Tank
+1 Artillery
+1 Air Support
+
+All Infantry detachments gain Infiltrate. All other detachments gain Forward Deployment.
+
+</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a847465f-cb17-4c76-ab00-10b8697f3a2c" name="Mechanicus War Cohort" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="b59fcffd-54f9-484e-a04f-74f182719d7b" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b59fcffd-54f9-484e-a04f-74f182719d7b" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d1c1c2f-c432-4892-9b2e-69423c22162b" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="afa5b6bb-8795-4b88-82b9-97680647c532" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="dd09ef1b-740f-486b-bfb1-9d5f48486f89" name="Mechanicus War Cohort" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e27197eb-03ce-4498-97d2-af415ff89c77" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c7d0b21-7b54-4e6c-8692-2a67fcb74e6e" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="48963ad1-bbe6-468a-bb13-f7b38ebc2f85" name="Mechanicus War Cohort" hidden="false">
+              <description>Compulsory Detachments:
+1 HQ
+2 Core
+1 Support
+
+Optional Detachments:
+2 Support
+3 Transport
+1 Core
+1 Battle Tank
+
+Can include one of the following:
+1 Light Armour
+1 Vanguard
+
+Can include one of the following:
+1 Battle Tank
+1 Artillery
+1 Air Support
+
+</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a2478516-aa23-48c8-ac35-0bdd5df513ce" name="Mechanicus Artillery Company" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="dcbbeb3d-0b2e-40c1-9c00-0bcebf416cdf" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcbbeb3d-0b2e-40c1-9c00-0bcebf416cdf" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70ee5537-c218-4abd-a529-f1d0a8882c79" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="917c79b2-9e30-4470-bdd0-68d571370bbe" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d38d2ce0-4c72-4453-b7c7-4b2469dfb63b" name="Mechanicus Artillery Company" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb74407f-bcea-4901-b994-fd18f129569f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd00dad8-8325-4ae5-8161-c9a85296ba33" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="df791ad2-83c2-4f71-b652-700210b85237" name="Mechanicus Artillery Company" hidden="false">
+              <description>Compulsory Detachments:
+1 HQ
+3 Artillery
+
+Optional Detachments:
+2 Support
+2 Bastion
+
+Artillery detachments do not suffer -1 to hit when firing indirectly with Barrage.
+
+</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8f628408-b569-4ac1-93bb-d7b87166fb44" name="Domitar-Ferrum Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="712ab98c-7953-42ac-8054-f88238f76730" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="276f4e3b-2129-4e39-a9d8-5bf149db4443" name="Walker (1)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+        <categoryLink id="3f0b9f79-1a23-4a82-a76c-fd96ef7ba46c" name="Bastion" hidden="false" targetId="f79826ca-ef67-4196-9091-0fc9dc0a4ae2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bd61c789-348a-4694-bf8c-84f2b505aee1" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="10.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="177fab16-33f6-45fb-89c1-dad32d6ee518" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9070c03-4430-4106-9315-50f482b01309" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="b6c4e9d3-ac31-471a-932e-1fc8ba840e9b" name="Domitar-Ferrum" hidden="false" collective="false" import="true" targetId="3b8946c2-44bd-4b94-b467-b897c2440807" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="097c493d-da9d-45ed-8fa3-aa7c4a1ed7fb" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1682d46b-ec8e-4672-b18c-e39bdd872a52" name="Krios Battle Tank Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="edfd79b9-5866-4baa-95ce-c2e0a1a4b51d" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="943d614a-963a-4071-9271-9a084eb055f1" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
+        <categoryLink id="c0b3e626-ebcb-4207-8744-5ae60dc37681" name="Light Armour" hidden="false" targetId="83c74a0d-b23e-40b4-a8f1-28a77a09d881" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="b6eb16ab-db2e-4c20-862e-19391ebed07e" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdcae222-9dd9-48f0-8710-f207b0484378" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05e983f2-297d-472f-b6da-e36f40d79544" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="80c1d131-10fb-4bd9-b02e-de6697d2efea" name="Krios Battle Tank" hidden="false" collective="false" import="true" targetId="61fb4a8e-fa2e-4021-bd55-573e90bf96eb" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34de9db2-ca99-4aa0-9489-6ccd598d5f21" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="21.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec3491a8-c917-4122-b42e-b7eadbff3487" name="Stormhammer Super-Heavy Tank Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="e477e5ca-0fbf-43e5-b2de-c40f5219e211" name="Heavy Armour" hidden="false" targetId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" primary="true"/>
+        <categoryLink id="fa3d345f-2357-4397-8204-c229677db6d6" name="Super-heavy Vehicle (3)" hidden="false" targetId="aad0755c-ad6d-4523-864d-95e59cd132d2" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9e7f2d84-e502-478a-945b-d897be10e182" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b644fd7-72a1-4120-97a0-b01ce6d3e1a6" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cb12406-28fb-47a2-ba8f-e01b2a93052a" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e80f3694-db86-4a63-b9b0-65bbe8deb1ff" name="Stormhammer w/ lascannons" hidden="false" collective="false" import="true" targetId="25f9cb5a-ad65-4bcd-a787-ddd4f36cdbe8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22e79765-53de-447d-ae57-75868508ce65" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6990d3c5-2f88-4eec-b8ad-c3fe47cbefae" name="Ironstrider Battle Maniple" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="39e4cc60-ca0e-4c47-9fe3-7a16f3d1b606" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="true"/>
+        <categoryLink id="0f3f688c-96c6-4be7-8564-783ca649eb1d" name="Cavalry (1)" hidden="false" targetId="91c7ab08-c46f-43c2-ae1e-13153ac87f0b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f83ecb72-34f8-40a2-bb49-95967fd5b512" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ea8067f-a6e7-431e-acea-ca3c1c50ea20" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="327215f9-a080-4591-b520-fe1d710c3cf1" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="c64eec2c-91b9-4399-ad19-54000c05444f" name="Ironstrider Ballistarii" hidden="false" collective="false" import="true" targetId="9d1f8d44-63ad-4e55-b4c0-304aeb8d07a0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eabad911-0543-4b78-87ca-7ae2140f4ec0" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad6788e2-1e23-49c2-8459-302f4c9e622d" name="Colossus Bombard Crawler Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="add" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="notInstanceOf"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb12ee8b-670a-47c7-b71e-80cc0194dd0c" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="b9775c50-d4be-43fe-91a9-b20da14d4185" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
+        <categoryLink id="5708e9af-7414-412a-983a-9b80d6d5a81a" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="371114c6-4f19-403d-912b-30ebd74d46bf" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00243aae-968f-44eb-91f1-8f74b3373d28" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf51fbdd-763a-4739-af41-cc8295492b9a" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="580035e2-def6-44e2-b872-f0fa765f68c0" name="Colossus Bombard Crawler" hidden="false" collective="false" import="true" targetId="50be9aba-041b-436a-aa02-0c08ff7046dc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d56afcd-586e-4045-887f-628db3a71288" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <sharedSelectionEntries>
+    <selectionEntry id="c14257a5-a405-48a0-bd7f-85ddb4e45b0b" name="Skitarii Vanguard" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="950d4bb7-a0ad-430f-9395-d747c1e1457f" name="Skitarii Vanguard" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Line, Rad-Phage, Infiltrate">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">6+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Line, Rad-Phage Aura (4&quot;)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f0f9593b-1658-42c1-a4df-b843c1e98141" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
+        <infoLink id="265ab950-e8dd-4b10-b6c3-2134730eac77" name="Rad-Phage Aura (X)" hidden="false" targetId="65f46419-7366-4cf1-b7ef-76eabe3b54b4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rad-Phage Aura (4&quot;)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="814447aa-69f5-46df-af43-b6f56b197b22" name="Radium Carbines" hidden="false" collective="false" import="true" targetId="8a42d8a4-2c14-4cdb-a75d-309fde423d2c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4b60873-02bc-4072-a00f-77462e6ab2b6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f585820d-8c03-4d6c-b52e-a81103360ffb" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="7.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a42d8a4-2c14-4cdb-a75d-309fde423d2c" name="Radium Carbines" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2248ed3a-2063-479e-947e-386589e3c771" name="Radium Carbines" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">8&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light, Rapid Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="242d2e1b-f702-443d-93ae-d030eba35a0f" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+        <infoLink id="e446f8f2-b32a-4e7b-915d-64a5f9029ff6" name="Rapid Fire" hidden="false" targetId="dc282592-3032-4100-893d-5dbca94aaf06" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="afc43c83-3406-467a-b5ee-6699ad3a6716" name="Skitarii Rangers" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="92603a56-9754-4822-999c-58da97f4e744" name="Skitarii Rangers" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Line, Scout, Infiltrate">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">6+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Line, Scout</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d434ae56-55dc-4c1d-9ac7-774d7dd5e32d" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
+        <infoLink id="e2252d79-6039-4b6c-b649-08ee4b82c43d" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="d6de5155-ef3e-40d5-9e68-a4019a3855cb" name="Galvanic Rifles" hidden="false" collective="false" import="true" targetId="c4f94f2c-ea5e-4c4b-976b-8ea2137b5d94" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce71926d-fbc2-47fb-88e6-15f86fb6bb86" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="575624c3-f08d-4fa2-83e4-504cec7d7322" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="6.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c4f94f2c-ea5e-4c4b-976b-8ea2137b5d94" name="Galvanic Rifles" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8350c610-71b0-4c31-9217-86356ea938d2" name="Galvanic Rifles" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">10&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="53504a76-f065-4c64-bfa2-47c3349d0429" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" name="Myrmidon Secutors" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="4ae3c26e-e0bc-4514-b4d8-f68b7e533251" name="Myrmidon Secutors" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Bulky, Implacable, Steadfast, Infiltrate">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+4</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Bulky, Implacable, Steadfast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0456265e-4795-4ec8-9462-f4e90564eabd" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
+        <infoLink id="e4fff86a-7871-42d2-8dcd-f174effc3025" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="f0554cee-136b-4d6f-a037-c62760e73469" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="2097b55a-1ded-4132-8dc9-1007be167bf4" name="Maxima Bolters" hidden="false" collective="false" import="true" targetId="30af6242-6e2c-4cf1-ba57-680f0f96e52a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ceb6ee0-90b8-4ce1-9372-329716b5d70b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b324737-ff66-4c8a-9df9-38d9f5e81194" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6c5ffc52-7e07-421c-b9f2-0f12ba9bf910" name="Power Axes" hidden="false" collective="false" import="true" targetId="2d1c9b51-14e3-460c-a788-78d99a88637c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ab21b8-61d7-40ca-9acc-1c493aa78fb3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8b3354f-7394-49f9-9837-620274abba8e" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30af6242-6e2c-4cf1-ba57-680f0f96e52a" name="Maxima Bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5fcb453b-5223-4860-a166-bb1c8f11c206" name="Maxima Bolters" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">8&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Accurate, Assault, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f6640565-1d9d-44b4-b21d-07437fd80006" name="Accurate" hidden="false" targetId="4ad1d232-1d8e-40c6-8792-c9b1c2306db9" type="rule"/>
+        <infoLink id="4f39ee1e-7c12-4d07-b085-aa3c8e292790" name="Assault" hidden="false" targetId="902de2f1-98ab-4f73-8d55-cde249634685" type="rule"/>
+        <infoLink id="46f73c34-9a0c-4484-80c8-0d20f4fa60a4" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="99408d48-159a-40c4-8dd1-8eef29d3e724" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3ebc72b7-6802-4f5c-8699-30f864cd7df7" name="Karacnos Assault Tank" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Siege Tank, Forward Deployment">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Siege Tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6a565012-4791-48cb-aed3-1b3b181222d8" name="Siege Tank" hidden="false" targetId="1050e287-d27a-4d44-ab06-57d4f9e950b9" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="c9bd11de-6c17-4dbe-a51f-ed38398062f4" name="Sponson Mounted Lightning Locks" hidden="false" collective="false" import="true" targetId="b7ca66a9-1321-4a02-a4dc-6b629be44362" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec0458b4-0e52-4b62-ad35-bc96b034107f" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adc3a65d-50bd-4038-b730-79fa9878197e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="ac40a535-dec3-4f66-844c-530832caf8fa" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="f36d5c7b-688a-4b50-b75c-d419a16e95d9" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92212c21-f0c1-4f70-814a-f9ad7b9cfda2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13043b46-bf36-4dd3-a4fa-c9ca30077f4b" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="40.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51b45d03-64e0-42f9-8c29-b6cc8732fe1d" name="Lightning Locks" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="6a1c67ba-66e9-42c3-b06e-64dce23f305b" name="Lightning Locks" hidden="false" targetId="0c240e65-20eb-4296-8a41-e8eb21a80a2d" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fe931145-e769-4ff0-9232-ce3d28313e8b" name="Onager Dunecrawler w/ Neutron Laser" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="daabd1fc-3223-4c3f-b768-0efc7a3131fd" name="Onager Dunecrawler" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Explorator Adaption, Nimble, Forward Deployment">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">8&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Explorator Adaption, Nimble</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="037f6b11-921e-4137-9f73-d074bd4f5ce3" name="Explorator Adaption" hidden="false" targetId="d0ba77ff-7ab7-46bc-a2d1-f83db261dc77" type="rule"/>
+        <infoLink id="c341f540-628c-4fca-bb0d-dcc0e3ac34ff" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="7ec79a8e-7456-45ad-9c0f-acf79b844c96" name="Neutron Beam Laser" hidden="false" collective="false" import="true" targetId="c81f3457-48f8-40f6-9be6-8a9e5392667e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3562bdf2-4be9-4c46-a881-c32fc9fac1ce" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="506c75a6-11be-49f1-9271-31a752fd11b3" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="69cb0fc8-83f3-4f06-a168-58193698a23a" name="Cognis Heavy Stubber" hidden="false" collective="false" import="true" targetId="c1368046-740d-493d-b1bd-e1961cf79082" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="176c151b-51bb-49d8-9b96-e9a14a30dc67" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f67ca9f-74c4-4a13-99d8-080d05cc988e" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="35.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a432bf6a-44f5-4f9e-81e6-16f448a16211" name="Myrmidon Secutors w/ Tech-Priest Dominus" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="7f263699-c31b-43fa-b338-3a5c316af781" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
+        <infoLink id="832e55a1-bc84-440f-9f7e-7481f9b0fc4b" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="6788eeaf-e4f5-49ae-84d5-83f12798d647" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
+        <infoLink id="bae35faa-7334-49cc-bb6b-3e5f937e83b3" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Tech-Priest Dominus w/ Myrmidon Secutors"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Bulky, Implacable, Steadfast, Cybernetica Cortex"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Bulky, Implacable, Steadfast, Infiltrate, Cybernetica Cortex">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7c21c979-09bf-4ae3-b09a-766446592966" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
+        <infoLink id="fc20ecac-3423-4001-80b8-6dd7ede8d926" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="58f8f44d-b461-4660-9bf1-a8b3bdbd6749" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0743d3f1-0305-4a68-af71-8212baf1b3ee" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
+        <infoLink id="143799d6-aa9f-4e84-b803-4771205de1b8" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
+        <infoLink id="755d6dfd-9fee-4c64-9303-1c3689b70bf8" name="Cybernetica Cortex" hidden="false" targetId="1b3aec2b-9da8-45de-a17b-36451765e8c4" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="2b2abe06-07e0-4b64-8241-253edc5501c0" name="Maxima Bolters" hidden="false" collective="false" import="true" targetId="30af6242-6e2c-4cf1-ba57-680f0f96e52a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7101eecf-04c5-4432-96e5-306dc9b1472c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17d746db-177b-4695-8fa6-2a849f3fbc71" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="bb578d8e-8a76-4989-8f00-f63368949ff2" name="Power Axes" hidden="false" collective="false" import="true" targetId="2d1c9b51-14e3-460c-a788-78d99a88637c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1716cad3-b307-4056-9cca-e10bc85358e5" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c6d811f-a8ee-466c-86ca-9f6a439b6a45" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c0078a8b-a1f3-4239-a8eb-5e756151927c" name="Eradication Ray" hidden="false" collective="false" import="true" targetId="c71ee1de-a2d5-499d-8f84-3702fd8bfe1b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c2cbce5-6af3-4353-97b1-ee6a012ebb45" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef0120c5-1b41-4e6a-8917-13c2fbd21252" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="39bf6e26-ee7d-4373-b642-4927c203f995" name="Omnissian Axe" hidden="false" collective="false" import="true" targetId="a3db2fc5-50f9-49cd-ae31-b23c601764a7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="587b3a6c-bc48-4c13-870d-207dd0d14961" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d64a68a1-b570-4a7f-94e1-0c6e3544de2c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a3db2fc5-50f9-49cd-ae31-b23c601764a7" name="Omnissian Axe" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c8093851-f1dc-4a9f-8c5a-949e69d9eb37" name="Omnissian Axe" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c1022a23-be69-45e7-9123-83bcbfbbecd9" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c71ee1de-a2d5-499d-8f84-3702fd8bfe1b" name="Eradication Ray" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ac3049fb-af8e-4e42-9a0b-0e26f31bfd46" name="Eradication Ray" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">8&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="551148c7-149f-4a90-b306-cfac412905ad" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f1eb8ab6-9695-4b6d-9276-8c460343d0dc" name="Skitarii Rangers w/ Tech-Priest Dominus" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="5a773c82-602c-4310-8ffc-f5130b2fc108" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
+        <infoLink id="f01cc52f-8064-4e58-aef1-701032ad248b" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
+        <infoLink id="7469c3eb-8575-406f-9623-b7109fbbb614" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
+        <infoLink id="7d18f70c-cc7e-4971-9827-1576f1816f68" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f5ff20b6-1384-4281-8167-ce97a1d3a178" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="232baa70-8606-4835-a634-7db7f8aff1db" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
+        <infoLink id="95b4fdf6-fd83-4458-ac5c-437ac819d8ec" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Tech-Priest Dominus w/ Skitarii Rangers"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Scout, Cybernetica Cortex"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Scout, Infiltrate, Cybernetica Cortex">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="984b67b7-fc15-4e6c-8e9f-4345dfec9c1b" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
+        <infoLink id="4e9e9195-d219-48cf-bf41-86b3627cfc49" name="Cybernetica Cortex" hidden="false" targetId="1b3aec2b-9da8-45de-a17b-36451765e8c4" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="9466f12b-b4dd-4c94-9392-714f1e848b84" name="Galvanic Rifles" hidden="false" collective="false" import="true" targetId="c4f94f2c-ea5e-4c4b-976b-8ea2137b5d94" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9667f6ac-4fdf-4b0a-8e3e-010b162cfdbd" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="351dcbc0-9ce6-4b4f-8734-37293918d24f" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c902e009-3763-4495-8236-8e7ddecc4c08" name="Eradication Ray" hidden="false" collective="false" import="true" targetId="c71ee1de-a2d5-499d-8f84-3702fd8bfe1b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5ddcca4-cf20-46b1-a62e-18292259e31c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1125b217-a26b-4d89-9ae5-b6416d292ce1" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1b8dfb92-98f9-4409-837b-c5102901a6c5" name="Omnissian Axe" hidden="false" collective="false" import="true" targetId="a3db2fc5-50f9-49cd-ae31-b23c601764a7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18ca506c-fd62-449f-82fc-9a3971eaa173" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1460a5e0-3a34-417c-95e1-097a84305f20" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="25.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0494cc27-c368-40e3-8eb3-3f535bb52e78" name="Skitarii Vanguard w/ Tech-Priest Dominus" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="df5bf2eb-ad0f-4f93-90f7-a05ec0bcab5c" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
+        <infoLink id="dbb4bd92-2899-4841-8fdb-6285bcd7436c" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Tech-Priest Dominus w/ Skitarii Vanguard"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Rad-Phage Aura (4&quot;), Cybernetica Cortex"/>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Line, Rad-Phage Aura (4&quot;), Infiltrate, Cybernetica Cortex">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9c117360-4167-4684-b4d6-294dea1d0dcb" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
+        <infoLink id="0103f0f7-078c-474e-a10f-a18218931ade" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5a365d1d-4d9d-4014-ae52-3a801fa717b3" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="76eb5664-e153-4b2d-8d5d-24fb268bb488" name="Master Tactician" hidden="false" targetId="af7431e2-6795-44c9-a855-aa141798194b" type="rule"/>
+        <infoLink id="4f78d368-5f6b-4392-b22f-f6933692219e" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
+        <infoLink id="f46afa93-d68d-43ee-9238-cd20242a5780" name="Rad-Phage Aura (X)" hidden="false" targetId="65f46419-7366-4cf1-b7ef-76eabe3b54b4" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rad-Phage Aura (4&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="82f9d764-0986-4111-a913-a188bf477cac" name="Cybernetica Cortex" hidden="false" targetId="1b3aec2b-9da8-45de-a17b-36451765e8c4" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="eff5a5eb-a341-4e60-9ece-030761a5b6f8" name="Radium Carbines" hidden="false" collective="false" import="true" targetId="8a42d8a4-2c14-4cdb-a75d-309fde423d2c" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033d0f99-5144-4aa2-b020-f17b1abd708d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b9b7a46-240a-4f27-a0c7-0961eccd1c20" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="cb2a75cd-e86b-446c-91ff-7e94c7a27915" name="Eradication Ray" hidden="false" collective="false" import="true" targetId="c71ee1de-a2d5-499d-8f84-3702fd8bfe1b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="353d891c-8b4d-4565-8899-9a767c1948d9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3786dcaa-cc04-4857-8f77-28eed64bcb44" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6684b2a5-0196-4161-86c9-51b4df40a0a9" name="Omnissian Axe" hidden="false" collective="false" import="true" targetId="a3db2fc5-50f9-49cd-ae31-b23c601764a7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7ef2922-f869-49fa-95a4-1219ced1f3c6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5bf6428-986b-4117-85f9-7df3db938da9" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="26.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c1368046-740d-493d-b1bd-e1961cf79082" name="Cognis Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="eeba92e5-39e1-4de7-8d5a-449e9d71e053" name="Cognis Heavy Stubber" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">14&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light, Point Defence</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c4598d29-b985-4569-84ba-5e26aa663777" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="707aa44b-777a-4c84-8111-99f679452182" name="Point Defence" hidden="false" targetId="b31e6b46-df95-4b76-b9ce-cae01cf885f0" type="rule"/>
+        <infoLink id="2ef63c11-75d3-4c5d-940f-b80e13a55454" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f42ba62e-9924-456b-9fbe-3030b5121e6e" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="a2e0f722-ee3a-4049-b4a3-4e342eeb067c" name="Triaros Armoured Conveyer" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Forward Deployment, Large Transport (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6888fcd6-d9ab-4fd4-b976-224e98ccc5f8" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule"/>
+        <infoLink id="171737c3-af25-46ae-ac74-9c3843617b83" name="Large Transport (X)" hidden="false" targetId="017ee432-0fe9-453d-ab35-049fdd2bc642" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Transport (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="e114bd5f-1f67-4ce4-9d9f-1f6dc204c3d9" name="Pintle Mounted Volkite Caliver" hidden="false" collective="false" import="true" targetId="1f6df6a4-e9fc-4c7d-99a8-63e68fbff074" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="019a5685-8346-42da-8f46-f63b6bad9649" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdd3bf28-ae1d-4d64-acf9-0dcc420c009b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a2fce670-ece1-4a51-ae29-7b0bf9c3d27a" name="Pintle Mounted Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="2ac6b010-f52b-4ab9-a8ec-0ed81fc22611" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11f518d2-a8a4-48bc-917c-556c8f6b74b0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccc5291c-139d-4cad-809f-ee768945155a" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3b8946c2-44bd-4b94-b467-b897c2440807" name="Domitar-Ferrum" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="50094e68-8a41-4565-b788-92237e84710f" name="Domitar-Ferrum" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Armoured, Invulnerable Save (5+), Furious Charge, Automata, Subordinate, Forward Deployment">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+5</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">-</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Armoured, Invulnerable Save (5+), Furious Charge, Automata, Subordinate</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fcf02489-2606-4d82-ae85-001806f69e93" name="Armoured" hidden="false" targetId="6478e0fe-56ba-4f78-9078-fca612a5dd44" type="rule"/>
+        <infoLink id="8229ab67-6aa4-4f07-b751-b9607dd0d62e" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a0e9d860-da78-4d6a-9906-872f692a1b76" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
+        <infoLink id="facef6df-f20b-4d85-9871-8233611e0cdf" name="Automata" hidden="false" targetId="e31b7065-ab48-4d9e-8789-901c6e78628b" type="rule"/>
+        <infoLink id="c5c8d02e-f967-4021-bac7-3d869689f8b6" name="Subordinate" hidden="false" targetId="776f6ac7-91a0-47f5-a932-fa997d02bfb0" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="90db2e60-72b3-4be0-87da-0e0e50f76cc4" name="Walker (1)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bf1a10df-e92d-4eca-8ddd-c10c7197eec0" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="42dbe7a0-d76d-4545-9e23-12fa0ac3dbd4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="60a344c6-1ae0-4ee2-87e9-304b97f77a28" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="059ebe49-2a62-467f-ac30-597886de0e3d" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="17ef5d31-986c-4b80-827b-dee6173321ef" name="Graviton Maul" hidden="false" collective="false" import="true" targetId="b147e9b9-8dd1-486a-8122-c129bb58e806" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de81c355-24cd-4ca3-a479-9c22462fa10a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a786e2e-cd48-42bf-afbd-77c189700a83" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="15.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b7ca66a9-1321-4a02-a4dc-6b629be44362" name="Sponson Mounted Lightning Locks" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="d66d26d7-ef0c-42df-bae8-7107d5b2b347" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b177724d-42a3-4030-b17c-0650a5b39e13" name="Lightning Locks" hidden="false" targetId="0c240e65-20eb-4296-8a41-e8eb21a80a2d" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Sponson Mounted Lightning Locks"/>
+            <modifier type="set" field="bacaab95-6c8d-452b-adeb-a75ddb9ead13" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="61fb4a8e-fa2e-4021-bd55-573e90bf96eb" name="Krios Battle Tank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1f564604-50d2-4f12-92da-8d1c2e65fd24" name="Krios Battle Tank" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Forward Deployment">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <entryLinks>
+        <entryLink id="5a0bebb0-652c-4b73-b2fe-e79f163e7ce3" name="Hull Mounted Lightning Cannon" hidden="false" collective="false" import="true" targetId="4922210f-01d3-4ddd-b7f3-01ab24e1cf06" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8abb9650-0c23-481c-8a03-b7a49a58c055" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27d63728-90b5-4c8a-a2ca-609a40bb4906" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9edb0cc0-1ba1-472b-8eb2-2f3f2f53233c" name="Pintle Mounted Volkite Caliver" hidden="false" collective="false" import="true" targetId="1f6df6a4-e9fc-4c7d-99a8-63e68fbff074" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3322d451-0b92-4889-915b-de105545a840" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d64b2b3c-0704-4738-9439-0025053e2ca0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="33.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="95ebc1e3-7c0e-4e31-b9a1-75511e4001d5" name="Lightning Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="9bc16555-8cb6-41a5-b032-32cec66598b0" name="Lightning Cannon" hidden="false" targetId="c7ec9206-0596-4680-a769-2f6fb4df7b72" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4922210f-01d3-4ddd-b7f3-01ab24e1cf06" name="Hull Mounted Lightning Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="cfb665da-b252-4e4d-acb9-44795de02188" name="Lightning Cannon" hidden="false" targetId="c7ec9206-0596-4680-a769-2f6fb4df7b72" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Hull Mounted Lightning Cannon"/>
+            <modifier type="set" field="bacaab95-6c8d-452b-adeb-a75ddb9ead13" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f5cd28ce-affa-4ef9-b7db-777bbd34ed68" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="25f9cb5a-ad65-4bcd-a787-ddd4f36cdbe8" name="Stormhammer" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="26beb780-657e-47a6-8cc0-cfd936d459ec" name="Stormhammer" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Explorator Adaption, Forward Deployment">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">6&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">2</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Explorator Adaption</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ff672fc9-ed80-4341-8d20-8f38f0deac19" name="Explorator Adaption" hidden="false" targetId="d0ba77ff-7ab7-46bc-a2d1-f83db261dc77" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="dbc45bd4-b4d2-42c6-b82d-855168bf5389" name="Co-Axial Multi-Laser" hidden="false" collective="false" import="true" targetId="f8f92f52-6a27-4984-a295-f93e6b913357" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70794521-b040-460c-ab59-ecad25f76ac3" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f21d35a9-7109-4e4f-a1d1-c6b6cc02536b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b77bce21-2f98-44e1-990e-1d17caf2b4e5" name="Dual Battlecannon" hidden="false" collective="false" import="true" targetId="e311305f-528c-4272-9aa7-e6fa65b48bfa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b1cfa1f-88e1-444a-ae76-78f614b27b7b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c826d0b6-cd8c-4ab0-acac-7fd76da8376c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="857c6cb5-4a88-48f0-9974-c2b811204ee9" name="Stormhammer Cannon" hidden="false" collective="false" import="true" targetId="97635bdf-d7ec-4c2d-b47f-0671898df6b8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9149cf5-2971-423c-8403-fd548adb8bcc" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25138b4a-87d8-4e5f-b50c-ba77ffbb8d3b" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="64ecb175-b3e2-421e-b697-d9bd1210553f" name="Hull Mounted Lascannon" hidden="false" collective="false" import="true" targetId="bf246540-6e5b-4f9f-b32f-80b5932f98ce" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2326b03-b3f5-4fcf-9bbe-933ed9fd273e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="122612ae-ad03-4c02-b092-c61b1dd8106f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="eabdb0c6-ee15-4114-a502-757c98e41983" name="Stormhammer Lascannon Sponsons" hidden="false" collective="false" import="true" targetId="12659d78-e7ba-442e-a888-811a3987d986" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b66b6c12-bf32-43f0-ace9-9395afc7eba7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff436cb-ee18-4320-bae0-3038f3a9ccdc" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="104.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="97635bdf-d7ec-4c2d-b47f-0671898df6b8" name="Stormhammer Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f0d646e0-277d-421b-843a-27d5e37879a0" name="Stormhammer Cannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">28&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5fb16ffe-094d-421d-923d-0ab043a57a68" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule"/>
+        <infoLink id="5f4de68f-b336-4df2-9393-7253bb4c584f" name="Shred" hidden="false" targetId="e1e9c6d4-209e-45f8-aef1-bef548da4e6d" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9d1f8d44-63ad-4e55-b4c0-304aeb8d07a0" name="Ironstrider Ballistarii" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="55b83fa0-2f88-4e9a-86f6-f8b0a3d94650" name="Ironstrider Ballistarii" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Outflank, Forward Deployment">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Outflank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="a45f0d2b-fd6a-47f6-956e-5c0c0de95595" name="Outflank" hidden="false" targetId="8785-676-b80f-8709" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="286b06d1-7c6a-4dfc-8a29-2059b93707e1" name="Twin Cognis Autocannon" hidden="false" collective="false" import="true" targetId="5bb2bc68-4fd6-4016-b2ac-6838a26011eb" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e02179bf-8422-4b19-b1d7-fd5da229b1f2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa02b3bb-d37e-4dc7-acfb-617fd5bcf6b3" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="18.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="50be9aba-041b-436a-aa02-0c08ff7046dc" name="Colossus Bombard Crawler" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="1a3338ad-3ead-4827-981f-68d3afa20f60" name="Colossus Bombard Crawler" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+          <modifiers>
+            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Explorator Adaption, Nimble, Forward Deployment">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
+            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
+            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
+            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Explorator Adaption, Nimble</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4de26bf0-ef9e-4167-a4c0-4ff3a9586d94" name="Explorator Adaption" hidden="false" targetId="d0ba77ff-7ab7-46bc-a2d1-f83db261dc77" type="rule"/>
+        <infoLink id="47da38e9-9192-4be1-a425-25bda0497cde" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="3be5ae70-79ee-4466-b8da-b9bda5e79585" name="Colossus Siege Mortar" hidden="false" collective="false" import="true" targetId="9ec33e24-7f69-4f66-b040-1abce8d65623" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0198b1a8-03fa-4a32-8d02-c0a2b12fb2b1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d890275-6724-4e21-9109-531cf6e83690" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="45.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile id="062a5fb6-c499-4d8c-a0b4-8441be4301ec" name="Tech-Priest Dominus" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+      <characteristics>
+        <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
+        <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">5+</characteristic>
+        <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
+        <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
+        <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
+        <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Cybernetica Cortex</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="0c240e65-20eb-4296-8a41-e8eb21a80a2d" name="Lightning Locks" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">12&quot;</characteristic>
+        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
+      </characteristics>
+    </profile>
+    <profile id="c7ec9206-0596-4680-a769-2f6fb4df7b72" name="Lightning Cannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">22&quot;</characteristic>
+        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+</catalogue>
