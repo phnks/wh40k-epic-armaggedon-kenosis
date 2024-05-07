@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="81" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="82" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1742,7 +1742,7 @@ Many Detachments with the Drop Pod special rule also have the Transport (X) spec
 If both players have Forward Deployment Detachments, then the winner of a roll-off chooses who moves their Detachments first.</description>
     </rule>
     <rule id="e5867fcb-ae67-470f-8103-b3ba52ae41df" name="Furious Charge" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="90" hidden="false">
-      <description>Models with the Furious Charge special rule issued with a Charge Order add 2 to any Fight roll they make instead of 1 when issued with that Order, so long as they have moved at least 1&quot; during the preceding Movement phase.</description>
+      <description>Models with the Furious Charge special rule issued with a Charge Order add 2 attack rolls to the attacks they make instead of 1 when issued with that Order, so long as they have moved at least 1&quot; during the preceding Movement phase.</description>
     </rule>
     <rule id="690d2329-8d19-480c-934e-4c1646d86820" name="Independent" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="91" hidden="false">
       <description>Models with the Independent special rule function with a greater degree of autonomy. All models with this special rule and the same name within a Detachment form an &quot;Independent Unit&quot;. A Detachment can have multiple Independent Units within it, with each Independent Unit consisting of models of the same name. The remaining models (i.e., those without the Independent special rule) are referred to as the &quot;Detachment Core&quot;.
