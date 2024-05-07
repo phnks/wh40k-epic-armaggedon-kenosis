@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="76" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="77" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="84" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="Death Guard Maladictum" hidden="false">
       <categoryLinks>
@@ -1598,14 +1598,13 @@ Can include one of the following:
             <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
             <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
             <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Disgustingly Resilient, Explorator Adaption, Siege Tank</characteristic>
+            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Disgustingly Resilient, Explorator Adaption</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0a3d23ff-79c5-4a48-a69e-5183627c74d4" name="Explorator Adaption" hidden="false" targetId="d0ba77ff-7ab7-46bc-a2d1-f83db261dc77" type="rule"/>
         <infoLink id="156a4e68-fc84-4f30-bd77-ab4154ef5f01" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
-        <infoLink id="4c5ceb0c-1cbc-4d67-b85e-ef97bf168761" name="Siege Tank" hidden="false" targetId="1050e287-d27a-4d44-ab06-57d4f9e950b9" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="3ae93ac4-da44-4716-bd0d-254c8eab76e5" name="Sponson Mounted Entropy Cannons" hidden="false" collective="false" import="true" targetId="a9443cb6-5337-4641-9f5b-2ea3feaa4e5b" type="selectionEntry">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="65" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="66" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="84" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -1705,7 +1705,7 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       <profiles>
         <profile id="3ebc72b7-6802-4f5c-8699-30f864cd7df7" name="Karacnos Assault Tank" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Siege Tank, Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -1716,13 +1716,10 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Siege Tank</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a"></characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="6a565012-4791-48cb-aed3-1b3b181222d8" name="Siege Tank" hidden="false" targetId="1050e287-d27a-4d44-ab06-57d4f9e950b9" type="rule"/>
-      </infoLinks>
       <entryLinks>
         <entryLink id="c9bd11de-6c17-4dbe-a51f-ed38398062f4" name="Sponson Mounted Lightning Locks" hidden="false" collective="false" import="true" targetId="b7ca66a9-1321-4a02-a4dc-6b629be44362" type="selectionEntry">
           <constraints>

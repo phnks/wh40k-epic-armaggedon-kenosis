@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="83" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="85" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -480,7 +480,7 @@
         <profile id="8fdadc1b-c070-41c2-a950-652a9bc5d6f2" name="Reaper Chainsword" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Sweep (2)</characteristic>
@@ -504,7 +504,7 @@
         <profile id="e8895dda-6b62-4edd-8961-6a349ae8704b" name="Thunderstrike Gauntlet" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Wrecker (1), Sweep (1)</characteristic>
@@ -1478,11 +1478,9 @@ Weapons with the Bunker Buster trait can damage Structures.</description>
     <rule id="b31e6b46-df95-4b76-b9ce-cae01cf885f0" name="Point Defence" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="82" hidden="false">
       <description>A weapon with the Point Defence trait represents a weapon system tailored towards defensive fire, be that heavy bolter sponsons on a Vehicle or the Ardex weapons of some Titans.
 
-Models with at least one weapon with the Point Defence trait may choose to fire on its Detachment&apos;s target or a Secondary Target; a Secondary Target is an eligible target (i.e., within range and line of sight of the firing model) different from the first chosen target. All Point Defence weapons in a Detachment must fire at the same target, unless another rule overrides this.
+A Detachment which contains one or models with weapons with the Point Defence trait may fire those weapons during the Movement phase, Fire Fire or the Advance Fire phase. During the Movement phase, a Detachment may fire its Point Defence weapons immediately after it is activated or at the end of its activation; if fired at the start of its activation, the firing is resolved and then the Detachment completes its activation as normal. A Detachment can only fire its Point Defence weapons once per round - if it fires one or more of its Point Defence weapons in the Movement phase, it cannot fire any Point Defence weapons in the Fire First or Advance FIre phase.
 
-A Detachment which contains one or models with weapons with the Point Defence trait may fire those weapons during the Movement phase, if issued an Advance or March Order, or the Combat phase. During the Movement phase, a Detachment may fire its Point Defence weapons immediately after it is activated or at the end of its activation; all Point Defence weapons must fire at the same target unless otherwise specified; if fired at the start of its activation, the firing is resolved and then the Detachment completes its activation as normal. A Detachment can only fire its Point Defence weapons once per round - if it fires one or more of its Point Defence weapons in the Movement phase, it cannot fire any Point Defence weapons in the Combat phase.
-
-If fired during the Combat phase, a weapon with the Point Defence trait is fired like any other weapon. Models with Point Defence weapons may fire them at a different target from the Detachment&apos;s main target.
+If fired during the First Fire or Advance Fire phase, a weapon with the Point Defence trait is fired like any other weapon. Models with Point Defence weapons may fire them at a different target from the Detachment&apos;s main target.
 
 Point Defence weapons can be fired as part of an Overwatch attack. When fired as part of an Overwatch attack, Point Defence weapons ignore the -2 penalty to Hit rolls and instead fire as normal (i.e., use the To Hit value of the weapon then apply any positive or negative modifiers).</description>
     </rule>
@@ -1898,9 +1896,6 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
     </rule>
     <rule id="1b3aec2b-9da8-45de-a17b-36451765e8c4" name="Cybernetica Cortex" hidden="false">
       <description>Refer to the Automata special rule for the effects of Cybernetica Cortex on other Detachments. This special rule does not affect a Detachment with the Cybernetica Cortex special rule.</description>
-    </rule>
-    <rule id="1050e287-d27a-4d44-ab06-57d4f9e950b9" name="Siege Tank" hidden="false">
-      <description>Models with the Siege Tank special rule may choose to fire any Barrage weapons on its Detachment&apos;s target or a Secondary Target; a Secondary Target is an eligible target (i.e., within range and line of sight of the firing model) different from the first chosen target. All Barrage weapons in a Detachment must fire at the same target, unless another rule overrides this.</description>
     </rule>
     <rule id="544ff260-1f26-4801-8166-b9d46c369f7d" name="Electromagnetic Pulse" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="84" hidden="false">
       <description>Any Vehicle, Super-heavy Vehicle, Knight or Titan that suffers one or more Hits from a weapon with the Electromagnetic Pulse trait reduces its To Hit trait on all weapons by 1 for the remainer of the Round.</description>
