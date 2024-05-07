@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="79" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="80" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -480,13 +480,20 @@
         <profile id="8fdadc1b-c070-41c2-a950-652a9bc5d6f2" name="Reaper Chainsword" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">8</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Sweep (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="4030-7c31-c5da-412c" name="Sweep (X)" hidden="false" targetId="aca2-fadb-87b4-ec72" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Sweep (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -497,10 +504,10 @@
         <profile id="e8895dda-6b62-4edd-8961-6a349ae8704b" name="Thunderstrike Gauntlet" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">4</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Wrecker (1)</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Wrecker (1), Sweep (1)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -508,6 +515,11 @@
         <infoLink id="dbce8cf5-322c-4c31-94e4-5776d8b790de" name="Wrecker (X)" hidden="false" targetId="e40-19fc-8c79-9a12" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Wrecker (1)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="e21d-0f2a-a989-bedd" name="Sweep (X)" hidden="false" targetId="aca2-fadb-87b4-ec72" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Sweep (1)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -1312,7 +1324,7 @@
             <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1367,7 +1379,7 @@
             <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1381,10 +1393,10 @@
         <profile id="dd35-37a9-01bb-84e3" name="Titanic Feet (Knight)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">4</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1398,10 +1410,10 @@
         <profile id="0346-cf77-4742-86a4" name="Titanic Feet (Warhound)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">8</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1892,6 +1904,9 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
     </rule>
     <rule id="544ff260-1f26-4801-8166-b9d46c369f7d" name="Electromagnetic Pulse" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="84" hidden="false">
       <description>Any Vehicle, Super-heavy Vehicle, Knight or Titan that suffers one or more Hits from a weapon with the Electromagnetic Pulse trait reduces its To Hit trait on all weapons by 1 for the remainer of the Round.</description>
+    </rule>
+    <rule id="aca2-fadb-87b4-ec72" name="Sweep (X)" hidden="false">
+      <description>A weapon with the Sweep trait rolls an extra number of attacks equal to the value shown in brackets, for each additional enemy model in base contact beyond one.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
