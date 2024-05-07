@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="62" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="73" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="65" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -1497,21 +1497,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
   <sharedSelectionEntries>
     <selectionEntry id="c14257a5-a405-48a0-bd7f-85ddb4e45b0b" name="Skitarii Vanguard" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="950d4bb7-a0ad-430f-9395-d747c1e1457f" name="Skitarii Vanguard" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="950d4bb7-a0ad-430f-9395-d747c1e1457f" name="Skitarii Vanguard" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Line, Rad-Phage, Infiltrate">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Line, Rad-Phage, Infiltrate">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">6+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Line, Rad-Phage Aura (4&quot;)</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Line, Rad-Phage Aura (4&quot;)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1528,6 +1527,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4b60873-02bc-4072-a00f-77462e6ab2b6" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f585820d-8c03-4d6c-b52e-a81103360ffb" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="179a-01d5-84de-a42b" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="8aa6-ac49-6ebe-a3f5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d7c-bd0f-be84-8106" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35fd-3818-ebb5-77d8" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1559,21 +1564,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="afc43c83-3406-467a-b5ee-6699ad3a6716" name="Skitarii Rangers" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="92603a56-9754-4822-999c-58da97f4e744" name="Skitarii Rangers" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="92603a56-9754-4822-999c-58da97f4e744" name="Skitarii Rangers" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Line, Scout, Infiltrate">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Line, Scout, Infiltrate">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">6+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Line, Scout</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Line, Scout</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1586,6 +1590,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce71926d-fbc2-47fb-88e6-15f86fb6bb86" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="575624c3-f08d-4fa2-83e4-504cec7d7322" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5333-61b9-3b31-a6b7" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="8aa6-ac49-6ebe-a3f5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26ee-9581-d836-4032" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cdc-49d7-81a5-fa30" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1616,21 +1626,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" name="Myrmidon Secutors" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="4ae3c26e-e0bc-4514-b4d8-f68b7e533251" name="Myrmidon Secutors" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="4ae3c26e-e0bc-4514-b4d8-f68b7e533251" name="Myrmidon Secutors" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Bulky, Implacable, Steadfast, Infiltrate">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Bulky, Implacable, Steadfast, Infiltrate">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+4</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Bulky, Implacable, Steadfast</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Implacable, Steadfast</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1650,6 +1659,18 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36ab21b8-61d7-40ca-9acc-1c493aa78fb3" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8b3354f-7394-49f9-9837-620274abba8e" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="8bf5-629d-927c-baae" name="Frag Grenades" hidden="false" collective="false" import="true" targetId="46dd-d21e-19f3-ce10" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d828-b4ee-d0f5-d2ea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7da-a23f-cbf8-4f34" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="d4a3-1204-f8bc-17b7" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="8539-d4d9-dc1a-ebae" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9de2-f928-e03d-f988" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="642d-d795-d5eb-fbdb" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1682,21 +1703,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="99408d48-159a-40c4-8dd1-8eef29d3e724" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="3ebc72b7-6802-4f5c-8699-30f864cd7df7" name="Karacnos Assault Tank" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="3ebc72b7-6802-4f5c-8699-30f864cd7df7" name="Karacnos Assault Tank" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Siege Tank, Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Siege Tank, Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Siege Tank</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Siege Tank</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1716,6 +1736,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13043b46-bf36-4dd3-a4fa-c9ca30077f4b" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="92b9-ec20-2d62-7269" name="Shock Ram" hidden="false" collective="false" import="true" targetId="c012-9902-893e-3b6a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37ef-4af2-eee7-a23d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69b9-ac7b-0ce6-441d" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="40.0"/>
@@ -1733,21 +1759,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="fe931145-e769-4ff0-9232-ce3d28313e8b" name="Onager Dunecrawler w/ Neutron Laser" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="daabd1fc-3223-4c3f-b768-0efc7a3131fd" name="Onager Dunecrawler" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="daabd1fc-3223-4c3f-b768-0efc7a3131fd" name="Onager Dunecrawler" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Explorator Adaption, Nimble, Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Explorator Adaption, Nimble, Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">8&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Explorator Adaption, Nimble</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">8&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Explorator Adaption, Nimble</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1768,6 +1793,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f67ca9f-74c4-4a13-99d8-080d05cc988e" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="4eba-b8cb-1a16-6a4e" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cf8-212f-6918-59a8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b208-7e4c-2357-0f45" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="35.0"/>
@@ -1782,8 +1813,8 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
         <infoLink id="bae35faa-7334-49cc-bb6b-3e5f937e83b3" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Tech-Priest Dominus w/ Myrmidon Secutors"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Bulky, Implacable, Steadfast, Cybernetica Cortex"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Bulky, Implacable, Steadfast, Infiltrate, Cybernetica Cortex">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Bulky, Implacable, Steadfast, Cybernetica Cortex"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Bulky, Implacable, Steadfast, Infiltrate, Cybernetica Cortex">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -1839,16 +1870,16 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       <profiles>
         <profile id="c8093851-f1dc-4a9f-8c5a-949e69d9eb37" name="Omnissian Axe" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
-            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c1022a23-be69-45e7-9123-83bcbfbbecd9" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+        <infoLink id="c1022a23-be69-45e7-9123-83bcbfbbecd9" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -1893,8 +1924,8 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
         <infoLink id="95b4fdf6-fd83-4458-ac5c-437ac819d8ec" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Tech-Priest Dominus w/ Skitarii Rangers"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+),, Battlesmith, Line, Scout, Cybernetica Cortex"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Scout, Infiltrate, Cybernetica Cortex">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+),, Battlesmith, Line, Scout, Cybernetica Cortex"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Scout, Infiltrate, Cybernetica Cortex">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -1923,6 +1954,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1460a5e0-3a34-417c-95e1-097a84305f20" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="3986-8ec2-b8a2-aca5" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="8aa6-ac49-6ebe-a3f5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfcb-9d84-3bda-61b7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f74a-456a-f5ed-99b2" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -1935,8 +1972,8 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
         <infoLink id="dbb4bd92-2899-4841-8fdb-6285bcd7436c" name="Tech-Priest Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Tech-Priest Dominus w/ Skitarii Vanguard"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Rad-Phage Aura (4&quot;), Cybernetica Cortex"/>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Rad-Phage Aura (4&quot;), Infiltrate, Cybernetica Cortex">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Rad-Phage Aura (4&quot;), Cybernetica Cortex"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Line, Rad-Phage Aura (4&quot;), Infiltrate, Cybernetica Cortex">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -1981,6 +2018,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5bf6428-986b-4117-85f9-7df3db938da9" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="55da-2bc5-348d-acf7" name="Improvised Weapons" hidden="false" collective="false" import="true" targetId="8aa6-ac49-6ebe-a3f5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9da2-efc9-e3bf-9fbe" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e751-4004-6fa8-7f73" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -2015,14 +2058,13 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="f42ba62e-9924-456b-9fbe-3030b5121e6e" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="a2e0f722-ee3a-4049-b4a3-4e342eeb067c" name="Triaros Armoured Conveyer" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="a2e0f722-ee3a-4049-b4a3-4e342eeb067c" name="Triaros Armoured Conveyer" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Forward Deployment, Large Transport (2)</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Forward Deployment, Large Transport (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2047,6 +2089,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ccc5291c-139d-4cad-809f-ee768945155a" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="2ac4-7071-d5a6-ce9f" name="Shock Ram" hidden="false" collective="false" import="true" targetId="c012-9902-893e-3b6a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a9f-a10c-9f75-fd94" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="637c-e565-493d-f5fb" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
@@ -2055,21 +2103,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="3b8946c2-44bd-4b94-b467-b897c2440807" name="Domitar-Ferrum" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="50094e68-8a41-4565-b788-92237e84710f" name="Domitar-Ferrum" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="50094e68-8a41-4565-b788-92237e84710f" name="Domitar-Ferrum" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Armoured, Invulnerable Save (5+), Furious Charge, Automata, Subordinate, Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Armoured, Invulnerable Save (5+), Furious Charge, Automata, Subordinate, Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+5</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">-</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Armoured, Invulnerable Save (5+), Furious Charge, Automata, Subordinate</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Armoured, Invulnerable Save (5+), Furious Charge, Automata, Subordinate</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2127,21 +2174,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="61fb4a8e-fa2e-4021-bd55-573e90bf96eb" name="Krios Battle Tank" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="1f564604-50d2-4f12-92da-8d1c2e65fd24" name="Krios Battle Tank" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="1f564604-50d2-4f12-92da-8d1c2e65fd24" name="Krios Battle Tank" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a"/>
           </characteristics>
         </profile>
       </profiles>
@@ -2156,6 +2202,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3322d451-0b92-4889-915b-de105545a840" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d64b2b3c-0704-4738-9439-0025053e2ca0" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="efb7-1b8e-f70c-c564" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a9c-559f-2970-955b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c47c-26cd-8f68-c76e" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2194,21 +2246,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="25f9cb5a-ad65-4bcd-a787-ddd4f36cdbe8" name="Stormhammer" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="26beb780-657e-47a6-8cc0-cfd936d459ec" name="Stormhammer" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="26beb780-657e-47a6-8cc0-cfd936d459ec" name="Stormhammer" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Explorator Adaption, Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Explorator Adaption, Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">6&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">2</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Explorator Adaption</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">6&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Explorator Adaption</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2246,6 +2297,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ff436cb-ee18-4320-bae0-3038f3a9ccdc" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="5cc4-54fa-4605-5a0c" name="Large Ram" hidden="false" collective="false" import="true" targetId="90a0-fefb-d48f-6363" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="196f-30fc-052f-2bea" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79eb-c538-6b7b-07fa" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="104.0"/>
@@ -2275,21 +2332,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="9d1f8d44-63ad-4e55-b4c0-304aeb8d07a0" name="Ironstrider Ballistarii" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="55b83fa0-2f88-4e9a-86f6-f8b0a3d94650" name="Ironstrider Ballistarii" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="55b83fa0-2f88-4e9a-86f6-f8b0a3d94650" name="Ironstrider Ballistarii" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Outflank, Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Outflank, Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">10&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">4+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Outflank</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Outflank</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2303,6 +2359,12 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa02b3bb-d37e-4dc7-acfb-617fd5bcf6b3" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="0667-10a4-7aff-0ec4" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5257-9611-5a1e-2d7a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d24-76a4-d894-ef52" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="18.0"/>
@@ -2311,21 +2373,20 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     </selectionEntry>
     <selectionEntry id="50be9aba-041b-436a-aa02-0c08ff7046dc" name="Colossus Bombard Crawler" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="1a3338ad-3ead-4827-981f-68d3afa20f60" name="Colossus Bombard Crawler" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+        <profile id="1a3338ad-3ead-4827-981f-68d3afa20f60" name="Colossus Bombard Crawler" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="cc07684d-57be-4f6e-ae5d-125ec8de1466" value="Explorator Adaption, Nimble, Forward Deployment">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Explorator Adaption, Nimble, Forward Deployment">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
             </modifier>
           </modifiers>
           <characteristics>
-            <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
-            <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+0</characteristic>
-            <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">4+</characteristic>
-            <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-            <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Explorator Adaption, Nimble</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Explorator Adaption, Nimble</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2340,22 +2401,44 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d890275-6724-4e21-9109-531cf6e83690" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="d07b-ec0d-bf76-acde" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fda-1749-131e-e328" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecc6-8fb1-40a9-a8a8" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="45.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="c012-9902-893e-3b6a" name="Shock Ram" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="aba8-a7f9-a583-e742" name="Shock Ram" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="062a5fb6-c499-4d8c-a0b4-8441be4301ec" name="Tech-Priest Dominus" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+    <profile id="062a5fb6-c499-4d8c-a0b4-8441be4301ec" name="Tech-Priest Dominus" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">5&quot;</characteristic>
-        <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">5+</characteristic>
-        <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+2</characteristic>
-        <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">3+</characteristic>
-        <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">1</characteristic>
-        <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466">Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Cybernetica Cortex</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Master Tactician, Battlesmith, Cybernetica Cortex</characteristic>
       </characteristics>
     </profile>
     <profile id="0c240e65-20eb-4296-8a41-e8eb21a80a2d" name="Lightning Locks" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">

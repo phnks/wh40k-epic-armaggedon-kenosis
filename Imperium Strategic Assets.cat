@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f35002fe-13ee-47eb-a540-914a045cd014" name="Imperium Strategic Assets" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="73" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f35002fe-13ee-47eb-a540-914a045cd014" name="Imperium Strategic Assets" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="b8944d0e-1c1c-4254-8e2e-a1a90fd15c95" name="Knight Household Lance" hidden="false">
       <categoryLinks>
@@ -2651,6 +2651,14 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a2a3-f231-1828-f65e" name="Titanic Feet (Warhound)" hidden="false" collective="false" import="true" targetId="d21b-1f03-5792-21d4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2f9-5f0d-b008-d4a2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4d18-2a45-18fb-5590" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="313.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -2699,6 +2707,12 @@
           <costs>
             <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
           </costs>
+        </entryLink>
+        <entryLink id="9ed6-6f2e-b8a0-e4c0" name="Titanic Feet (Knight)" hidden="false" collective="false" import="true" targetId="7d15-af0a-ca9c-5e20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="923a-4e07-b031-c079" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1f4b-10c4-7a65-0e4e" type="min"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
@@ -2948,6 +2962,12 @@
             <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
           </costs>
         </entryLink>
+        <entryLink id="864d-bc85-768c-53bc" name="Titanic Feet (Knight)" hidden="false" collective="false" import="true" targetId="7d15-af0a-ca9c-5e20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f286-8c5b-f0d7-9049" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9425-1f73-ab47-a531" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="163.0"/>
@@ -3078,6 +3098,12 @@
           <costs>
             <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
           </costs>
+        </entryLink>
+        <entryLink id="f381-6794-ff04-b74f" name="Titanic Feet (Knight)" hidden="false" collective="false" import="true" targetId="7d15-af0a-ca9c-5e20" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dc5-80b5-6a85-43d7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a62-48e9-7f2b-ee95" type="min"/>
+          </constraints>
         </entryLink>
       </entryLinks>
       <costs>
