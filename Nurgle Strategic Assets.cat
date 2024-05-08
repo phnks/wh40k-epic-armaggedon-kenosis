@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="29" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="81" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3c7dc790-e3af-423b-b378-cb98910b7684" name="Daemon Host" hidden="false">
       <categoryLinks>
@@ -166,6 +166,26 @@
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="2f91-7033-880f-4d8f" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d184-b817-25da-86b6" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
+        <categoryLink id="3aca-6ee1-7058-4809" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1773-7bff-5558-c221" name="Nurgling Swarm" hidden="false" collective="false" import="true" targetId="af49-3bfd-61da-cae3" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bd7a-dc4b-71f9-812b" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
+        <categoryLink id="653e-80ce-3040-e2d3" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e1f6-b3f4-5cc3-63a2" name="Beast of Nurgle Pack" hidden="false" collective="false" import="true" targetId="f68e-3081-e910-52ad" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="25f0-1973-d713-9cf1" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
+        <categoryLink id="42fb-d6e5-f334-6f84" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="531ef769-a0a7-42ce-bd31-08b3d8362768" name="Nurgle Knight Despoiler-Crusader" hidden="false" collective="false" import="true" type="model">
       <infoLinks>

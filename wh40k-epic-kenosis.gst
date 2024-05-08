@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="85" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="88" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1422,6 +1422,339 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="3dfd-5074-831c-3c61" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="8656-afe9-9931-df23" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4cf3-774e-ee9e-b313" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7ac-4dff-96b0-8e5b" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80fd-7441-c7c3-eb46" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="68bc-a7d8-7f3c-0d92" name="Plaguebearers" hidden="false" collective="false" import="true" targetId="b74b-9777-cc58-f1b8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e19-83d8-44f1-50cc" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7c67-c713-a354-0c96" name="Nurglings" hidden="false" collective="false" import="true" targetId="9cfb-5a4f-226f-67a7" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="10.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b74b-9777-cc58-f1b8" name="Plaguebearers" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="bbfc-8bb4-0abb-7037" name="Plaguebearers" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (6+), Dread Aura (4&quot;), Manifestation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f1b3-ffe6-60bf-a51d" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
+        <infoLink id="fe1e-3dcc-7c3a-d9f0" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="d1a7-036d-75f4-e61c" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="03dd-2851-05ce-db90" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="8129-e17b-f5c5-23ea" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="53ec-1103-70b3-3889" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="1a10-4e49-1987-294d" name="Plagueswords" hidden="false" collective="false" import="true" targetId="385c-d0ee-7c15-6dcd" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5514-20b8-543c-0748" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94f5-5071-b4f9-7d5f" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="6.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="385c-d0ee-7c15-6dcd" name="Plagueswords" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="110a-57e4-9ef6-0f90" name="Plagueswords" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="b9c2-b049-0db6-8171" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9cfb-5a4f-226f-67a7" name="Nurglings" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0353-15b5-4fb8-d3d2" name="Nurglings" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Manifestation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="063b-7fb9-9ed1-ad62" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
+        <infoLink id="93c3-20a0-670e-6f9b" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="adf1-2533-1c6a-8ff3" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7192-4ae1-f5ce-5d06" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="bcbb-d4ee-21e2-ae9c" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
+        <infoLink id="2437-018c-0ec8-f02f" name="Swarm" hidden="false" targetId="2902-ccbe-8caf-5bc7" type="rule"/>
+        <infoLink id="7416-fe71-b17a-614b" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="41b1-54b4-203b-db7e" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="db71-52fb-0f80-0e59" name="Diseased Claws &amp; Teeth" hidden="false" collective="false" import="true" targetId="2d98-0e8e-5daf-3fae" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a4f-38f6-aee3-0203" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0faf-3412-21d1-4ac6" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d98-0e8e-5daf-3fae" name="Diseased Claws &amp; Teeth" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="d143-e53c-9e33-e808" name="Diseased Claws &amp; Teeth" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f997-b14e-0c91-621d" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="af49-3bfd-61da-cae3" name="Nurgling Swarm" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="4b77-4789-cf91-dfea" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="90c8-f0d3-27ab-92dc" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="659b-8cac-d11e-ff94" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0511-d902-04ff-c702" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="618b-d258-d690-7481" name="Nurglings" hidden="false" collective="false" import="true" targetId="9cfb-5a4f-226f-67a7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e753-1677-d5e4-311c" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f68e-3081-e910-52ad" name="Beast of Nurgle Pack" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="aecf-b404-eb7d-cf34" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ef4e-a14a-7122-c5a0" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d8-7953-26fe-ac78" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3526-8e52-369e-fd95" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="5ffb-665f-2c34-4306" name="Beast of Nurgle" hidden="false" collective="false" import="true" targetId="eb3d-629d-a9d8-a4f8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa83-5676-4c20-92dd" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="eb3d-629d-a9d8-a4f8" name="Beast of Nurgle" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="62e1-af23-76c4-c306" name="Beast of Nurgle" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Manifestation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8a86-75a2-097e-f5bf" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
+        <infoLink id="4329-fa1c-1963-eca7" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="cba0-285e-0760-e83f" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9d62-95b2-3bd2-b6b9" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="2b22-0244-ab96-4de1" name="Regeneration" hidden="false" targetId="c828-5bd3-be2b-48d0" type="rule"/>
+        <infoLink id="9012-47a7-acf7-f5a2" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="98ed-cc47-3d01-d635" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="f66b-cb5c-3047-4dca" name="Putrid Appendages" hidden="false" collective="false" import="true" targetId="c15e-18ee-c7e2-3292" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b10-2028-81b6-e258" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c966-b6ff-6428-10d8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="13.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c15e-18ee-c7e2-3292" name="Putrid Appendages" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2ed7-f710-070c-bf5f" name="Putrid Appendages" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4b52-882e-89e6-3b7b" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="725e-f625-1c15-ef02" name="Great Unclean One Host" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="7bb6-5123-f037-30ca" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="9821-a007-e4e3-130e" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d621-856a-3773-bf46" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="706c-d80f-7487-c14b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4c5f-85ad-3f8d-cea4" name="Beast of Nurgle" hidden="false" collective="false" import="true" targetId="eb3d-629d-a9d8-a4f8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e648-5ef2-7a10-5e42" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d0f3-342a-ea90-2fb8" name="Great Unclean One" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="0ce1-7c98-aa8a-bb02" name="Great Unclean One" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Manifestation</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6f5d-1251-04a9-718d" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
+        <infoLink id="0495-966c-9b59-5d23" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="1855-a6fb-44f4-54ea" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="50ea-d6cd-e259-fb51" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="dda9-0752-ee8d-7c89" name="Regeneration" hidden="false" targetId="c828-5bd3-be2b-48d0" type="rule"/>
+        <infoLink id="2094-6d18-c6c1-836e" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="cf16-c787-d9e9-b5a1" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="4ad4-a300-79e3-d6a1" name="Putrid Appendages" hidden="false" collective="false" import="true" targetId="c15e-18ee-c7e2-3292" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf88-61b0-decd-3fac" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff7-2135-c35e-e6c8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="13.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="902de2f1-98ab-4f73-8d55-cde249634685" name="Assault" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="77" hidden="false">
@@ -1444,7 +1777,7 @@ If a weapon has the Engine Killer (X) trait and the Rend trait, enemy Vehicles, 
 In addition, Hits scored by a weapon with this Trait cannot be allocated to Void Shields, regardless of the weapon&apos;s AP, and thus are automatically discarded if a target has active Void Shields.</description>
     </rule>
     <rule id="77556ab2-aeff-4c23-9df4-6c10efd2c250" name="Deep Strike" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
-      <description>During deployment, if all models within a Detachment have the Deep Strike special rule, then the Detachment can be placed in Reserve instead of being deployed as normal. Detachments with the Deep Strike special rule in Reserve can only be issued the Advance Order or March Order.
+      <description>During deployment, if all models within a Detachment have the Deep Strike special rule, then the Detachment can be placed in Reserve instead of being deployed as normal. Detachments with the Deep Strike special rule in Reserve can only be issued the Move, Fire Fire, or Advance Orders.
 
 When a Detachment with the Deep Strike special rule that is in Reserve is activated in any Movement phase other than the first, the controlling player may choose to leave it in Reserve or Deep Strike the Detachment. When a Detachment Deep Strikes, the controlling player places a single model from that Detachment anywhere on the battlefield at least 2&quot; from an enemy model. They then Scatter that model D6&quot;. If the model scatters into an area of Impassable terrain or a Structure then that model, and the model&apos;s Detachment, is destroyed. If it scatters within 1&quot; of an enemy model, it must be moved the shortest possible distance so it is no longer within 1&quot; of an enemy model.
 
@@ -1719,7 +2052,7 @@ If, for whatever reason, a model with the Commander special rule cannot be assig
       <description>Models with the Compact special rule may Embark upon Transports as if they were an Infantry model with the Bulky special rule (i.e., they count as two models when determining how many models can be Embarked).</description>
     </rule>
     <rule id="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" name="Dread Aura (X)" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
-      <description>Detachments within a number of inches equal to the value shown in brackets of one or more models with the Dread Aura special rule subtract 1 from the result of any Morale check they make. Models with this special rule are unaffected by another model with Dread Aura. Dread Aura affects friendly and enemy Detachments.</description>
+      <description>Detachments within a number of inches equal to the value shown in brackets of one or more models with the Dread Aura special rule subtract 1 from the result of any Morale check they make. Models with this special rule are unaffected by another model with Dread Aura.</description>
     </rule>
     <rule id="39d-d61c-ebfe-15d9" name="Drop Pod" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
       <description>Drop Pods are transports designed to deliver troops from orbit directly into the heart of the enemy line. A model with the Drop Pod special rule can and must Deep Strike, as described in the Deep Strike special rule. Models with the Drop Pod special rule can Deep Strike from the first round of the battle onwards, instead of the second.
@@ -1902,6 +2235,17 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
     </rule>
     <rule id="aca2-fadb-87b4-ec72" name="Sweep (X)" hidden="false">
       <description>A weapon with the Sweep trait rolls an extra number of attacks equal to the value shown in brackets, for each additional enemy model in base contact beyond one.</description>
+    </rule>
+    <rule id="2902-ccbe-8caf-5bc7" name="Swarm" hidden="false">
+      <description>Subtract one from hit rolls made against a model with this special rule.</description>
+    </rule>
+    <rule id="c828-5bd3-be2b-48d0" name="Regeneration" hidden="false">
+      <description>At the end of each round, if a Detachment has lost any models with the Regeneration special rule but the detachment is not destroyed or Falling Back, add back any lost models with the Regeneration special rule on the battlefield with the same Detachment.</description>
+    </rule>
+    <rule id="1c21-3398-5868-2e69" name="Manifestation" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
+      <description>During deployment, if all models within a Detachment have the Manifestation special rule, then the Detachment can be placed in Reserve instead of being deployed as normal. 
+
+When a Detachment with the Manifestation special rule that is in Reserve is activated in any Movement phase other than the first, the controlling player may choose to leave it in Reserve or Manifest the Detachment. When a Detachment Manifests, the controlling player places a single model from that Detachment anywhere on the battlefield at least 8&quot; from an enemy model. Any remaining models within the same Detachment are placed on the battlefield within 2&quot; of the already placed model. A model cannot be placed in an area of Impassable terrain or overlapping a Structure, not can it be placed within 1&quot; of any enemy model. Any model that cannot be placed in this manner is destroyed. Once a Detachment has Manifested, it may complete its activation as normal (i.e., it may move during the Movement phase and/or fire during the Combat phase, etc.).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

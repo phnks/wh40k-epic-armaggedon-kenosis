@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="78" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="85" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="84" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -711,90 +711,6 @@ Two Structures can be selected in place of a single area of terrain. Each time a
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3be7aedb-fce2-46fc-86fe-f973557ee616" name="Dedicated Transports (Death Guard Maladictum)" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="ff8f6f0f-418d-4573-a517-a700901d887c" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff8f6f0f-418d-4573-a517-a700901d887c" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0ce39d0-c280-45e4-82a9-d8aba132fc52" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="b9c38fe9-ebbf-42f8-b586-2eb7782294f6" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="d278267b-ee3e-41de-b3b4-a76ff6f6c04b" name="Dedicated Transports (Death Guard Maladictum)" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9289463-5365-408b-bb8a-6d5fe14ca15a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="979a1cfe-5f94-4438-a3c7-827398ca6647" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="7a5612ef-e444-42b4-b6ab-5fd3256353af" name="Dedicated Transports (Death Guard Maladictum)" hidden="false">
-              <description>Any Chaos: Death Guard Detachment within the Formation that contains only Infantry models may be upgraded with Nurgle Rhinos as Dedicated Transports.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8e65dbd0-2e23-4118-afc8-cc0c0ff762b6" name="Heart of the Legion (Death Guard Maladictum)" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="1584787d-0e00-472e-97d2-f73cbc23ec46" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1584787d-0e00-472e-97d2-f73cbc23ec46" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a041c61a-ad4f-48c1-86b9-bfcc47bdcbd1" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="50d959ad-e71a-4f6e-8560-d324cf467aea" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="b5f8fccf-4a94-4129-83d1-17c75cb71d64" name="Heart of the Legion (Death Guard Maladictum)" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a05ef00c-81fd-4261-9362-6afaa511583c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02414c14-3156-4e15-a5bf-b6ec731203ef" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="1fe5c4b1-8c71-4140-a3ac-9419ace17709" name="Heart of the Legion (Death Guard Maladictum)" hidden="false">
-              <description>Compulsory Core Detachment slots in this Formation must be filled with Colony Detachments. All non-Infantry models within this Formation increase their Tactical Strength by 1 when contesting an Objective marker that an Infantry model within this Formation is also contesting.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="c32cd693-c0c1-4f98-98ca-1f52f5e2baa9" name="Dedicated Transports (Death Guard Drop Pod Assault)" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="22a15779-4b1f-4012-988e-fb3efb44cc88" value="0.0">
@@ -920,7 +836,7 @@ All Infantry and Walker detachments (without Deep Strike) must take Nurgle Drop 
           <rules>
             <rule id="03a5d6e4-c7a4-444b-9e2d-9c64639729ca" name="&quot;The Wretched&quot; Maladictum" hidden="false">
               <description>Compulsory Detachments:
-1 HQ (Plague Caster)
+1 HQ (Malignant Plaguecaster)
 1 Support
 2 Core
 
@@ -1307,6 +1223,47 @@ Can include one of the following:
       </costs>
     </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="1056-d71d-b617-d4f9" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="0022-cca8-7c94-c51c" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+        <categoryLink id="f114-7383-c2d8-729f" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9c65-f7f7-0cd5-649f" name="Nurgling Swarm" hidden="false" collective="false" import="true" targetId="af49-3bfd-61da-cae3" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="a415-0eda-6b6d-9315" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+        <categoryLink id="16a0-a064-5b3e-0681" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f20b-fb6c-374f-68f5" name="Beast of Nurgle Pack" hidden="false" collective="false" import="true" targetId="f68e-3081-e910-52ad" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f3dd-83f0-0686-acd4" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
+        <categoryLink id="9172-440c-a966-d61c" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c5296162-eacf-4fe4-bbc4-6e3f1c6711c6" name="Plague Marines" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -1393,7 +1350,7 @@ Can include one of the following:
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="5.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="4.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1808,7 +1765,7 @@ Can include one of the following:
       </entryLinks>
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="22.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="21.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="53224e49-edda-4d4e-906c-7940f9b3c308" name="Miasmic Malignifier" hidden="false" collective="false" import="true" type="model">
