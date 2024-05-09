@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="88" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="91" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1438,7 +1438,6 @@
                 <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e19-83d8-44f1-50cc" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="7c67-c713-a354-0c96" name="Nurglings" hidden="false" collective="false" import="true" targetId="9cfb-5a4f-226f-67a7" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -1455,13 +1454,12 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (6+), Dread Aura (4&quot;), Manifestation</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Manifestation</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="f1b3-ffe6-60bf-a51d" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
-        <infoLink id="fe1e-3dcc-7c3a-d9f0" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="d1a7-036d-75f4-e61c" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
@@ -1472,7 +1470,7 @@
             <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8129-e17b-f5c5-23ea" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+        <infoLink id="8129-e17b-f5c5-23ea" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="53ec-1103-70b3-3889" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
@@ -1518,13 +1516,12 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Manifestation</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Manifestation</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="063b-7fb9-9ed1-ad62" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
-        <infoLink id="93c3-20a0-670e-6f9b" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="adf1-2533-1c6a-8ff3" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
@@ -1537,7 +1534,7 @@
         </infoLink>
         <infoLink id="bcbb-d4ee-21e2-ae9c" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
         <infoLink id="2437-018c-0ec8-f02f" name="Swarm" hidden="false" targetId="2902-ccbe-8caf-5bc7" type="rule"/>
-        <infoLink id="7416-fe71-b17a-614b" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+        <infoLink id="7416-fe71-b17a-614b" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="41b1-54b4-203b-db7e" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
@@ -1631,13 +1628,12 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Manifestation</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Manifestation</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="8a86-75a2-097e-f5bf" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
-        <infoLink id="4329-fa1c-1963-eca7" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="cba0-285e-0760-e83f" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
@@ -1649,11 +1645,8 @@
           </modifiers>
         </infoLink>
         <infoLink id="2b22-0244-ab96-4de1" name="Regeneration" hidden="false" targetId="c828-5bd3-be2b-48d0" type="rule"/>
-        <infoLink id="9012-47a7-acf7-f5a2" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+        <infoLink id="9012-47a7-acf7-f5a2" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="98ed-cc47-3d01-d635" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
-      </categoryLinks>
       <entryLinks>
         <entryLink id="f66b-cb5c-3047-4dca" name="Putrid Appendages" hidden="false" collective="false" import="true" targetId="c15e-18ee-c7e2-3292" type="selectionEntry">
           <constraints>
@@ -1689,7 +1682,7 @@
     </selectionEntry>
     <selectionEntry id="725e-f625-1c15-ef02" name="Great Unclean One Host" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
-        <categoryLink id="7bb6-5123-f037-30ca" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+        <categoryLink id="bdd5-7a9b-95a0-9be7" name="Monster (3)" hidden="false" targetId="a1b7-ffdc-38b2-e92b" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9821-a007-e4e3-130e" name="Models" hidden="false" collective="false" import="true">
@@ -1698,7 +1691,7 @@
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="706c-d80f-7487-c14b" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="4c5f-85ad-3f8d-cea4" name="Beast of Nurgle" hidden="false" collective="false" import="true" targetId="eb3d-629d-a9d8-a4f8" type="selectionEntry">
+            <entryLink id="4c5f-85ad-3f8d-cea4" name="Great Unclean One" hidden="false" collective="false" import="true" targetId="d0f3-342a-ea90-2fb8" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e648-5ef2-7a10-5e42" type="min"/>
               </constraints>
@@ -1707,7 +1700,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1716,16 +1709,15 @@
         <profile id="0ce1-7c98-aa8a-bb02" name="Great Unclean One" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
-            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Manifestation</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Manifestation</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="6f5d-1251-04a9-718d" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
-        <infoLink id="0495-966c-9b59-5d23" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="1855-a6fb-44f4-54ea" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
@@ -1736,22 +1728,169 @@
             <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="dda9-0752-ee8d-7c89" name="Regeneration" hidden="false" targetId="c828-5bd3-be2b-48d0" type="rule"/>
-        <infoLink id="2094-6d18-c6c1-836e" name="Manifestation" hidden="false" targetId="1c21-3398-5868-2e69" type="rule"/>
+        <infoLink id="2094-6d18-c6c1-836e" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
-      <categoryLinks>
-        <categoryLink id="cf16-c787-d9e9-b5a1" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
-      </categoryLinks>
       <entryLinks>
-        <entryLink id="4ad4-a300-79e3-d6a1" name="Putrid Appendages" hidden="false" collective="false" import="true" targetId="c15e-18ee-c7e2-3292" type="selectionEntry">
+        <entryLink id="4ad4-a300-79e3-d6a1" name="Bilesword" hidden="false" collective="false" import="true" targetId="4b70-7277-e2b9-6f0e" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf88-61b0-decd-3fac" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ff7-2135-c35e-e6c8" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="3fd3-db75-2b31-0759" name="Putrid Vomit" hidden="false" collective="false" import="true" targetId="ffcb-6963-32d9-3d03" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63f5-4f39-30ee-42cb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bc4-d674-bdd9-9bce" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="56a3-e6ef-1f1c-2bda" name="Final Decomposition" hidden="false" collective="false" import="true" targetId="1fc8-9f6a-199f-7b6e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f56b-37b8-4b61-8a3c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c86-f9fc-f12e-94c2" type="max"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="13.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="50.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4b70-7277-e2b9-6f0e" name="Bilesword" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="efbc-108f-8466-1aeb" name="Bilesword" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">2+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT, Sweep (1)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9888-073f-d921-b328" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+        <infoLink id="a549-d245-d438-83c5" name="Sweep (X)" hidden="false" targetId="aca2-fadb-87b4-ec72" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Sweep (1)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ffcb-6963-32d9-3d03" name="Putrid Vomit" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8a8b-501a-b7fe-a3a8" name="Putrid Vomit" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Ignores Cover, Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0f7f-fc75-eb68-1693" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+        <infoLink id="c315-d293-3a5d-ccb2" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1fc8-9f6a-199f-7b6e" name="Final Decomposition" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5551-a319-8d74-142c" name="Final Decomposition" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Internal Liquefaction, Psi</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="0dd8-18c4-038f-a559" name="Internal Liquefaction" hidden="false">
+          <description>Instead of rolling to hit, when a model is targetted by a weapon with this special trait, roll a D3. If the result is higher than the number of wounds the target has left, it is automatically hit by this weapon. For titans, roll 2d6 instead. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d53e-7248-4ef2-ec34" name="Psi" hidden="false" targetId="6f6e81cf-9fae-4839-8ca2-b3df3d047471" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a77-6892-4110-c37e" name="Plasma Pistols" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b395-1218-4466-8bf2" name="Plasma Pistols" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ea64-0b25-e45d-f6e3" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c747-409b-560e-2e80" name="Assault Grenade Launchers" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6090-ca18-78f2-2c85" name="Assault Grenade Launchers - Frag" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">8&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Ignores Cover, Light</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="f483-689e-868e-76ba" name="Assault Grenade Launchers - Krak" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">8&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Anti-tank</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d2cf-3b77-6271-aafd" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+        <infoLink id="9ff2-8556-ecd6-9e2d" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
+        <infoLink id="1e94-aa7b-250a-326f" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20d4-a39f-30c7-e596" name="Power Fist" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="178e-73aa-e555-56eb" name="Power Fist" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1779,9 +1918,7 @@ In addition, Hits scored by a weapon with this Trait cannot be allocated to Void
     <rule id="77556ab2-aeff-4c23-9df4-6c10efd2c250" name="Deep Strike" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
       <description>During deployment, if all models within a Detachment have the Deep Strike special rule, then the Detachment can be placed in Reserve instead of being deployed as normal. Detachments with the Deep Strike special rule in Reserve can only be issued the Move, Fire Fire, or Advance Orders.
 
-When a Detachment with the Deep Strike special rule that is in Reserve is activated in any Movement phase other than the first, the controlling player may choose to leave it in Reserve or Deep Strike the Detachment. When a Detachment Deep Strikes, the controlling player places a single model from that Detachment anywhere on the battlefield at least 2&quot; from an enemy model. They then Scatter that model D6&quot;. If the model scatters into an area of Impassable terrain or a Structure then that model, and the model&apos;s Detachment, is destroyed. If it scatters within 1&quot; of an enemy model, it must be moved the shortest possible distance so it is no longer within 1&quot; of an enemy model.
-
-Once scattered, any remaining models within the same Detachment are placed on the battlefield within 2&quot; of the already placed model. A model cannot be placed in an area of Impassable terrain or overlapping a Structure, not can it be placed within 1&quot; of any enemy model. Any model that cannot be placed in this manner is destroyed. Once a Detachment has Deep Striked, it may complete its activation as normal (i.e., it may move during the Movement phase and/or fire during the Combat phase, etc.).
+When a Detachment with the Deep Strike special rule that is in Reserve is activated in any Movement phase other than the first, the controlling player may choose to leave it in Reserve or Deep Strike the Detachment. When a Detachment Deep Strikes, the controlling player places a single model from that Detachment anywhere on the battlefield at least 8&quot; from an enemy model.Any remaining models within the same Detachment are placed on the battlefield within 2&quot; of the already placed model. A model cannot be placed in an area of Impassable terrain or overlapping a Structure, not can it be placed within 1&quot; of any enemy model. Any model that cannot be placed in this manner is destroyed. Once a Detachment has Deep Striked, it may complete its activation as normal (i.e., it may move during the Movement phase and/or fire during the Combat phase, etc.).
 
 Some Detachments have both the Deep Strike and Transport (X) special rule. If another Detachment is loaded into the Transport model during deployment, that Detachment is kept in Reserve alongside the Transport model. When the Transport model is set up via Deep Strike, the Embarked model then immediately Disembarks and can then be activated as normal later in the phase.</description>
     </rule>
@@ -2241,11 +2378,6 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
     </rule>
     <rule id="c828-5bd3-be2b-48d0" name="Regeneration" hidden="false">
       <description>At the end of each round, if a Detachment has lost any models with the Regeneration special rule but the detachment is not destroyed or Falling Back, add back any lost models with the Regeneration special rule on the battlefield with the same Detachment.</description>
-    </rule>
-    <rule id="1c21-3398-5868-2e69" name="Manifestation" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
-      <description>During deployment, if all models within a Detachment have the Manifestation special rule, then the Detachment can be placed in Reserve instead of being deployed as normal. 
-
-When a Detachment with the Manifestation special rule that is in Reserve is activated in any Movement phase other than the first, the controlling player may choose to leave it in Reserve or Manifest the Detachment. When a Detachment Manifests, the controlling player places a single model from that Detachment anywhere on the battlefield at least 8&quot; from an enemy model. Any remaining models within the same Detachment are placed on the battlefield within 2&quot; of the already placed model. A model cannot be placed in an area of Impassable terrain or overlapping a Structure, not can it be placed within 1&quot; of any enemy model. Any model that cannot be placed in this manner is destroyed. Once a Detachment has Manifested, it may complete its activation as normal (i.e., it may move during the Movement phase and/or fire during the Combat phase, etc.).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

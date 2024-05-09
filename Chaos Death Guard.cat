@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="84" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="89" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="91" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -29,21 +29,9 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="fd313828-fe1f-470e-9da1-d14a75b04fe9" name="Death Guard Armoured Company" hidden="false">
+    <forceEntry id="fd313828-fe1f-470e-9da1-d14a75b04fe9" name="&quot;Inexorable&quot; Armoured Company" hidden="false">
       <categoryLinks>
         <categoryLink id="347afc07-1adf-4f81-aba6-12e780ad554e" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
-        <categoryLink id="cdb372b1-cafc-4b9c-a23d-345fb9013dbf" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="false">
-          <modifiers>
-            <modifier type="set" field="8c95c5ab-da7c-4c5d-80a9-ee38fa079714" value="0.0">
-              <conditions>
-                <condition field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" type="greaterThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c95c5ab-da7c-4c5d-80a9-ee38fa079714" type="max"/>
-          </constraints>
-        </categoryLink>
         <categoryLink id="a6dd27a0-d6be-43be-aeb3-043166e567b2" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19588ebf-5c22-4e2c-b50f-251ce3ff49cc" type="min"/>
@@ -51,13 +39,6 @@
           </constraints>
         </categoryLink>
         <categoryLink id="8d49bd60-f2f9-43c1-ad54-fc2232f0730e" name="Heavy Armour" hidden="false" targetId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" primary="false">
-          <modifiers>
-            <modifier type="set" field="447cd6b9-29c2-4cc8-9988-62a0a42c8bed" value="2.0">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb87bb84-d070-4682-8558-ecb2d33eeca0" type="atLeast"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09a33f90-b802-4920-b49a-52e2e74d2c6b" type="min"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="447cd6b9-29c2-4cc8-9988-62a0a42c8bed" type="max"/>
@@ -70,7 +51,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" name="Death Guard Drop Pod Assault" hidden="false">
+    <forceEntry id="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" name="&quot;The Ferrymen&quot; Planetary Assault" hidden="false">
       <categoryLinks>
         <categoryLink id="c3ba257c-434e-4fef-a0b1-f62deb9001c1" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="8dda2f8b-edc6-408d-ac9b-95ac0760a1f8" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
@@ -98,7 +79,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="ec0d0476-e013-40f9-ada9-87b18618f775" name="Death Guard Garrison Force" hidden="false">
+    <forceEntry id="ec0d0476-e013-40f9-ada9-87b18618f775" name="&quot;Mortarion&apos;s Anvil&quot; Garrison Force" hidden="false">
       <categoryLinks>
         <categoryLink id="a5f51023-8124-42f7-aeba-3d15be000b19" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="8f32fb55-9b4a-43b2-957d-afaab72bd794" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
@@ -110,11 +91,6 @@
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75709556-509e-4d22-8bb1-b1a9d39839f2" type="min"/>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="778d612f-b4b6-4f11-8416-a9676e840c7e" type="max"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="b77bb7ca-4997-4b43-8b0e-df9a2939a026" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29cf8642-9441-482c-9c67-84719a6db8d2" type="max"/>
           </constraints>
         </categoryLink>
         <categoryLink id="65943bb3-4714-4f99-84a9-d7dae4121676" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="false">
@@ -135,7 +111,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="843a7f48-02bd-4a79-81a0-9b3d13e56658" type="max"/>
           </constraints>
         </categoryLink>
-        <categoryLink id="97de7453-f3b6-4961-af9e-10da341340d9" name="Heavy Armour" hidden="false" targetId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" primary="false">
+        <categoryLink id="97de7453-f3b6-4961-af9e-10da341340d9" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
           <modifiers>
             <modifier type="set" field="8cdbc7c4-95b2-4e61-a3de-a14f0b3f4b63" value="0.0">
               <conditions>
@@ -151,6 +127,67 @@
           <constraints>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb6babd-37ff-45b7-a080-b66507f08e9f" type="min"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66d4ada-4ec6-4868-9fc2-8c5773e334a4" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="15d1-a05b-a4e6-a74a" name="&quot;Pox Mongers&quot; Daemon Engine Force" hidden="false">
+      <categoryLinks>
+        <categoryLink id="73d7-49c4-7f96-cf95" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="ae10-95e0-f419-57ff" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaef-6ff8-d180-9d2d" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8500-c5d7-ccb4-8213" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e373-b924-faa8-c8f2" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d77-cba3-5ca9-bc7b" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="993e-b764-3eda-5181" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="01ce-4ecf-ff3d-c46f" name="Light Armour" hidden="false" targetId="83c74a0d-b23e-40b4-a8f1-28a77a09d881" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd0-cc51-8cf7-01b1" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df6-8766-a032-7137" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="4bd0-c15e-41a3-6dda" name="&quot;The Harbingers&quot; Maladictum" hidden="false">
+      <categoryLinks>
+        <categoryLink id="d380-4b8c-4f95-aabb" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="8fef-dcf3-bafa-b7a0" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d3-7294-f414-c38b" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26c3-40fc-8e5f-1381" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f2a1-7d92-042e-0bb7" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a688-6e8c-8ad1-9b40" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf8-63f8-cda1-c9c0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="e46b-c5f7-c746-f93b" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="358e-4f4b-380a-333e" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e54-634c-9da6-96c0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="81e4-4413-7f96-dd4a" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18eb-9503-3a5a-80a0" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="f08e-e747-c6c0-805b" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1601-2579-d041-3709" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="94e8-543a-f002-7bd5" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a4-8d71-e01d-bf27" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -324,106 +361,6 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3457fe7d-77bc-4f2c-b1f1-c0f26f03fc1c" name="Blightlord Terminator Detachment" hidden="false" collective="false" import="true" type="unit">
-      <constraints>
-        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3782918c-3e29-46fe-8637-334c39971d6e" type="max"/>
-        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8befdc3b-3ced-4ac8-83db-23c0c2f5a195" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="07f0f2fd-ae2e-4124-9060-51f25aacd55b" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
-        <categoryLink id="4df21036-ef01-463e-ae6e-cc80920342dd" name="New CategoryLink" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="9b9aa492-6977-42c2-bb46-45aeea0526cc" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="3e34b5cb-7041-4ae9-bb0b-27ad46c1a09b">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95f55bbf-87e7-48e1-b4c7-18b146c3b52c" type="min"/>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63d1d516-5051-417b-94ba-7b38b0b94911" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="3e34b5cb-7041-4ae9-bb0b-27ad46c1a09b" name="Blightlord Terminators" hidden="false" collective="false" import="true" targetId="84a44f86-7fe3-46e8-8ac3-4774d01955f6" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="3457fe7d-77bc-4f2c-b1f1-c0f26f03fc1c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5675db62-3653-4acc-bd24-5607aca87bbb" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="657703d6-7d59-4ab2-b0f4-9c4da3385350" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="2be9efac-bede-471a-8795-3925f50ef5b7" name="Dedicated Transports" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <selectionEntries>
-            <selectionEntry id="5675db62-3653-4acc-bd24-5607aca87bbb" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="1996e256-f5d2-4565-9b21-bfee90032681" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26e7666d-496c-43ac-87d1-b37b84dbbe66" type="max"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1996e256-f5d2-4565-9b21-bfee90032681" type="min"/>
-              </constraints>
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="1745e431-df66-4fa0-8580-a2014b483e1c" name="Drop Pods" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
-                  </conditions>
-                </modifier>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5675db62-3653-4acc-bd24-5607aca87bbb" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="902c0cd4-2ec6-4b27-9c7a-f0e0e05a3012" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="2d7931c0-28d1-4078-a765-7858fd0e6af2" name="Nurgle Drop Pod" hidden="false" collective="false" import="true" targetId="ed5d9661-c6ce-4453-ad97-221aea4d6b40" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
-                      <conditions>
-                        <condition field="selections" scope="3457fe7d-77bc-4f2c-b1f1-c0f26f03fc1c" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5675db62-3653-4acc-bd24-5607aca87bbb" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf0b985c-90c5-4a3c-9b3e-b5bfdc475b82" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2404cbf9-33ec-4915-8037-a29f14482e43" name="Nurgle Rhino Detachment" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="6fa93c90-21bd-4faf-bf09-9e44505f55c7" name="New CategoryLink" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
@@ -493,9 +430,14 @@
                   </conditions>
                 </modifier>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="greaterThan"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec0d0476-e013-40f9-ada9-87b18618f775" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -510,9 +452,14 @@
                   </conditions>
                 </modifier>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="greaterThan"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec0d0476-e013-40f9-ada9-87b18618f775" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -527,9 +474,14 @@
                   </conditions>
                 </modifier>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="greaterThan"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec0d0476-e013-40f9-ada9-87b18618f775" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -552,6 +504,24 @@
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f9c-2d0f-b089-25b6" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="716c-c747-6d44-ab06" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="3df5-d550-cc35-ff06" name="Plague Marines w/ Noxious Blightbringer" hidden="false" collective="false" import="true" targetId="c57d-644c-d4da-1ab5" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="2.0">
+                  <conditions>
+                    <condition field="selections" scope="4b2e0fc6-dd2b-4643-9baa-3a3d16f7ca9f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="96943298-6ec5-496d-922e-a3dc3f325da7" type="atLeast"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="c150-3219-792c-fba4" value="0.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec0d0476-e013-40f9-ada9-87b18618f775" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1712-9044-a5c6-8a70" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c150-3219-792c-fba4" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -753,7 +723,7 @@ Two Structures can be selected in place of a single area of terrain. Each time a
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7d532814-8e2f-440b-92fd-b56e865e525b" name="Death Guard Drop Pod Assault" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7d532814-8e2f-440b-92fd-b56e865e525b" name="&quot;The Ferryman&quot; Planetary Assault" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="67860253-a070-4ef1-b26f-d1e23dc55c67" value="0.0">
           <conditions>
@@ -774,13 +744,13 @@ Two Structures can be selected in place of a single area of terrain. Each time a
         <categoryLink id="d1099c37-4f3d-4003-8264-e1b1573e093c" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="474b07f5-5679-40ca-8eb8-4e6a785fda4e" name="Death Guard Drop Pod Assault" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="474b07f5-5679-40ca-8eb8-4e6a785fda4e" name="&quot;The Ferryman&quot; Planetary Assault" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5df4a563-c230-4007-9f64-bc5e747df38b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e2254b8-85d9-4dbb-a0b3-f4be34f02195" type="max"/>
           </constraints>
           <rules>
-            <rule id="fe9792d3-1858-48a7-a85a-8f667040c4a0" name="Death Guard Drop Pod Assault" hidden="false">
+            <rule id="fe9792d3-1858-48a7-a85a-8f667040c4a0" name="&quot;The Ferryman&quot; Planetary Assault" hidden="false">
               <description>Compulsory Detachments:
 1 HQ
 1 Support
@@ -792,7 +762,7 @@ Optional Detachments:
 1 Air Support
 
 All Infantry and Walker detachments (without Deep Strike) must take Nurgle Drop Pods as dedicated transport. 
-
+&quot;The Ferryman&quot; Planetary Assault Formation may take Blightlord Terminator Detachments as Core.
 </description>
             </rule>
           </rules>
@@ -845,8 +815,8 @@ Optional Detachments:
 1 Core
 2 Transport
 
-All Infatry detachments may take Nurgle Rhinos as dedicated transports.
-
+All non-daemonic Infantry detachments may take dedicated transports.
+&quot;The Wretched&quot; Maladictum formation may take Daemon Host Detachments from Nurgle Strategic Assets without counting towrads the 30% allied contigency limit.
 </description>
             </rule>
           </rules>
@@ -861,7 +831,7 @@ All Infatry detachments may take Nurgle Rhinos as dedicated transports.
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4405bcd2-abb6-49a9-98ea-8b3273865379" name="Death Guard Garrison Force" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4405bcd2-abb6-49a9-98ea-8b3273865379" name="&quot;Mortarion&apos;s Anvil&quot; Garrison Force" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -882,15 +852,15 @@ All Infatry detachments may take Nurgle Rhinos as dedicated transports.
         <categoryLink id="67bcee61-7a3a-4825-8b2e-495dc93e113a" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="c18c0e85-01d0-4a9c-bc2f-bc9f5bed9184" name="Death Guard Garrison Force" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c18c0e85-01d0-4a9c-bc2f-bc9f5bed9184" name="&quot;Mortarion&apos;s Anvil&quot; Garrison Force" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="319326e7-60f7-4980-8f33-6581e218371f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5829e7a5-258e-454a-8fb3-ff6935c6794e" type="max"/>
           </constraints>
           <rules>
-            <rule id="f5aaa9a5-756d-45e6-8b54-555c6f8a52cd" name="Death Guard Garrison Force" hidden="false">
+            <rule id="f5aaa9a5-756d-45e6-8b54-555c6f8a52cd" name="&quot;Mortarion&apos;s Anvil&quot; Garrison Force" hidden="false">
               <description>Compulsory Detachments:
-1 HQ
+1 HQ (Noxious Blightbringer)
 1 Support
 1 Core
 1 Bastion
@@ -900,11 +870,10 @@ Optional Detachments:
 1 Core
 2 Bastion
 1 Artillery
-1 Air Support
 
 Can include one of the following:
 1 Artillery
-1 Heavy Armour
+1 Battle Tank
 
 </description>
             </rule>
@@ -920,7 +889,7 @@ Can include one of the following:
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="afc02428-8488-483b-acc1-aa9dbb097a9b" name="Death Guard Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="afc02428-8488-483b-acc1-aa9dbb097a9b" name="&quot;Inexorable&quot; Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -941,25 +910,21 @@ Can include one of the following:
         <categoryLink id="a8686f1a-bf4d-41f0-84d7-04c1f50f710d" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="3927982f-1f13-4f84-b89c-64c49e795975" name="Death Guard Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="3927982f-1f13-4f84-b89c-64c49e795975" name="&quot;Inexorable&quot; Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dfefe10-a01c-42fe-9922-0363e67012ad" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="966354dd-8f1f-43dc-b6bf-b7e70afc4f88" type="max"/>
           </constraints>
           <rules>
-            <rule id="434d31f5-504f-447f-b6a8-f7a93438cba7" name="Death Guard Armoured Company" hidden="false">
+            <rule id="434d31f5-504f-447f-b6a8-f7a93438cba7" name="&quot;Inexorable&quot; Armoured Company" hidden="false">
               <description>Compulsory Detachments:
 2 Battle Tank
 1 Heavy Armour
 
 Optional Detachments:
 1 Light Armour
-1 Heavy Armour
+2 Heavy Armour
 2 Battle Tank
-
-Can include one of the following:
-1 Air Support
-1 Heavy Armour
 
 </description>
             </rule>
@@ -1048,6 +1013,13 @@ Can include one of the following:
       </costs>
     </selectionEntry>
     <selectionEntry id="6fd71b68-6c3f-40cc-817d-f2f274b4a0bc" name="Nurgle Drop Pod Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7d532814-8e2f-440b-92fd-b56e865e525b" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="e1ac69e2-ec96-4d62-9358-5964ef2145c7" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
         <categoryLink id="d3441c21-c7ab-4cab-bcf3-7a2be03111cd" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -1222,6 +1194,540 @@ Can include one of the following:
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b2f5-724d-8da8-0062" name="&quot;The Wretched&quot; Eater Plague" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="b4c8-29bc-b663-f1b9" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4c8-29bc-b663-f1b9" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5267-7559-4fd3-8d60" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8aa3-f6d4-da53-97f4" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="31bb-566c-5e62-7b57" name="&quot;The Wretched&quot; Eater Plague" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47ea-b415-22a8-d994" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8c0-e878-bb4c-477c" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="6bf1-73c5-9569-371d" name="&quot;The Wretched&quot; Eater Plague " hidden="false">
+              <description>When an attack wounds a target within range, automatically hit the target detachment with an additional hit. The target detachment makes a save as normal. This cannot produce more than one additional hit.
+Range changes with the battle round number, increasing as the battle progresses, as shown below:
+
+Round 1 - 1&quot;
+Round 2 - 3&quot;
+Round 3 - 6&quot;
+Round 4 - 9&quot;</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e409-41d0-4097-d416" name="&quot;Inexorable&quot; Ferric Blight" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd313828-fe1f-470e-9da1-d14a75b04fe9" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="1215-1733-2f5b-2acf" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd313828-fe1f-470e-9da1-d14a75b04fe9" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1215-1733-2f5b-2acf" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dd7-903f-9f59-785c" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="53c5-42bb-5045-c71a" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f465-5d1b-b6b3-dc8e" name="&quot;Inexorable&quot; Ferric Blight" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d658-3b09-5262-13b1" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b54c-ee58-b880-ac13" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="5f25-e6ab-0685-be1c" name="&quot;Inexorable&quot; Ferric Blight" hidden="false">
+              <description>When an attack targets a Detachment within range, if the target model is of type Vehicle, Super-Heavy Vehicle, Knight, or Titan, increase the AP of that attack by 1.
+Range changes with the battle round number, increasing as the battle progresses, as shown below:
+
+Round 1 - 1&quot;
+Round 2 - 3&quot;
+Round 3 - 6&quot;
+Round 4 - 9&quot;</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d009-9d01-77e3-12b3" name="&quot;The Ferryman&quot; The Droning" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="ef1e-6f9f-e3cd-817e" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef1e-6f9f-e3cd-817e" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e8a-a7cd-ddfc-a5f5" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="de30-a365-4e1b-f99e" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="fdb0-eeb1-c606-7f2d" name="&quot;The Ferryman&quot; The Droning" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee6-6941-273b-95b3" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5563-00c7-9d51-d8e6" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="674d-841c-785e-a536" name="&quot;The Ferryman&quot; The Droning" hidden="false">
+              <description>An enemy Detachment that starts any move within range, can only move up to half the maximum distance that move would allow. This applies after any movement modifiers, rounding up. This applies to Charge orders.
+Range changes with the battle round number, increasing as the battle progresses, as shown below:
+
+Round 1 - 1&quot;
+Round 2 - 3&quot;
+Round 3 - 6&quot;
+Round 4 - 9&quot;</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f7bf-f914-bf46-c01d" name="&quot;Mortarion&apos;s Anvil&quot; Gloaming Bloat" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec0d0476-e013-40f9-ada9-87b18618f775" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f2e7-1434-ff73-c2e8" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ec0d0476-e013-40f9-ada9-87b18618f775" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2e7-1434-ff73-c2e8" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="389f-4791-eb8d-6a2e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="6fde-620a-6662-2f57" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2a71-12f9-a6ed-59d1" name="&quot;Mortarion&apos;s Anvil&quot; Gloaming Bloat" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86fb-01bf-a0ec-1031" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdc1-0351-8a2c-c954" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="81e2-426e-f524-079a" name="&quot;Mortarion&apos;s Anvil&quot; Gloaming Bloat" hidden="false">
+              <description>An enemy Detachment within range cannot perform an Overwatch. In additon, that Detachment may not perform any rerolls for any of the special rules that Detachment may have.
+Range changes with the battle round number, increasing as the battle progresses, as shown below:
+
+Round 1 - 1&quot;
+Round 2 - 3&quot;
+Round 3 - 6&quot;
+Round 4 - 9&quot;</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c9df-9f97-19b0-d771" name="Gravewarden Terminator Detachment" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd13-54fd-a5ad-70c2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b349-89f0-c628-8431" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="e956-92a2-87e0-8981" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="fed9-6002-0f6b-9a36" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc77-ab92-dc99-aec5" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cda-e876-9f23-1913" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1f2e-a429-2914-5015" name="Gravewarden Terminators" hidden="false" collective="false" import="true" targetId="bcd3-1821-5f88-1f81" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ec5-df03-d393-d358" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6f0-ff48-1bc5-39cb" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="a7cb-ab01-7c8e-31eb" name="Dedicated Transports" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="9d68-e200-c39e-9ba4" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="2fe9-8307-a3a8-d43c" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f28-f22b-1b8f-aef9" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe9-8307-a3a8-d43c" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="9b07-866b-58b8-9c1e" name="Drop Pods" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ec5-df03-d393-d358" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e197-bc3c-61ae-90a6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5039-98a7-4359-57a9" name="Nurgle Drop Pod" hidden="false" collective="false" import="true" targetId="ed5d9661-c6ce-4453-ad97-221aea4d6b40" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ac3d-fdcf-f674-377e" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b629-c4fc-6b12-09e6" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1834-1bf6-7d0c-13f0" name="&quot;Pox Mongers&quot; Daemon Engine Force" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="15d1-a05b-a4e6-a74a" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="c8b7-db22-845e-1a6e" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="15d1-a05b-a4e6-a74a" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c8b7-db22-845e-1a6e" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bb9-684a-f4dc-0e64" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7b35-e44b-f3fa-7148" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="2a4c-1224-38a6-f18b" name="&quot;Pox Mongers&quot; Daemon Engine Force" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b142-ad74-d00a-71f7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc7b-5af4-4f4e-7b7d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="1005-6f6b-11b7-fe3d" name="&quot;Pox Mongers&quot; Daemon Engine Force" hidden="false">
+              <description>Compulsory Detachments:
+1 Battle Tank
+1 Light Armour
+1 Vanguard
+
+Optional Detachments:
+3 Battle tank
+1 Light Armour
+2 Vanguard
+
+</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="486b-68b9-aa3b-b215" name="&quot;Pox Mongers&quot; Sanguinous Flux" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="15d1-a05b-a4e6-a74a" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="bbfb-a90d-8f79-e6b5" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="15d1-a05b-a4e6-a74a" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbfb-a90d-8f79-e6b5" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c48-7c01-f286-1ea2" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ca73-facc-2964-a475" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="4000-3dea-b653-25dc" name="&quot;Pox Mongers&quot; Sanguinous Flux" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="55e2-ca20-aaf5-c90a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="524a-0a73-7274-af4d" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="1fd4-5334-4639-36f1" name="&quot;Pox Mongers&quot; Sanguinous Flux" hidden="false">
+              <description>An enemy Detachment within range subtracts 1 from all Morale checks.
+Range changes with the battle round number, increasing as the battle progresses, as shown below:
+
+Round 1 - 1&quot;
+Round 2 - 3&quot;
+Round 3 - 6&quot;
+Round 4 - 9&quot;</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bf60-41d3-a8c1-c672" name="&quot;The Harbingers&quot; Maladictum" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bd0-c15e-41a3-6dda" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="6379-f8c8-5a2b-8632" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bd0-c15e-41a3-6dda" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6379-f8c8-5a2b-8632" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0cee-5a2c-6705-ef7d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="ee5d-05e3-3d39-cdc4" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="1409-2070-6dd8-4029" name="&quot;The Harbingers&quot; Maladictum" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6caf-bf9e-4c1d-0987" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23de-1cad-f032-5e90" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="de01-a50e-3035-5dcc" name="&quot;The Harbingers&quot; Maladictum" hidden="false">
+              <description>Compulsory Detachments:
+1 HQ
+1 Support
+2 Core (Pox Walker Hordes)
+
+Optional Detachments:
+2 Support
+2 Core
+2 Transport
+1 Battle Tank
+1 Vanguard
+
+All Infantry (excluding Pox Walker Horde) Detachments may take dedicated transports.
+&quot;The Harbingers&quot; Maladictum formation may take Pox Walker Horde Detachments as Core.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0e52-12ac-5deb-a2d3" name="Pox Walker Horde" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="bd32-7b02-22f4-caf2" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bd0-c15e-41a3-6dda" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bd0-c15e-41a3-6dda" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd32-7b02-22f4-caf2" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="76e6-af37-d486-77de" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+        <categoryLink id="fe87-c990-3a69-082d" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1767-b829-af2d-cad0" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee12-42f6-95ef-d649" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05ba-2012-10f4-a0e2" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f342-aa3d-ada4-3edb" name="Pox Walkers" hidden="false" collective="false" import="true" targetId="005365d1-601a-4fb5-9c7a-d64fa14ec427" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12d4-5621-12b3-1212" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9ec9-ce45-8a59-dec5" name="&quot;The Harbingers&quot; Shamblerot" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bd0-c15e-41a3-6dda" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="6273-bab2-eb2c-b655" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4bd0-c15e-41a3-6dda" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6273-bab2-eb2c-b655" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51c7-1070-54dc-1297" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a428-8b72-d48d-1b2c" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c2d9-96ba-bca3-8309" name="&quot;The Harbingers&quot; Shamblerot" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3431-4542-2dd7-8819" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be95-bdad-02f7-60da" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="dd0c-9828-fb58-3608" name="&quot;The Harbingers&quot; Shamblerot" hidden="false">
+              <description>An enemy Detachment that performs a move within range counts as having moved through 1&quot; of Dangerous Terrain. This includes Charge moves. For every Infantry model that is removed as the result of failing a Dangerous Terrain save, add one additional Pox Walker model to the battlefield. These new models are added to any existing Pox Walker Horde Detachments of the Controlling Player&apos;s choice that are within contagion range of the removed models. If there are no existing Pox Walker Horde Detachments within range, create a new Detachment anywhere within range instead.
+Range changes with the battle round number, increasing as the battle progresses, as shown below:
+
+Round 1 - 1&quot;
+Round 2 - 3&quot;
+Round 3 - 6&quot;
+Round 4 - 9&quot;</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="1056-d71d-b617-d4f9" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
@@ -1261,6 +1767,36 @@ Can include one of the following:
       <categoryLinks>
         <categoryLink id="f3dd-83f0-0686-acd4" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
         <categoryLink id="9172-440c-a966-d61c" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e4af-e8d6-25e7-6de2" name="Great Unclean One Host" hidden="false" collective="false" import="true" targetId="725e-f625-1c15-ef02" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="b162-562a-09d9-3a3d" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
+        <categoryLink id="cdb1-3dd6-3a3c-8f8e" name="Monster (3)" hidden="false" targetId="a1b7-ffdc-38b2-e92b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e78d-b7b4-dc9c-bb1a" name="Blightlord Terminator Detachment" hidden="false" collective="false" import="true" targetId="6510-4fd8-b2eb-cfb9" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2298-175f-c0d8-ce34" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f3da-ca5e-e6bc-3abd" name="Blightlord Terminator Detachment" hidden="false" collective="false" import="true" targetId="6510-4fd8-b2eb-cfb9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4614-b939-fea2-0219" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -2410,6 +2946,239 @@ Can include one of the following:
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6510-4fd8-b2eb-cfb9" name="Blightlord Terminator Detachment" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b7e-b161-c392-9f0e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="1575-98cc-1559-c9e7" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="01a7-3c4e-dc0d-5814" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f95d-6f25-2d47-23d6" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad5f-645d-dac2-e645" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1ae5-9b46-5ff7-6bae" name="Blightlord Terminators" hidden="false" collective="false" import="true" targetId="84a44f86-7fe3-46e8-8ac3-4774d01955f6" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0ec5-df03-d393-d358" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37d0-1782-48b9-c5a3" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="0ec5-df03-d393-d358" name="Dedicated Transports" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="ac3d-fdcf-f674-377e" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="e650-858b-fcc1-a625" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8493-3d35-e35e-749c" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e650-858b-fcc1-a625" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="bdf6-991e-1d27-83a2" name="Drop Pods" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="lessThan"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ec5-df03-d393-d358" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64ed-f651-b945-b1d3" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="dadf-1509-d770-828e" name="Nurgle Drop Pod" hidden="false" collective="false" import="true" targetId="ed5d9661-c6ce-4453-ad97-221aea4d6b40" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ac3d-fdcf-f674-377e" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c34b-61f1-1131-14ed" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c57d-644c-d4da-1ab5" name="Plague Marines w/ Noxious Blightbringer" hidden="false" collective="false" import="true" type="model">
+      <rules>
+        <rule id="7513-2428-03e9-41a9" name="Cursed Plague Bell Aura" hidden="false">
+          <description>While a friendly Infantry, Walker, Cavalry, or Monster detachment is within 4&quot; of a model with this special rule, add 1&quot; to all Move characteristics. This affects Charge orders.
+While an enemy Detachment is within 4&quot; of a model with this special rule, subtract 1 from all Morale checks made by that Detachment. </description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="87d6-d79f-e59e-297d" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="aa6f-7d9c-55bd-78d9" name="Noxious Blightbringer" hidden="false" targetId="00f3-e3a0-8748-4376" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Plague Marines w/ Noxious Blightbringer "/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="47ce-0081-dc11-88be" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
+        <infoLink id="575d-0ba5-5ea4-b732" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="7c80-747d-1a4a-513a" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="85ca-77b7-2f6e-4532" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="b3b0-23e6-d220-ab56" name="Bolters" hidden="false" collective="false" import="true" targetId="85097f56-b91c-4bcb-8d33-daa1388a87d7" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9653-50d5-9589-2cbf" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9995-152f-e3e6-61ba" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="310a-6cea-80af-da42" name="Blight Grenades" hidden="false" collective="false" import="true" targetId="75dd-ffb7-8fa0-632e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f980-78d0-dc55-76be" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7a-547b-450f-9840" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c7d1-4265-6fd7-16c6" name="Krak Grenades" hidden="false" collective="false" import="true" targetId="8539-d4d9-dc1a-ebae" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd59-cfc9-1510-b544" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2af9-69ef-2706-5754" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="187b-a66e-8a2b-aeff" name="Plague Knives" hidden="false" collective="false" import="true" targetId="ed54-f374-f22f-eee2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a892-9692-d177-9ae2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb87-e4ed-c99f-69d6" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2844-412c-045b-86c1" name="Cursed Plague Bell" hidden="false" collective="false" import="true" targetId="158d-f890-10c9-a4f0" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a45e-3721-d5f2-a9b9" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c02-ed1f-dfe2-616c" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6ac9-9b09-f66c-beaf" name="Plasma Pistols" hidden="false" collective="false" import="true" targetId="7a77-6892-4110-c37e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9c5-d838-ce28-74e2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae7f-6f27-80b1-5c1d" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="27.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="158d-f890-10c9-a4f0" name="Cursed Plague Bell" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9019-c3c9-679c-a5bc" name="Cursed Plague Bell" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="51e1-2d29-fac7-323e" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bcd3-1821-5f88-1f81" name="Gravewarden Terminators" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="3b14-e2b4-1b4b-caf6" name="Gravewarden Terminators" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Feel No Pain, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0433-86bc-d282-3b6f" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
+        <infoLink id="d700-31a9-f682-b690" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
+        <infoLink id="91b1-fb03-4b45-3cef" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
+        <infoLink id="a91d-d19a-85d9-f355" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
+        <infoLink id="ca2a-55cd-34a1-9248" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="2921-b84a-bc43-e52c" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="2fcf-cb9f-6b39-eecf" name="Assault Grenade Launchers" hidden="false" collective="false" import="true" targetId="c747-409b-560e-2e80" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="47f4-ea34-0bfc-a2df" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ee0-0435-c72c-9696" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0854-dfea-7e07-6751" name="Power Fist" hidden="false" collective="false" import="true" targetId="20d4-a39f-30c7-e596" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3545-3cc1-4669-6feb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6609-6cdf-2e40-55d4" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
     <profile id="f76dde12-1cdc-4717-95fc-84089e25234e" name="Lord of Contagion" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -2455,6 +3224,15 @@ Can include one of the following:
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
         <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Feel No Pain</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="00f3-e3a0-8748-4376" name="Noxious Blightbringer" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+      <characteristics>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Feel No Pain, Cursed Plague Bell Aura</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

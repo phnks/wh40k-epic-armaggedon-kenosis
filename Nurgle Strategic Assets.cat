@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="31" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="32" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="88" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3c7dc790-e3af-423b-b378-cb98910b7684" name="Daemon Host" hidden="false">
       <categoryLinks>
@@ -22,7 +22,7 @@
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17658b68-4916-44e1-a7bb-4172489f911f" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17658b68-4916-44e1-a7bb-4172489f911f" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d1510d-111f-4647-841e-f02a8ad59a58" type="min"/>
             <constraint field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed1f8d4-7fc8-47ee-b803-2534fbd0b2c9" type="max"/>
           </constraints>
@@ -183,6 +183,12 @@
       <categoryLinks>
         <categoryLink id="25f0-1973-d713-9cf1" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
         <categoryLink id="42fb-d6e5-f334-6f84" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b050-b643-12a6-f962" name="Great Unclean One Host" hidden="false" collective="false" import="true" targetId="725e-f625-1c15-ef02" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a42c-b14b-c5e6-e97f" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
+        <categoryLink id="6ece-279e-e416-3695" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
