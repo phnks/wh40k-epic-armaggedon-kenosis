@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="91" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="92" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1454,7 +1454,7 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Manifestation</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1516,7 +1516,7 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Manifestation</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1628,7 +1628,7 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Manifestation</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1712,7 +1712,7 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Manifestation</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1826,9 +1826,9 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7a77-6892-4110-c37e" name="Plasma Pistols" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="7a77-6892-4110-c37e" name="Plasma Pistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b395-1218-4466-8bf2" name="Plasma Pistols" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+        <profile id="b395-1218-4466-8bf2" name="Plasma Pistol" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
             <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
