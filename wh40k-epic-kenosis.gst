@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="92" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="93" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1451,10 +1451,10 @@
         <profile id="bbfc-8bb4-0abb-7037" name="Plaguebearers" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
-            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Deep Strike</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1462,7 +1462,7 @@
         <infoLink id="f1b3-ffe6-60bf-a51d" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="d1a7-036d-75f4-e61c" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
-            <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
+            <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
           </modifiers>
         </infoLink>
         <infoLink id="03dd-2851-05ce-db90" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
@@ -1625,7 +1625,7 @@
         <profile id="62e1-af23-76c4-c306" name="Beast of Nurgle" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Deep Strike</characteristic>
@@ -1709,9 +1709,9 @@
         <profile id="0ce1-7c98-aa8a-bb02" name="Great Unclean One" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
-            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
-            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
         </profile>
@@ -1885,7 +1885,7 @@
             <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
           </characteristics>
         </profile>
       </profiles>
