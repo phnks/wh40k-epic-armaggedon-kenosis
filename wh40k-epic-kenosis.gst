@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="93" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="94" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1451,7 +1451,7 @@
         <profile id="bbfc-8bb4-0abb-7037" name="Plaguebearers" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
-            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
