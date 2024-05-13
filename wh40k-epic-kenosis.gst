@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="94" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="95" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1886,6 +1886,41 @@
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8936-0cb9-bdb1-b1f8" name="Conversion Beamer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cdc6-bfa4-c796-bcea" name="Conversion Beamer (Close)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">6+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df9f-2129-5fc9-76cd" name="Conversion Beamer (Medium)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;-12&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
+          </characteristics>
+        </profile>
+        <profile id="ae68-5296-f0a9-9ef4" name="Conversion Beamer (Far)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">12&quot;-22&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"></characteristic>
           </characteristics>
         </profile>
       </profiles>
