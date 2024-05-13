@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="68" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="95" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="69" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="95" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -580,7 +580,7 @@
         <categoryLink id="f62b56ca-3a6b-439e-8332-a0bfa446a952" name="New CategoryLink" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="fc336e5a-75ea-4f55-9701-3fe4626981b0" name="Models" hidden="false" collective="false" import="true" defaultSelectionEntryId="097f5759-5946-4933-a0b8-49ea40f9f91a">
+        <selectionEntryGroup id="fc336e5a-75ea-4f55-9701-3fe4626981b0" name="Models" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12b2dd5-301b-42b6-b679-ba5c283e962e" type="max"/>
             <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a5f318d-0353-445c-826e-c3e088891bad" type="min"/>

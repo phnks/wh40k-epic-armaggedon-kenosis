@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="95" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="96" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -2282,7 +2282,7 @@ Ion Shields are not modified by a weapon&apos;s AP characteristic as normal. Ins
 
 Infantry models with the Jump Packs special rule can only end their movement on top of a Structure if they intend to Garrison it - if the Detachment does not Garrison the Structure, then any models overlapping with the Structure are destroyed.
 
-A model with the Jump Packs special rule adds 1 to the result of all Fight rolls it makes against models Garrisoned within a Structure while issued with a Charge Order, in addition to any other modifiers.
+A model with the Jump Packs special rule keeps their charge bonus against models Garrisoned within a Structure while issued with a Charge Order, in addition to any other modifiers.
 
 Models with the Jump Packs special rule count as having the Bulky special rule for the purposes of Embarking on Transports. In addition, they can Disembark from a Transport with the Flyer special rule even if it does not have the Hover special rule, and a Transport with the Hover special rule does not have to Hover for them to do so.</description>
     </rule>
