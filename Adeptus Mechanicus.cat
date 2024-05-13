@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="72" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="73" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -807,10 +807,14 @@
             <selectionEntryGroup id="4b2814d9-538d-4608-aba9-e4ea3a95ecbc" name="Triaros Armoured Converyors" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="lessThan"/>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -834,13 +838,17 @@
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="bc26-b0c1-c95c-3346" name="Skoripus Duneriders" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="bc26-b0c1-c95c-3346" name="Skorpius Duneriders" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="lessThan"/>
-                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="lessThan"/>
+                        <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -2642,7 +2650,7 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
         <infoLink id="41b2-c9ec-5262-54ab" name="Magos Reductor" hidden="false" targetId="a765-6615-7dee-7ef2" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Magos Reductor w/ Thallaxii"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Cybernetica Cortex, Bulky"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Cybernetica Cortex, Bulky, Jump Packs"/>
           </modifiers>
         </infoLink>
         <infoLink id="5773-07ba-375c-2077" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
