@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="75" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="76" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -295,16 +295,19 @@
     </selectionEntry>
     <selectionEntry id="267c5545-5aab-466a-a4fc-dda51ec9beb9" name="Vanguard Battle Maniple Detachment" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
-        <modifier type="set" field="da67acec-733e-44c6-a801-850b259f4096" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
-          </conditions>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b89ae89-b1cb-4ffa-aaa0-488b95312058" type="max"/>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dff4582-72c0-48c7-8924-b786aee28402" type="min"/>
-        <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da67acec-733e-44c6-a801-850b259f4096" type="max"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="09a1b188-f73d-483e-be8a-a73ae115c647" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
@@ -880,48 +883,6 @@
           <rules>
             <rule id="7d4687f5-5963-4838-8b08-15f6667c6ecc" name="Dedicated Transports (Mechanicus Destructor Infantry Sub-cohort)" hidden="false">
               <description>All Adeptus Mechanicus Detachments within the Formation that contain only Infantry models (excluding models with the Deep Strike special rule) must be upgraded with Triaros Armoured Conveyers as Dedicated Transports.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="622ab507-6f02-4289-bc51-2b9945c36c90" name="Forward Positions (Mechanicus Scout Company)" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="7e252f5d-4494-468e-8f0c-d60c43355488" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e252f5d-4494-468e-8f0c-d60c43355488" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe6f93e-801e-4897-8066-fc0f848500b0" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="0ac381cd-b8c0-4382-bedb-eeb0572a7ff5" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="4147d684-dadc-4476-8ebf-d168932f9f02" name="Forward Positions (Mechanicus Scout Company)" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80855eb8-4fb2-465c-9db2-b5363996f0ae" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df4e0333-e3d9-4bf1-8d47-5a104d183008" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="89e10da5-143a-4cc3-9b76-142099f968c4" name="Forward Positions (Mechanicus Scout Company)" hidden="false">
-              <description>Compulsory Core Detachment slots in a Mechanicus Scout Company Formation must be filled with Scout Battle Maniple Detachments. All Adeptus Mechanicus Detachments within a Mechanicus Scout Company that consists entirely of Infantry models gain the Infiltrate special rule. All other Adeptus Mechanicus Detachments within the Mechanicus Scout Company gain the Forward Deployment special rule.</description>
             </rule>
           </rules>
           <costs>
