@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="76" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="77" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -91,7 +91,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" name="Mechanicus Destructor Infantry Cohort" hidden="false">
+    <forceEntry id="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" name="&quot;Auxilia Myrmidon&quot; Century" hidden="false">
       <categoryLinks>
         <categoryLink id="34d2ff87-fe6e-4343-9970-3340d3f8680b" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="eb75cb51-247f-4b0c-abdf-f32e989062a0" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
@@ -120,6 +120,22 @@
         <categoryLink id="422cca52-591f-4d49-b1cb-84ea2da431f0" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa138d83-b61f-4f8a-800d-2adda119218a" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="414d-d581-a7c4-6ebf" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df84-86c8-5d95-b9b1" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="0a78-af7e-4668-0d09" name="Battle Tank" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f66-0d61-2828-7675" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9105-cae3-31ff-8f7c" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="d8b4-ba9d-3796-4330" name="Light Armour" hidden="false" targetId="83c74a0d-b23e-40b4-a8f1-28a77a09d881" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="181a-1ef4-d73e-3fa5" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -203,6 +219,15 @@
           <conditions>
             <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
           </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
       <constraints>
@@ -300,6 +325,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -392,119 +418,6 @@
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="10.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4df50ef3-34ed-457a-ad83-0599d6833322" name="Myrmidon Host" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9526395-5616-4cbf-8288-6b59e89f6d39" type="max"/>
-        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dd2e465-cb6f-45de-ba09-42983f4ed6d8" type="min"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="c644d2f2-9fcf-4c14-8bfb-9732528c9285" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
-        <categoryLink id="f62b56ca-3a6b-439e-8332-a0bfa446a952" name="New CategoryLink" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="fc336e5a-75ea-4f55-9701-3fe4626981b0" name="Models" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c12b2dd5-301b-42b6-b679-ba5c283e962e" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a5f318d-0353-445c-826e-c3e088891bad" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="097f5759-5946-4933-a0b8-49ea40f9f91a" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="4df50ef3-34ed-457a-ad83-0599d6833322" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5606b565-009e-473d-a888-ecac22a391c0" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-            <entryLink id="a72a-fcf0-3f70-5d1e" name="Myrmidon Destructors" hidden="false" collective="false" import="true" targetId="6044-4ef3-e554-a3d3" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="4df50ef3-34ed-457a-ad83-0599d6833322" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5606b565-009e-473d-a888-ecac22a391c0" type="atLeast"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="d01804ca-55c9-4eac-a2b0-f897a533fa6e" name="Dedicated Transports" hidden="false" collective="false" import="true">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <selectionEntries>
-            <selectionEntry id="5606b565-009e-473d-a888-ecac22a391c0" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
-              <modifiers>
-                <modifier type="set" field="f7b17c3c-aaf8-4f84-a32c-fe03bf80bdb6" value="1.0">
-                  <conditions>
-                    <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab46e765-09a5-4fd0-94d8-864cb31529b5" type="max"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7b17c3c-aaf8-4f84-a32c-fe03bf80bdb6" type="min"/>
-              </constraints>
-              <costs>
-                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="aa2116c0-8fb4-4bdd-b9e0-e6503434f6aa" name="Triaros Armoured Converyors" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5606b565-009e-473d-a888-ecac22a391c0" type="lessThan"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29ba9ea5-7f29-4b0a-a8af-1d8539686877" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="033085a7-9543-411e-b898-7f5d8a6bec17" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
-                  <modifiers>
-                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
-                      <conditions>
-                        <condition field="selections" scope="4df50ef3-34ed-457a-ad83-0599d6833322" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5606b565-009e-473d-a888-ecac22a391c0" type="atLeast"/>
-                      </conditions>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bafbb8cf-87c3-4c99-b80e-7c60bea0d314" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="ee9755ee-afdf-46b9-a9aa-caeb49fa0e99" name="Karacnos Assault Tank Detachment" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -543,6 +456,17 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="31afb0df-89d5-4952-9e0a-84b1861ac38c" name="Onager Dunecrawler Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="289f7e68-63b5-44d9-aa40-9ac1d58ff677" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
         <categoryLink id="a62245b9-989d-48b7-9204-d30cc3696268" name="New CategoryLink" hidden="false" targetId="bb4ea268-8da2-48d4-943c-24c2801a09c7" primary="true"/>
@@ -617,6 +541,7 @@
                     <conditionGroup type="or">
                       <conditions>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -638,6 +563,7 @@
                     <conditionGroup type="or">
                       <conditions>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -660,6 +586,7 @@
                       <conditions>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -675,6 +602,15 @@
                   <conditions>
                     <condition field="selections" scope="7482dffd-b159-4e4c-b8c8-071a0d13ec92" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5cdac1a5-c7db-4dc2-98d6-3464216bf96a" type="atLeast"/>
                   </conditions>
+                </modifier>
+                <modifier type="set" field="hidden" value="true">
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
               <constraints>
@@ -854,48 +790,6 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="5b5a437c-4087-4f21-ad6c-cf9c2b63ec04" name="Dedicated Transports (Mechanicus Destructor Infantry Sub-cohort)" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="de924477-4a70-4f63-bea0-4946f99c94df" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de924477-4a70-4f63-bea0-4946f99c94df" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c84cb37d-4cc2-42ce-93bb-c0b59bbe1b85" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="26fa25d4-7218-47c3-a204-b37fb51a2851" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="e5e0e134-290d-47aa-8344-fdaca651176c" name="Dedicated Transports (Mechanicus Destructor Infantry Sub-cohort)" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0c3025f8-78a3-4970-bbb7-015c881ec0e9" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b63c05a2-44bb-40a8-8133-c2143cf7ade7" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="7d4687f5-5963-4838-8b08-15f6667c6ecc" name="Dedicated Transports (Mechanicus Destructor Infantry Sub-cohort)" hidden="false">
-              <description>All Adeptus Mechanicus Detachments within the Formation that contain only Infantry models (excluding models with the Deep Strike special rule) must be upgraded with Triaros Armoured Conveyers as Dedicated Transports.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="cd0e959f-7729-469c-921b-bd01a7b02428" name="Triaros Armoured Conveyer Detachment" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
@@ -932,7 +826,7 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0ac6d3a8-4dfa-4fe4-8147-5704abfee4ba" name="Mechanicus Destructor Infantry Sub-cohort" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0ac6d3a8-4dfa-4fe4-8147-5704abfee4ba" name="&quot;Auxilia Myrmidon&quot; Century" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -953,24 +847,28 @@
         <categoryLink id="34897890-fdb6-4818-bb58-a1c51eaed483" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f87c7996-e6a4-4946-9df9-e9f14536611d" name="Mechanicus Destructor Infantry Sub-cohort" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f87c7996-e6a4-4946-9df9-e9f14536611d" name="&quot;Auxilia Myrmidon&quot; Century" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b14c27f0-ddba-4684-a7cb-25ba1d764c9d" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa789f16-d562-4246-b090-756bbc2ac3a5" type="max"/>
           </constraints>
           <rules>
-            <rule id="1da48d38-5007-4c41-b626-399e20c2c439" name="Mechanicus Destructor Infantry Sub-cohort" hidden="false">
+            <rule id="1da48d38-5007-4c41-b626-399e20c2c439" name="&quot;Auxilia Myrmidon&quot; Century" hidden="false">
               <description>Compulsory Detachments:
-1 HQ
+1 HQ (Dominus w/ Myrmidons)
 1 Support
-2 Core
+2 Core (Myrmidons)
+1 Battle Tank (Karacnos)
 
 Optional Detachments:
 2 Vanguard
+3 Transport (Triaros)
 1 Air Support
 1 Support
+1 Battle Tank (Karacnos)
+2 Light Armour (Krios)
 
-Requires dedicated transports for all Infantry detachments.</description>
+All Infantry Detachments may take Triaros Armoured Conveyors are Dedicated Transports. This Formation may take Myrmidon Hosts as Core Detachments.</description>
             </rule>
           </rules>
           <costs>
@@ -1278,6 +1176,7 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1308,6 +1207,17 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="6990d3c5-2f88-4eec-b8ad-c3fe47cbefae" name="Ironstrider Battle Maniple" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="39e4cc60-ca0e-4c47-9fe3-7a16f3d1b606" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="true"/>
         <categoryLink id="0f3f688c-96c6-4be7-8564-783ca649eb1d" name="Cavalry (1)" hidden="false" targetId="91c7ab08-c46f-43c2-ae1e-13153ac87f0b" primary="false"/>
@@ -1377,6 +1287,7 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1407,6 +1318,17 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="8936-94e9-a8b1-e2e9" name="Skorpius Dunerider Detachment" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
       <categoryLinks>
         <categoryLink id="d752-fa6f-b1d1-bdb5" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
         <categoryLink id="c5bb-beae-0a06-bcc0" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -1516,7 +1438,88 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="44d4-402d-dfac-b515" name="&quot;Auxilia Myrmidon&quot; Extinction Order" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="f0cc-d0a0-3aa3-701b" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0cc-d0a0-3aa3-701b" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6cd-b6f4-9812-c377" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="5e8f-c327-f513-2dd5" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="a892-5f85-68a1-78a8" name="&quot;Auxilia Myrmidon&quot; Extinction Order" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e2a-71c4-803b-825b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beac-c210-bb30-f368" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="cfdc-d141-b732-0c9b" name="&quot;Auxilia Myrmidon&quot; Extinction Order" hidden="false">
+              <description>Once per Round, at the start of the Round, select one Building or area of terrain (12&quot; x 12&quot;). When targeting any Detachments within that area, get +1 to hit on both Melee and Ranged weapons. This applies to buildings.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
+  <entryLinks>
+    <entryLink id="6a07-1f9d-c0bf-3a24" name="Myrmidon Host" hidden="false" collective="false" import="true" targetId="1e25-774c-0865-a26c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="f945-22ed-092d-3b9a" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
+        <categoryLink id="2a9a-8d5d-56a6-a021" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9018-77a0-42ce-c734" name="Myrmidon Host" hidden="false" collective="false" import="true" targetId="1e25-774c-0865-a26c" type="selectionEntry">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="ad76-fe2e-fa6e-a41a" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="9275-1030-3346-2bc4" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="c14257a5-a405-48a0-bd7f-85ddb4e45b0b" name="Skitarii Vanguard" hidden="false" collective="false" import="true" type="model">
       <profiles>
@@ -2793,6 +2796,112 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1e25-774c-0865-a26c" name="Myrmidon Host" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b92a-50b5-8564-7da7" type="max"/>
+        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-3ae8-6897-ead4" type="min"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="b6c5-23ac-5780-1189" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="68d4-df31-1f88-ec41" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24eb-ce1f-5fab-d8af" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af02-25d2-3302-36ba" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fb78-a82b-00ad-3afe" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f127-528a-2271-d715" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+            <entryLink id="dbb0-46b2-940c-891c" name="Myrmidon Destructors" hidden="false" collective="false" import="true" targetId="6044-4ef3-e554-a3d3" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="1.0">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f127-528a-2271-d715" type="atLeast"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="515e-80e1-a3e7-9b58" name="Dedicated Transports" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <selectionEntries>
+            <selectionEntry id="f127-528a-2271-d715" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f13-9b6f-5430-6198" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dbe-216f-0baf-148a" type="min"/>
+              </constraints>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="7e90-4903-fd92-3a20" name="Triaros Armoured Converyors" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f127-528a-2271-d715" type="lessThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4c3f-ae37-043c-d0e7" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7b49-0ef5-b82e-c64a" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" targetId="f42ba62e-9924-456b-9fbe-3030b5121e6e" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f127-528a-2271-d715" type="atLeast"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c93-b0aa-daad-d84c" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
