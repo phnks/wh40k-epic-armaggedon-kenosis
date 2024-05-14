@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="77" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="78" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -622,9 +622,14 @@
         <selectionEntryGroup id="7fd45c74-1961-4a6e-9758-ccbdd78b9d5b" name="Dedicated Transports" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
-              </conditions>
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
+                    <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
             </modifier>
           </modifiers>
           <selectionEntries>
@@ -1490,7 +1495,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2799,19 +2803,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </costs>
     </selectionEntry>
     <selectionEntry id="1e25-774c-0865-a26c" name="Myrmidon Host" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="or">
-              <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b92a-50b5-8564-7da7" type="max"/>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-3ae8-6897-ead4" type="min"/>
