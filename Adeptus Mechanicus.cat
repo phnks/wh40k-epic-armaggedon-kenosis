@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="79" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="80" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
-    <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
+    <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
         <categoryLink id="c7e192dc-4035-4b90-baa2-23bd25d97f37" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="fe1680a7-ddbb-4ff2-990b-6cda670cebfa" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="false">
@@ -469,6 +469,7 @@
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200f8047-27ad-46d2-9435-58ba4111fa6f" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -856,7 +857,7 @@ All Infantry Detachments may take Triaros Armoured Conveyors are Dedicated Trans
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e7a95f3d-c469-4132-a793-f32a929bcb95" name="Mechanicus Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e7a95f3d-c469-4132-a793-f32a929bcb95" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -877,13 +878,13 @@ All Infantry Detachments may take Triaros Armoured Conveyors are Dedicated Trans
         <categoryLink id="d9fef067-3edf-4b18-9289-69440d90a53a" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="050bbfaa-4ad6-4f9f-b455-a1848379096b" name="Mechanicus Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="050bbfaa-4ad6-4f9f-b455-a1848379096b" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8004f665-e7eb-409c-8b4b-d8626d998775" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daa43c4f-d817-4110-8485-1f08c46d0394" type="max"/>
           </constraints>
           <rules>
-            <rule id="a27fe6ff-2f99-4ed7-acf3-131d0c705df2" name="Mechanicus Armoured Company" hidden="false">
+            <rule id="a27fe6ff-2f99-4ed7-acf3-131d0c705df2" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
               <description>Compulsory Detachments:
 2 Battle Tanks
 1 Heavy Armour
@@ -1453,7 +1454,7 @@ Optional Detachments:
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cf2c-6362-5f24-fcd5" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cf2c-6362-5f24-fcd5" name="&quot;Ordo Reductor&quot; Reduce to Rubble" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1474,14 +1475,56 @@ Optional Detachments:
         <categoryLink id="d0f8-1f4d-d0d9-48a6" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="f9b5-b703-b0f2-389e" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f9b5-b703-b0f2-389e" name="&quot;Ordo Reductor&quot; Reduce to Rubble" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb67-8fbe-130a-b786" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce8-4ca2-3205-1618" type="max"/>
           </constraints>
           <rules>
-            <rule id="ba1d-293a-d86f-e78f" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false">
+            <rule id="ba1d-293a-d86f-e78f" name="&quot;Ordo Reductor&quot; Reduce to Rubble" hidden="false">
               <description>All Detachments in a Formation with this special rule gain 1 AP on any hits against buildings. </description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9152-be13-3aad-9a50" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200f8047-27ad-46d2-9435-58ba4111fa6f" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="859b-f99b-9c24-85c3" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200f8047-27ad-46d2-9435-58ba4111fa6f" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859b-f99b-9c24-85c3" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee8f-909e-1228-2f5a" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="a669-292e-34c8-aaff" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="be89-5ed6-0962-2313" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1891-cc79-813e-d15c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4de-e29b-a68c-21b0" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="9525-3dd5-7092-2a80" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false">
+              <description>All Ranged Weapons in Detachments in this Formation, gain the Armourbane special rule when firing at half range against target Detachments of type Vehicle or Super-Heavy Vehicle.</description>
             </rule>
           </rules>
           <costs>
