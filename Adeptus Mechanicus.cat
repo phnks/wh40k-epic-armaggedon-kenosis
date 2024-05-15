@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="78" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="79" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="Mechanicus Armoured Company" hidden="false">
       <categoryLinks>
@@ -64,7 +64,7 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="b0a6804c-253f-4078-9069-6c4c64b22287" name="Mechanicus Artillery Company" hidden="false">
+    <forceEntry id="b0a6804c-253f-4078-9069-6c4c64b22287" name="&quot;Ordo Reductor&quot; Artillery Company" hidden="false">
       <categoryLinks>
         <categoryLink id="dcb6b960-0d18-4294-b36e-eb0d30b545c5" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="2f48b2ee-a410-49a6-94a3-b6cfbb2ede07" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
@@ -87,6 +87,11 @@
         <categoryLink id="19ff6638-0ff3-49e2-9ac4-a765afca851f" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="false">
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba018453-97ac-45d9-80fd-07637a20d06c" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="fa1a-40ae-0280-0e87" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ccf-3f9f-b604-0316" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -224,6 +229,7 @@
           <conditionGroups>
             <conditionGroup type="or">
               <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
               </conditions>
             </conditionGroup>
@@ -326,6 +332,7 @@
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -520,6 +527,7 @@
                       <conditions>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -542,6 +550,7 @@
                       <conditions>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -564,6 +573,7 @@
                       <conditions>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
@@ -607,6 +617,7 @@
                   <conditionGroups>
                     <conditionGroup type="or">
                       <conditions>
+                        <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
                         <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
                       </conditions>
                     </conditionGroup>
@@ -742,48 +753,6 @@
               </characteristics>
             </profile>
           </profiles>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="72cf470b-5866-49d4-a2a4-1148d5c41f27" name="Pulverising Volleys (Mechanicus Artillery Company)" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="7cf56947-d02d-40ab-9e59-9935af2a6636" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf56947-d02d-40ab-9e59-9935af2a6636" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd15d7b-6ada-4583-ab68-b3973b157b80" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="38aa91cc-742f-40f2-a600-d18bcd78a006" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="8c89949d-4cb5-4ce8-a9d0-a83cd5ee5b3d" name="Pulverising Volleys (Mechanicus Artillery Company)" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="912534ed-7b50-4c15-9564-c96302c3d4aa" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d280a8f1-05bc-49ce-9b0c-6f63d508b87f" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="98b79661-3f83-44a1-95e7-9f8fad7e6ad3" name="Pulverising Volleys (Mechanicus Artillery Company)" hidden="false">
-              <description>Barrage weapons that models in this Formation are equipped with do not suffer a -1 penalty to all Hit rolls when firing against a target they cannot draw line of sight to.</description>
-            </rule>
-          </rules>
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -1047,7 +1016,7 @@ All Infantry detachments may take Skorpius Duneriders as Dedicated Transports. <
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a2478516-aa23-48c8-ac35-0bdd5df513ce" name="Mechanicus Artillery Company" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="a2478516-aa23-48c8-ac35-0bdd5df513ce" name="&quot;Ordo Reductor&quot; Artillery Company" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -1068,22 +1037,21 @@ All Infantry detachments may take Skorpius Duneriders as Dedicated Transports. <
         <categoryLink id="917c79b2-9e30-4470-bdd0-68d571370bbe" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d38d2ce0-4c72-4453-b7c7-4b2469dfb63b" name="Mechanicus Artillery Company" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d38d2ce0-4c72-4453-b7c7-4b2469dfb63b" name="&quot;Ordo Reductor&quot; Artillery Company" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb74407f-bcea-4901-b994-fd18f129569f" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd00dad8-8325-4ae5-8161-c9a85296ba33" type="max"/>
           </constraints>
           <rules>
-            <rule id="df791ad2-83c2-4f71-b652-700210b85237" name="Mechanicus Artillery Company" hidden="false">
+            <rule id="df791ad2-83c2-4f71-b652-700210b85237" name="&quot;Ordo Reductor&quot; Artillery Company" hidden="false">
               <description>Compulsory Detachments:
-1 HQ
+1 HQ (Magos Reductor)
 3 Artillery
 
 Optional Detachments:
+2 Core (Thallax)
 2 Support
 2 Bastion
-
-Artillery detachments do not suffer -1 to hit when firing indirectly with Barrage.
 
 </description>
             </rule>
@@ -1300,7 +1268,7 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
       </modifiers>
       <categoryLinks>
         <categoryLink id="18be-609f-504f-10f8" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
-        <categoryLink id="0f55-d751-830e-d399" name="New CategoryLink" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
+        <categoryLink id="cb3c-76f6-1cd2-adc2" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="4bde-81ce-e855-bb62" name="Models" hidden="false" collective="false" import="true">
@@ -1471,7 +1439,49 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
           </constraints>
           <rules>
             <rule id="cfdc-d141-b732-0c9b" name="&quot;Auxilia Myrmidon&quot; Extinction Order" hidden="false">
-              <description>Once per Round, at the start of the Round, select one Building or area of terrain (12&quot; x 12&quot;). When targeting any Detachments within that area, get +1 to hit on both Melee and Ranged weapons. This applies to buildings.</description>
+              <description>Once per Round, at the start of the Round, select one Building or area of terrain (12&quot; x 12&quot;). When targeting any Detachments within that area, get +1 to hit on both Melee and Ranged weapons. This applies to hits against Buildings or Detachments garrisoned in Buildings.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf2c-6362-5f24-fcd5" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="a80c-47e3-ead9-704a" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a80c-47e3-ead9-704a" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c133-c3d1-2ba8-7a95" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="d0f8-1f4d-d0d9-48a6" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="f9b5-b703-b0f2-389e" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb67-8fbe-130a-b786" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce8-4ca2-3205-1618" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="ba1d-293a-d86f-e78f" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false">
+              <description>All Detachments in a Formation with this special rule gain 1 AP on any hits against buildings. </description>
             </rule>
           </rules>
           <costs>
@@ -1495,6 +1505,7 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1513,6 +1524,7 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -2805,7 +2817,6 @@ Artillery detachments do not suffer -1 to hit when firing indirectly with Barrag
     <selectionEntry id="1e25-774c-0865-a26c" name="Myrmidon Host" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b92a-50b5-8564-7da7" type="max"/>
-        <constraint field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-3ae8-6897-ead4" type="min"/>
       </constraints>
       <categoryLinks>
         <categoryLink id="b6c5-23ac-5780-1189" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
