@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="93" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="96" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="94" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="97" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -1391,7 +1391,7 @@ Round 4 - 9&quot;</description>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="a7cb-ab01-7c8e-31eb" name="Dedicated Transports" hidden="false" collective="false" import="true">
+        <selectionEntryGroup id="9b5c-1c97-0451-c808" name="Dedicated Transports" hidden="false" collective="false" import="true">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1400,17 +1400,17 @@ Round 4 - 9&quot;</description>
             </modifier>
           </modifiers>
           <selectionEntries>
-            <selectionEntry id="9d68-e200-c39e-9ba4" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a7df-81e3-bd59-67a1" name="Dedicated Transports" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
-                <modifier type="set" field="2fe9-8307-a3a8-d43c" value="1.0">
+                <modifier type="set" field="69f4-fc3b-cf20-9dfc" value="1.0">
                   <conditions>
                     <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" type="greaterThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f28-f22b-1b8f-aef9" type="max"/>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2fe9-8307-a3a8-d43c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88c4-bae9-97e9-7da9" type="max"/>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69f4-fc3b-cf20-9dfc" type="min"/>
               </constraints>
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -1419,7 +1419,7 @@ Round 4 - 9&quot;</description>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups>
-            <selectionEntryGroup id="9b07-866b-58b8-9c1e" name="Drop Pods" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="bab0-a97c-3c70-1ea3" name="Drop Pods" hidden="false" collective="false" import="true">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
@@ -1433,10 +1433,10 @@ Round 4 - 9&quot;</description>
                 </modifier>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e197-bc3c-61ae-90a6" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcac-45b1-8abe-98ed" type="max"/>
               </constraints>
               <entryLinks>
-                <entryLink id="5039-98a7-4359-57a9" name="Nurgle Drop Pod" hidden="false" collective="false" import="true" targetId="ed5d9661-c6ce-4453-ad97-221aea4d6b40" type="selectionEntry">
+                <entryLink id="186f-2a5d-f2cf-821a" name="Nurgle Drop Pod" hidden="false" collective="false" import="true" targetId="ed5d9661-c6ce-4453-ad97-221aea4d6b40" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0">
                       <conditions>
@@ -1445,7 +1445,7 @@ Round 4 - 9&quot;</description>
                     </modifier>
                   </modifiers>
                   <constraints>
-                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b629-c4fc-6b12-09e6" type="max"/>
+                    <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="62b8-edf7-d9b0-10bc" type="max"/>
                   </constraints>
                   <costs>
                     <cost name="‏‏‎ ‎Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="-2.0"/>
@@ -3013,7 +3013,7 @@ Round 4 - 9&quot;</description>
                 </modifier>
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
-                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0ec5-df03-d393-d358" type="lessThan"/>
+                    <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ac3d-fdcf-f674-377e" type="lessThan"/>
                   </conditions>
                 </modifier>
               </modifiers>
