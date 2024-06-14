@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="97" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="99" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1924,6 +1924,39 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2b25-6a83-830b-956f" name="Twin Cognis Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="bbc0-d22c-a7de-48cb" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+        <infoLink id="8111-ad76-253b-15cd" name="Lascannon" hidden="false" targetId="df5d2753-e995-4356-ab73-f253374299a9" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin Cognis Lascannon"/>
+            <modifier type="set" field="bacaab95-6c8d-452b-adeb-a75ddb9ead13" value="Accurate, Anti-Tank"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6135-e450-e8f5-770a" name="Accurate" hidden="false" targetId="4ad1d232-1d8e-40c6-8792-c9b1c2306db9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="31fa-3e78-ad21-6d7c" name="Flyer Mounted Twin Cognis Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="dc7b-0344-6362-3306" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+        <infoLink id="d578-2022-f4bd-4bbd" name="Lascannon" hidden="false" targetId="df5d2753-e995-4356-ab73-f253374299a9" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Twin Cognis Lascannon"/>
+            <modifier type="set" field="bacaab95-6c8d-452b-adeb-a75ddb9ead13" value="Accurate, Anti-Tank, Skyfire"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="4802-4d26-095a-32a8" name="Accurate" hidden="false" targetId="4ad1d232-1d8e-40c6-8792-c9b1c2306db9" type="rule"/>
+        <infoLink id="3f1b-0914-cb04-bbe0" name="Skyfire" hidden="false" targetId="49152352-28f8-4a07-9399-2965231578e2" type="rule"/>
+      </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
