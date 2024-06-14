@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="33" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="91" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="34" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3c7dc790-e3af-423b-b378-cb98910b7684" name="Daemon Host" hidden="false">
       <categoryLinks>
@@ -205,7 +205,7 @@
         <infoLink id="9d5b9241-265f-4108-8043-ca12d813f773" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
             <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient"/>
-            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="7&quot;"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Crusader"/>
           </modifiers>
         </infoLink>
@@ -268,7 +268,7 @@
         <infoLink id="6a8aefb3-a153-4392-a4f2-f293c0e4af6f" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
             <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient"/>
-            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="7&quot;"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Paladin"/>
           </modifiers>
         </infoLink>
@@ -342,7 +342,7 @@
         <infoLink id="168ef87f-8af4-4057-918a-0250d1c982fd" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
             <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Disgustingly Resilient"/>
-            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="7&quot;"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Warden"/>
           </modifiers>
         </infoLink>
@@ -416,7 +416,7 @@
           <modifiers>
             <modifier type="set" field="name" value="Nurgle Warhound Titan"/>
             <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Void Shields (2), Disgustingly Resilient"/>
-            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="6&quot;"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
           </modifiers>
         </infoLink>
         <infoLink id="25e3e9f3-65b8-4976-ab2e-36e9501a1f85" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>

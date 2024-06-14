@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="99" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="102" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -629,7 +629,7 @@
         <profile id="53bcd5fe-9249-4179-8f3b-0c8ceb76dbbb" name="Conversion Beam Dissolutor (Close)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front)</characteristic>
@@ -638,7 +638,7 @@
         <profile id="7e8bc9a2-8ef5-40d3-af12-3c198397be52" name="Conversion Beam Dissolutor (Medium)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;-18&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Demolisher</characteristic>
@@ -647,7 +647,7 @@
         <profile id="9c4bbd66-2d06-47e2-9526-978cfc48aa31" name="Conversion Beam Dissolutor (Far)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">18&quot;-35&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">2+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-4</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Demolisher</characteristic>
@@ -672,7 +672,7 @@
         <profile id="392c92f8-818a-4117-b229-c08c9c8cd631" name="Graviton Eradicator" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">30&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Demolisher, Graviton Pulse</characteristic>
@@ -698,7 +698,7 @@
         <profile id="36892fbf-2fba-4918-820b-eded05b079fa" name="Incisor Pattern Melta Lance (Far)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">14&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Accurate, Anti-Tank, Arc (Front), Demolisher</characteristic>
@@ -787,7 +787,7 @@
         <profile id="69fd7eb4-7abd-4c03-a1a7-2ac872dfd1d9" name="Plasma Blastgun" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">20&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front)</characteristic>
@@ -811,7 +811,7 @@
         <profile id="b6bf0af5-e5a7-4f91-8d68-e358c24c4a15" name="Turbo-Laser Destructor" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">40&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Accurate, Arc (Front)</characteristic>
@@ -856,7 +856,7 @@
         <profile id="a406cf83-15cf-4e90-928f-ea5daef9716d" name="Volkite Eradicator" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">16&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">8</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Beam, Deflagrate, Light AT, Shieldbane</characteristic>
@@ -884,7 +884,7 @@
         <profile id="5bd11c96-a39d-4580-a5c5-732db224da79" name="Vulcan Mega-bolter" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">22&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">10</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">15</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light AT, Rapid Fire, Shieldbane</characteristic>
@@ -911,7 +911,7 @@
         <profile id="7c322b43-6716-48f1-99eb-2496b1582b8f" name="Warhound Shudder Missiles" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">35&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Barrage, Quake</characteristic>
@@ -937,7 +937,7 @@
         <profile id="0df5d41d-56a4-4290-870d-c3d5c34ef86b" name="Warhound Swarmer Missiles" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">35&quot;</characteristic>
-            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">8</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">12</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light AT, Rapid Fire, Shieldbane</characteristic>
@@ -2305,7 +2305,7 @@ Models with the Independent and Deep Strike special rules may start the game in 
     <rule id="f619de3e-fcf7-42cf-834b-03ceeb60a337" name="Ion Shield (X)" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="92" hidden="false">
       <description>A model with the Ion Shield special rule gains an additional Save characteristic equal to the number shown in brackets, referred to as an Ion Shield. This Save characteristic can only be used against Hits scored when the firing model is within the Front arc of the model with this special rule.
 
-Ion Shields are not modified by a weapon&apos;s AP characteristic as normal. Instead, if the AP of the weapon is -1 or worse, the Ion Shield Save characteristic is not modified. If the AP of the weapon that scored the Hit is -2 or -3, reduce the Ion Shield Save characteristic by 1 (to a minimum of 6+). If the AP of the weapon that scored the Hit is -4 of better, reduce the Ion Shield Save characteristic by 2 (to a minimum of 6+).</description>
+Ion Shields are not modified by a weapon&apos;s AP characteristic as normal. Instead, if the AP of the weapon is -2, or worse, the Ion Shield Save characteristic is not modified. If the AP of the weapon that scored the Hit is -3 or -4, reduce the Ion Shield Save characteristic by 1 (to a minimum of 6+). If the AP of the weapon that scored the Hit is -5 or better, reduce the Ion Shield Save characteristic by 2 (to a minimum of 6+).</description>
     </rule>
     <rule id="b3dbcca7-77be-4225-a25a-756763aa0196" name="Ionic Flare Shield" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="92" hidden="false">
       <description>Models with the Ionic Flare Shield special rule improve the Save characteristic of their Ion Shields and/or Invulnerable Save by 1 against Hits scored by a weapon with the Barrage or Blast trait, to a maximum of 2+ (e.g., an Ion Shield (4+) would become an Ion Shield (3+)).</description>
@@ -2451,7 +2451,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
   <sharedProfiles>
     <profile id="faaef022-e3e3-4911-9288-8fbca6b1bab4" name="Questoris Knight" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">8&quot;</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
@@ -2487,7 +2487,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
     </profile>
     <profile id="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" name="Warhound Titan" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">7&quot;</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">4</characteristic>
