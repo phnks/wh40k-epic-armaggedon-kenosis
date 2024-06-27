@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="107" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="109" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1450,9 +1450,9 @@
       <profiles>
         <profile id="bbfc-8bb4-0abb-7037" name="Plaguebearers" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
-            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
@@ -1511,9 +1511,9 @@
       <profiles>
         <profile id="0353-15b5-4fb8-d3d2" name="Nurglings" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">4&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
-            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Deep Strike</characteristic>
           </characteristics>
@@ -1602,7 +1602,7 @@
         <selectionEntryGroup id="ef4e-a14a-7122-c5a0" name="Models" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d8-7953-26fe-ac78" type="min"/>
-            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3526-8e52-369e-fd95" type="max"/>
+            <constraint field="selections" scope="parent" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3526-8e52-369e-fd95" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="5ffb-665f-2c34-4306" name="Beast of Nurgle" hidden="false" collective="false" import="true" targetId="eb3d-629d-a9d8-a4f8" type="selectionEntry">
@@ -1622,9 +1622,9 @@
       <profiles>
         <profile id="62e1-af23-76c4-c306" name="Beast of Nurgle" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">6&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
-            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Deep Strike</characteristic>
           </characteristics>
@@ -1705,9 +1705,9 @@
       <profiles>
         <profile id="0ce1-7c98-aa8a-bb02" name="Great Unclean One" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">6&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
-            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
