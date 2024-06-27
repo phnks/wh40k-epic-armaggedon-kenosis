@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="95" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="99" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="97" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="104" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -1709,6 +1709,24 @@ Round 4 - 9&quot;</description>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="972a-9e02-2072-1f63" name="Nurgle Thunderhawk Gunship Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="1592-5209-bd94-554b" name="Air Support" hidden="false" targetId="cb87bb84-d070-4682-8558-ecb2d33eeca0" primary="true"/>
+        <categoryLink id="17fc-2973-6881-5b25" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
+      </categoryLinks>
+      <entryLinks>
+        <entryLink id="bfdb-798e-c8c2-f31d" name="Nurgle Thunderhawk Gunship" hidden="false" collective="false" import="true" targetId="0615-c816-aafa-260e" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d633-6661-0a3e-bd27" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40fc-ba84-bdea-a8e0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="25.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="1056-d71d-b617-d4f9" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
@@ -3178,6 +3196,165 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0615-c816-aafa-260e" name="Nurgle Thunderhawk Gunship" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2329-83c1-06de-6e30" name="Nurgle Thunderhawk Gunship" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">25&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Flyer, Hover, Jink (5+), Large Assault Transport (8), Mark of Nurgle</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1055-a758-5efc-7a71" name="Hover" hidden="false" targetId="86d45080-55d2-4d41-9195-49cb74ea3278" type="rule"/>
+        <infoLink id="8022-588b-5d3f-d3b7" name="Flyer" hidden="false" targetId="cdc3ccaf-762a-4e2a-b1f9-8f5e9e195723" type="rule"/>
+        <infoLink id="4bd4-dd79-4537-3af2" name="Jink (X)" hidden="false" targetId="ba59b638-f2f0-4524-84ba-162bb4a3cb31" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Jink (5+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="ce6e-e2fb-f2aa-35c4" name="Large Assault Transport (X)" hidden="false" targetId="d7498dd4-d58b-4c1f-bec6-1b9acd2a10a9" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Assault Transport (8)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="ac8d-44a7-6dc8-1b9d" name="Hellstrike Missiles" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4156-d1c6-9313-051d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aeff-6d0e-63fb-cddc" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="e543-fb0c-f041-62d9" name="Hellstrike Missiles" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">30&quot;</characteristic>
+                <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+                <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Armourbane</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d68c-373f-c1e5-80be" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Arc (Front)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="14e8-5767-8a7c-da56" name="Armourbane" hidden="false" targetId="d693421e-7232-4114-a5e7-3ec091684992" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fb50-ca27-75a4-96fd" name="Thunderhawk Heavy Cannon" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="223f-abd3-2577-fc1d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e5-829f-57bd-3e1d" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="b403-f677-53a0-a326" name="Thunderhawk Heavy Cannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">22&quot;</characteristic>
+                <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+                <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+                <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front)</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="b1e5-10dc-0b8a-b650" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Arc (Front)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b58e-d71a-0fa0-6bb8" name="Thunderhawk Heavy Bolters" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adcf-313c-a8ea-8261" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="261e-f50f-f757-b3f5" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="287f-c3d9-a636-10d5" name="Thunderhawk Heavy Bolters" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">12&quot;</characteristic>
+                <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+                <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+                <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+                <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light, Point Defence, Skyfire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="47c3-8beb-01dd-bd16" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Arc (Front)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="c771-939f-4274-9aae" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
+            <infoLink id="4138-af17-a67e-fd54" name="Point Defence" hidden="false" targetId="b31e6b46-df95-4b76-b9ce-cae01cf885f0" type="rule"/>
+            <infoLink id="e259-e4e8-d909-98d2" name="Skyfire" hidden="false" targetId="49152352-28f8-4a07-9399-2965231578e2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="006c-25da-3911-3d3c" name="Thunderhawk Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="560e-33ae-e7b6-be7a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c1-9aa5-7ca2-281f" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9acf-358d-4ab2-922e" name="Thunderhawk Lascannons" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">22&quot;</characteristic>
+                <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+                <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Anti-tank, Arc (Front), Skyfire</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="31d6-14aa-d5e3-28fd" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Arc (Front)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="6165-9122-8dea-408c" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+            <infoLink id="16d8-a0f4-d1e8-3c37" name="Skyfire" hidden="false" targetId="49152352-28f8-4a07-9399-2965231578e2" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="2b49-c734-7a4b-8578" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da12-d6ec-9500-8e41" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68d9-3ea7-51de-6a6f" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="191.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>

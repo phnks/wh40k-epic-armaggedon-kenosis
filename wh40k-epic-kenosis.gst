@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="102" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="104" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1962,6 +1962,16 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="ced4-a4a2-1a86-fe07" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="a054-550b-c2f5-b477" name="Mark of Nurgle" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
+        <infoLink id="a20c-79c5-f988-cec9" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (6+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
     <rule id="902de2f1-98ab-4f73-8d55-cde249634685" name="Assault" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="77" hidden="false">
@@ -2408,8 +2418,10 @@ If a Detachment contains more than one model with this rule, the controlling pla
     <rule id="776f6ac7-91a0-47f5-a932-fa997d02bfb0" name="Subordinate" hidden="false">
       <description>A model with the Subordinate special rule counts its Tactical Strength as zero unless it is capturing an objective with another friendly detachment that contains models without the Subordinate special rule. </description>
     </rule>
-    <rule id="96b96f87-f356-468b-8c9a-bf2ff5a30c11" name="Disgustingly Resilient" hidden="false">
-      <description>Hits scored by a weapon against a model with the Disgustingly Resilient special rule reduce their AP by 1 (to a minimum of 0). </description>
+    <rule id="96b96f87-f356-468b-8c9a-bf2ff5a30c11" name="Mark of Nurgle" hidden="false">
+      <description>Models with the Mark of Nurgle special rule gain the following rules:
+- Feel No Pain (6+)
+- Movement characteristic -1</description>
     </rule>
     <rule id="65f46419-7366-4cf1-b7ef-76eabe3b54b4" name="Rad-Phage Aura (X)" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="94" hidden="false">
       <description>All hits against Detachments within a number of inches equal to the value shown in brackets of one or more models with the Rad-Phage Aura special rule gain the Shred special rule.</description>
