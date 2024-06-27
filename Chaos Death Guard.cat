@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="97" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="104" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="98" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="105" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -1833,12 +1833,11 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Implacable</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Implacable</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="dcb852d5-08f0-46db-9dcb-cfd079d55134" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="b5e166a7-f94b-44db-a66c-7d20b5ba0861" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1869,6 +1868,12 @@ Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e584-62db-f42d-9fbf" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="61b3-b280-1f50-8d73" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae4a-b921-1dad-667f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b464-0b4c-1225-f57e" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
@@ -1883,7 +1888,7 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Furious Charge, Subordinate, Implacable, Curse of the Walking Pox</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Furious Charge, Subordinate, Implacable, Curse of the Walking Pox</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1893,7 +1898,6 @@ Round 4 - 9&quot;</description>
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="e9177fbf-04ba-4585-b520-79a7ba16cba9" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="1e70eb4a-9f90-4087-8896-072fb1fc6edf" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
         <infoLink id="f9ed6ad5-0c38-4424-9b55-8d0973ca0886" name="Subordinate" hidden="false" targetId="776f6ac7-91a0-47f5-a932-fa997d02bfb0" type="rule"/>
         <infoLink id="91c5b830-fd8b-4e9f-8781-54ba2c4d4575" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
@@ -1906,6 +1910,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a1ee806d-5ed3-4a80-a8bc-9265acc97ae8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1616e88-4f4c-4b25-8483-503f2351cdff" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="13c4-0c6c-865f-6a00" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e23-57d6-2c14-3066" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4761-431d-9ca9-7637" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -1922,12 +1932,11 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Feel No Pain, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Bulky, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="22e3c6f6-e89c-45f6-83ba-271dc50a84c5" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="b8acaeab-6bd1-4313-ba47-ffaf4ceab275" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="8ed89749-8f5d-4dba-91aa-9410ad4720d8" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
         <infoLink id="79e41184-252b-48cb-82fc-72b7e2564857" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
@@ -1951,6 +1960,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98e3962f-cdf0-4f89-be12-735dc3051c78" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a029a755-4128-4d6f-9efb-c508951046dc" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="df4d-876b-ac70-f7f4" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e39-cbac-0aa0-dd4f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0ec0-8610-deea-8fc6" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2004,11 +2019,11 @@ Round 4 - 9&quot;</description>
       <profiles>
         <profile id="dc3926a6-ead5-4426-af71-66a535002eaa" name="Nurgle Rhino" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">9&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">8&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient, Transport (2)</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Transport (2)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2018,7 +2033,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Transport (2)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="48bc515a-af17-46c7-b509-edb7b270a347" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="878499c5-ae4f-425e-aad0-56d0aa309efc" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
@@ -2036,6 +2050,12 @@ Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92f0-b0f4-0067-f6bf" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="8288-0642-c70f-c44f" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fe4-57b4-9b94-afe0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="478c-cf6e-dc7a-01b1" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
@@ -2046,17 +2066,16 @@ Round 4 - 9&quot;</description>
       <profiles>
         <profile id="ff763233-93ed-4d46-81e0-f5d56844879e" name="Plagueburst Crawler" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">8&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">7&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient, Explorator Adaption</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Explorator Adaption</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="0a3d23ff-79c5-4a48-a69e-5183627c74d4" name="Explorator Adaption" hidden="false" targetId="d0ba77ff-7ab7-46bc-a2d1-f83db261dc77" type="rule"/>
-        <infoLink id="156a4e68-fc84-4f30-bd77-ab4154ef5f01" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="3ae93ac4-da44-4716-bd0d-254c8eab76e5" name="Sponson Mounted Entropy Cannons" hidden="false" collective="false" import="true" targetId="a9443cb6-5337-4641-9f5b-2ea3feaa4e5b" type="selectionEntry">
@@ -2081,6 +2100,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50f7-4549-feb4-c1e8" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="daf9-4fb8-41ef-3bcf" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2a69-d91e-5d34-5384" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="392b-d625-7387-87ea" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="41ac-d808-054c-cb47" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2162,7 +2187,7 @@ Round 4 - 9&quot;</description>
         <infoLink id="c6ad7e11-c037-4294-96a4-bde63ce2c2c7" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Plague Marines w/ Lord of Contagion"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Feel No Pain"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle"/>
           </modifiers>
         </infoLink>
         <infoLink id="ca7892c2-1da0-4976-b975-68235c217a70" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -2176,7 +2201,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="845a8052-1c81-4736-a595-1355444f9a02" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="b96d2795-73f4-41b4-b8a6-fca1ba5f433d" name="Bolters" hidden="false" collective="false" import="true" targetId="85097f56-b91c-4bcb-8d33-daa1388a87d7" type="selectionEntry">
@@ -2207,6 +2231,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c64c-5a34-aee6-beb9" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9d3-52ef-daa4-e496" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="62b0-dd50-b52e-37cc" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4709-76b7-10ad-2d9a" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="937d-20f3-64f6-c3b7" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2243,7 +2273,7 @@ Round 4 - 9&quot;</description>
         <infoLink id="7f25775c-c33f-4e6c-828d-4bf85d214da2" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Blightlord Terminators w/ Lord of Contagion"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Mark of Nurgle"/>
           </modifiers>
         </infoLink>
         <infoLink id="143b2317-d7e1-40fb-bd8d-51d06b8e7433" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -2257,7 +2287,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f7491017-1efa-411e-9cb1-ee3769a124aa" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="71f0afd7-904c-4020-93c8-d261767f1f25" name="Plaguereaper" hidden="false" collective="false" import="true" targetId="68280b43-c319-455b-9466-e3a25c706f82" type="selectionEntry">
@@ -2278,6 +2307,12 @@ Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abac9bea-9dba-4fee-ad82-08a383699054" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="fb2b-70aa-d1f0-24d1" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7e7-ee66-5a88-1e45" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6ac-5b71-d5db-0f8f" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -2290,7 +2325,7 @@ Round 4 - 9&quot;</description>
         <infoLink id="20fe0af2-b37d-4a20-8c2a-b22bc44b2dd0" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Pox Walkers w/ Lord of Contagion"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Feel No Pain, Furious Charge"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle, Furious Charge"/>
           </modifiers>
         </infoLink>
         <infoLink id="99eb02c6-d94d-4c48-bd0d-da80ed8e7b56" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
@@ -2304,7 +2339,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="f93081d0-2407-4983-916d-60fb1f1330d8" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="95301360-c007-4777-bf45-edf5a9adf0be" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
       </infoLinks>
       <entryLinks>
@@ -2318,6 +2352,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fb1c55a-e32b-43ff-b35f-46d289dd53a8" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16892d69-bcb3-496a-8a8c-dbc2c20df835" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="5970-eb5a-b469-b2ba" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd53-cee3-503b-7368" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="835d-da8c-996e-b1d9" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2334,7 +2374,7 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Automated Sentry, Infiltrate, Smokescreen Aura (4&quot;), Disgustingly Resilient, Patrol</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Automated Sentry, Infiltrate, Smokescreen Aura (4&quot;), Mark of Nurgle, Patrol</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2346,7 +2386,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Smokescreen Aura (4&quot;)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="b4dfcd1f-85aa-40c3-b207-97f49f4ab2bd" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
         <infoLink id="9735b6c4-0f82-47dd-a922-6445771af892" name="Patrol" hidden="false" targetId="2ff9791c-c595-4358-813d-560e177b6f75" type="rule"/>
       </infoLinks>
       <entryLinks>
@@ -2354,6 +2393,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63c7595b-daff-424d-8d95-5719d87f74ec" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cf9b485-417a-456f-b1fd-aa20fb79fdc0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="7501-1681-5c46-cc12" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c83-ffe5-e9ca-8ec0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab40-a65c-6ef5-dd37" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2387,17 +2432,14 @@ Round 4 - 9&quot;</description>
       <profiles>
         <profile id="6cebbcaa-e690-4e9f-a2b0-43f63f09e04e" name="Myphitic Blight-hauler" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">9&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="6b6327a3-c731-411c-8d28-ec2e11a4fbf5" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
-      </infoLinks>
       <entryLinks>
         <entryLink id="214b3e54-c382-4b16-ad3c-4cf6a7ea356a" name="Bile Spurt" hidden="false" collective="false" import="true" targetId="16496aa6-6533-4003-aeb0-6bfe073b3cea" type="selectionEntry">
           <constraints>
@@ -2421,6 +2463,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec02-cd28-ac3c-4497" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e05-4dfc-560a-937f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a8a0-d01e-6c4e-05b5" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ff3-f428-1f70-40c9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2549-d04d-d2b5-391a" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2477,7 +2525,6 @@ Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry id="3cefe577-f6da-4362-80e1-5ec545175ed1" name="Foetid Bloat-Drone w/ Fleshmower" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="d38784b5-6e86-4984-948a-411425149128" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
         <infoLink id="ab549d50-763c-44f9-aa4f-15ac65936dfa" name="Foetid Bloat-Drone" hidden="false" targetId="a2f061a8-3779-4b88-846d-0382150805dd" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Foetid Bloat-drone w/ Fleshmower"/>
@@ -2504,6 +2551,12 @@ Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4dc-1ad2-ab64-6160" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="2d72-633a-8395-8a3f" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc0a-3bc9-775a-0927" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3b3-ebd9-3124-d32a" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="27.0"/>
@@ -2512,7 +2565,6 @@ Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry id="34bde1cc-340c-42df-b9c3-2701fe394c96" name="Foetid Bloat-Drone w/ Plaguespitters" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="02ac089c-935a-4a53-be2d-d26f5b7251fd" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
         <infoLink id="d609d7b4-ecf9-4464-9124-fd6ad5b83ea8" name="Foetid Bloat-Drone" hidden="false" targetId="a2f061a8-3779-4b88-846d-0382150805dd" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Foetid Bloat-drone w/ Plaguespitters"/>
@@ -2537,6 +2589,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c299-e0c0-ee0d-89e0" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e120-d840-b97d-7320" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="69ef-209e-a382-afbd" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dfbd-254b-98bb-1597" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21e-e16c-f977-29f5" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2608,10 +2666,9 @@ Round 4 - 9&quot;</description>
         <infoLink id="33df32a2-8204-45f9-8521-3ddf883d64ca" name="Drop Pod" hidden="false" targetId="eda58121-69ec-4b82-87f1-4c51909ea813" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Nurgle Drop Pod"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Drop Pod, Large Transport (2), Disgustingly Resilient"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Drop Pod, Large Transport (2), Mark of Nurgle"/>
           </modifiers>
         </infoLink>
-        <infoLink id="2ec2fffe-8dc0-44f7-8243-212768adb98e" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
         <infoLink id="02b58160-5dab-4d35-9c13-1355d2827577" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
       <entryLinks>
@@ -2619,6 +2676,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51697cd9-9bcc-4446-8af8-34c000fa3e88" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c1d92d78-722a-4a46-9600-f9d05603f4fc" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c93-c5d9-fcfc-b854" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad87-fd3e-4825-9996" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6bf-3ffd-903f-8adb" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2631,17 +2694,16 @@ Round 4 - 9&quot;</description>
       <profiles>
         <profile id="47112d9f-fa0a-4da0-b766-2c01ab55fea1" name="Nurgle Fellblade Super-Heavy Tank" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">7&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">6&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient, Explorator Adaption</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Explorator Adaption</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
         <infoLink id="539e0001-e8d5-45fe-a070-a896abf79d33" name="Explorator Adaption" hidden="false" targetId="d0ba77ff-7ab7-46bc-a2d1-f83db261dc77" type="rule"/>
-        <infoLink id="ed77c8e1-095e-40a2-a8b9-e8ecd8d51929" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="bf721cce-e7ae-4bd1-b26e-540903798f27" name="Sponson Mounted Quad-Lascannons" hidden="false" collective="false" import="true" targetId="eff931a9-0c66-4392-87a4-701ad9c99198" type="selectionEntry">
@@ -2674,6 +2736,12 @@ Round 4 - 9&quot;</description>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a643-f138-51fe-1f76" type="min"/>
           </constraints>
         </entryLink>
+        <entryLink id="9275-944d-472f-c906" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="404a-ff75-cb17-074f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16a9-3f4b-0908-a99d" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="158.0"/>
@@ -2684,17 +2752,14 @@ Round 4 - 9&quot;</description>
       <profiles>
         <profile id="2097d12f-8577-435f-a89c-0ffbc37fec18" name="Nurgle Vindicator" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">9&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">8&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="3a4026b5-85ab-45c8-810c-4d003259d982" name="Disgustingly Resilient" hidden="false" targetId="96b96f87-f356-468b-8c9a-bf2ff5a30c11" type="rule"/>
-      </infoLinks>
       <entryLinks>
         <entryLink id="701b3957-ecb9-4bb9-a829-bc2ffc84a81e" name="Hull Mounted Demolisher Cannon" hidden="false" collective="false" import="true" targetId="373b2e95-582e-4879-b43f-65e12023185c" type="selectionEntry">
           <constraints>
@@ -2706,6 +2771,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaf3-2956-1daa-6099" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cbc-11fa-7478-66c0" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="6d8c-a75b-d434-08d4" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ae9-9378-92ce-5748" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6629-59a3-81ed-796a" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2722,7 +2793,7 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Armoured, Implacable, Invulnerable Save (6+), Furious Charge</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Armoured, Implacable, Invulnerable Save (6+), Furious Charge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2733,7 +2804,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="8735bd16-18c7-4152-abfe-d984f3852e93" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="12fd34c0-01c6-405d-b45d-a0711ac1f148" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="6cab97ac-6385-4b93-b402-ea1e5f83b089" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
       </infoLinks>
@@ -2751,6 +2821,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06042b63-7c65-4b8e-9c3e-888d70305a79" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aca4a72e-84c8-4ff2-83de-fa4012e49b5e" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="fd70-a0a8-cc88-9370" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e708-7450-e61a-213b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f0a-a5fe-9b25-aa55" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -2879,7 +2955,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="cc3b-bb95-930f-f059" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="cdf8-0473-7dc6-ffe6" name="Bolters" hidden="false" collective="false" import="true" targetId="85097f56-b91c-4bcb-8d33-daa1388a87d7" type="selectionEntry">
@@ -2916,6 +2991,12 @@ Round 4 - 9&quot;</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15a4-b418-d201-136b" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f64c-f1d8-5db6-6049" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3f77-9ae0-3ace-fb2e" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="875b-bb8d-d4ba-5fb9" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97ba-70b2-c4ed-6267" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -3089,7 +3170,6 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="85ca-77b7-2f6e-4532" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
       </infoLinks>
       <entryLinks>
         <entryLink id="b3b0-23e6-d220-ab56" name="Bolters" hidden="false" collective="false" import="true" targetId="85097f56-b91c-4bcb-8d33-daa1388a87d7" type="selectionEntry">
@@ -3128,6 +3208,12 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae7f-6f27-80b1-5c1d" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="6e72-91a6-d28a-ea58" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="783d-bad5-ff96-4069" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e54-3806-8c74-e63e" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -3162,12 +3248,11 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Feel No Pain, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Mark of Nurgle, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0433-86bc-d282-3b6f" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="d700-31a9-f682-b690" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="91b1-fb03-4b45-3cef" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
         <infoLink id="a91d-d19a-85d9-f355" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
@@ -3193,6 +3278,12 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6609-6cdf-2e40-55d4" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="0523-38cf-b80c-4ad0" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="416c-1f6a-8e8f-f269" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79c6-5295-41c6-e4e9" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
@@ -3203,7 +3294,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
       <profiles>
         <profile id="2329-83c1-06de-6e30" name="Nurgle Thunderhawk Gunship" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
-            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">25&quot;</characteristic>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">24&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
@@ -3222,6 +3313,11 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <infoLink id="ce6e-e2fb-f2aa-35c4" name="Large Assault Transport (X)" hidden="false" targetId="d7498dd4-d58b-4c1f-bec6-1b9acd2a10a9" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Assault Transport (8)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="cc7a-7a45-fada-ae69" name="Large Transport (X)" hidden="false" targetId="017ee432-0fe9-453d-ab35-049fdd2bc642" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Transport (8)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -3366,7 +3462,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Feel No Pain</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Mark of Nurgle</characteristic>
       </characteristics>
     </profile>
     <profile id="d9f20591-d16c-4edb-9ffe-bc9b5c3f063f" name="Entropy Cannons" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -3380,11 +3476,11 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
     </profile>
     <profile id="a2f061a8-3779-4b88-846d-0382150805dd" name="Foetid Bloat-Drone" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
       <characteristics>
-        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">9&quot;</characteristic>
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Disgustingly Resilient, Jink (6+), Skimmer, Outflank</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Jink (6+), Skimmer, Outflank</characteristic>
       </characteristics>
     </profile>
     <profile id="100b9b25-c908-4d79-932d-e08f80138d37" name="Plaguespitters" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -3402,7 +3498,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Feel No Pain</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle</characteristic>
       </characteristics>
     </profile>
     <profile id="00f3-e3a0-8748-4376" name="Noxious Blightbringer" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -3411,7 +3507,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Feel No Pain, Cursed Plague Bell Aura</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle, Cursed Plague Bell Aura</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

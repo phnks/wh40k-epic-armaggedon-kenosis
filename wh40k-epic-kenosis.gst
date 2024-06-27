@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="104" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="107" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1454,12 +1454,11 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="f1b3-ffe6-60bf-a51d" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="d1a7-036d-75f4-e61c" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
@@ -1516,12 +1515,11 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Deep Strike</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (6+), Dread Aura (4&quot;), Infiltrate, Swarm, Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="063b-7fb9-9ed1-ad62" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="adf1-2533-1c6a-8ff3" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
@@ -1628,12 +1626,11 @@
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Deep Strike</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (5+), Dread Aura (4&quot;), Regeneration, Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="8a86-75a2-097e-f5bf" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="cba0-285e-0760-e83f" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
@@ -1711,13 +1708,12 @@
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
-            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Feel No Pain, Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="6f5d-1251-04a9-718d" name="Feel No Pain" hidden="false" targetId="b9ce636a-07bc-45a1-be6b-9878c96a295c" type="rule"/>
         <infoLink id="1855-a6fb-44f4-54ea" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
@@ -1751,7 +1747,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="50.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="40.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2421,7 +2417,9 @@ If a Detachment contains more than one model with this rule, the controlling pla
     <rule id="96b96f87-f356-468b-8c9a-bf2ff5a30c11" name="Mark of Nurgle" hidden="false">
       <description>Models with the Mark of Nurgle special rule gain the following rules:
 - Feel No Pain (6+)
-- Movement characteristic -1</description>
+- Movement characteristic -1 (included in profile)
+
+This mark costs 2pts for each wound a model has (included in model points cost).</description>
     </rule>
     <rule id="65f46419-7366-4cf1-b7ef-76eabe3b54b4" name="Rad-Phage Aura (X)" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="94" hidden="false">
       <description>All hits against Detachments within a number of inches equal to the value shown in brackets of one or more models with the Rad-Phage Aura special rule gain the Shred special rule.</description>
