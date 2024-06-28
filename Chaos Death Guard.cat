@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="100" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="110" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="102" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="111" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -1750,6 +1750,31 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8859-7581-36c5-0849" name="Nurgle Falchion Super-Heavy Tank Squadron" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="af53-1c76-c961-6ef0" name="New CategoryLink" hidden="false" targetId="aad0755c-ad6d-4523-864d-95e59cd132d2" primary="false"/>
+        <categoryLink id="4346-138d-d22a-5aa0" name="New CategoryLink" hidden="false" targetId="249aaf44-d7fb-45ec-bf76-32b463f5ff4a" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="e4df-1823-6ab8-af61" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d54d-5447-53fc-1f8c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adff-e176-aeb1-3c36" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a43a-a30a-8a65-fd03" name="Nurgle Falchion Super-Heavy Tank" hidden="false" collective="false" import="true" targetId="5913-022d-5453-bbb3" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3355-a928-df93-e3ba" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3544,9 +3569,67 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70a1-a0b5-8565-81c8" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="dd04-0d2d-8756-6829" name="Ram" hidden="false" collective="false" import="true" targetId="c852-46e6-b5de-4f40" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bcf-4922-d173-0f95" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca0d-4e9d-3df1-1a38" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="42.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5913-022d-5453-bbb3" name="Nurgle Falchion Super-Heavy Tank" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="c06a-8f3c-ffa9-43d9" name="Nurgle Falchion Super-Heavy Tank" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">6&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Explorator Adaption</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c3fe-8054-b421-ac88" name="Explorator Adaption" hidden="false" targetId="d0ba77ff-7ab7-46bc-a2d1-f83db261dc77" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="1b52-2844-c8fd-e6ae" name="Sponson Mounted Quad-Lascannons" hidden="false" collective="false" import="true" targetId="eff931a9-0c66-4392-87a4-701ad9c99198" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fc4-f028-e052-100e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a06-183a-6a1d-66ed" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="312d-5fb8-26ef-c700" name="Hull Mounted Heavy Bolter" hidden="false" collective="false" import="true" targetId="1289943b-9629-4d77-bb1d-31c27460f4aa" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42b7-8aeb-5a98-bf1c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12a1-6c0c-c639-64a4" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="9cc8-a50c-940f-8be5" name="Twin Falchion Volcano Cannon" hidden="false" collective="false" import="true" targetId="34e2-c198-3405-ce57" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8bf-d4c0-b3c1-74c4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b825-846c-76fd-16e3" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="a6fa-6b4d-217d-de75" name="Large Ram" hidden="false" collective="false" import="true" targetId="90a0-fefb-d48f-6363" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f27b-7d41-f3a2-a82b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b419-995c-26cd-b335" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2d55-200a-2b1d-7941" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3606-6c16-2247-3d04" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be02-b08f-3f75-0784" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="178.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
