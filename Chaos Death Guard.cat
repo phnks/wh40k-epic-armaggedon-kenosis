@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="98" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="105" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="100" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="110" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -1727,6 +1727,31 @@ Round 4 - 9&quot;</description>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="78a6-17b3-dcc8-be10" name="Nurgle Land Raider Detachment" hidden="false" collective="false" import="false" type="unit">
+      <categoryLinks>
+        <categoryLink id="a55c-0ea4-44fb-b68e" name="Transport" hidden="false" targetId="965bac25-eccb-468f-926a-863a172f248d" primary="true"/>
+        <categoryLink id="e666-9afd-10e2-ae08" name="Vehicle (2)" hidden="false" targetId="49b3-dae7-33f8-f8e" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a88b-dbed-b4d4-167e" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="380e-ebfa-a16a-44fb" type="min"/>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9844-d374-0999-00a1" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6190-b71b-cdcc-9379" name="Land Raider" hidden="false" collective="false" import="true" targetId="5c4c-43b2-ae34-d7c7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da6-3f8b-36e8-6f8d" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="1056-d71d-b617-d4f9" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
@@ -3451,6 +3476,77 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="191.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5c4c-43b2-ae34-d7c7" name="Nurgle Land Raider Phobos" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="2c18-72f8-02ff-8bfb" name="Nurgle Land Raider Phobos" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">8&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Assault Transport (2), Forward Deployment</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4449-3e57-2874-a7dd" name="Assault Transport (X)" hidden="false" targetId="7e43-609-d300-d807" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Assault Transport (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="1aae-0594-ce6a-3376" name="Forward Deployment" hidden="false" targetId="54b4-67fd-a64-86d5" type="rule"/>
+      </infoLinks>
+      <selectionEntries>
+        <selectionEntry id="2829-7dae-c998-7305" name="Sponson Mounted Twin-linked Lascannons" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="698a-7a8a-149a-d543" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbce-1922-478e-39ce" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="39e2-0ee7-76ae-3029" name="Sponson Mounted Twin-linked Lascannons" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">22&quot;</characteristic>
+                <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+                <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+                <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Accurate, Arc (Front), Anti-tank</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="8291-643f-36a9-8b19" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+            <infoLink id="ad35-4610-14f6-8fd0" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Arc (Front)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="3303-689b-dc6a-1ed1" name="Accurate" hidden="false" targetId="4ad1d232-1d8e-40c6-8792-c9b1c2306db9" type="rule"/>
+          </infoLinks>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="8c0f-a369-dae1-bf94" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bccb-fcd2-a2f7-1417" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f46e-75dd-6934-e0a9" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="dcc2-0d63-6a04-db3c" name="Pintle Mounted Storm Bolter" hidden="false" collective="false" import="true" targetId="532f-35ee-3fe5-a260" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dbe-ecbf-a195-e370" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70a1-a0b5-8565-81c8" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="42.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
