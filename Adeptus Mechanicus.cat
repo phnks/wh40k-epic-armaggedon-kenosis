@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="85" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="102" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="87" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="111" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -212,6 +212,34 @@
           <constraints>
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="75eca7b0-bce2-49a6-9d07-02871ae7cb81" type="max"/>
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ce-c287-4ba0-59f4" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="d3ee-418b-e7be-0314" name="&quot;Collegia Titanica&quot; Maniple" hidden="false">
+      <categoryLinks>
+        <categoryLink id="d6b0-4f56-3b3c-29fa" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="3d09-11a4-0557-43e3" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ebe-71e6-1b32-d29a" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f50-c824-a3d3-1f8e" type="min"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="5d50-2f54-c4ca-5cbf" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb56-f9dd-d4fa-cb55" type="min"/>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed0-0e37-3a43-b666" type="max"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="8939-ddcc-1ce2-fd66" name="&quot;Questor Mechanicus&quot; House" hidden="false">
+      <categoryLinks>
+        <categoryLink id="2ece-0216-a7b9-ae48" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="e847-b571-cb1e-892c" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3257-654b-f8f3-c3b3" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4601-923e-584e-edcf" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -1573,6 +1601,42 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8d83-4b1a-8fb6-fefa" name="Secutarii Titan Guard" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3ee-418b-e7be-0314" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="2507-52b3-a165-ce83" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="e624-7eaf-9164-6ead" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bc53-3e92-74f3-35dc" name="Models" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3abc-67ee-45be-ec69" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b2a-e958-6331-c704" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1b7f-0a36-4d4a-4c60" name="Secutarii Hoplites" hidden="false" collective="false" import="true" targetId="ac62-0fbc-f728-ae9d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af2f-3fb6-fb8c-74c0" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -3075,6 +3139,80 @@ Optional Detachments:
         <infoLink id="1e9c-28ec-cd91-797f" name="Point Defence" hidden="false" targetId="b31e6b46-df95-4b76-b9ce-cae01cf885f0" type="rule"/>
         <infoLink id="0197-4062-477c-e19a" name="Light" hidden="false" targetId="2edc6a3b-c6c8-4e07-ad3a-6e110fe8bb35" type="rule"/>
         <infoLink id="fa29-6d47-55b0-6536" name="Skyfire" hidden="false" targetId="49152352-28f8-4a07-9399-2965231578e2" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac62-0fbc-f728-ae9d" name="Secutarii Hoplites" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7a3f-9b79-9a62-9e99" name="Secutarii Hoplites" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+          <characteristics>
+            <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">5&quot;</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
+            <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Line</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="fed9-6838-f970-7800" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
+      </infoLinks>
+      <entryLinks>
+        <entryLink id="71fa-f370-1403-bb2d" name="Arc Lance (Ranged)" hidden="false" collective="false" import="true" targetId="cf50-6cbd-51d1-31f8" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66a-a363-c450-d639" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1f1-3da9-1476-d9f1" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="233d-1263-a8b7-596a" name="Arc Lance (Melee)" hidden="false" collective="false" import="true" targetId="9c3a-e066-600f-fe2a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c176-3bc0-658d-8c48" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0604-1f46-18c6-ca18" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf50-6cbd-51d1-31f8" name="Arc Lance (Ranged)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4537-44df-fde0-d12a" name="Arc Lance (Ranged)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="d619-4d80-e512-cb44" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9c3a-e066-600f-fe2a" name="Arc Lance (Melee)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="c22e-6fb2-f1ac-11be" name="Arc Lance (Melee)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="2553-2e19-5ba4-cd94" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
