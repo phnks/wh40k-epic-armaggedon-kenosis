@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="125" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="127" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1713,7 +1713,7 @@
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">6&quot;</characteristic>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
-            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">2</characteristic>
+            <characteristic name="W" typeId="cf02-ebac-aa4c-7750">3</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (5+), Dread Aura (4&quot;), Deep Strike</characteristic>
           </characteristics>
         </profile>
@@ -3471,7 +3471,7 @@ If, for whatever reason, a model with the Commander special rule cannot be assig
     <rule id="39d-d61c-ebfe-15d9" name="Drop Pod" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
       <description>Drop Pods are transports designed to deliver troops from orbit directly into the heart of the enemy line. A model with the Drop Pod special rule can and must Deep Strike, as described in the Deep Strike special rule. Models with the Drop Pod special rule can Deep Strike from the first round of the battle onwards, instead of the second.
 
-Once deployed on the battlefield, models with the Drop Pod special rule do not need to maintain Detachment Coherency with other models in the Detachment, nor do models within the same Detachment need to maintain Coherency with Drop Pod models. In addition, Drop Pod models are ignored for the purposes of calculating a Formation&apos;s Break Point.
+Once deployed on the battlefield, models with the Drop Pod special rule do not need to maintain Detachment Coherency with other models in the Detachment, nor do models within the same Detachment need to maintain Coherency with Drop Pod models.
 
 Many Detachments with the Drop Pod special rule also have the Transport (X) special rule. If another Detachment is loaded into the Transport Detachment during deployment, that Detachment is kept in Reserve alongside the Transport. When the Transport Detachment is set up via Deep Strike, the transported Detachment then immediately Disembarks and can then be activated as normal later in the phase.</description>
     </rule>
