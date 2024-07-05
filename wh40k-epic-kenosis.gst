@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="118" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="119" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -2038,6 +2038,10 @@
         </infoLink>
         <infoLink id="df3d-6ab6-dfae-65e3" name="Warhound Titan" hidden="false" targetId="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" type="profile"/>
       </infoLinks>
+      <categoryLinks>
+        <categoryLink id="60d8-ea00-4d36-ed69" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
+        <categoryLink id="1f1f-dc6a-184a-dfa9" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
+      </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="9f79-ef9d-f02a-5608" name="Weapons" hidden="false" collective="false" import="true">
           <constraints>
