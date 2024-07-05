@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="92" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="118" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="95" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="125" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -75,7 +75,7 @@
         </categoryLink>
         <categoryLink id="ee140ba3-fffd-489d-806a-83e792a94226" name="Artillery" hidden="false" targetId="2e355801-f2d5-4802-8247-a824c63f7cc0" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcdf2f81-bbe4-433d-a917-f38d5385c1b6" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bcdf2f81-bbe4-433d-a917-f38d5385c1b6" type="min"/>
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="71812f51-32f1-44c7-ab22-15b8fa6ef88d" type="max"/>
           </constraints>
         </categoryLink>
@@ -1570,7 +1570,7 @@ Optional Detachments:
       <profiles>
         <profile id="92603a56-9754-4822-999c-58da97f4e744" name="Skitarii Rangers" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <modifiers>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Line, Scout, Infiltrate">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Scout, Infiltrate">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -1581,12 +1581,11 @@ Optional Detachments:
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Line, Scout</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Scout</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d434ae56-55dc-4c1d-9ac7-774d7dd5e32d" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
         <infoLink id="e2252d79-6039-4b6c-b649-08ee4b82c43d" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
         <infoLink id="bf4d-e6e9-2b9a-6f35" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule">
           <modifiers>
@@ -1640,8 +1639,6 @@ Optional Detachments:
     <selectionEntry id="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" name="Myrmidon Secutors" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="0456265e-4795-4ec8-9462-f4e90564eabd" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
-        <infoLink id="e4fff86a-7871-42d2-8dcd-f174effc3025" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
-        <infoLink id="f0554cee-136b-4d6f-a037-c62760e73469" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
         <infoLink id="50db-6ca8-721d-f2b1" name="Myrmidons" hidden="false" targetId="b003-f1d9-77ea-b44d" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Myrmidon Secutors"/>
@@ -1791,18 +1788,10 @@ Optional Detachments:
     <selectionEntry id="a432bf6a-44f5-4f9e-81e6-16f448a16211" name="Magos Dominus w/ Myrmidon Secutors" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="7f263699-c31b-43fa-b338-3a5c316af781" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
-        <infoLink id="832e55a1-bc84-440f-9f7e-7481f9b0fc4b" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
-        <infoLink id="6788eeaf-e4f5-49ae-84d5-83f12798d647" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
         <infoLink id="bae35faa-7334-49cc-bb6b-3e5f937e83b3" name="Magos Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Magos Dominus w/ Myrmidon Secutors"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Bulky, Implacable, Steadfast, Cybernetica Cortex"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="7c21c979-09bf-4ae3-b09a-766446592966" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="fc20ecac-3423-4001-80b8-6dd7ede8d926" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Invulnerable Save (6+), Battlesmith, Bulky, Cybernetica Cortex"/>
           </modifiers>
         </infoLink>
         <infoLink id="58f8f44d-b461-4660-9bf1-a8b3bdbd6749" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
@@ -1886,14 +1875,7 @@ Optional Detachments:
     </selectionEntry>
     <selectionEntry id="f1eb8ab6-9695-4b6d-9276-8c460343d0dc" name="Magos Dominus w/ Skitarii Rangers" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="5a773c82-602c-4310-8ffc-f5130b2fc108" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
         <infoLink id="f01cc52f-8064-4e58-aef1-701032ad248b" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
-        <infoLink id="7469c3eb-8575-406f-9623-b7109fbbb614" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="7d18f70c-cc7e-4971-9827-1576f1816f68" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="f5ff20b6-1384-4281-8167-ce97a1d3a178" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
@@ -1902,7 +1884,7 @@ Optional Detachments:
         <infoLink id="95b4fdf6-fd83-4458-ac5c-437ac819d8ec" name="Magos Dominus" hidden="false" targetId="062a5fb6-c499-4d8c-a0b4-8441be4301ec" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Magos Dominus w/ Skitarii Rangers"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+),, Battlesmith, Line, Scout, Cybernetica Cortex"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Invulnerable Save (6+), Battlesmith, Scout, Cybernetica Cortex"/>
           </modifiers>
         </infoLink>
         <infoLink id="984b67b7-fc15-4e6c-8e9f-4345dfec9c1b" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
@@ -2018,7 +2000,7 @@ Optional Detachments:
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Armoured, Invulnerable Save (5+), Furious Charge, Automata, Subordinate</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Armoured, Invulnerable Save (5+), Furious Charge, Automata</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -2031,7 +2013,6 @@ Optional Detachments:
         </infoLink>
         <infoLink id="a0e9d860-da78-4d6a-9906-872f692a1b76" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
         <infoLink id="facef6df-f20b-4d85-9871-8233611e0cdf" name="Automata" hidden="false" targetId="e31b7065-ab48-4d9e-8789-901c6e78628b" type="rule"/>
-        <infoLink id="c5c8d02e-f967-4021-bac7-3d869689f8b6" name="Subordinate" hidden="false" targetId="776f6ac7-91a0-47f5-a932-fa997d02bfb0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="90db2e60-72b3-4be0-87da-0e0e50f76cc4" name="Walker (1)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
@@ -2210,7 +2191,11 @@ Optional Detachments:
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5fb16ffe-094d-421d-923d-0ab043a57a68" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule"/>
+        <infoLink id="5fb16ffe-094d-421d-923d-0ab043a57a68" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="5f4de68f-b336-4df2-9393-7253bb4c584f" name="Shred" hidden="false" targetId="e1e9c6d4-209e-45f8-aef1-bef548da4e6d" type="rule"/>
       </infoLinks>
       <costs>
@@ -2425,21 +2410,14 @@ Optional Detachments:
       <infoLinks>
         <infoLink id="f78e-42f9-7001-3f95" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
         <infoLink id="c848-d8b9-7b47-c663" name="Jump Packs" hidden="false" targetId="76b7d278-a8ce-401b-850e-c8ba975cbec9" type="rule"/>
-        <infoLink id="4229-f7e3-d429-5153" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
         <infoLink id="41b2-c9ec-5262-54ab" name="Magos Reductor" hidden="false" targetId="a765-6615-7dee-7ef2" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Magos Reductor w/ Thallaxii"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Cybernetica Cortex, Bulky, Jump Packs"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Invulnerable Save (6+), Battlesmith, Cybernetica Cortex, Bulky, Jump Packs"/>
           </modifiers>
         </infoLink>
         <infoLink id="5773-07ba-375c-2077" name="Battlesmith" hidden="false" targetId="b65bfea2-7562-42fd-be28-fc1fec052405" type="rule"/>
-        <infoLink id="e80e-52a3-4ae8-2363" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
         <infoLink id="153c-e586-f083-abe6" name="Cybernetica Cortex" hidden="false" targetId="1b3aec2b-9da8-45de-a17b-36451765e8c4" type="rule"/>
-        <infoLink id="6c0b-de2b-e9da-0d62" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="6af5-a848-930d-d77c" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
@@ -2551,8 +2529,6 @@ Optional Detachments:
     <selectionEntry id="6044-4ef3-e554-a3d3" name="Myrmidon Destructors" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="5fc7-b71b-5ff1-2e4a" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
-        <infoLink id="fd36-09a4-3a2d-61ee" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
-        <infoLink id="bb55-c384-38c9-f52b" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
         <infoLink id="d028-9052-8375-7fa4" name="Myrmidons" hidden="false" targetId="b003-f1d9-77ea-b44d" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Myrmidon Destructors"/>
@@ -2617,19 +2593,12 @@ Optional Detachments:
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="0044-2394-86a3-df75" name="Line" hidden="false" targetId="3d2b6f22-c7c9-425c-80ef-226e161f596f" type="rule"/>
         <infoLink id="c2bf-7ecb-3344-a13f" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
-        <infoLink id="6066-3c98-0db9-9149" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="9464-aa2d-ae90-1bbe" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="4966-85d5-87bd-f7d9" name="Skitarii Marshal" hidden="false" targetId="6358-e858-0157-8228" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Skitarii Marshal w/ Skitarii Rangers"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Control Edict, Line, Scout"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Control Edict, Line, Scout, Infiltrate">
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Control Edict, Scout"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Control Edict, Scout, Infiltrate">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -2986,7 +2955,7 @@ Optional Detachments:
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Cybernetica Cortex</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (6+), Battlesmith, Cybernetica Cortex</characteristic>
       </characteristics>
     </profile>
     <profile id="0c240e65-20eb-4296-8a41-e8eb21a80a2d" name="Lightning Locks" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -3022,7 +2991,7 @@ Optional Detachments:
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Battlesmith, Cybernetica Cortex</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (6+), Battlesmith, Cybernetica Cortex</characteristic>
       </characteristics>
     </profile>
     <profile id="b003-f1d9-77ea-b44d" name="Myrmidons" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -3031,7 +3000,7 @@ Optional Detachments:
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">4+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Implacable, Steadfast</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky</characteristic>
       </characteristics>
     </profile>
     <profile id="6358-e858-0157-8228" name="Skitarii Marshal" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -3040,7 +3009,7 @@ Optional Detachments:
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Control Edict</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Control Edict</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

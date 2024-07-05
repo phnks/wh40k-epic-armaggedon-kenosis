@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="38" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="118" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="39" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3c7dc790-e3af-423b-b378-cb98910b7684" name="Daemon Host" hidden="false">
       <categoryLinks>
@@ -173,7 +173,6 @@
   <sharedSelectionEntries>
     <selectionEntry id="531ef769-a0a7-42ce-bd31-08b3d8362768" name="Nurgle Knight Despoiler-Crusader" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="3770431c-f8c7-4a8a-9826-6db3bce5248b" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
         <infoLink id="72577435-f823-4073-81a6-6f4be64b567d" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Ion Shield (4+)"/>
@@ -182,7 +181,7 @@
         <infoLink id="e8e3c2f0-50dc-4ee0-8cbb-f26f96641dd9" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
         <infoLink id="9d5b9241-265f-4108-8043-ca12d813f773" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Mark of Nurgle"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Ion Shield (4+), Nimble, Mark of Nurgle"/>
             <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Crusader"/>
           </modifiers>
@@ -241,7 +240,6 @@
     </selectionEntry>
     <selectionEntry id="b3eaeb91-394b-4b20-9d86-7cb1803b872f" name="Nurgle Knight Despoiler-Paladin" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="fade1e63-2349-4bbd-93a7-57670686e367" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
         <infoLink id="2e737ae6-e844-4b03-aef6-56176917fbdd" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Ion Shield (4+)"/>
@@ -250,7 +248,7 @@
         <infoLink id="d752bac1-b032-4d52-87d9-517052193d52" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
         <infoLink id="6a8aefb3-a153-4392-a4f2-f293c0e4af6f" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Mark of Nurgle"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Ion Shield (4+), Nimble, Mark of Nurgle"/>
             <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Paladin"/>
           </modifiers>
@@ -320,7 +318,6 @@
     </selectionEntry>
     <selectionEntry id="947b8bca-312c-40a8-abe6-d675ecf5e4b4" name="Nurgle Knight Despoiler-Warden" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="09546c33-ab90-4f4b-9898-fbe6a26a3018" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
         <infoLink id="a1725166-8f8a-4707-86e4-53d2cdfcfed8" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Ion Shield (4+)"/>
@@ -329,7 +326,7 @@
         <infoLink id="8c3d080b-ab94-4a22-8c1a-7e8ae1196756" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
         <infoLink id="168ef87f-8af4-4057-918a-0250d1c982fd" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile">
           <modifiers>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Independent, Ion Shield (4+), Nimble, Mark of Nurgle"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Ion Shield (4+), Nimble, Mark of Nurgle"/>
             <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Knight Despoiler-Warden"/>
           </modifiers>
@@ -408,10 +405,11 @@
         <infoLink id="a24e178b-6920-4eff-908b-811b7e789f25" name="Warhound Titan" hidden="false" targetId="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Nurgle Warhound Titan"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Void Shields (2), Mark of Nurgle"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Void Shields (2), Mark of Nurgle, Nimble"/>
             <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
           </modifiers>
         </infoLink>
+        <infoLink id="eb93-6abe-ca51-4dcc" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f9ee226b-81d5-4204-9552-723b3919075a" name="Weapons" hidden="false" collective="false" import="true">
@@ -513,7 +511,7 @@
       <infoLinks>
         <infoLink id="c874-cced-0920-869c" name="Dire Wolf Titan" hidden="false" targetId="401b-8175-19e0-9921" type="profile">
           <modifiers>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Infiltrate, Void Shields (2), Mark of Nurgle"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Infiltrate, Void Shields (2), Mark of Nurgle, Nimble"/>
             <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Dire Wolf Titan"/>
           </modifiers>
@@ -525,6 +523,7 @@
             <modifier type="set" field="name" value="Void Shields (2)"/>
           </modifiers>
         </infoLink>
+        <infoLink id="b159-e01b-8ad2-2c07" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="a924-8525-18b2-9e21" name="Weapons" hidden="false" collective="false" import="true">

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="119" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="125" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -196,7 +196,7 @@
             <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
             <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
-            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Electromagnetic Pulse</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front)</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -206,7 +206,6 @@
             <modifier type="set" field="name" value="Arc (Front)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="0e2e0243-8873-48e1-bd37-b28778b14dc0" name="Electromagnetic Pulse" hidden="false" targetId="544ff260-1f26-4801-8166-b9d46c369f7d" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -1122,11 +1121,10 @@
     <selectionEntry id="373b2e95-582e-4879-b43f-65e12023185c" name="Hull Mounted Demolisher Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="98d66503-d636-4400-9fba-44eb63734111" name="Demolisher" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
-        <infoLink id="bdcd1ea5-9169-4fa2-92ab-c6fc3c95b99a" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
         <infoLink id="18102a18-feef-45fb-a102-50e68267b01e" name="Demolisher Cannon" hidden="false" targetId="aadd6152-4c62-48a7-8e9d-83f6b6efad8d" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Hull Mounted Demolisher Cannon"/>
-            <modifier type="set" field="bacaab95-6c8d-452b-adeb-a75ddb9ead13" value="Arc (Front), Demolisher, Ignores Cover"/>
+            <modifier type="set" field="bacaab95-6c8d-452b-adeb-a75ddb9ead13" value="Arc (Front), Demolisher"/>
           </modifiers>
         </infoLink>
         <infoLink id="b8122d3a-4e74-497a-a608-b5d9ff190b20" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
@@ -1143,7 +1141,6 @@
     <selectionEntry id="e4431e1f-38d4-44f5-8d7f-472881d785fc" name="Demolisher Cannon" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="06e12bbe-bb80-43d4-8f72-38df07b50eb6" name="Demolisher" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
-        <infoLink id="8ea314ca-b555-4dd4-a4ca-0fb38d4f23d9" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
         <infoLink id="0ad0f212-f3ba-4f64-b8ff-60dec57abf5f" name="Demolisher Cannon" hidden="false" targetId="aadd6152-4c62-48a7-8e9d-83f6b6efad8d" type="profile"/>
       </infoLinks>
       <costs>
@@ -1191,7 +1188,11 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c83a6722-f0d7-462a-8c55-ab08840e0d80" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule"/>
+        <infoLink id="c83a6722-f0d7-462a-8c55-ab08840e0d80" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -1262,14 +1263,18 @@
           <characteristics>
             <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">8&quot;-45&quot;</characteristic>
             <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
-            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
             <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
             <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Demolisher, Barrage, Armourbane, Shred</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="3726a5da-c97d-462e-b9e3-3964674b32f7" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule"/>
+        <infoLink id="3726a5da-c97d-462e-b9e3-3964674b32f7" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
         <infoLink id="088befa9-d3b2-458a-9b64-8574a016cc45" name="Demolisher" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
         <infoLink id="c3ebd6c6-45ff-4a5a-b3b3-83bb90925d0a" name="Barrage" hidden="false" targetId="1f84b47e-2af2-41e9-b19d-df2df67a9177" type="rule"/>
         <infoLink id="09e9c207-99d2-4e21-a3f5-5cc78ef35f2f" name="Armourbane" hidden="false" targetId="d693421e-7232-4114-a5e7-3ec091684992" type="rule"/>
@@ -2037,6 +2042,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="df3d-6ab6-dfae-65e3" name="Warhound Titan" hidden="false" targetId="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" type="profile"/>
+        <infoLink id="75f2-9d5a-2dea-12ba" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="60d8-ea00-4d36-ed69" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
@@ -2987,6 +2993,7 @@
         <infoLink id="f0d5-11b6-2747-f6d1" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
         <infoLink id="ad6b-7de3-fa1d-aab6" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
         <infoLink id="851a-986b-6f97-9cc9" name="Dire Wolf Titan" hidden="false" targetId="401b-8175-19e0-9921" type="profile"/>
+        <infoLink id="89ea-576d-0f52-4b4d" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b005-91be-5497-bb8b" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
@@ -3496,7 +3503,7 @@ A Detachment that contains one or more Independent Units is only considered to b
 Models with the Independent and Deep Strike special rules may start the game in Reserve even if the larger Detachment is deployed on the battlefield - all models in an Independent Unit must be deployed in Reserve if one is. When the Independent Unit arrives via Deep Strike, it must be deployed within 6&quot; of one or more models from the larger Detachment (i.e., within Detachment Coherency). The Independent Unit does not scatter, but must follow all other rules related to Deep Striking. If all other models from the Detachment have been destroyed before the Independent Unit has Deep Striked, then it is placed as if it were a normal Deep Striking Detachment.</description>
     </rule>
     <rule id="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" name="Infiltrate" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="92" hidden="false">
-      <description>Detachments with the Infiltrate special rule are not deployed as normal. Instead, after all players have finished deploying, players take it in turns, starting with the player who has command of the battlefield, to deploy an Infiltrating Detachment anywhere on the battlefield outside of the opposing player&apos;s deployment zone. Infiltrating models must be deployed at least 4&quot; away from a previously deployed enemy model; if it cannot be deployed in this way, then it is deployed as normal within the controlling player&apos;s deployment zone.</description>
+      <description>Detachments with the Infiltrate special rule are not deployed as normal. Instead, after all players have finished deploying, players take it in turns, starting with the player who has command of the battlefield, to deploy an Infiltrating Detachment anywhere on the battlefield outside of the opposing player&apos;s line of sight. Infiltrating models must be deployed at least 4&quot; away from a previously deployed enemy model; if it cannot be deployed in this way, then it is deployed as normal within the controlling player&apos;s deployment zone.</description>
     </rule>
     <rule id="b237b72b-8ea2-44c6-977d-65c12f2c3340" name="Inspire (X)" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="92" hidden="false">
       <description>Friendly Detachments within a number of inches equal to the value shown in brackets of a Detachment with this special rule may use this Detachment&apos;s Morale value in place of their own when making Morale checks.</description>
@@ -3697,7 +3704,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">4</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Void Shields (2)</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Void Shields (2), Nimble</characteristic>
       </characteristics>
     </profile>
     <profile id="eda58121-69ec-4b82-87f1-4c51909ea813" name="Drop Pod" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -3706,7 +3713,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Drop Pod, Large Transport (2)</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Drop Pod, Large Assault Transport (2)</characteristic>
       </characteristics>
     </profile>
     <profile id="df5d2753-e995-4356-ab73-f253374299a9" name="Lascannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -3733,7 +3740,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
         <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
         <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
-        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Demolisher, Ignores Cover</characteristic>
+        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Demolisher</characteristic>
       </characteristics>
     </profile>
     <profile id="d373548d-2808-4e5b-8146-e101eecad3d5" name="Multi-Laser" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -3760,7 +3767,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">4</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Infiltate, Void Shields (2)</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Infiltate, Void Shields (2), Nimble</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

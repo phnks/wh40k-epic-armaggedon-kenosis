@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="104" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="119" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Chaos: Death Guard" revision="108" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="125" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -2096,13 +2096,10 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">5+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Implacable</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="b5e166a7-f94b-44db-a66c-7d20b5ba0861" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
-      </infoLinks>
       <categoryLinks>
         <categoryLink id="3af223ab-732f-4ce5-996c-908c47b66d2f" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
       </categoryLinks>
@@ -2151,19 +2148,12 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">6+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Furious Charge, Subordinate, Implacable, Curse of the Walking Pox</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Furious Charge</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="f0b4-b683-6f10-95cf" name="Curse of the Walking Pox" hidden="false">
-          <description>Each time an enemy Infantry model is slain by a Poxwalker in the Fight phase, add one model to the Poxwalker’s detachment.</description>
-        </rule>
-      </rules>
       <infoLinks>
         <infoLink id="1e70eb4a-9f90-4087-8896-072fb1fc6edf" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
-        <infoLink id="f9ed6ad5-0c38-4424-9b55-8d0973ca0886" name="Subordinate" hidden="false" targetId="776f6ac7-91a0-47f5-a932-fa997d02bfb0" type="rule"/>
-        <infoLink id="91c5b830-fd8b-4e9f-8781-54ba2c4d4575" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f6f7de09-f5f2-4c53-925d-b5ea3e1dd97c" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
@@ -2195,14 +2185,12 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Bulky, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Bulky, Invulnerable Save (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b8acaeab-6bd1-4313-ba47-ffaf4ceab275" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="8ed89749-8f5d-4dba-91aa-9410ad4720d8" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
-        <infoLink id="79e41184-252b-48cb-82fc-72b7e2564857" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
         <infoLink id="5b2eb929-7421-4cc2-96d8-4629cb49b55e" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
@@ -2330,7 +2318,7 @@ Round 4 - 9&quot;</description>
         <profile id="ff763233-93ed-4d46-81e0-f5d56844879e" name="Plagueburst Crawler" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
           <characteristics>
             <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">7&quot;</characteristic>
-            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+            <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">3+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
             <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Explorator Adaption</characteristic>
@@ -2446,17 +2434,10 @@ Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry id="69c91f82-27b6-4a37-abf4-2fd18b512178" name="Plague Marines w/ Lord of Contagion" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="5e93a1f0-0613-4da3-a6ec-dfb36f484c81" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="c6ad7e11-c037-4294-96a4-bde63ce2c2c7" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Plague Marines w/ Lord of Contagion"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="ca7892c2-1da0-4976-b975-68235c217a70" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="3465bea1-5232-405a-ac7c-0f40643b83cd" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Invulnerable Save (6+), Mark of Nurgle"/>
           </modifiers>
         </infoLink>
         <infoLink id="893d4a7e-3e15-4b06-8963-d2036d91558d" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
@@ -2532,17 +2513,10 @@ Round 4 - 9&quot;</description>
       <infoLinks>
         <infoLink id="154bc678-8dce-4c94-add8-8eb4be11bfaf" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
         <infoLink id="c99def08-2d53-45f7-8faa-f25abe616495" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
-        <infoLink id="f1762dcb-ee0a-43c3-828c-937aac90f0ef" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
         <infoLink id="7f25775c-c33f-4e6c-828d-4bf85d214da2" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Blightlord Terminators w/ Lord of Contagion"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Mark of Nurgle"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="143b2317-d7e1-40fb-bd8d-51d06b8e7433" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="6d44c8ac-0471-4a5d-ba49-d3c8272631c1" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Invulnerable Save (6+), Bulky, Mark of Nurgle"/>
           </modifiers>
         </infoLink>
         <infoLink id="0c32c3c7-b2ee-4cf9-bb4b-c1550029e98a" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
@@ -2584,17 +2558,10 @@ Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry id="9a710bf0-0c6b-4eee-8e2b-9717ed6fcb7b" name="Pox Walkers w/ Lord of Contagion" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="2854d6e3-fb12-47d2-84d7-7d35a959ea2c" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="20fe0af2-b37d-4a20-8c2a-b22bc44b2dd0" name="Lord of Contagion" hidden="false" targetId="f76dde12-1cdc-4717-95fc-84089e25234e" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Pox Walkers w/ Lord of Contagion"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle, Furious Charge"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="99eb02c6-d94d-4c48-bd0d-da80ed8e7b56" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="02a5c7b8-58d0-48b8-9f34-50038857a105" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Invulnerable Save (6+), Mark of Nurgle, Furious Charge"/>
           </modifiers>
         </infoLink>
         <infoLink id="b2d0603c-c1aa-48c6-84a1-4ed125506253" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
@@ -2920,19 +2887,19 @@ Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry id="ed5d9661-c6ce-4453-ad97-221aea4d6b40" name="Nurgle Drop Pod" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="efea8d56-0217-43bd-9b15-60c0d0c24ea2" name="Large Transport (X)" hidden="false" targetId="017ee432-0fe9-453d-ab35-049fdd2bc642" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Large Transport (2)"/>
-          </modifiers>
-        </infoLink>
         <infoLink id="ddee5c8f-ef0f-4ba5-822a-c2db9a7ffc47" name="Drop Pod" hidden="false" targetId="39d-d61c-ebfe-15d9" type="rule"/>
         <infoLink id="33df32a2-8204-45f9-8521-3ddf883d64ca" name="Drop Pod" hidden="false" targetId="eda58121-69ec-4b82-87f1-4c51909ea813" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Nurgle Drop Pod"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Drop Pod, Large Transport (2), Mark of Nurgle"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Drop Pod, Large Assault Transport (2), Mark of Nurgle"/>
           </modifiers>
         </infoLink>
         <infoLink id="02b58160-5dab-4d35-9c13-1355d2827577" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
+        <infoLink id="5546-cfb4-1c46-3e06" name="Large Assault Transport (X)" hidden="false" targetId="d7498dd4-d58b-4c1f-bec6-1b9acd2a10a9" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Large Assault Transport (2)"/>
+          </modifiers>
+        </infoLink>
       </infoLinks>
       <entryLinks>
         <entryLink id="4dabd4b8-d62f-49b8-ba8a-42fc2fcfc284" name="Turret Mounted Twin Bolter" hidden="false" collective="false" import="true" targetId="8026a888-36aa-4ff5-8d5a-30cd2f7100fd" type="selectionEntry">
@@ -3056,7 +3023,7 @@ Round 4 - 9&quot;</description>
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Armoured, Implacable, Invulnerable Save (6+), Furious Charge</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Mark of Nurgle, Armoured, Invulnerable Save (6+), Furious Charge</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3067,7 +3034,6 @@ Round 4 - 9&quot;</description>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="12fd34c0-01c6-405d-b45d-a0711ac1f148" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="6cab97ac-6385-4b93-b402-ea1e5f83b089" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3201,16 +3167,9 @@ Round 4 - 9&quot;</description>
     </selectionEntry>
     <selectionEntry id="08fe-1d9b-1c47-7286" name="Plague Marines w/ Malignant Plaguecaster" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
-        <infoLink id="2e83-51ed-c3f6-615a" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="287a-0425-daec-e558" name="Malignant Plaguecaster" hidden="false" targetId="c6cf-2b94-c2a1-0331" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Plague Marines w/ Malignant Plaguecaster"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="b217-0fc4-c52f-6836" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="834d-8f3f-ef04-89fb" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
           </modifiers>
         </infoLink>
         <infoLink id="251f-ad72-61ef-ac71" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
@@ -3491,16 +3450,9 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         </rule>
       </rules>
       <infoLinks>
-        <infoLink id="87d6-d79f-e59e-297d" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="aa6f-7d9c-55bd-78d9" name="Noxious Blightbringer" hidden="false" targetId="00f3-e3a0-8748-4376" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Plague Marines w/ Noxious Blightbringer "/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="47ce-0081-dc11-88be" name="Commander" hidden="false" targetId="ac0a33a3-39f6-4e1d-9dea-84ba63b9eacc" type="rule"/>
-        <infoLink id="575d-0ba5-5ea4-b732" name="Inspire (X)" hidden="false" targetId="b237b72b-8ea2-44c6-977d-65c12f2c3340" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Inspire (8&quot;)"/>
           </modifiers>
         </infoLink>
         <infoLink id="7c80-747d-1a4a-513a" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
@@ -3586,14 +3538,12 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
             <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
             <characteristic name="Morale" typeId="95ab-2193-7eea-0530">3+</characteristic>
             <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Mark of Nurgle, Implacable, Invulnerable Save (6+), Steadfast</characteristic>
+            <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Bulky, Mark of Nurgle, Invulnerable Save (6+)</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d700-31a9-f682-b690" name="Implacable" hidden="false" targetId="d727e638-2e79-48f3-b29d-8b4303b11eaa" type="rule"/>
         <infoLink id="91b1-fb03-4b45-3cef" name="Bulky" hidden="false" targetId="e8e6-1f3a-a46-9aa0" type="rule"/>
-        <infoLink id="a91d-d19a-85d9-f355" name="Steadfast" hidden="false" targetId="c33aad3d-3321-4050-9cdc-eac6bd63a58c" type="rule"/>
         <infoLink id="ca2a-55cd-34a1-9248" name="Invulnerable Save (X)" hidden="false" targetId="2e8ae878-dab5-48e7-b799-d9d268b36379" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
@@ -3651,11 +3601,6 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <infoLink id="ce6e-e2fb-f2aa-35c4" name="Large Assault Transport (X)" hidden="false" targetId="d7498dd4-d58b-4c1f-bec6-1b9acd2a10a9" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Large Assault Transport (8)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="cc7a-7a45-fada-ae69" name="Large Transport (X)" hidden="false" targetId="017ee432-0fe9-453d-ab35-049fdd2bc642" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Large Transport (8)"/>
           </modifiers>
         </infoLink>
       </infoLinks>
@@ -3805,7 +3750,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4449-3e57-2874-a7dd" name="Assault Transport (X)" hidden="false" targetId="7e43-609-d300-d807" type="rule">
+        <infoLink id="4449-3e57-2874-a7dd" name="Large Assault Transport (X)" hidden="false" targetId="d7498dd4-d58b-4c1f-bec6-1b9acd2a10a9" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Assault Transport (2)"/>
           </modifiers>
@@ -3929,7 +3874,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Bulky, Implacable, Steadfast, Mark of Nurgle</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (6+), Bulky, Mark of Nurgle</characteristic>
       </characteristics>
     </profile>
     <profile id="d9f20591-d16c-4edb-9ffe-bc9b5c3f063f" name="Entropy Cannons" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
@@ -3965,7 +3910,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (6+), Mark of Nurgle</characteristic>
       </characteristics>
     </profile>
     <profile id="00f3-e3a0-8748-4376" name="Noxious Blightbringer" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -3974,7 +3919,7 @@ While an enemy Detachment is within 4&quot; of a model with this special rule, s
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">4+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">2+</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">1</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Commander, Inspire (8&quot;), Invulnerable Save (6+), Implacable, Mark of Nurgle, Cursed Plague Bell Aura</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Invulnerable Save (6+), Mark of Nurgle, Cursed Plague Bell Aura</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
