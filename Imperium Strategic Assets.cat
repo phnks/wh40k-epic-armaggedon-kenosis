@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f35002fe-13ee-47eb-a540-914a045cd014" name="Imperium Strategic Assets" revision="45" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="112" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f35002fe-13ee-47eb-a540-914a045cd014" name="Imperium Strategic Assets" revision="46" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="117" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="b8944d0e-1c1c-4254-8e2e-a1a90fd15c95" name="Knight Household Lance" hidden="false">
       <categoryLinks>
@@ -59,40 +59,6 @@
     </forceEntry>
   </forceEntries>
   <selectionEntries>
-    <selectionEntry id="d913717f-1dd9-4fda-95a5-8ece409be02b" name="Warhound Hunting Pack" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="5459-b07-494f-6325" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
-        <categoryLink id="5ea41ac5-56bc-44a5-bdab-369a67fd1092" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
-        <categoryLink id="65ce6da5-5f33-4363-979a-37d0700e47f1" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
-        <categoryLink id="9e3ebafa-98df-4103-b69c-0f8feace0668" name="Strategic Assets" hidden="false" targetId="63f171a5-0b43-47a2-aee7-373c4059403f" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="5252c022-ff4e-4119-bf47-c79815007e01" name="Warhound Titans" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11a0cd1e-7b2d-4a22-b721-83f21837245e" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdace6cd-3a38-4af3-b872-caa981cfe078" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="7e1784af-9e43-4f96-b3c0-cf79a2e6bfd1" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="f28d-7637-8ef1-e95d" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b082eac-7b09-47f3-9275-ced4fdce3db2" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="30.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="12688455-8e2e-4a96-b2f2-6b0fae9b37ae" name="Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="model">
       <modifiers>
         <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
@@ -2057,6 +2023,8 @@
   </selectionEntries>
   <entryLinks>
     <entryLink id="c796-d7d9-7fc6-d22b" name="Questoris Knight Banner" hidden="false" collective="false" import="true" targetId="7e1c-a865-61c0-83cf" type="selectionEntry"/>
+    <entryLink id="43d2-42e3-2aca-433f" name="Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" targetId="65ba-6281-2690-aa51" type="selectionEntry"/>
+    <entryLink id="e761-7201-e9f8-f8bf" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="f28d-7637-8ef1-e95d" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="f6d5314e-ad54-4e0a-a284-24889b35c9de" name="Reaver Gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">

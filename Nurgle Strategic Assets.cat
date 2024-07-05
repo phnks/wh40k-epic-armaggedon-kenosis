@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="35" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="106" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="37" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="118" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="3c7dc790-e3af-423b-b378-cb98910b7684" name="Daemon Host" hidden="false">
       <categoryLinks>
@@ -131,40 +131,6 @@
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="78901a03-fa33-4011-b5b1-2e6b470e485f" name="Nurgle Warhound Hunting Pack" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="1286be0c-aa04-4d57-a285-2667f4403cd8" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
-        <categoryLink id="6b4bd63c-c13a-4602-8658-e3423796ea1c" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
-        <categoryLink id="8300128f-dd86-4bb2-ae60-0aee1c71b6f2" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
-        <categoryLink id="510671ca-20fb-4b88-916e-bce2c20b6faa" name="Strategic Assets" hidden="false" targetId="63f171a5-0b43-47a2-aee7-373c4059403f" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="4fecf601-c856-4c92-b8f2-bed1413e5aff" name="Nurgle Warhound Titans" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67b1d375-967d-4e40-8e6f-4763c53eb6a2" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37284f9b-ba8f-490f-9ced-4c09a070951d" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="0c5a8e3e-9939-410d-a28c-ee5cdb88c7ad" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" targetId="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad2682a5-9d02-48fb-bbb0-d8d6679521a6" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="30.0"/>
-      </costs>
-    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="2f91-7033-880f-4d8f" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
@@ -189,6 +155,18 @@
       <categoryLinks>
         <categoryLink id="a42c-b14b-c5e6-e97f" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
         <categoryLink id="5893-e484-e670-6e3b" name="Monster (3)" hidden="false" targetId="a1b7-ffdc-38b2-e92b" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7adc-28a9-9c02-71d0" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" targetId="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="74d9-6584-3b49-c4b6" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
+        <categoryLink id="19c5-6b4d-98f2-5e78" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fa55-b1a8-bf29-52a4" name="Nurgle Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" targetId="247e-aa77-57c7-a4ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="68e7-a98e-de7e-b517" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
+        <categoryLink id="121c-30fb-422e-34c2" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
@@ -521,6 +499,68 @@
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="321.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="247e-aa77-57c7-a4ea" name="Nurgle Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="c874-cced-0920-869c" name="Dire Wolf Titan" hidden="false" targetId="401b-8175-19e0-9921" type="profile">
+          <modifiers>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Infiltrate, Void Shields (2), Mark of Nurgle"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
+            <modifier type="set" field="name" value="Nurgle Dire Wolf Titan"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="25a4-f0fa-d3cb-7d4c" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
+        <infoLink id="d410-20f2-ce38-6f08" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
+        <infoLink id="5f57-8b49-780c-39ad" name="Void Shields (X)" hidden="false" targetId="b1613660-3082-48b7-b123-9ac68cc3457a" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Void Shields (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a924-8525-18b2-9e21" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1808-80c9-a188-488f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3556-0f50-41ef-0025" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ed11-cf53-5664-26c5" name="Conversion Beam Dissipator" hidden="false" collective="false" import="true" targetId="cf3a-4e79-ef00-0b13" type="selectionEntry"/>
+            <entryLink id="fdb6-447c-2402-8f7f" name="Direwolf Neutron Laser" hidden="false" collective="false" import="true" targetId="5b1d-5326-1663-6373" type="selectionEntry"/>
+            <entryLink id="9267-7e71-61bd-af40" name="Direwolf Volcano Cannon" hidden="false" collective="false" import="true" targetId="9054-b3b8-0da7-1a3d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d129-9b0f-7c82-a652" name="Ardex Mega-Bolters" hidden="false" collective="false" import="true" targetId="acbe-4149-83fe-e708" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d13-d94a-6bfd-6e64" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9149-e3d6-8825-8783" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="030b-01f0-68f1-fdeb" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8467-56c6-c97a-5f76" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fd-0c54-ec00-b02f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2731-7aba-226e-e5c0" name="Titanic Feet (Direwolf)" hidden="false" collective="false" import="true" targetId="0481-fd18-64ff-fd0d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7941-b577-1b9a-4d1f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7f4-684e-dbe5-420c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>

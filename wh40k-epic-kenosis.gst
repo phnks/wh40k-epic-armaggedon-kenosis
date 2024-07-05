@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="115" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="118" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -2028,7 +2028,7 @@
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f28d-7637-8ef1-e95d" name="Warhound Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="f28d-7637-8ef1-e95d" name="Warhound Scout Titan" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="5e37-e28a-d4f2-c1e0" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
         <infoLink id="8c3f-46e1-5641-302b" name="Void Shields (X)" hidden="false" targetId="b1613660-3082-48b7-b123-9ac68cc3457a" type="rule">
@@ -2827,33 +2827,6 @@
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="30.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="8fad-341f-d52c-d74c" name="Warhound Scout Titan" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="dafd-8481-7d03-88e7" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
-        <categoryLink id="b1c6-0cb6-a28c-1004" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
-        <categoryLink id="c32a-f687-ca68-9fa9" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
-        <categoryLink id="a625-c487-b29b-59b1" name="Strategic Assets" hidden="false" targetId="63f171a5-0b43-47a2-aee7-373c4059403f" primary="false"/>
-      </categoryLinks>
-      <entryLinks>
-        <entryLink id="4a6b-86ad-eb37-e80b" name="Warhound Titan" hidden="false" collective="false" import="true" targetId="f28d-7637-8ef1-e95d" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5611-585d-f39e-d58f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a12-4d3c-972e-66eb" type="max"/>
-          </constraints>
-        </entryLink>
-      </entryLinks>
-      <costs>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="30.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="866c-d18d-c163-ed1f" name="Knight Preceptor" hidden="false" collective="false" import="true" type="model">
       <infoLinks>
         <infoLink id="660a-0a25-213e-58e5" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
@@ -2988,6 +2961,200 @@
         </infoLink>
         <infoLink id="f8f0-9813-5701-a427" name="Point Defence" hidden="false" targetId="b31e6b46-df95-4b76-b9ce-cae01cf885f0" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="65ba-6281-2690-aa51" name="Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="ba30-56e0-a6b1-2831" name="Void Shields (X)" hidden="false" targetId="b1613660-3082-48b7-b123-9ac68cc3457a" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Void Shields (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f0d5-11b6-2747-f6d1" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
+        <infoLink id="ad6b-7de3-fa1d-aab6" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
+        <infoLink id="851a-986b-6f97-9cc9" name="Dire Wolf Titan" hidden="false" targetId="401b-8175-19e0-9921" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b005-91be-5497-bb8b" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
+        <categoryLink id="bb68-2cdc-54c6-8d44" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
+        <categoryLink id="f763-93ec-05b9-fb8d" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
+        <categoryLink id="f4ec-e3fd-bb7a-3e15" name="Strategic Assets" hidden="false" targetId="63f171a5-0b43-47a2-aee7-373c4059403f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2a81-2540-021c-98d6" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a522-cfe5-d300-45a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="271a-d848-820d-0e7b" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="151f-b605-c78a-c27e" name="Conversion Beam Dissipator" hidden="false" collective="false" import="true" targetId="cf3a-4e79-ef00-0b13" type="selectionEntry"/>
+            <entryLink id="2d1c-9e00-367c-396c" name="Direwolf Neutron Laser" hidden="false" collective="false" import="true" targetId="5b1d-5326-1663-6373" type="selectionEntry"/>
+            <entryLink id="54f3-8258-ce9f-8a10" name="Direwolf Volcano Cannon" hidden="false" collective="false" import="true" targetId="9054-b3b8-0da7-1a3d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1b0a-5876-9e10-f2ff" name="Ardex Mega-Bolters" hidden="false" collective="false" import="true" targetId="acbe-4149-83fe-e708" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae18-f549-1915-812a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fabd-ee49-79c0-ae21" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="e939-507e-83ac-142a" name="Titanic Feet (Direwolf)" hidden="false" collective="false" import="true" targetId="0481-fd18-64ff-fd0d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="729c-ec96-1e69-01bb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa79-36f1-f46f-4cbe" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="385.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="acbe-4149-83fe-e708" name="Ardex Mega-Bolters" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f74d-23fd-cbf9-648a" name="Ardex Mega-Bolters" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">12&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">14</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT, Point Defence, Rapid Fire, Shieldbane</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f8ff-8a13-6029-0a5a" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+        <infoLink id="40bc-a06f-4f07-3933" name="Point Defence" hidden="false" targetId="b31e6b46-df95-4b76-b9ce-cae01cf885f0" type="rule"/>
+        <infoLink id="9dd6-620d-3852-12ab" name="Rapid Fire" hidden="false" targetId="dc282592-3032-4100-893d-5dbca94aaf06" type="rule"/>
+        <infoLink id="f08a-c6f4-c3a5-3d71" name="Shieldbane" hidden="false" targetId="0b18754d-8738-465a-9708-e572c0c62af8" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cf3a-4e79-ef00-0b13" name="Conversion Beam Dissipator" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ba7f-65b4-d7a6-0d78" name="Conversion Beam Dissipator (Close)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">6</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Accurate</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="e0fc-2190-872b-7943" name="Conversion Beam Dissipator (Medium)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;-18&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">7</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Accurate, Demolisher</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="be67-0db7-a459-295b" name="Conversion Beam Dissipator (Far)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">18&quot;-35&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">7</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-4</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Accurate, Demolisher</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="4b9a-f8a2-e2f4-f76c" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="f500-c502-915b-7b93" name="Demolisher" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+        <infoLink id="4e8c-4869-d948-9ea5" name="Accurate" hidden="false" targetId="4ad1d232-1d8e-40c6-8792-c9b1c2306db9" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5b1d-5326-1663-6373" name="Direwolf Neutron Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4784-c645-d659-628e" name="Direwolf Neutron Laser" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">38&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">5</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Shock Pulse</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="921a-ec75-3d7d-a073" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5f9c-21f8-f403-caba" name="Shock Pulse" hidden="false" targetId="495a-71fc-de48-96a" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9054-b3b8-0da7-1a3d" name="Direwolf Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a2a3-382a-f9a1-364f" name="Direwolf Volcano Cannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">70&quot;</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">2+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-4</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Engine Killer (2)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7538-76ff-04b4-2fae" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Arc (Front)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="c148-7f89-9a94-d142" name="Engine Killer (X)" hidden="false" targetId="87965d2a-e417-43f4-8743-84a4d531360d" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Engine Killer (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0481-fd18-64ff-fd0d" name="Titanic Feet (Direwolf)" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="35cc-7f1d-7412-ec05" name="Titanic Feet (Direwolf)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">Melee</characteristic>
+            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -3581,6 +3748,15 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
         <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
         <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Light AT</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="401b-8175-19e0-9921" name="Dire Wolf Titan" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
+      <characteristics>
+        <characteristic name="Move" typeId="abb2-3af0-6b13-5cbf">10&quot;</characteristic>
+        <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
+        <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
+        <characteristic name="W" typeId="cf02-ebac-aa4c-7750">4</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Infiltate, Void Shields (2)</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
