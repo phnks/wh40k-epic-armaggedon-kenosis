@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="129" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="133" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -95,6 +95,50 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="6bb1-492e-6a41-df42" name="Primary Army" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="499b-d2cb-3e4f-8f8d" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="499b-d2cb-3e4f-8f8d" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d1c-c1ea-df2c-3c04" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="eb67-6adb-2319-8192" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="2260-57bf-c6f7-d00d" name="Primary Army" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="edcd-dab9-1bf9-8dbc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d24-4624-3159-870b" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1759-dd6f-23d6-13eb" name="Death Guard" hidden="false" collective="false" import="true" targetId="5ce0-2d47-45fd-d3ef" type="selectionEntry"/>
+            <entryLink id="84a1-6186-fc9f-0d6e" name="Adeptus Mechanicus" hidden="false" collective="false" import="true" targetId="5180-3383-6a93-a3f6" type="selectionEntry"/>
+            <entryLink id="d15c-a9f0-56b8-c681" name="Chaos Knights" hidden="false" collective="false" import="true" targetId="86e3-4d66-3daa-9dbe" type="selectionEntry"/>
+            <entryLink id="dfe7-5f31-de9c-114c" name="Chaos Titans" hidden="false" collective="false" import="true" targetId="6442-9d43-8b5a-27f6" type="selectionEntry"/>
+            <entryLink id="91ae-1384-7521-57f9" name="Maggotkin of Nurgle" hidden="false" collective="false" import="true" targetId="bbcb-523b-1f96-fae2" type="selectionEntry"/>
+            <entryLink id="0106-0f6a-ba2c-f55c" name="Imperial Knights" hidden="false" collective="false" import="true" targetId="1f32-30ae-5f26-46cc" type="selectionEntry"/>
+            <entryLink id="9802-9c85-a01e-de6b" name="Imperial Titans" hidden="false" collective="false" import="true" targetId="d605-4b54-2516-c8ef" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <sharedSelectionEntries>
     <selectionEntry id="2d1c9b51-14e3-460c-a788-78d99a88637c" name="Power Axes" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -3142,6 +3186,48 @@
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5180-3383-6a93-a3f6" name="Adeptus Mechanicus" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="86e3-4d66-3daa-9dbe" name="Chaos Knights" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6442-9d43-8b5a-27f6" name="Chaos Titans" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ce0-2d47-45fd-d3ef" name="Death Guard" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1f32-30ae-5f26-46cc" name="Imperial Knights" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d605-4b54-2516-c8ef" name="Imperial Titans" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bbcb-523b-1f96-fae2" name="Maggotkin of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
