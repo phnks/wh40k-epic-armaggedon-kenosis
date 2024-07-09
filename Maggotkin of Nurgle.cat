@@ -1,172 +1,53 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Nurgle Strategic Assets" revision="39" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="124" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a36fb12e-54bb-4475-94cc-3f70e3e096af" name="Maggotkin of Nurgle" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
-    <forceEntry id="3c7dc790-e3af-423b-b378-cb98910b7684" name="Daemon Host" hidden="false">
+    <forceEntry id="c906-2c57-4bcf-42d6" name="&quot;Plague Legion&quot; Host" hidden="false">
       <categoryLinks>
-        <categoryLink id="8a1fe4ab-ee09-483c-9865-fce5a5e654a3" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="false">
-          <modifiers>
-            <modifier type="increment" field="8ed1f8d4-7fc8-47ee-b803-2534fbd0b2c9" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.33" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="8ed1f8d4-7fc8-47ee-b803-2534fbd0b2c9" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f4e7362-03b5-4882-9637-8804395daea1" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="8ed1f8d4-7fc8-47ee-b803-2534fbd0b2c9" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
+        <categoryLink id="a482-81f5-1415-576c" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="b60e-fd88-26b1-b449" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17658b68-4916-44e1-a7bb-4172489f911f" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1d1510d-111f-4647-841e-f02a8ad59a58" type="min"/>
-            <constraint field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ed1f8d4-7fc8-47ee-b803-2534fbd0b2c9" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6af-8fea-3f41-f76b" type="min"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a128-46ba-75a7-aaf9" type="max"/>
           </constraints>
         </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="c02fec14-bee0-490e-b85e-7fcca9f2c2ef" name="Knight Household Lance" hidden="false">
-      <categoryLinks>
-        <categoryLink id="aa74305a-da91-4108-9e1a-456fb7f6469f" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="false">
-          <modifiers>
-            <modifier type="decrement" field="3573d178-0b40-49be-866f-aed5baff3845" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="increment" field="3573d178-0b40-49be-866f-aed5baff3845" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.33" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="3573d178-0b40-49be-866f-aed5baff3845" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
+        <categoryLink id="810f-1eb5-0951-e209" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="731476ec-7cfa-47eb-9717-14d3a36faa52" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba136328-d86a-4d31-864a-11f3c5942de2" type="min"/>
-            <constraint field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3573d178-0b40-49be-866f-aed5baff3845" type="max"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b66-3936-55ab-14d0" type="min"/>
+            <constraint field="selections" scope="force" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8896-d446-3c0c-a913" type="max"/>
           </constraints>
         </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="5a0d2ddf-15e0-4592-be3c-cc13319914e7" name="Titan Legion Support" hidden="false">
-      <categoryLinks>
-        <categoryLink id="bff7bc5f-f78f-4198-89ef-cdb79c916701" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="false">
-          <modifiers>
-            <modifier type="increment" field="df19a23c-103a-4e08-817b-016655ce57ee" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.33" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="df19a23c-103a-4e08-817b-016655ce57ee" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f4e7362-03b5-4882-9637-8804395daea1" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-            <modifier type="decrement" field="df19a23c-103a-4e08-817b-016655ce57ee" value="1.0">
-              <repeats>
-                <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" repeats="1" roundUp="false"/>
-              </repeats>
-            </modifier>
-          </modifiers>
+        <categoryLink id="182d-aeca-0c4f-f8d6" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="false">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7553fc77-df31-43bc-a37f-029230d46913" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5bf87319-18b5-4228-97a5-3c8c90970e2b" type="min"/>
-            <constraint field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="df19a23c-103a-4e08-817b-016655ce57ee" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0565-1581-934e-dbd9" type="min"/>
+            <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b07-dbae-f2ac-8ce3" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
-  <selectionEntries>
-    <selectionEntry id="c517666e-9e63-4131-86f7-b57589d1630c" name="Nurgle Questoris Knight Banner" hidden="false" collective="false" import="true" type="unit">
-      <modifiers>
-        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="53674925-8de0-44b2-922f-99c0b473ee3a" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
-        <categoryLink id="8275a08b-eb46-40eb-8f26-301fdecd8f12" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="true"/>
-        <categoryLink id="9589fdb8-2582-4054-85bf-e05661c69951" name="Knight (4)" hidden="false" targetId="439db3b2-0ad8-4ef8-a47a-00e1c9c5b414" primary="false"/>
-        <categoryLink id="bd82556a-10bd-49fe-8b86-1ce9fdf325a3" name="Strategic Assets" hidden="false" targetId="63f171a5-0b43-47a2-aee7-373c4059403f" primary="false"/>
-      </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="74db9d9a-4c67-43eb-b803-412c1b03f73c" name="Nurgle Questoris Knights" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0fbe452f-924f-4fca-97c9-46812ce4a98a" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3eca0c1c-e307-4c6a-a4c5-84ac9194a202" type="min"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="c2c22877-ff65-4035-9340-ade227222c09" name="Nurgle Knight Despoiler-Crusader" hidden="false" collective="false" import="true" targetId="531ef769-a0a7-42ce-bd31-08b3d8362768" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c85a4e40-aad5-4d04-86e0-a87c56f5ee5e" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="18b476bc-6092-4e7d-9430-9163760f5b6f" name="Nurgle Knight Despoiler-Paladin" hidden="false" collective="false" import="true" targetId="b3eaeb91-394b-4b20-9d86-7cb1803b872f" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab196a9b-9438-432e-8671-569d6caca4ee" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="01c2e1e6-fcc3-4aa8-9d71-1f81018ce02c" name="Nurgle Knight Despoiler-Warden" hidden="false" collective="false" import="true" targetId="947b8bca-312c-40a8-abe6-d675ecf5e4b4" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="321c8220-87ee-44b5-989f-5d6bc2f47a2a" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <costs>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="30.0"/>
-      </costs>
-    </selectionEntry>
-  </selectionEntries>
   <entryLinks>
     <entryLink id="2f91-7033-880f-4d8f" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="d184-b817-25da-86b6" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
         <categoryLink id="3aca-6ee1-7058-4809" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="a1fc-f6c3-7af6-4864" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="1773-7bff-5558-c221" name="Nurgling Swarm" hidden="false" collective="false" import="true" targetId="af49-3bfd-61da-cae3" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="bd7a-dc4b-71f9-812b" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
         <categoryLink id="653e-80ce-3040-e2d3" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
+        <categoryLink id="876a-0be7-8ec7-ebc1" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e1f6-b3f4-5cc3-63a2" name="Beast of Nurgle Pack" hidden="false" collective="false" import="true" targetId="f68e-3081-e910-52ad" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="25f0-1973-d713-9cf1" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
         <categoryLink id="42fb-d6e5-f334-6f84" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
+        <categoryLink id="86f7-58ca-8538-eefa" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="b050-b643-12a6-f962" name="Great Unclean One Host" hidden="false" collective="false" import="true" targetId="725e-f625-1c15-ef02" type="selectionEntry">
+    <entryLink id="b050-b643-12a6-f962" name="Great Unclean One" hidden="false" collective="false" import="true" targetId="d0f3-342a-ea90-2fb8" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="a42c-b14b-c5e6-e97f" name="Daemon" hidden="false" targetId="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" primary="true"/>
         <categoryLink id="5893-e484-e670-6e3b" name="Monster (3)" hidden="false" targetId="a1b7-ffdc-38b2-e92b" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="7adc-28a9-9c02-71d0" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" targetId="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="74d9-6584-3b49-c4b6" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
-        <categoryLink id="19c5-6b4d-98f2-5e78" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="fa55-b1a8-bf29-52a4" name="Nurgle Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" targetId="247e-aa77-57c7-a4ea" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="68e7-a98e-de7e-b517" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
-        <categoryLink id="121c-30fb-422e-34c2" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
+        <categoryLink id="b08b-9ba8-1526-2f82" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>

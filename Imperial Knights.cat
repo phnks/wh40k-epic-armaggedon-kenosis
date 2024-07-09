@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="10d42b05-8c22-4ef9-bbeb-65a1a7a74bc3" name="Imperial Knights" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="bad7-48ae-c53d-fd26" name="&quot;Questor Imperialis&quot; Knight Lance" hidden="false">
+      <categoryLinks>
+        <categoryLink id="2b33-eb37-fdea-5952" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="4249-f7d4-803e-1aba" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a987-55df-a57a-022d" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fc8-662f-04f9-91d2" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="840f8d94-7649-42ef-a60f-e941ccc843e8" name="Cerastus Knight Banner" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="77763349-2c1a-45ff-b5ec-539c4de137d4" value="605">
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9966386-29c7-41a4-8a5b-6f01c0c2cd50" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="77763349-2c1a-45ff-b5ec-539c4de137d4" value="415">
+          <conditions>
+            <condition field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9966386-29c7-41a4-8a5b-6f01c0c2cd50" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="77763349-2c1a-45ff-b5ec-539c4de137d4" value="215">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e9966386-29c7-41a4-8a5b-6f01c0c2cd50" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="053309e5-45b4-4ba6-b201-6bccd80f0619" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
+        <categoryLink id="6cb602ee-8fb1-4c0b-9abf-d0d23ff4f43b" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="true"/>
+        <categoryLink id="ad5534e6-38ea-402a-bd96-9e4aaa6d075a" name="Knight (4)" hidden="false" targetId="439db3b2-0ad8-4ef8-a47a-00e1c9c5b414" primary="false"/>
+        <categoryLink id="2ad929b0-af5f-40b4-938e-c43665ba9b8c" name="Strategic Assets" hidden="false" targetId="63f171a5-0b43-47a2-aee7-373c4059403f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="87eee5d3-df8f-41f4-b328-ef7e8254427c" name="Armiger Talon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8baba31c-3f99-4de1-a2b0-86ab59baaf22" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a971168e-1d1c-4043-b565-cb3719755ed0" name="Questoris Knight Armiger Talon" hidden="false" collective="false" import="true" targetId="a4ba-7549-13de-9570" type="selectionEntry">
+              <costs>
+                <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="200.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f52dd320-2ce7-45a1-9144-414386bc614c" name="Mechanicum Knight Moirax Talon" hidden="false" collective="false" import="true" targetId="e084-6867-1c4d-e050" type="selectionEntry">
+              <costs>
+                <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="180.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e9966386-29c7-41a4-8a5b-6f01c0c2cd50" name="Cerastus Knights" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdcd39f2-776a-4b2b-b26c-ae31a65b9d06" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4434ae47-7bd5-4787-a2ce-b4a6a2736cdf" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a8affc8c-f231-42d9-863a-1baa146cbc23" name="Knight Acheron" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2a496073-7db1-4278-a658-3c8b1be590fd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="dff5cdfd-2e44-43c5-9162-36bfcda1404d" name="Cerastus Knight" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+                  <characteristics>
+                    <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">9&quot;</characteristic>
+                    <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
+                    <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+11</characteristic>
+                    <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2</characteristic>
+                    <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">3</characteristic>
+                    <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="c13c463f-aa1f-45ba-baaf-2b3bd039d48e" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Ion Shields (4+)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="d0584367-0025-445d-8f4e-75ee0e6fe3a8" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
+                <infoLink id="dfb29b3a-2624-4d51-8f32-cc7bf39fa9f5" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
+                <infoLink id="d0174444-5dbc-4cf7-872a-6f2145e8e11c" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="b1cb449d-d34d-4ac0-89cb-f4b03c931bd2" name="Reaper Chainfist" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="de52832f-3ec7-4a61-a747-630cf0128a71" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a7863a0-5be9-4736-b368-2a081230c40d" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="9fecc4a4-50ad-4af5-8e35-6c937d98babe" name="Reaper Chainfist" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="fdad0fa9-c493-410a-8b1f-0015f7f50755" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="3f221a07-f57e-41d7-a57d-4f4dedc6b068" name="Acheron Pattern Flame Cannon" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbb5b750-abf9-49fc-afbb-9615b42d5444" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c9f2801-d1a3-418e-8b22-a20704181fbd" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="72446e2a-c15f-432e-95c3-27dc1dac1b31" name="Acheron Pattern Flame Cannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">8&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Ignores Cover, Light AT</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="3d585dc3-c249-42b6-8cce-5436f497059c" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="d916b9d6-2d0f-43a4-be00-c9eaa572a65c" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
+                    <infoLink id="5c69a7db-d800-4625-b118-a3b32be1d245" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="9c5b849d-ff82-4eb6-9437-1ff40ba1a573" name="Twin-linked Heavy Bolters" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d53931e-1da9-4bb9-b4e6-58d5e4afd231" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a220e51f-d215-4912-9bca-bae15e7d98a5" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="cdb45f77-308f-40ee-adff-5e231ef0568c" name="Twin-linked Heavy Bolters" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">12&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light, Point Defence</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="daa42adc-d291-4893-8759-c776d691def7" name="Knight Castigator" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5bb3cd-a60e-4d3a-93eb-d413abfa4301" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="14ef038a-7a94-47e6-b91b-11ac419c4616" name="Cerastus Knight" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+                  <characteristics>
+                    <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">9&quot;</characteristic>
+                    <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
+                    <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+11</characteristic>
+                    <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2</characteristic>
+                    <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">3</characteristic>
+                    <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="310181ff-eee5-489b-b309-c86e24447190" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Ion Shields (4+)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="bcdbfea6-5e93-4b8b-8156-19b141c15659" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
+                <infoLink id="159e291e-bc7b-4370-97d7-5f044e1491b6" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
+                <infoLink id="7055b458-d7a4-4fb5-a6d3-adb11bafbe3b" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="d0b121f0-e21d-4f1e-8095-14124e504bd5" name="Tempest Warblade" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdf463c2-626e-47be-a52f-6f66ecdfba50" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8212349a-a956-49be-8f9f-e9b8c8a6194b" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4327f20a-ee14-4941-a569-c732ca71ab62" name="Tempest Warblade" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Rend</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="295651e6-9642-49b1-9eb7-092ba1f0f627" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="7c793c4e-a77a-4c40-a560-6261cfa03158" name="Castigator Pattern Bolt Cannon" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2d2239a-bee7-4275-9579-a5687392c6f7" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="480ddd1c-85f3-4f2c-ad3a-df4abd6992b8" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="7f2837d0-935e-4f0e-9c85-922ac45cc3ec" name="Castigator Pattern Bolt Cannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">14&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">4</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light AT, Rapid Fire, Shieldbane</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="d0a8e470-fc21-43f8-bde1-4afa25b821e5" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="5541298d-93cf-420e-b00b-28af59ebf4af" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+                    <infoLink id="6227ef22-92ad-4ed5-b591-0565bf904aa5" name="Rapid Fire" hidden="false" targetId="dc282592-3032-4100-893d-5dbca94aaf06" type="rule"/>
+                    <infoLink id="dafbe402-ea4e-4eea-a085-abb9f7c82fae" name="Shieldbane" hidden="false" targetId="0b18754d-8738-465a-9708-e572c0c62af8" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d16b9ef-f5ba-4a0e-9040-0ad6d8b15fdb" name="Knight Lancer" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb6acbf3-8df0-44a0-bef4-02e65ac155a7" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="25926053-c611-40ab-ac7c-c7d39370cd53" name="Cerastus Knight" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+                  <characteristics>
+                    <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">9&quot;</characteristic>
+                    <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
+                    <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+11</characteristic>
+                    <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2</characteristic>
+                    <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">3</characteristic>
+                    <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="00322af1-a285-4570-aabc-1e0a0b354b1c" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
+                <infoLink id="a247b01d-f2d9-4424-972f-75fef1daac5a" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
+                <infoLink id="b5e40ec4-b52a-444d-bfb2-48b44d9b3e5c" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="fd78a553-0969-4474-b6c6-2da76b08130e" name="Ion Gauntlet Shield" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="936b3ed2-db3e-454c-b787-458b3163d313" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b1c3a59-6b16-444e-84f0-b092a6e97acf" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="bf64813c-e254-462d-a4f1-f12d2c382339" name="Ion Gauntlet Shield" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Ion Shield (3+)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="c9e7b103-a645-4591-88f2-11b3ebdb02d0" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Ion Shields (3+)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="73171823-ec29-4776-8dc5-e0370011acb3" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2cd167dd-8ebb-4ee0-8052-a6a5da7291e9" name="Shock Lance" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e73c7da-7f59-4066-8206-5c265397f118" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="855f7a66-5376-4f90-95c2-a342624b376b" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4f4c175c-6f03-4b88-9312-99450d27d947" name="Shock Lance" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">-</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">-</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">-</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Reach, Rend</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="c18fcd13-e77f-4cdc-902e-20388345cae8" name="Reach" hidden="false" targetId="901e2f9a-691c-4280-ad6b-84d923e5c7df" type="rule"/>
+                    <infoLink id="3d0fb9f4-c24c-4d8d-a69b-bd457e48c2b9" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a6bd2d1e-7e86-42c8-b268-28316548827a" name="Cerastus Knight Atrapos" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="98cdb92b-81e4-4db8-adf3-452c0459d239" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a8c7b002-fb4c-49ab-bbe2-ee0e8d1f4285" name="Cerastus Knight" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+                  <characteristics>
+                    <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">9&quot;</characteristic>
+                    <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">3+</characteristic>
+                    <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+11</characteristic>
+                    <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2</characteristic>
+                    <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">3</characteristic>
+                    <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a87a8e6b-9cb8-4bfa-830a-2c0db21090e7" name="Furious Charge" hidden="false" targetId="e5867fcb-ae67-470f-8103-b3ba52ae41df" type="rule"/>
+                <infoLink id="a5070650-3572-4259-9a4c-cd4d771f231a" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Ion Shields (3+)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="c38c7991-480d-4ea9-a926-cb420989d159" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
+                <infoLink id="75bf6e2b-76db-4ff6-b9d8-dc51eb8046d0" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+                <infoLink id="102526fd-ac99-44b0-9039-b696681e1762" name="Macro-extinction Targeting Protocols" hidden="false" targetId="341c3c4d-5b46-4179-8edd-1b814e7d8f0f" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="b6080e3a-4a74-4c1b-b437-8afc89a83795" name="Graviton Singularity Cannon" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17b71306-2319-4187-9546-fe236bc6238e" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8761ee85-66e5-4c65-9fc9-9016e9dc30db" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="68394986-3480-49b7-9633-cd718792c5d0" name="Graviton Singularity Cannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">16&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Armourbane, Collapsing Singularity</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="cbb-9f66-337-48ca" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="937e7c39-78d1-4207-b5f2-19bf821175fd" name="Armourbane" hidden="false" targetId="d693421e-7232-4114-a5e7-3ec091684992" type="rule"/>
+                    <infoLink id="1e07fd7f-8d5b-4fb0-be89-13abc4a2a481" name="Collapsing Singularity" hidden="false" targetId="6e976c09-001f-4a1b-b104-161ded71eebc" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2929918e-d44b-46e6-91e0-95c5c1986892" name="Atrapos Lascutter" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8039284f-58c7-4f67-bbfb-62115b03a5fa" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a86b47c2-5605-4e0a-a0b7-44e7b9e0c974" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="3ae6a269-2153-4f77-9124-b6ac45fd810b" name="Atrapos Lascutter" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">2+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-4</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Engine Killer (1), Rend, Wrecker (3)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8c732d84-7b5a-4447-b08f-350dcf145cba" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="b7b1adeb-bc19-4592-a703-e6d64473414d" name="Engine Killer (X)" hidden="false" targetId="87965d2a-e417-43f4-8743-84a4d531360d" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Engine Killer (1)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="8e0fd5bc-bd0d-467c-bd9d-02a39e7182ab" name="Rend" hidden="false" targetId="38574763-4329-487d-8a95-802ae973532d" type="rule"/>
+                    <infoLink id="cfa4f859-e598-47e2-9395-f7822af7af02" name="Wrecker (X)" hidden="false" targetId="e40-19fc-8c79-9a12" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Wrecker (3)"/>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="215.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="88e411da-2a50-47aa-8783-1056cb090d58" name="Acastus Knight Banner" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <categoryLinks>
+        <categoryLink id="dd76987f-6dde-4d54-aa84-94d21ce016db" name="Allied Units" hidden="false" targetId="ab9832ae-ca72-4369-8e32-c77111a7f6e6" primary="false"/>
+        <categoryLink id="274f-9b-b62c-fece" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="true"/>
+        <categoryLink id="18eaf8fa-c94d-4874-9262-64508b700d2a" name="Knight (4)" hidden="false" targetId="439db3b2-0ad8-4ef8-a47a-00e1c9c5b414" primary="false"/>
+        <categoryLink id="30bf6c92-bf58-4e39-b44e-ed30fa1307d0" name="Strategic Assets" hidden="false" targetId="63f171a5-0b43-47a2-aee7-373c4059403f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="de35e883-2371-4f0a-84fc-8e7c9879ed48" name="Armiger Talon" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="849e3d5e-45cd-4852-bdad-2ccb433bf46c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="4f058001-b367-4f0e-8c40-9870a75de3ca" name="Mechanicum Knight Moirax Talon" hidden="false" collective="false" import="true" targetId="e084-6867-1c4d-e050" type="selectionEntry">
+              <costs>
+                <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="200.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="e6b9bc4b-0866-46f0-ad86-aaf0eb130188" name="Questoris Knight Armiger Talon" hidden="false" collective="false" import="true" targetId="a4ba-7549-13de-9570" type="selectionEntry">
+              <costs>
+                <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="180.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="66b5a428-ef72-4e38-ab01-5320cef8757f" name="Acastus Knights" hidden="false" collective="false" import="true" defaultSelectionEntryId="46ed5191-0bc8-4840-9f4d-774da00975f9">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c079c3ce-bfd1-46b4-9df6-5ce6b9e43c5b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="428f822d-825d-4dad-8aec-8316b25c792f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="44070424-7769-436f-bfec-3ac586af7ef1" name="Acastus Knight Asterius" hidden="false" collective="false" import="true" type="model">
+              <profiles>
+                <profile id="56783f7f-8569-4ab0-ba33-30d0f38de809" name="Acastus Knight" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+                  <characteristics>
+                    <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">6&quot;</characteristic>
+                    <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
+                    <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+7</characteristic>
+                    <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2+</characteristic>
+                    <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">3</characteristic>
+                    <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a302f281-de2b-4568-8162-20e89327865a" name="Blessed Auto-simulacra" hidden="false" targetId="750f8e31-fd62-4057-be7f-a50367684b84" type="rule"/>
+                <infoLink id="ea190e1d-e55a-4e39-8615-db5c14941e26" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
+                <infoLink id="9a2d-7dad-d2b-f830" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Ion Shield (4+)"/>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="397fe6b7-00b5-4fd1-aaba-d1b344758c91" name="Conversion Beam Cannon" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="658baa26-f240-43c1-b80e-2bd83a300abe" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1abacd59-d010-4964-adbe-fcec60a04d51" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="43f608ae-0c48-49fa-ade5-a7af5af00837" name="Conversion Beam Cannon (Close)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front)</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="9185caae-90f9-4e9a-9458-0d1f9978ed01" name="Conversion Beam Cannon (Medium)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">6&quot; - 18&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Demolisher</characteristic>
+                      </characteristics>
+                    </profile>
+                    <profile id="36ffd988-6aef-497c-8269-4619a9ccadd2" name="Conversion Beam Cannon (Far)" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">18&quot; - 35&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">3+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-4</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Demolisher</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="0b6ff6eb-ebed-491d-83a8-0495fc3bac00" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="a8d5ac7b-612e-4756-b224-3ba44fff9f23" name="Demolisher" hidden="false" targetId="788-9d12-3358-b236" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="abcf7930-a913-42f1-8a67-c8f4dc2e816f" name="Volkite Culverin" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22632324-4963-400a-ad78-c81b6e89d329" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9502dfa-dea6-4df3-b82f-fb0bbad8053a" type="min"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="4d1a32cc-e063-47a2-8cdc-9ab83686aa6a" name="Volkite Culverin" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">14&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">0</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Deflagrate</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="127a8c82-4ef6-4339-a444-c339cd9119c8" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="a93823ab-7e58-4022-8a17-44024a13d2ef" name="Deflagrate" hidden="false" targetId="0abc9bdb-9038-4cc8-b705-d44bc6fd610e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1ec2c80b-f176-4f39-90cf-8aedbf512341" name="Karacnos Mortar Battery" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6396d9de-3612-495f-bd15-25ef95c5f42c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d42787b-1364-40dd-85f0-daf29fc1652d" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="0f6862e4-91bc-4ce3-8adf-f789f95bbe60" name="Karacnos Mortar Battery" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">30&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Barrage, Ignores Cover</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="260949a6-2e93-4b8c-bce2-29607305582f" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="2fb367e2-c902-4b76-9b35-fe48c91f974f" name="Barrage" hidden="false" targetId="1f84b47e-2af2-41e9-b19d-df2df67a9177" type="rule"/>
+                    <infoLink id="b061f01b-a93d-4991-9e54-3915098a4c76" name="Ignores Cover" hidden="false" targetId="e9de3a97-8f73-42a6-808c-53bd1584964b" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="270.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="46ed5191-0bc8-4840-9f4d-774da00975f9" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" type="model">
+              <profiles>
+                <profile id="45a5d051-1225-40d7-85d5-3fc69fa6339d" name="Acastus Knight" hidden="false" typeId="0a28110b-d032-4c64-8266-fe94b40043ef" typeName="Detachment">
+                  <characteristics>
+                    <characteristic name="Move" typeId="3d35a3d7-68a7-4ea1-afdf-b6a4da4a7120">6&quot;</characteristic>
+                    <characteristic name="Sv" typeId="b8fe304e-fac4-43d5-88b4-d6a5a114b797">2+</characteristic>
+                    <characteristic name="CAF" typeId="1005d6d4-41dc-4599-930a-f52b7bec4f33">+7</characteristic>
+                    <characteristic name="Morale" typeId="6166f95a-3430-477a-9238-936c92a77c5c">2+</characteristic>
+                    <characteristic name="W" typeId="0f6316d2-6ac1-456c-a564-8fcff9b4a70b">3</characteristic>
+                    <characteristic name="Traits" typeId="cc07684d-57be-4f6e-ae5d-125ec8de1466"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="a272803b-0e58-458b-b586-66451a660768" name="Ion Shield (X)" hidden="false" targetId="f619de3e-fcf7-42cf-834b-03ceeb60a337" type="rule">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Ion Shield (4+)"/>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="01364b34-076d-447d-947e-73151133103d" name="Blessed Auto-simulacra" hidden="false" targetId="750f8e31-fd62-4057-be7f-a50367684b84" type="rule"/>
+                <infoLink id="59acf681-3690-4440-8d35-90589ce930a4" name="Independent" hidden="false" targetId="690d2329-8d19-480c-934e-4c1646d86820" type="rule"/>
+              </infoLinks>
+              <selectionEntries>
+                <selectionEntry id="a760a305-d974-4fd7-9a71-8884cb8dbc9b" name="Twin Magma Lascannon" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="189e23b4-85f2-4203-a928-ae61e44fd58e" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a731374-578d-4d75-aa21-f0d54ab2cfc2" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="edb2db6e-203f-404b-9c72-363f7e7383ca" name="Twin Magma Lascannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">25&quot;</characteristic>
+                        <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                        <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                        <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-3</characteristic>
+                        <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Accurate, Anti-tank, Arc (Front)</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <infoLinks>
+                    <infoLink id="8f436286-37d1-484e-ba04-865b0f97e882" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                      <modifiers>
+                        <modifier type="set" field="name" value="Arc (Front)"/>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="02f5755b-8147-4bb0-a319-b05b828f15e9" name="Accurate" hidden="false" targetId="4ad1d232-1d8e-40c6-8792-c9b1c2306db9" type="rule"/>
+                    <infoLink id="d2fda444-2d4a-4ecd-8119-e28e3bdb633c" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                    <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="ff6f2a74-ebb7-45a1-ba72-882cb8dc5cee" name="Missile Weapons" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b0034b7-9003-4811-9abd-42b1ca525696" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7cec109-818d-4a18-b1d0-add5dd723ee0" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="fb914b83-34d0-4eef-bad9-9d956e619bcd" name="Helios Defence Missiles" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="aca1f3f1-0628-49a6-94e3-f8f6a46aba30" name="Helios Defence Missiles" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">25&quot;</characteristic>
+                            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">2</characteristic>
+                            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-2</characteristic>
+                            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Anti-tank, Arc (Front), Skyfire, Tracking</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="9448b7f6-3695-4090-ad7a-9ad102458069" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Arc (Front)"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="697da1a9-b6e5-4442-8654-b357bcf3173d" name="Skyfire" hidden="false" targetId="49152352-28f8-4a07-9399-2965231578e2" type="rule"/>
+                        <infoLink id="1cf18160-484d-44fd-914c-2f6234f50302" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+                        <infoLink id="2bc36f50-c6ff-4384-a546-8718773fc09e" name="Tracking" hidden="false" targetId="d424b31a-5577-47d4-9553-d5c195c8a3a2" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a61bfffe-e995-47c3-b816-d14775d301ab" name="Ironstorm Missile Pod" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="696772af-a33a-4279-bac6-0da3d83e6b17" name="Ironstorm Missile Pod" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">25&quot;</characteristic>
+                            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+                            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+                            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light AT</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="795d7ba5-00a6-448b-a714-a588eb1ceea5" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Arc (Front)"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="f4cc1663-8f4a-4bec-bd20-1e06726d752c" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="9b9eea08-f013-480d-933f-339259ad8fcf" name="Additional Weapons" hidden="false" collective="false" import="true">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b090237a-f42d-4059-b89b-fceee62ce0f5" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5864ec76-1016-485a-a1a4-7d710828722a" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="6d890e0c-835b-4cd7-afc9-7bcf1aa665a1" name="Acastus Autocannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="b145513f-3d66-448c-96c3-48331bc7aab7" name="Acastus Autocannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">16&quot;</characteristic>
+                            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">3</characteristic>
+                            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">5+</characteristic>
+                            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+                            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Arc (Front), Light AT</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="c427f05b-1438-481d-8723-bf3447f28ecd" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Arc (Front)"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="b6f77837-276c-4fb9-af4d-1a1165969843" name="Light AT" hidden="false" targetId="6b2c1c7c-87e3-4b83-b443-1d9e4e5dfdcf" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c07a66c8-01d8-4c4a-a1e0-c31565e79166" name="Acastus Lascannon" hidden="false" collective="false" import="true" type="upgrade">
+                      <profiles>
+                        <profile id="09483278-b2cd-4345-a19c-b61b52c32ec6" name="Acastus Lascannon" hidden="false" typeId="49732a20-0675-4f19-beb1-847bdab6817d" typeName="Weapon">
+                          <characteristics>
+                            <characteristic name="Range" typeId="642a40c2-a183-4040-af23-01ec467ed4b6">22&quot;</characteristic>
+                            <characteristic name="Dice" typeId="cb91a912-4d54-4fa9-be31-ef063b823e4e">1</characteristic>
+                            <characteristic name="To Hit" typeId="48ec1398-c893-4593-bb2a-8a33f2b35647">4+</characteristic>
+                            <characteristic name="AP" typeId="43624b17-dc0b-4d69-b62a-76f8027075c2">-1</characteristic>
+                            <characteristic name="Traits" typeId="bacaab95-6c8d-452b-adeb-a75ddb9ead13">Anti-tank, Arc (Front)</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <infoLinks>
+                        <infoLink id="a19161e7-54d7-4ef3-984e-6b9158190fa6" name="Arc (Front/Rear)" hidden="false" targetId="0855ef49-a016-4e37-8204-9bb3688faf6c" type="rule">
+                          <modifiers>
+                            <modifier type="set" field="name" value="Arc (Front)"/>
+                          </modifiers>
+                        </infoLink>
+                        <infoLink id="a19de44e-fd78-4974-82b8-ecb512c29103" name="Anti-tank" hidden="false" targetId="1e3bb145-e360-4bfb-9169-0008b70be48e" type="rule"/>
+                      </infoLinks>
+                      <costs>
+                        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+                        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="250.0"/>
+                <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="c796-d7d9-7fc6-d22b" name="Questoris Knight Banner" hidden="false" collective="false" import="true" targetId="7e1c-a865-61c0-83cf" type="selectionEntry"/>
+  </entryLinks>
+</catalogue>

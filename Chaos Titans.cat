@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <forceEntries>
+    <forceEntry id="c010-2f8c-318e-4f27" name="&quot;Titanica Traitoris&quot; Titan Maniple" hidden="false">
+      <categoryLinks>
+        <categoryLink id="1f81-327f-d2d3-5e81" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="f395-73f1-8ff0-e355" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a32e-09a6-e8c3-3fd5" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cd3-94db-56e8-aeff" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
+  <entryLinks>
+    <entryLink id="7adc-28a9-9c02-71d0" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" targetId="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="74d9-6584-3b49-c4b6" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
+        <categoryLink id="19c5-6b4d-98f2-5e78" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fa55-b1a8-bf29-52a4" name="Nurgle Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" targetId="247e-aa77-57c7-a4ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="68e7-a98e-de7e-b517" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
+        <categoryLink id="121c-30fb-422e-34c2" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" type="model">
+      <infoLinks>
+        <infoLink id="e94a5aa6-1b2a-4eb9-ba37-199b767ca2d5" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
+        <infoLink id="5298673c-12b6-404d-bb8e-80fa4cbbd6ad" name="Void Shields (X)" hidden="false" targetId="b1613660-3082-48b7-b123-9ac68cc3457a" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Void Shields (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a24e178b-6920-4eff-908b-811b7e789f25" name="Warhound Titan" hidden="false" targetId="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" type="profile">
+          <modifiers>
+            <modifier type="set" field="name" value="Nurgle Warhound Titan"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Void Shields (2), Mark of Nurgle, Nimble"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="eb93-6abe-ca51-4dcc" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f9ee226b-81d5-4204-9552-723b3919075a" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bea61b65-dc25-4ed2-8d3f-75672000ecac" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f33c920-7c57-46d5-85c2-3a836348e22e" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="9f9709f8-ffe9-46c8-a6a1-c40401782ecc" name="Conversion Beam Dissolutor" hidden="false" collective="false" import="true" targetId="9c6d5624-b453-42a9-a7e2-c3e2d93bca7c" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6767b53-d5f8-47f3-8ca8-1d5f7836cfd1" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="234c0396-f4e0-4f13-9a01-3ea28ebd95c7" name="Graviton Eradicator" hidden="false" collective="false" import="true" targetId="2d4ec5bb-f7f0-4137-83cf-e9afa6117882" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05c1abf1-ede4-4a27-a3ad-db57bb6c8847" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="13fe2379-d2fe-4d5d-85bd-df47dc01d9f5" name="Warhound Swarmer Missiles" hidden="false" collective="false" import="true" targetId="bbf0c626-dabb-4943-b4b3-78e0cbd54da0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="72a10ad6-2036-45d0-9e99-26b652075ca1" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1abff69d-6005-46cc-8fdc-9045aa62cb51" name="Warhound Shudder Missiles" hidden="false" collective="false" import="true" targetId="ae3b1799-5261-4d8a-b5d2-3899c57928e6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2dd43d8-7d1e-4b44-b005-c7116a5bfe7c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="4c75b753-2629-41c3-ba65-44146237ffc4" name="Vulcan Mega-bolter" hidden="false" collective="false" import="true" targetId="10cd2536-e604-4907-a428-17cdd6df618f" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e050167-6cc9-468f-a225-0b94a755d607" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1587e265-6983-415d-89ac-092cfb24a94f" name="Volkite Eradicator" hidden="false" collective="false" import="true" targetId="e6227526-cff3-40d9-9876-444be2b8b128" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4cd061ff-89b7-4d72-ade0-7733efec9d8e" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="baad740d-533c-41dc-976b-35b2d6da130c" name="Ursus Claw" hidden="false" collective="false" import="true" targetId="8995ae4b-86b4-4359-a906-8bf3d96fac65" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="392c3228-c877-4128-8cd5-b831fc05f0d8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="bb20e840-5c69-4445-a3eb-bee426e1ad96" name="Turbo-Laser Destructor" hidden="false" collective="false" import="true" targetId="69359609-2c66-4c96-9889-e6732c0ff2d2" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d1db4c-c188-49b5-9c48-cf742a38c2c2" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="1c10b575-2a93-4ee6-a2c3-bad4e8f5dcb2" name="Plasma Blastgun" hidden="false" collective="false" import="true" targetId="e96b6268-0587-4904-b1f2-a9247206fcc9" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce30547e-336c-4050-8f75-52af0ecb82c0" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="eccb6e0d-63da-4eee-8d53-8042cef91e22" name="Natrix Shock Lance" hidden="false" collective="false" import="true" targetId="e3dc5432-4f9d-44df-808d-5bf2db8a98aa" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fef09e49-0663-4010-94cf-323c5acf54f8" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2a42c146-1cd6-482d-bdc7-ec3ad6ee00f0" name="Inferno Gun" hidden="false" collective="false" import="true" targetId="089732b2-f5ce-4e38-ba35-025fdb36d52d" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="43b331f0-d8b9-4fcc-880a-e2a74d725a4c" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="e93dfaea-6b22-4474-9b6c-00cf494fab36" name="Incisor Pattern Melta Lance" hidden="false" collective="false" import="true" targetId="c8475089-538a-4f6f-a097-eebd63288ed5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a7fa8a-3e12-4ed4-b65f-7eb201ea5c0a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="ca45-651a-c365-b1eb" name="Titanic Feet (Warhound)" hidden="false" collective="false" import="true" targetId="d21b-1f03-5792-21d4" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac24-b995-024d-637b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8454-1468-1f1c-0114" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1d12-bcf9-3597-3995" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a779-0c7c-163d-38d4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ff8-837d-574a-d424" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="321.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="247e-aa77-57c7-a4ea" name="Nurgle Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="remove" field="category" value="ab9832ae-ca72-4369-8e32-c77111a7f6e6">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <infoLinks>
+        <infoLink id="c874-cced-0920-869c" name="Dire Wolf Titan" hidden="false" targetId="401b-8175-19e0-9921" type="profile">
+          <modifiers>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Infiltrate, Void Shields (2), Mark of Nurgle, Nimble"/>
+            <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
+            <modifier type="set" field="name" value="Nurgle Dire Wolf Titan"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="25a4-f0fa-d3cb-7d4c" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
+        <infoLink id="d410-20f2-ce38-6f08" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
+        <infoLink id="5f57-8b49-780c-39ad" name="Void Shields (X)" hidden="false" targetId="b1613660-3082-48b7-b123-9ac68cc3457a" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Void Shields (2)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="b159-e01b-8ad2-2c07" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+      </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a924-8525-18b2-9e21" name="Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1808-80c9-a188-488f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3556-0f50-41ef-0025" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ed11-cf53-5664-26c5" name="Conversion Beam Dissipator" hidden="false" collective="false" import="true" targetId="cf3a-4e79-ef00-0b13" type="selectionEntry"/>
+            <entryLink id="fdb6-447c-2402-8f7f" name="Direwolf Neutron Laser" hidden="false" collective="false" import="true" targetId="5b1d-5326-1663-6373" type="selectionEntry"/>
+            <entryLink id="9267-7e71-61bd-af40" name="Direwolf Volcano Cannon" hidden="false" collective="false" import="true" targetId="9054-b3b8-0da7-1a3d" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="d129-9b0f-7c82-a652" name="Ardex Mega-Bolters" hidden="false" collective="false" import="true" targetId="acbe-4149-83fe-e708" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d13-d94a-6bfd-6e64" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9149-e3d6-8825-8783" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="030b-01f0-68f1-fdeb" name="Mark of Nurgle" hidden="false" collective="false" import="true" targetId="ced4-a4a2-1a86-fe07" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8467-56c6-c97a-5f76" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06fd-0c54-ec00-b02f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2731-7aba-226e-e5c0" name="Titanic Feet (Direwolf)" hidden="false" collective="false" import="true" targetId="0481-fd18-64ff-fd0d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7941-b577-1b9a-4d1f" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7f4-684e-dbe5-420c" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="393.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+</catalogue>
