@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10d42b05-8c22-4ef9-bbeb-65a1a7a74bc3" name="Imperial Knights" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10d42b05-8c22-4ef9-bbeb-65a1a7a74bc3" name="Imperial Knights" revision="49" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="bad7-48ae-c53d-fd26" name="&quot;Questor Imperialis&quot; Knight Lance" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="3750-3116-4286-e28b" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f32-30ae-5f26-46cc" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" field="3750-3116-4286-e28b" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f32-30ae-5f26-46cc" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="3750-3116-4286-e28b" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f32-30ae-5f26-46cc" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5180-3383-6a93-a3f6" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="3750-3116-4286-e28b" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1f32-30ae-5f26-46cc" type="lessThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5180-3383-6a93-a3f6" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3750-3116-4286-e28b" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="2b33-eb37-fdea-5952" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="4249-f7d4-803e-1aba" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="false">

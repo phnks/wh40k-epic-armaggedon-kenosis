@@ -1,7 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7a9e7b45-fd65-4d48-9d07-bfdff336c140" name="Imperial Titans" revision="49" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7a9e7b45-fd65-4d48-9d07-bfdff336c140" name="Imperial Titans" revision="50" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="04c2-81da-5889-7c97" name="&quot;Collegia Titanica&quot; Titan Maniple" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="b986-d2a8-140e-5e9a" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d605-4b54-2516-c8ef" type="lessThan"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5180-3383-6a93-a3f6" type="greaterThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="b986-d2a8-140e-5e9a" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d605-4b54-2516-c8ef" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5180-3383-6a93-a3f6" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="b986-d2a8-140e-5e9a" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d605-4b54-2516-c8ef" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" field="b986-d2a8-140e-5e9a" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f4e7362-03b5-4882-9637-8804395daea1" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="d605-4b54-2516-c8ef" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b986-d2a8-140e-5e9a" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="c9b1-4c7d-7634-17ac" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="d145-16b3-0557-68ce" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="false">

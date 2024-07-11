@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="43" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="45" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="c010-2f8c-318e-4f27" name="&quot;Titanica Traitoris&quot; Titan Maniple" hidden="false">
       <modifiers>
         <modifier type="increment" field="221d-4374-c424-6404" value="1.0">
           <repeats>
-            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.33" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
           </repeats>
           <conditions>
             <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6442-9d43-8b5a-27f6" type="lessThan"/>
@@ -17,6 +17,14 @@
           </repeats>
           <conditions>
             <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6442-9d43-8b5a-27f6" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" field="221d-4374-c424-6404" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="9f4e7362-03b5-4882-9637-8804395daea1" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="6442-9d43-8b5a-27f6" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>

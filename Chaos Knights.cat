@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="40" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8483-f441-9ebf-6bc3" name="&quot;Questor Traitoris&quot; Knight Lance" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="fa38-0573-63e4-0d05" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="86e3-4d66-3daa-9dbe" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="fa38-0573-63e4-0d05" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="86e3-4d66-3daa-9dbe" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" field="fa38-0573-63e4-0d05" value="1.0">
+          <repeats>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="86e3-4d66-3daa-9dbe" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa38-0573-63e4-0d05" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="4c7c-6e65-e182-baa6" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
         <categoryLink id="a8bf-3434-dbbf-f0bd" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="false">
