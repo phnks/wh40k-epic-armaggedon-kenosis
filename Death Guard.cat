@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="113" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="115" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -797,44 +797,6 @@
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="ebb60260-016c-4640-8e70-74ff41ed94a9" name="Sons of Barbarus" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="69c4c111-1541-4731-8eef-de30e1219e9f" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7c8d1fb-81fc-4812-92f7-c8458930e85c" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="ffa2041d-b927-47b1-b5b6-75e60b38df06" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="cc98cc80-569b-4088-8038-accf13eb69a9" name="Sons of Barbarus" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6db9429d-34b1-4f5b-be54-04e6133a2828" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="149cbbd1-b49b-4704-a58f-e3b171bd702a" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="6a7cafed-f2c9-41ae-8a24-40302cf7935e" name="Sons of Barbarus" hidden="false" typeId="308a9d45-51e7-4950-8aea-5ad963f4d166" typeName="Special Rules">
-              <characteristics>
-                <characteristic name="Description" typeId="2b3e2673-8561-4b2e-b2f7-78810e28cb0c">Chaos: Death Guard Detachments do not suffer Hits for moving through Dangerous terrain.
-
-In addition, at the start of the battle, before any Detachments are deployed, a player may pick up to two areas of terrain (12&quot; x 12&quot;) if their Army contains at least one Chaos: Death Guard Formation. For the remainder of the battle, these areas count as Dangerous terrain, in addition to any other rules that apply.
-
-Two Structures can be selected in place of a single area of terrain. Each time a model Garrisons or leaves a Structure designated as Dangerous terrain, it counts as having moved 1&quot; through it.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -1738,8 +1700,8 @@ All Infantry (excluding Pox Walker Horde) Detachments may take dedicated transpo
     </selectionEntry>
     <selectionEntry id="4f9f-2921-87ae-d3c0" name="&quot;Nurgle&apos;s Gift&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc94-0707-66b8-2ccd" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddae-f146-1b29-8e23" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cc94-0707-66b8-2ccd" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddae-f146-1b29-8e23" type="max"/>
       </constraints>
       <rules>
         <rule id="8d59-2a4a-264c-83a3" name="Army Ability &quot;Nurgle&apos;s Gift&quot;" hidden="false">
