@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="41" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8483-f441-9ebf-6bc3" name="&quot;Questor Traitoris&quot; Knight Lance" hidden="false">
       <modifiers>
@@ -15,9 +15,14 @@
           <repeats>
             <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
           </repeats>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="86e3-4d66-3daa-9dbe" type="lessThan"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="86e3-4d66-3daa-9dbe" type="lessThan"/>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="5180-3383-6a93-a3f6" type="lessThan"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
         <modifier type="decrement" field="fa38-0573-63e4-0d05" value="1.0">
           <repeats>

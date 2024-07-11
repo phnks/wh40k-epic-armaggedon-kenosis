@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="96" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="98" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -216,30 +216,13 @@
         </categoryLink>
       </categoryLinks>
     </forceEntry>
-    <forceEntry id="d3ee-418b-e7be-0314" name="&quot;Collegia Titanica&quot; Titan Maniple" hidden="false">
+    <forceEntry id="b1cc-25c7-76f9-09fb" name="&quot;Skitarii Legion&quot; Titan Guard" hidden="false">
       <categoryLinks>
-        <categoryLink id="d6b0-4f56-3b3c-29fa" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
-        <categoryLink id="3d09-11a4-0557-43e3" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="false">
+        <categoryLink id="512c-c1f6-a988-d5ca" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
+        <categoryLink id="49af-50f9-5b57-8420" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
           <constraints>
-            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ebe-71e6-1b32-d29a" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f50-c824-a3d3-1f8e" type="min"/>
-          </constraints>
-        </categoryLink>
-        <categoryLink id="5d50-2f54-c4ca-5cbf" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb56-f9dd-d4fa-cb55" type="min"/>
-            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ed0-0e37-3a43-b666" type="max"/>
-          </constraints>
-        </categoryLink>
-      </categoryLinks>
-    </forceEntry>
-    <forceEntry id="8939-ddcc-1ce2-fd66" name="&quot;Questor Mechanicus&quot; Knight Lance" hidden="false">
-      <categoryLinks>
-        <categoryLink id="2ece-0216-a7b9-ae48" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="false"/>
-        <categoryLink id="e847-b571-cb1e-892c" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="false">
-          <constraints>
-            <constraint field="selections" scope="force" value="5.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3257-654b-f8f3-c3b3" type="max"/>
-            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4601-923e-584e-edcf" type="min"/>
+            <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="491c-1770-049f-1ba8" type="max"/>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bfa-a3c8-5bc7-d6a2" type="min"/>
           </constraints>
         </categoryLink>
       </categoryLinks>
@@ -259,7 +242,7 @@
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3ee-418b-e7be-0314" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-25c7-76f9-09fb" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1167,7 +1150,7 @@ Optional Detachments:
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3ee-418b-e7be-0314" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-25c7-76f9-09fb" type="greaterThan"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
@@ -1520,6 +1503,52 @@ Optional Detachments:
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="e157-6d8e-9575-192e" name="&quot;Skitarii Legion&quot; Titan Guard" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-25c7-76f9-09fb" type="lessThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="d005-3457-ae4f-e460" value="0.0">
+          <conditions>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-25c7-76f9-09fb" type="lessThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d005-3457-ae4f-e460" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b24-f724-6d19-3d8d" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="cc2d-c4cc-724f-e443" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="3434-ef3a-a6e3-4a39" name="&quot;Skitarii Legion&quot; Titan Guard" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06f1-49ab-9665-7809" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ac-6ffd-7cb8-45ea" type="max"/>
+          </constraints>
+          <rules>
+            <rule id="01fe-a685-ea05-4663" name="&quot;Skitarii Legion&quot; Titan Guard" hidden="false">
+              <description>Compulsory Detachments:
+1 Core (Secutarii)
+
+Optional Detachments:
+1 Core (Secutarii)</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="6a07-1f9d-c0bf-3a24" name="Myrmidon Host" hidden="false" collective="false" import="true" targetId="1e25-774c-0865-a26c" type="selectionEntry">
@@ -1548,7 +1577,7 @@ Optional Detachments:
             <conditionGroup type="or">
               <conditions>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="greaterThan"/>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d3ee-418b-e7be-0314" type="greaterThan"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b1cc-25c7-76f9-09fb" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="greaterThan"/>
                 <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="greaterThan"/>
               </conditions>
@@ -1561,9 +1590,6 @@ Optional Detachments:
         <categoryLink id="9275-1030-3346-2bc4" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="1e96-adb5-a573-f8b6" name="Questoris Knight Banner" hidden="false" collective="false" import="true" targetId="7e1c-a865-61c0-83cf" type="selectionEntry"/>
-    <entryLink id="cad5-f2c5-acfa-9967" name="Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="f28d-7637-8ef1-e95d" type="selectionEntry"/>
-    <entryLink id="d5bc-a913-a2b4-820f" name="Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" targetId="65ba-6281-2690-aa51" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="afc43c83-3406-467a-b5ee-6699ad3a6716" name="Skitarii Rangers" hidden="false" collective="false" import="true" type="model">

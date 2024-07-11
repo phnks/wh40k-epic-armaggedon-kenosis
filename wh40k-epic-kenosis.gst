@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="133" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="134" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -2400,6 +2400,29 @@
         <infoLink id="5fbd-93a0-e9f9-0a15" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
         <infoLink id="3e01-9c28-a3ff-3902" name="Questoris Knight" hidden="false" targetId="faaef022-e3e3-4911-9288-8fbca6b1bab4" type="profile"/>
       </infoLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="725b-3623-0f4d-796a" name="Melee Weapons" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="043f-0335-986d-33dd" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef4-0fe1-fab1-55b7" type="min"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="2a22-92f3-f28a-eb15" name="Reaper Chainsword" hidden="false" collective="false" import="true" targetId="6f68f845-ebd1-41e4-b761-729ad392a1a7" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cc8-9764-194b-42cc" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f7be-7648-a0a1-e31d" name="Thunderstrike Gauntlet" hidden="false" collective="false" import="true" targetId="78460416-0d0c-4012-a625-e07bce046439" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="019f-0647-b098-263c" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="‏‏‎‏‏‎ ‎points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="7eb1-52dc-68c2-8376" name="Heavy Stubber" hidden="false" collective="false" import="true" targetId="31d152ca-a4e7-4767-9926-f34f0123b091" type="selectionEntry">
           <constraints>

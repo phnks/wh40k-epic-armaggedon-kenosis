@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="110" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="111" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="134" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -2046,7 +2046,7 @@ Round 4 - 9&quot;</description>
         <categoryLink id="9172-440c-a966-d61c" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e4af-e8d6-25e7-6de2" name="Great Unclean One Host" hidden="false" collective="false" import="true" targetId="725e-f625-1c15-ef02" type="selectionEntry">
+    <entryLink id="e4af-e8d6-25e7-6de2" name="Great Unclean One" hidden="false" collective="false" import="true" targetId="d0f3-342a-ea90-2fb8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -2060,8 +2060,8 @@ Round 4 - 9&quot;</description>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="b162-562a-09d9-3a3d" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
         <categoryLink id="cdb1-3dd6-3a3c-8f8e" name="Monster (3)" hidden="false" targetId="a1b7-ffdc-38b2-e92b" primary="false"/>
+        <categoryLink id="2a6e-7ae9-68cb-aba9" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="e78d-b7b4-dc9c-bb1a" name="Blightlord Terminator Detachment" hidden="false" collective="false" import="true" targetId="6510-4fd8-b2eb-cfb9" type="selectionEntry">
