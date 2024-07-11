@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a36fb12e-54bb-4475-94cc-3f70e3e096af" name="Maggotkin of Nurgle" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="127" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a36fb12e-54bb-4475-94cc-3f70e3e096af" name="Maggotkin of Nurgle" revision="43" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="c906-2c57-4bcf-42d6" name="&quot;Plague Legion&quot; Host" hidden="false">
       <categoryLinks>
@@ -25,6 +25,50 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="6315-4465-518b-82a1" name="&quot;Warp Storm (Nurgle)&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d382-6077-3ccd-db08" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a88e-cf19-f218-973c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="32f8-46b3-924f-dc38" name="&quot;Warp Storm (Nurgle)&quot; Army Ability" hidden="false">
+          <description>At the start of each battle round, you can make a Warp Storm roll. To do so, roll eight D6. For each 4+, gain 1 Warp Storm point (WSP).
+Warp Storm points can be spent before the start of the battle round on the Warp Storm effects listed below. 
+Each effect has an associated Warp Storm points cost. If you do not have enough Warp Storm points for a specific Warp Storm effect, you cannot use it. Unless otherwise specified, you can use the same Warp Storm effect multiple times over the course of the battle, but you cannot use the same Warp Storm effect more than once per battle round. Any spent Warp Storm points are deducted from your total.
+At the end of each battle round, unless otherwise specified, any unspent Warp Storm points are lost. Some abilities will allow you to retain Warp Storm points. Each ability will specify how many Warp Storm points can be retained. Retained Warp Storm points are not lost at the end of the battle round.
+
+DARK INVIGORATION 5WSP
+One model in each unit from your army can regain up to D3 lost wounds. If every model in that unit has a Wounds characteristic of 1, that unit can instead be replenished. When a unit is replenished, you can return D3 destroyed models to that unit with their full wounds remaining. 
+
+REVOLTINGLY RESILIENT 4WSP
+All detachments gain the Feel No Pain (5+) special rule until the end of the battle round.
+
+SWARMING INSECTS 4WSP
+Until the end of the battle round, each time a model from your army makes a melee attack, add 1 to that attack’s hit roll.
+
+PLAGUE OF RUST 2WSP
+Until the end of the battle round, each time a model from your army makes a melee attack against an enemy Vehicle, Super-Heavy Vehicle, Knight, or Titan unit, improve the Armour Penetration characteristic of that attack by 1.
+
+WAVE OF SICKNESS 2WSP
+Roll one D6 for each enemy unit within 12&quot; of one or more Detachments from your army. On a 4+, that unit suffers D3 automatic hits with AP0.
+
+MALICIOUS MISDIRECTION 2WSP
+Until the end of the round, enemy Strategic Reserve units can only be set up as if it were the first battle round.
+
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="44bb-9977-a1b0-6a12" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="2f91-7033-880f-4d8f" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
       <categoryLinks>
@@ -117,6 +161,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3eaeb91-394b-4b20-9d86-7cb1803b872f" name="Nurgle Knight Despoiler-Paladin" hidden="false" collective="false" import="true" type="model">
@@ -195,6 +240,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="947b8bca-312c-40a8-abe6-d675ecf5e4b4" name="Nurgle Knight Despoiler-Warden" hidden="false" collective="false" import="true" type="model">
@@ -273,6 +319,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" type="model">
@@ -379,6 +426,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="321.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="247e-aa77-57c7-a4ea" name="Nurgle Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="upgrade">
@@ -442,6 +490,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="393.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

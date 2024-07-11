@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="98" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="99" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -295,6 +295,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -334,6 +335,7 @@
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ee9755ee-afdf-46b9-a9aa-caeb49fa0e99" name="Karacnos Assault Tank Detachment" hidden="false" collective="false" import="true" type="unit">
@@ -371,6 +373,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="28.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="31afb0df-89d5-4952-9e0a-84b1861ac38c" name="Onager Dunecrawler Detachment" hidden="false" collective="false" import="true" type="unit">
@@ -408,6 +411,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="25.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7482dffd-b159-4e4c-b8c8-071a0d13ec92" name="Mechanicus Command Detachment" hidden="false" collective="false" import="true" type="unit">
@@ -541,6 +545,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -619,6 +624,7 @@
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1a790951-2b71-466e-94ff-e8b388ebfdda" name="Elimination Volley" hidden="false" collective="false" import="true" type="upgrade">
@@ -645,12 +651,14 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd0e959f-7729-469c-921b-bd01a7b02428" name="Triaros Armoured Conveyer Detachment" hidden="false" collective="false" import="true" type="unit">
@@ -687,6 +695,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ac6d3a8-4dfa-4fe4-8147-5704abfee4ba" name="&quot;Auxilia Myrmidon&quot; Century" hidden="false" collective="false" import="true" type="upgrade">
@@ -737,12 +746,14 @@ All Infantry Detachments may take Triaros Armoured Conveyors are Dedicated Trans
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e7a95f3d-c469-4132-a793-f32a929bcb95" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false" collective="false" import="true" type="upgrade">
@@ -790,12 +801,14 @@ Can include one of the following:
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="62b4dc29-0567-4c3b-9b8f-211ca1d9bd65" name="&quot;Skitarii Legion&quot; Scout Company" hidden="false" collective="false" import="true" type="upgrade">
@@ -841,12 +854,14 @@ Optional Detachments:
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a847465f-cb17-4c76-ab00-10b8697f3a2c" name="&quot;Skitarii Legion&quot; War Cohort" hidden="false" collective="false" import="true" type="upgrade">
@@ -897,12 +912,14 @@ All Infantry detachments may take Skorpius Duneriders as Dedicated Transports. <
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a2478516-aa23-48c8-ac35-0bdd5df513ce" name="&quot;Ordo Reductor&quot; Artillery Company" hidden="false" collective="false" import="true" type="upgrade">
@@ -948,12 +965,14 @@ Optional Detachments:
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8f628408-b569-4ac1-93bb-d7b87166fb44" name="Domitar-Ferrum Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
@@ -991,6 +1010,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1682d46b-ec8e-4672-b18c-e39bdd872a52" name="Krios Battle Tank Squadron" hidden="false" collective="false" import="true" type="unit">
@@ -1028,6 +1048,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="21.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ec3491a8-c917-4122-b42e-b7eadbff3487" name="Stormhammer Super-Heavy Tank Squadron" hidden="false" collective="false" import="true" type="unit">
@@ -1066,6 +1087,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6990d3c5-2f88-4eec-b8ad-c3fe47cbefae" name="Ironstrider Battle Maniple" hidden="false" collective="false" import="true" type="unit">
@@ -1102,6 +1124,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ad6788e2-1e23-49c2-8459-302f4c9e622d" name="Colossus Bombard Crawler Detachment" hidden="false" collective="false" import="true" type="unit">
@@ -1139,6 +1162,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab7d-e9ad-58ab-0f72" name="Thallaxii Cohort" hidden="false" collective="false" import="true" type="unit">
@@ -1178,6 +1202,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8936-94e9-a8b1-e2e9" name="Skorpius Dunerider Detachment" hidden="false" collective="false" import="true" type="unit">
@@ -1213,218 +1238,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="b48b-d3e8-5182-45b5" name="&quot;Skitarii Legion&quot; Omnispex" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="65b5-2ed9-8784-be82" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a018b943-ffe6-4741-91e9-eccf235fbb59" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="65b5-2ed9-8784-be82" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9407-c00c-55d6-9fc9" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="ee62-e5c4-65b6-d8be" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0e12-374f-68fe-60e7" name="&quot;Skitarii Legion&quot; Omnispex" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7994-95c5-fa8c-fa15" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="053c-1bb8-9126-d9ee" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="9935-acf3-fb81-eab7" name="&quot;Skitarii Legion&quot; Omnispex" hidden="false">
-              <description>A formation with this special rule may ignore any To Hit penalties when targeting Detachments through Difficult, Dangerous, or Obscuring Terrain.  </description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9721-51bd-3e39-d316" name="&quot;Skitarii Legion&quot; Clandestine Infiltration" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="90f3-59f7-8fea-3acd" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90f3-59f7-8fea-3acd" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe96-feb3-0f70-8475" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="49a9-f43a-4e66-aa17" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="0d72-d65d-a8e8-066a" name="&quot;Skitarii Legion&quot; Clandestine Infiltration" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b28-41cf-5ecb-140a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cdee-dc87-3305-9456" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="d78f-ffbe-6daa-4cf8" name="&quot;Skitarii Legion&quot; Clandestine Infiltration" hidden="false">
-              <description>All Infantry detachments gain Infiltrate. All other detachments gain Forward Deployment.
-
-</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="44d4-402d-dfac-b515" name="&quot;Auxilia Myrmidon&quot; Extinction Order" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="f0cc-d0a0-3aa3-701b" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0cc-d0a0-3aa3-701b" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6cd-b6f4-9812-c377" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="5e8f-c327-f513-2dd5" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="a892-5f85-68a1-78a8" name="&quot;Auxilia Myrmidon&quot; Extinction Order" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e2a-71c4-803b-825b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="beac-c210-bb30-f368" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="cfdc-d141-b732-0c9b" name="&quot;Auxilia Myrmidon&quot; Extinction Order" hidden="false">
-              <description>Once per Round, at the start of the Round, select one Building or area of terrain (12&quot; x 12&quot;). When targeting any Detachments within that area, get +1 to hit on both Melee and Ranged weapons. This applies to hits against Buildings or Detachments garrisoned in Buildings.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="cf2c-6362-5f24-fcd5" name="&quot;Ordo Reductor&quot; Reduce to Rubble" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="a80c-47e3-ead9-704a" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b0a6804c-253f-4078-9069-6c4c64b22287" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a80c-47e3-ead9-704a" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c133-c3d1-2ba8-7a95" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="d0f8-1f4d-d0d9-48a6" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="f9b5-b703-b0f2-389e" name="&quot;Ordo Reductor&quot; Reduce to Rubble" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eb67-8fbe-130a-b786" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ce8-4ca2-3205-1618" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="ba1d-293a-d86f-e78f" name="&quot;Ordo Reductor&quot; Reduce to Rubble" hidden="false">
-              <description>All Detachments in a Formation with this special rule gain 1 AP on any hits against buildings. </description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="9152-be13-3aad-9a50" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200f8047-27ad-46d2-9435-58ba4111fa6f" type="lessThan"/>
-          </conditions>
-        </modifier>
-        <modifier type="set" field="859b-f99b-9c24-85c3" value="0.0">
-          <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="200f8047-27ad-46d2-9435-58ba4111fa6f" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="859b-f99b-9c24-85c3" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee8f-909e-1228-2f5a" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="a669-292e-34c8-aaff" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="be89-5ed6-0962-2313" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1891-cc79-813e-d15c" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4de-e29b-a68c-21b0" type="max"/>
-          </constraints>
-          <rules>
-            <rule id="9525-3dd5-7092-2a80" name="&quot;Ordo Reductor&quot; Unmaker God&apos;s Will" hidden="false">
-              <description>All Ranged Weapons in Detachments in this Formation, gain the Armourbane special rule when firing at half range against target Detachments of type Vehicle or Super-Heavy Vehicle.</description>
-            </rule>
-          </rules>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1ce-bd4f-9bc0-c812" name="Archaeopter Stratoraptor Squadron" hidden="false" collective="false" import="true" type="upgrade">
@@ -1462,6 +1276,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="12.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8d83-4b1a-8fb6-fefa" name="Secutarii Titan Guard" hidden="false" collective="false" import="true" type="unit">
@@ -1501,6 +1316,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e157-6d8e-9575-192e" name="&quot;Skitarii Legion&quot; Titan Guard" hidden="false" collective="false" import="true" type="upgrade">
@@ -1541,12 +1357,57 @@ Optional Detachments:
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e037-2625-54e1-1c17" name="&quot;Doctrina Imperatives&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8c-a7c2-123e-40f5" type="min"/>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca6a-164e-e0ae-ed19" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d83a-ca10-1f1c-ccc8" name="Army Ability &quot;Doctrina Imperatives&quot;" hidden="false">
+          <description>Every unit in your army&apos;s has their characteristics modified depending on which Doctrina Imperative is active for your army. Each Doctrina Imperative has two effects, an Optimisation effect that improves one of this unit’s characteristics, and a Deprecation effect that reduces one of this unit’s characteristics. When a Doctrina Imperative is active, both of these effects will apply to this unit. At the start of the battle round, you can select one Doctrina Imperative that has not yet been active for your army. If you do so, until the end of the battle round, that Doctrina Imperative is active for your army.
+
+PROTECTOR IMPERATIVE
+OPTIMISATION
+Improve the hit chance characteristic of ranged weapons models in this unit have by 1.
+DEPRECATION
+Reduce the hit chance characteristic of melee weapons models in this unit have by 1.
+
+CONQUEROR IMPERATIVE
+OPTIMISATION
+Improve the hit chance characteristic of melee weapons models in this unit have by 1.
+DEPRECATION
+Reduce the hit chance characteristic of ranged weapons models in this unit have by 1.
+
+BULWARK IMPERATIVE
+OPTIMISATION
+Improve the Save characteristic of models in this unit by 1 (models in this unit cannot have a Save characteristic better than 2+).
+DEPRECATION
+Reduce the Move characteristic of models in this unit by 3&quot;.
+
+AGGRESSOR IMPERATIVE
+OPTIMISATION
+Improve the Move characteristic of models in this unit by 3&quot;.
+DEPRECATION
+Reduce the Save characteristic of models in this unit by 1.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5534-0f64-25da-798b" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1640,6 +1501,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="6.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c4f94f2c-ea5e-4c4b-976b-8ea2137b5d94" name="Galvanic Rifles" hidden="false" collective="false" import="true" type="upgrade">
@@ -1660,6 +1522,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="eccbf2e3-15c7-4863-bf9c-c00c338c7e5e" name="Myrmidon Secutors" hidden="false" collective="false" import="true" type="model">
@@ -1700,6 +1563,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30af6242-6e2c-4cf1-ba57-680f0f96e52a" name="Maxima Bolters" hidden="false" collective="false" import="true" type="upgrade">
@@ -1722,6 +1586,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="99408d48-159a-40c4-8dd1-8eef29d3e724" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="model">
@@ -1759,6 +1624,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="40.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="51b45d03-64e0-42f9-8c29-b6cc8732fe1d" name="Lightning Locks" hidden="false" collective="false" import="true" type="upgrade">
@@ -1768,6 +1634,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe931145-e769-4ff0-9232-ce3d28313e8b" name="Onager Dunecrawler w/ Neutron Laser" hidden="false" collective="false" import="true" type="model">
@@ -1809,6 +1676,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="35.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a432bf6a-44f5-4f9e-81e6-16f448a16211" name="Magos Dominus w/ Myrmidon Secutors" hidden="false" collective="false" import="true" type="model">
@@ -1857,6 +1725,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="27.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3db2fc5-50f9-49cd-ae31-b23c601764a7" name="Omnissian Axe" hidden="false" collective="false" import="true" type="upgrade">
@@ -1877,6 +1746,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c71ee1de-a2d5-499d-8f84-3702fd8bfe1b" name="Eradication Ray" hidden="false" collective="false" import="true" type="upgrade">
@@ -1897,6 +1767,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f1eb8ab6-9695-4b6d-9276-8c460343d0dc" name="Magos Dominus w/ Skitarii Rangers" hidden="false" collective="false" import="true" type="model">
@@ -1945,6 +1816,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="25.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c1368046-740d-493d-b1bd-e1961cf79082" name="Cognis Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
@@ -1971,6 +1843,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f42ba62e-9924-456b-9fbe-3030b5121e6e" name="Triaros Armoured Conveyer" hidden="false" collective="false" import="true" type="model">
@@ -2016,6 +1889,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3b8946c2-44bd-4b94-b467-b897c2440807" name="Domitar-Ferrum" hidden="false" collective="false" import="true" type="model">
@@ -2060,6 +1934,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="15.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b7ca66a9-1321-4a02-a4dc-6b629be44362" name="Sponson Mounted Lightning Locks" hidden="false" collective="false" import="true" type="upgrade">
@@ -2079,6 +1954,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="61fb4a8e-fa2e-4021-bd55-573e90bf96eb" name="Krios Battle Tank" hidden="false" collective="false" import="true" type="model">
@@ -2116,6 +1992,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="33.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="95ebc1e3-7c0e-4e31-b9a1-75511e4001d5" name="Lightning Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2125,6 +2002,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="4922210f-01d3-4ddd-b7f3-01ab24e1cf06" name="Hull Mounted Lightning Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2144,6 +2022,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="25f9cb5a-ad65-4bcd-a787-ddd4f36cdbe8" name="Stormhammer" hidden="false" collective="false" import="true" type="model">
@@ -2202,6 +2081,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="154.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="97635bdf-d7ec-4c2d-b47f-0671898df6b8" name="Stormhammer Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -2227,6 +2107,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9d1f8d44-63ad-4e55-b4c0-304aeb8d07a0" name="Ironstrider Ballistarii" hidden="false" collective="false" import="true" type="model">
@@ -2277,6 +2158,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="18.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="50be9aba-041b-436a-aa02-0c08ff7046dc" name="Colossus Bombard Crawler" hidden="false" collective="false" import="true" type="model">
@@ -2312,6 +2194,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="45.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c012-9902-893e-3b6a" name="Shock Ram" hidden="false" collective="false" import="true" type="upgrade">
@@ -2329,6 +2212,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5e45-54d3-6982-1d75" name="Thallaxii" hidden="false" collective="false" import="true" type="model">
@@ -2376,6 +2260,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="10.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="541d-c4cd-139c-1bb9" name="Lightning Guns" hidden="false" collective="false" import="true" type="upgrade">
@@ -2385,6 +2270,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef71-9eb4-6dd7-8918" name="Chain Bayonets" hidden="false" collective="false" import="true" type="upgrade">
@@ -2405,6 +2291,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8162-4fa2-a549-b98a" name="Melta Bombs" hidden="false" collective="false" import="true" type="upgrade">
@@ -2430,6 +2317,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8ba2-52d3-784d-764d" name="Magos Reductor w/ Thallaxii" hidden="false" collective="false" import="true" type="model">
@@ -2491,6 +2379,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="29.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ab0b-60cc-d204-a785" name="Skoripus Dunerider" hidden="false" collective="false" import="true" type="model">
@@ -2523,6 +2412,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="10.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0ca4-5ea8-144c-a83e" name="Twin Cognis Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
@@ -2550,6 +2440,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6044-4ef3-e554-a3d3" name="Myrmidon Destructors" hidden="false" collective="false" import="true" type="model">
@@ -2590,6 +2481,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="15.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="463f-6c7f-2bd7-4d06" name="Shock Chargers" hidden="false" collective="false" import="true" type="upgrade">
@@ -2610,6 +2502,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9eb3-f9e0-2553-b984" name="Skitarii Marshal w/ Skitarii Rangers" hidden="false" collective="false" import="true" type="model">
@@ -2670,6 +2563,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="25.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2324-691f-e576-3ea8" name="Radium Serpenta" hidden="false" collective="false" import="true" type="upgrade">
@@ -2690,6 +2584,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fa2b-3076-0c8b-8c68" name="Control Stave" hidden="false" collective="false" import="true" type="upgrade">
@@ -2710,6 +2605,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1e25-774c-0865-a26c" name="Myrmidon Host" hidden="false" collective="false" import="true" type="unit">
@@ -2763,6 +2659,7 @@ Optional Detachments:
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2802,6 +2699,7 @@ Optional Detachments:
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="54ec-8bd6-e6db-d231" name="Archaeopter Stratoraptor" hidden="false" collective="false" import="true" type="model">
@@ -2848,6 +2746,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="73.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="642e-8113-62c3-867a" name="Flyer Mounted Heavy Phosphor Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -2870,6 +2769,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b703-632e-4f3e-a4a2" name="Flyer Mounted Cognis Heavy Stubber" hidden="false" collective="false" import="true" type="upgrade">
@@ -2897,6 +2797,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac62-0fbc-f728-ae9d" name="Secutarii Hoplites" hidden="false" collective="false" import="true" type="model">
@@ -2931,6 +2832,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="8.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cf50-6cbd-51d1-31f8" name="Arc Lance (Ranged)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2951,6 +2853,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9c3a-e066-600f-fe2a" name="Arc Lance (Melee)" hidden="false" collective="false" import="true" type="upgrade">
@@ -2971,6 +2874,7 @@ Optional Detachments:
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
