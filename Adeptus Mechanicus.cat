@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="100" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="101" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -624,40 +624,6 @@
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="1a790951-2b71-466e-94ff-e8b388ebfdda" name="Elimination Volley" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fbb44133-7651-4187-8810-3d8022f86514" type="min"/>
-        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee8264a3-f56f-49c0-bd48-5de23ad39238" type="max"/>
-      </constraints>
-      <categoryLinks>
-        <categoryLink id="ec97132e-b3e1-4cc9-914d-a1536406c9cd" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
-      </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="13fdf022-69dd-4a16-a359-0d0b63632b60" name="Elimination Volley" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4848a9de-a9ea-46e7-b805-d7c709a4c404" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6661857b-f4b9-43e2-bfbf-baff81fd17d3" type="max"/>
-          </constraints>
-          <profiles>
-            <profile id="33da39f7-4c2d-4611-a835-81a176f7eb8c" name="Elimination Volley" hidden="false" typeId="308a9d45-51e7-4950-8aea-5ad963f4d166" typeName="Special Rules">
-              <characteristics>
-                <characteristic name="Description" typeId="2b3e2673-8561-4b2e-b2f7-78810e28cb0c">If an Adeptus Mechanicus Infantry, Cavalry or Walker Detachment is issued with the First Fire Order, any weapons models within the Detachment have that have the Light or Light AT trait gain the Accurate trait until the end of that round:</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-            <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>

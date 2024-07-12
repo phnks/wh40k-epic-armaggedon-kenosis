@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="46" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="47" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="c010-2f8c-318e-4f27" name="&quot;Titanica Traitoris&quot; Titan Maniple" hidden="false">
       <modifiers>
@@ -47,6 +47,69 @@
       </categoryLinks>
     </forceEntry>
   </forceEntries>
+  <selectionEntries>
+    <selectionEntry id="307e-85a3-1300-e149" name="&quot;God Machines of Chaos&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0acc-1618-1b7d-cad0" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e77-a348-a657-f9e2" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c32b-93ea-7549-0a13" name="&quot;God Machines of Chaos&quot; Army Ability" hidden="false">
+          <description>Each unit in your army is equipped with a plasma reactor. This reactor can be overloaded to gain additional benefits, but overloading it too much can result in catastrophic failure. The Plasma Reactor overload chart appears as follows:
+
+(green 1) -&gt; (green 2) -&gt; (yellow 1) -&gt; (yellow 2) -&gt; (orange 1) -&gt; (orange 2) -&gt; (red 1)
+
+For each phase of the battle, you can overload the reactor to gain a benefit. When you do this increase the reactor oerload chart by 1 step.
+
+Start of Round
+Shut it Down! Resets plasma reactor back to (green 1). Unit loses all void shields and cannot perform any actions this round
+
+Movement Phase
+Power to Locomotors! Unit gains 2&quot; of movement
+Power to Stabilisers! Unit gains 1 more 45 degree turn
+
+Fire Fire/Advance Fire Phase
+Voids to Full! Roll 1d6 for each hit against the unit, on a 4+ the void shield doesn&apos;t go down
+Weapons to Maximum!  Unit gains +1 to hit on ranged weapons
+
+Charge Phase
+Power to Locomotors!  Unit gains 2&quot; of movement
+
+FIght Phase
+Weapons to Maximum! Unit gains +1 to hit on melee weapons
+
+At the start of each round, you must roll to see the effects of any reactor overloads.
+If the plasma reactor is in yellow: roll 1d6, if in red roll 2d6 against the following table:
+
+Plasma Reactor Overload Table:
+1-3 Reactor Housing Damaged. Unit takes 1 hit at AP-2 bypassing void shields
+4-6 Power Failure. Unit loses all void shields. If the unit has no void shields, then use Plasma Leak 
+7-10 Plasma Leak. Unit takes D3 hits at AP-2 bypassing void shields
+11-12 Reactor Meltdown. The unit is destroyed. 
+
+A princeps of a chaos titan is at the whims of the corrupted machine spirit to maintain the machine.
+After rolling on the Plasma Reactor Overload Table, perform damage control on each unit. Roll against the following table:
+
+1 - Malevolent - The titan enjoys suffering, the reactor level increases by 1
+2 - Sadistic - The titan wants to inflict pain. Immediately move that unit 6&quot; towards the nearest enemy. You may then immediately make 1 melee attack. Decrease reactor level by 1
+3 - Wrathful - The titan wants to kill. Immediately move that unit d6&quot; straight forward, then turn 45 degrees to face the nearest enemy. You may then immediately make 1 shooting attack. Decrease reactor by 1
+4 - Paranoid - The titan wants to wait and empower itself. The unit has half movement for the rest of the round but regains 2 wounds. Decrease reactor by 2
+5 - Demented - The titan is utterly insane. The unit fires a random ranged weapon against the nearest target. Decrease reactor by 2
+6 - Nihilistic - The titan desires only oblivion. The unit attacks with all weapons against the nearest enemy. Decrease reactor by 2
+
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0dea-9fbf-024a-8a39" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="7adc-28a9-9c02-71d0" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" targetId="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" type="selectionEntry">
       <categoryLinks>
@@ -166,6 +229,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="321.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="247e-aa77-57c7-a4ea" name="Nurgle Dire Wolf Heavy Scout Titan" hidden="false" collective="false" import="true" type="upgrade">
@@ -229,6 +293,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="393.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

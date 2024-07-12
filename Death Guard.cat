@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="115" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="116" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -1720,6 +1720,7 @@ Round 4 - 9&quot;</description>
         <selectionEntryGroup id="189b-adee-f1f4-6019" name="Contagion" hidden="false" collective="false" import="true">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="85f1-bfba-0554-1d7e" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dbf-e255-59ec-893d" type="max"/>
           </constraints>
           <selectionEntries>
             <selectionEntry id="e7f9-7492-4ab8-753d" name="Gloaming Bloat" hidden="false" collective="false" import="true" type="upgrade">

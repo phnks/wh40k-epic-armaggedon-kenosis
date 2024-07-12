@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="42" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="44" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8483-f441-9ebf-6bc3" name="&quot;Questor Traitoris&quot; Knight Lance" hidden="false">
       <modifiers>
@@ -90,6 +90,51 @@
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="30.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4e76-5ec5-4b93-70ec" name="&quot;Harbingers of Dread&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="097e-89f4-6373-bf0f" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8efa-9c38-1a80-967c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="6ec8-e89a-27c7-05ec" name="&quot;Harbingers of Dread&quot; Army Ability" hidden="false">
+          <description>Each unit in your army gains a bonus (see below) depending on which Harbinger abilities are active for your army. At the start of each battle round, you must select one Harbinger ability (either a Despair, Doom or Darkness Harbinger ability) from the corresponding choices for that battle round in the table shown below. Note that when making a selection:
+
+During the first and fourth battle rounds, you must select the Doom ability.
+You can only select the Despair ability if you selected the Despair or Doom ability in the previous battle round.
+You can only select the Darkness ability if you selected the Darkness or Doom ability in the previous battle round.
+
+Despair &lt;&gt; Doom &lt;&gt; Darkness
+
+Once you have selected a Harbinger ability, it becomes active for the remainder of the battle and applies to all units in your army with this ability. Some rules can make additional Harbinger abilities become active for one or more units during the battle. Duplicated active Harbinger abilities on the same unit have no additional effect.
+
+Round 1
+Doom: While an enemy unit is within 12&quot; of this model subtract 1 from the Leadership characteristic of models in that enemy unit.
+
+Round 2
+Despair: While an enemy unit is within 12&quot; of this model: Each time that enemy unit wishes to attack or charge, it must first pass a Morale test. If that test is failed, it can only shoot at the closest target or charge half the distance.
+Doom: Add 3&quot; to this model’s range for any Harbinger ability.
+Darkness: Each time a ranged attack is made against this model, if the attacker is more than 12&quot; away, subtract 1 from that attack’s hit roll.
+
+Round 3
+Despair: While an enemy unit is within 12&quot; of this model: Each time that enemy unit wishes to start performing an attack or move, it must first pass a Morale test. If that test is failed, it cannot perform that action.
+Doom: While an enemy unit is within 12&quot; of this model subtract an additional 1 from the Leadership characteristic of models in that enemy unit. 
+Darkness: Each time a melee attack is made against this model, subtract 1 from that attack’s hit roll.
+
+Round 4
+Doom: While an enemy unit is within 12&quot; of this model, if an enemy Detachment fails a Morale test, the player must roll one d6 for each model, on a 1 or 2 that model is destroyed instead of falling back.
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7c18-66dd-8290-f4a6" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -159,6 +204,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b3eaeb91-394b-4b20-9d86-7cb1803b872f" name="Nurgle Knight Despoiler-Paladin" hidden="false" collective="false" import="true" type="model">
@@ -237,6 +283,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="947b8bca-312c-40a8-abe6-d675ecf5e4b4" name="Nurgle Knight Despoiler-Warden" hidden="false" collective="false" import="true" type="model">
@@ -315,6 +362,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="169.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
