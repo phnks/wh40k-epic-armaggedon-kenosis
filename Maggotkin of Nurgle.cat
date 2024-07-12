@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a36fb12e-54bb-4475-94cc-3f70e3e096af" name="Maggotkin of Nurgle" revision="44" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a36fb12e-54bb-4475-94cc-3f70e3e096af" name="Maggotkin of Nurgle" revision="46" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="139" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="c906-2c57-4bcf-42d6" name="&quot;Plague Legion&quot; Host" hidden="false">
       <categoryLinks>
@@ -22,6 +22,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b07-dbae-f2ac-8ce3" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="f7a6-c528-8c75-1588" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -66,6 +67,139 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9240-cf8a-06b7-2db0" name="&quot;Mutable Form&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9fb-1b3c-5a94-2caf" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1517-b091-d720-3876" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="e447-7972-29d0-881a" name="&quot;Mutable Form&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the round. Select one Detachment. That Detachment may exchange it&apos;s Warp Storm effect for another Warp Storm effect of equal or less Warp Storm Points for the remainder of the round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="18f3-5947-3d79-b7a6" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0627-f0f4-3c94-dd06" name="&quot;Insubstantial Entities&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e05e-2a5d-3062-216c" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6da9-ccc1-bb09-c9b2" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f65f-91fa-6d66-bad2" name="&quot;Insubstantial Entities&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the movement phase. Select one Detachment. That Detachment may move through enemies or terain until the end of the round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c9cd-a5e7-1d0e-f423" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e0f3-2179-62b7-2eb8" name="&quot;Denizens of the Warp&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6907-a080-8e15-1168" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8436-4cf9-dff3-1b02" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5ace-8227-a0cf-340c" name="&quot;Denizens of the Warp&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the round. Select one Detachment that is held in Reserve. That Detachment may deep strike within 3&quot; of an enemy Detachment, but may not charge this round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c6bf-eabf-a977-8e70" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6005-87a2-5793-fd36" name="&quot;Realm of Chaos&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a2-f4f0-511b-9003" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f17b-213f-3a39-eef4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="50c5-5b57-e0b5-8a53" name="&quot;Realm of Chaos&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the round. Select one Detachment. That Detachment may deep strike again as if it were held in Reserve.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="685b-7d9d-d9ef-28cd" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8514-3823-137c-1412" name="&quot;Warp Surge&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="35b1-330c-069c-19fd" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ff48-66d5-b288-b54a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="df4d-87c2-04bf-fef9" name="&quot;Warp Surge&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the movement phase. Select one Detachment. That Detachment may perform a Charge even if it Marched this round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1332-70c3-2803-f703" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="29ac-d185-4601-5222" name="&quot;Daemon infestation&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8db-fef9-83d0-416e" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6fc0-258f-81d8-b1ce" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d5d2-854f-fbb1-cab9" name="&quot;Daemon infestation&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the round. Select one Infantry Detachment. Roll one d6 for each model remaining in the unit. On a 5+, return one lost model to that Detachment. If there are no lost models that can be returned, the stratagem then ends.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="aaa6-19ca-8ee2-1ff7" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2e84-a6f8-6839-1f2e" name="&quot;Cloud of Flies&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14af-a8b4-08ed-ea47" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9680-e8fd-5f14-993f" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a453-6172-a2d2-fb56" name="&quot;Cloud of Flies&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the fire fire or advance fire phases. Select one Detachment. Until the end of the round any ranged attacks allocated to that Detachment treat their range as 12&quot;.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="fbee-a343-526c-769d" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

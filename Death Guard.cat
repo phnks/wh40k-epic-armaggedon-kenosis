@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="120" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="138" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="121" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="139" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -27,6 +27,7 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efe05bcf-d8fa-4fed-bb42-26bf2d8d1445" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="9d83-eb12-5a57-a139" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="fd313828-fe1f-470e-9da1-d14a75b04fe9" name="&quot;Inexorable&quot; Armoured Company" hidden="false">
@@ -49,6 +50,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebb5a20c-46fb-4e7f-a564-8f3858748db2" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="40b6-eed4-f574-4be3" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="71acf257-da8b-4078-b3b5-7c6c5ac2f50f" name="&quot;The Ferrymen&quot; Planetary Assault" hidden="false">
@@ -77,6 +79,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7855dcd-3c90-40b8-ae7c-85fdfd1bc864" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="39a0-ed59-d489-03c6" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="ec0d0476-e013-40f9-ada9-87b18618f775" name="&quot;Mortarion&apos;s Anvil&quot; Garrison Force" hidden="false">
@@ -129,6 +132,7 @@
             <constraint field="selections" scope="force" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66d4ada-4ec6-4868-9fc2-8c5773e334a4" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="3528-2f9c-239d-4bd9" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="15d1-a05b-a4e6-a74a" name="&quot;Pox Mongers&quot; Daemon Engine Force" hidden="false">
@@ -152,6 +156,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7df6-8766-a032-7137" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="3f39-94bb-51b5-b7cf" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="4bd0-c15e-41a3-6dda" name="&quot;The Harbingers&quot; Maladictum" hidden="false">
@@ -190,6 +195,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2a4-8d71-e01d-bf27" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="8fc9-5f01-0c59-5fcc" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>

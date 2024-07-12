@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="138" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="140" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -94,6 +94,7 @@
         <categoryLink id="beb-b6e2-8aac-f9c2" name="Vanguard" hidden="false" targetId="8416-456c-a6f-e059" primary="false"/>
         <categoryLink id="17c-5158-3e04-e1f6" name="Knight" hidden="false" targetId="9f4e7362-03b5-4882-9637-8804395daea1" primary="false"/>
         <categoryLink id="8d9ba4ec-c193-4c31-a115-617c3d7f94f4" name="Titan" hidden="false" targetId="f8e3fdef-54a2-4fa8-b2ed-da1d927f8d29" primary="false"/>
+        <categoryLink id="0d47-beda-051b-11d1" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
@@ -1842,6 +1843,7 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c86-f9fc-f12e-94c2" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="6801-a269-7064-a04d" name="Warlord" hidden="false" collective="false" import="true" targetId="8248-2b5b-9fd5-4156" type="selectionEntry"/>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="40.0"/>
