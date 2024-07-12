@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="122" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="141" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="123" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="141" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -911,8 +911,7 @@ Optional Detachments:
 1 Core
 2 Transport
 
-All non-daemonic Infantry detachments may take dedicated transports.
-&quot;The Wretched&quot; Maladictum formation may take Daemon Host Detachments from Nurgle Strategic Assets without counting towrads the 30% allied contigency limit.
+All Infantry detachments may take dedicated transports.
 </description>
             </rule>
           </rules>
@@ -1852,6 +1851,7 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac70-0b7c-ae35-d05f" name="&quot;Disgustingly Resilient&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1870,6 +1870,7 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fff1-3049-f982-2eba" name="&quot;Blight Bombardment&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1888,6 +1889,7 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92fa-75d4-f937-29cd" name="&quot;Diseased Invigoration&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1906,6 +1908,7 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07df-6954-32e6-b9a3" name="&quot;Putrid Detonation&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1924,6 +1927,7 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfd1-f52d-9767-e03d" name="&quot;Daemonic Gluttony&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1942,6 +1946,7 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d56-e949-c2ac-78fb" name="&quot;Ferric Miasma &quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1960,82 +1965,11 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="1056-d71d-b617-d4f9" name="Plaguebearer Tallyband" hidden="false" collective="false" import="true" targetId="3dfd-5074-831c-3c61" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="0022-cca8-7c94-c51c" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
-        <categoryLink id="f114-7383-c2d8-729f" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="9c65-f7f7-0cd5-649f" name="Nurgling Swarm" hidden="false" collective="false" import="true" targetId="af49-3bfd-61da-cae3" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="a415-0eda-6b6d-9315" name="Core" hidden="false" targetId="5c9b69a5-9f66-457b-8a5d-1ac46a13e675" primary="true"/>
-        <categoryLink id="16a0-a064-5b3e-0681" name="Infantry (1)" hidden="false" targetId="f0481a0c-988a-4049-9561-f539dbd24c16" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="f20b-fb6c-374f-68f5" name="Beast of Nurgle Pack" hidden="false" collective="false" import="true" targetId="f68e-3081-e910-52ad" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="f3dd-83f0-0686-acd4" name="Support" hidden="false" targetId="2750e675-5112-4063-a6f2-41f2422dae47" primary="true"/>
-        <categoryLink id="9172-440c-a966-d61c" name="Walker (2)" hidden="false" targetId="a35ba915-3e05-457a-8ef8-0d5df2428203" primary="false"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="e4af-e8d6-25e7-6de2" name="Great Unclean One" hidden="false" collective="false" import="true" targetId="d0f3-342a-ea90-2fb8" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditionGroups>
-            <conditionGroup type="and">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" type="lessThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7b2ad190-c99d-4007-a23f-8490f37e186e" type="lessThan"/>
-              </conditions>
-            </conditionGroup>
-          </conditionGroups>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="cdb1-3dd6-3a3c-8f8e" name="Monster (3)" hidden="false" targetId="a1b7-ffdc-38b2-e92b" primary="false"/>
-        <categoryLink id="2a6e-7ae9-68cb-aba9" name="HQ" hidden="false" targetId="d950-ad23-9b2-9325" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="e78d-b7b4-dc9c-bb1a" name="Blightlord Terminator Detachment" hidden="false" collective="false" import="true" targetId="6510-4fd8-b2eb-cfb9" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
