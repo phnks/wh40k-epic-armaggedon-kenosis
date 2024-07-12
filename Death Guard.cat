@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="116" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="120" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="138" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -797,6 +797,9 @@
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3a99-9793-f739-e6d5" name="Warlord" hidden="false" collective="false" import="true" targetId="8248-2b5b-9fd5-4156" type="selectionEntry"/>
+      </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
@@ -1704,7 +1707,7 @@ All Infantry (excluding Pox Walker Horde) Detachments may take dedicated transpo
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddae-f146-1b29-8e23" type="max"/>
       </constraints>
       <rules>
-        <rule id="8d59-2a4a-264c-83a3" name="Army Ability &quot;Nurgle&apos;s Gift&quot;" hidden="false">
+        <rule id="8d59-2a4a-264c-83a3" name="&quot;Nurgle&apos;s Gift&quot; Army Ability" hidden="false">
           <description>While an enemy unit is within Contagion Range of this unit, that unit is afflicted with the chosen Contagion. Contagion Range changes over the course of the battle, as shown below.
 
 Round 1 - 1&quot;
@@ -1820,6 +1823,139 @@ Round 4 - 9&quot;</description>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="134b-e52e-3bc8-7f4e" name="&quot;Putrescent Fog&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84e3-f6d5-cbea-09ed" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4463-e676-7f51-f7c9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="9b67-c4ed-85f5-726a" name="&quot;Putrescent Fog&quot; Stratagem" hidden="false">
+          <description>Use this stratagem when a Detachment is targeted with an attack. This Detachment and nearby friendly units that are entirely within 12&quot; of this Detachment gain the benefit of cover (-1 to hit), with a cover save of 5+ until the end of the round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e244-5369-995b-72a3" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ac70-0b7c-ae35-d05f" name="&quot;Disgustingly Resilient&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36f3-a79e-b329-57f4" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c80d-682c-d194-d182" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="0a4f-eb5e-673c-1b5a" name="&quot;Disgustingly Resilient&quot; Stratagem" hidden="false">
+          <description>Use this stratagem when a Detachment is targeted with an attack. This Detachment gains the Armoured special rule until the end of the round.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2bb9-8226-33e5-9a2a" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fff1-3049-f982-2eba" name="&quot;Blight Bombardment&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54c6-75e5-d050-0f80" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="759a-8102-39e9-54e5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8340-7a7c-8c5c-9bd5" name="&quot;Blight Bombardment&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the round. Select one point on the battlefield and place a marker on that point. At the start of the next round, each unit within 6&quot; of the centre of that marker suffers 1 automatic hit at AP-1 </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="8840-1205-a1c3-9c89" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="92fa-75d4-f937-29cd" name="&quot;Diseased Invigoration&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="384d-43d9-fed8-1966" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a062-407e-d093-d714" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="245c-41e9-103c-3b09" name="&quot;Diseased Invigoration&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem after your opponent resolves an attack against one of your Detachments of type Vehicle or Super-Heavy Vehicle. If the Detachment has models with more than 1 wound, pick a model and that model regains 2 wounds. If the Detachment has models with 1 wound, roll one d6 per model lost instead. On a 5+ that model is brought back and added to the Detachment.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="e4e6-9348-a05a-f125" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="07df-6954-32e6-b9a3" name="&quot;Putrid Detonation&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d5-ed0d-77cf-dcd1" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc37-fb42-4f23-c3ed" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="e60d-5b63-6fd3-1fa0" name="&quot;Putrid Detonation&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem after your opponent resolves an attack against one of your Detachments of type Vehicle or Super-Heavy Vehicle. For each model destroyed, inflict 1 automatic hit at AP0 against target in engagement range of the destroyed model. </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="f423-be94-735c-d32e" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cfd1-f52d-9767-e03d" name="&quot;Daemonic Gluttony&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a9b-1cfc-ebc6-4cd0" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1199-0234-24b9-d971" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8770-f7d5-31ff-e31a" name="&quot;Daemonic Gluttony&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem when activating a Detachment in your First Fire, Advance Fire, or Fight phase. For each Detachment that that Detachment destroys, regain 1 wound on any model in that Detachment.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="31d4-3f3f-ca2e-e980" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2d56-e949-c2ac-78fb" name="&quot;Ferric Miasma &quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f2c3-6a5c-b64f-1dc8" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e1a-e696-c28e-270a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c4ff-4749-1497-5910" name="&quot;Ferric Miasma &quot; Stratagem" hidden="false">
+          <description>Use this Stratagem when your opponent declares a charge against one of your Detachments. The charging Detachment&apos;s movement is reduced by 2&quot; for the purposes of that charge. If that Detachment can no longer complete the charge, the charge fails.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2340-408d-5fb4-e20a" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

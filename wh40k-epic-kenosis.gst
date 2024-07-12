@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="135" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="138" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -75,6 +75,7 @@
     <categoryEntry id="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" name="Titan (5)" hidden="false"/>
     <categoryEntry id="43a83a2c-5068-4b98-99fb-cedbc2a4f8c2" name="Daemon" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="128" hidden="false"/>
     <categoryEntry id="a1b7-ffdc-38b2-e92b" name="Monster (3)" hidden="false"/>
+    <categoryEntry id="5062-0268-13d2-47b5" name="Stratagem" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="7b2ad190-c99d-4007-a23f-8490f37e186e" name="Unbound Formation (Open Play)" hidden="true">
@@ -3376,6 +3377,15 @@
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8248-2b5b-9fd5-4156" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7315-5728-b25f-ac8e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a94-2734-9ab0-6bcd" type="min"/>
+      </constraints>
+      <costs>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="12.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
