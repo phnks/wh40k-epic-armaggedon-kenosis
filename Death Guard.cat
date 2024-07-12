@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="123" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="141" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="125" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="141" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -807,7 +807,8 @@
         <entryLink id="e095-940d-2e4b-a24b" name="Warlord" hidden="false" collective="false" import="true" targetId="8248-2b5b-9fd5-4156" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef2-26e7-6abc-bdc6" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9dd-9fe0-a0f1-8cbf" type="min"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="14b4-10f4-c409-5837" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad6c-a508-d75b-3737" type="min"/>
           </constraints>
         </entryLink>
       </entryLinks>
