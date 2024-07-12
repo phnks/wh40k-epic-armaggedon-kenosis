@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="47" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="141" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="c010-2f8c-318e-4f27" name="&quot;Titanica Traitoris&quot; Titan Maniple" hidden="false">
       <modifiers>
@@ -102,6 +102,139 @@ After rolling on the Plasma Reactor Overload Table, perform damage control on ea
       </rules>
       <categoryLinks>
         <categoryLink id="0dea-9fbf-024a-8a39" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7955-d1e9-a2c6-707a" name="&quot;Titanic Duel&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9823-034b-1b3f-bc8c" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="950e-18a4-b901-9b48" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="a7eb-f484-0f49-cc0f" name="&quot;Titanic Duel&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the Fight phase. Select a model that is engaged with an enemy Knight or Titan model. Both you and your opponent pick a number from 1-3. Then reveal at the same time. If the numbers differ, then you may add as many attacks as the number you picked to your model for the remainder of that fight.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="0b67-cbba-4d77-6571" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c1a-cb46-2fbf-717d" name="&quot;Cull the Weak&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a8b-dc0a-4f39-0a51" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1679-ba18-1568-770c" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="179c-2972-a17e-2c7d" name="&quot;Cull the Weak&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your opponent&apos;s movement phase. Select an enemy Detachment within 12&quot; that moved away from one of your Detachments. You may perform one shooting attack against that Detachment.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a767-0561-9fc9-b339" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a0c-6a37-790b-97fc" name="&quot;Scent of Blood&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7e9-3fcb-d763-621a" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ff-edb2-7bd1-6808" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="cf7a-3cc4-e9f1-726b" name="&quot;Scent of Blood&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem after resolving any of your attacks. Select an enemy Detachment that you had damaged in your last attack. You may immediately perform a single attack with a selected Detachment against that enemy Detachment.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="419c-1d09-e22d-cc62" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2c41-b716-ccb4-62ac" name="&quot;Blood Thirst&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3e64-650b-9c79-4cb0" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f941-b5bf-c820-d0c2" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="30e7-c483-6ad6-127e" name="&quot;Blood Thirst&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of either the first fire, advance fire, charge, or fight phases. Select a Detachment. That Detachment gains 2&quot; to charges and +2 to hit rolls if shooting an enemy within 2&quot;</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2b96-0d84-8f6d-ecee" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a871-9294-e84f-74be" name="&quot;Warp Displacement&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4ed-f9e6-8dd1-9709" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="598e-30ea-c5d8-b9fa" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="86b8-ac76-c27a-0b55" name="&quot;Warp Displacement&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of your movement phase. All your Detachments move 2d6&quot; straight forward.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="eb79-45d7-d4ad-c886" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="56cd-ddb0-db86-aa64" name="&quot;Punish their Folly&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9d1-caaf-0b29-4661" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="137b-dedb-3f8d-95ce" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="ee33-b2f4-6211-7ca9" name="&quot;Punish their Folly&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your opponent&apos;s movement activation. If an enemy Detachment moves within 3&quot; of one of your Detachments, you may immediately perform one shooting attack against that Detachment.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="9a3c-6894-5c78-91be" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e88-311b-43e4-2cb4" name="&quot;Tormented Machine Spirit&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="318c-65fa-e1c5-d99a" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e36-a611-4abb-6741" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5b9e-48b3-836f-5c45" name="&quot;Tormented Machine Spirit&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem anytime one of your Titan units loses all it&apos;s void shields. You may immediately attack with each weapon that Titan wields.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="d970-18ba-34bb-6060" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="121" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="139" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8f71e0c1-9627-4221-b300-dea7fe1a8004" name="Death Guard" revision="122" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="141" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8a2e297e-cd4f-40eb-a0f9-f0ad77e288c4" name="&quot;The Wretched&quot; Maladictum" hidden="false">
       <categoryLinks>
@@ -804,7 +804,12 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="3a99-9793-f739-e6d5" name="Warlord" hidden="false" collective="false" import="true" targetId="8248-2b5b-9fd5-4156" type="selectionEntry"/>
+        <entryLink id="e095-940d-2e4b-a24b" name="Warlord" hidden="false" collective="false" import="true" targetId="8248-2b5b-9fd5-4156" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef2-26e7-6abc-bdc6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9dd-9fe0-a0f1-8cbf" type="min"/>
+          </constraints>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -1847,7 +1852,6 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ac70-0b7c-ae35-d05f" name="&quot;Disgustingly Resilient&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1866,7 +1870,6 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fff1-3049-f982-2eba" name="&quot;Blight Bombardment&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1885,7 +1888,6 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="92fa-75d4-f937-29cd" name="&quot;Diseased Invigoration&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1904,7 +1906,6 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="07df-6954-32e6-b9a3" name="&quot;Putrid Detonation&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1923,7 +1924,6 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfd1-f52d-9767-e03d" name="&quot;Daemonic Gluttony&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1942,7 +1942,6 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2d56-e949-c2ac-78fb" name="&quot;Ferric Miasma &quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -1961,7 +1960,6 @@ Round 4 - 9&quot;</description>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="-1.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
