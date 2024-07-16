@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="102" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="144" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="103" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="150" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -62,6 +62,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="530bd866-63aa-4a21-8ad9-ae3a9492619d" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="b8fb-5481-127c-a6ad" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="b0a6804c-253f-4078-9069-6c4c64b22287" name="&quot;Ordo Reductor&quot; Artillery Company" hidden="false">
@@ -94,6 +95,7 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8ccf-3f9f-b604-0316" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="6e93-85f3-a21b-91b8" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="cbd8a929-1380-4251-9cb0-d1d6f668a9dc" name="&quot;Auxilia Myrmidon&quot; Century" hidden="false">
@@ -143,6 +145,7 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="181a-1ef4-d73e-3fa5" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="2eef-41c1-a16c-5d31" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="6e72af79-9a3e-4374-a6e5-9ba1257c8fa9" name="&quot;Skitarii Legion&quot; Scout Company" hidden="false">
@@ -170,6 +173,7 @@
             <constraint field="selections" scope="force" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="853c2cbd-180a-4774-aa62-8ca0304c0ed1" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="f9bc-ff28-1264-feb4" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="a018b943-ffe6-4741-91e9-eccf235fbb59" name="&quot;Skitarii Legion&quot; War Cohort" hidden="false">
@@ -214,6 +218,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3ce-c287-4ba0-59f4" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="d93a-07cc-c2ef-4319" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="b1cc-25c7-76f9-09fb" name="&quot;Skitarii Legion&quot; Titan Guard" hidden="false">
@@ -225,6 +230,7 @@
             <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bfa-a3c8-5bc7-d6a2" type="min"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="815c-ba43-e3d7-16e1" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="false"/>
       </categoryLinks>
     </forceEntry>
   </forceEntries>
