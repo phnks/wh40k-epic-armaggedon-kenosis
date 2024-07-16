@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10d42b05-8c22-4ef9-bbeb-65a1a7a74bc3" name="Imperial Knights" revision="53" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="150" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10d42b05-8c22-4ef9-bbeb-65a1a7a74bc3" name="Imperial Knights" revision="54" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="152" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="bad7-48ae-c53d-fd26" name="&quot;Questor Imperialis&quot; Knight Lance" hidden="false">
       <modifiers>
@@ -1021,6 +1021,100 @@
       </rules>
       <categoryLinks>
         <categoryLink id="19cd-0e3b-045d-8278" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6289-27b2-79e8-fdb7" name="&quot;Code Chivalric&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4763-9ff0-6e6a-7be2" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e97-c0ac-05c5-f7e9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="875e-45b7-0d77-84d8" name="&quot;Code Chivalric&quot; Army Ability" hidden="false">
+          <description>At the start of the battle you must swear 2 Oaths from those in the following tables. 
+
+You will start the battle with 1 Honour point. You can gain Honour points during the battle, typically by completing the Pledge of your selected Oaths. You can also lose Honour points during the battle, typically when the Troth of your selected Oaths applies. You can never have less than 0 Honour points, or more than 6. At the start of each battle round, consult the table below to determine your army’s current level of Honour.
+
+0 -&gt; Dishonored 
+1-4 -&gt; Honoured 
+5-6 -&gt; Virtuous 
+
+Models with this ability will then gain a number of Chivalric abilities depending on which are active for your army, as follows:
+
+Whilst your army is Dishonoured, the Honoured and Virtuous Chivalric abilities from your selected Oaths are not active.
+
+Whilst your army is Honoured, the Honoured Chivalric ability from your selected Oaths are active for all units in your army, but the Virtuous Chivalric abilities from your selected Oaths are not active.
+
+Whilst your army is Virtuous, the Honoured and Virtuous Chivalric abilities from your selected Oaths are active for all units in your army.
+
+OATHS
+
+Protect Those in Need
+
+Pledge
+If one or both of the following happened during a battle round, then at the end of that battle round, you gain 1 Honour point:
+
+A model from your army made a charge move against an enemy unit that started the Charge phase within engagement range of another friendly unit.
+
+Troth
+If one or both of the following happened during a battle round, at the end of the battle round, you lose 1 Honour point:
+In your charge phase, if one or more models from your army were eligible to declare a charge against an enemy unit that started the phase within engagement range with another unit from your army, but none of them made a charge move against such an enemy unit
+
+Honoured Ability
+Selfless Heroes: This model is eligible to perform a 6&quot; charge if a nearby Detachment charges an enemy within those 6&quot;
+
+Virtuous Ability
+Inspiring Heroes: If this model has a Bondsman ability, it can use it one additional time in each of your Command phases.
+
+Defend the Realm
+
+Pledge
+If, at the end of the round, your models have not moved, then at the end of that battle round, you gain 1 Honour point.
+
+Troth
+If, at the end of your turn, you have moved any model, then at the end of the battle round, you lose 1 Honour point.
+
+Honoured Ability
+Duty and Wisdom: At the start of your Command phase, the Battle-forged CP bonus grants you 1 additional Command point (this will typically mean you gain 2 CPs, instead of 1).
+
+Virtuous Ability
+Duty and Honour: This model can capture objectives. That model instead counts as 3 additional models when determining control of an objective
+
+Refuse No Challenge
+
+Pledge
+At the end of each battle round, if 2 or more enemy units have been destroyed by melee attacks made by units from your army during that battle round, then you gain 1 Honour point.
+
+Troth
+If any units from your army moved away from an enemy Detachment during a battle round, then at the end of that battle round, you lose 1 Honour point.
+
+Honoured Ability
+Noble Display: Each time this model makes a melee attack, if it made a charge move or was charged this turn, add 1 to that attack’s hit roll.
+
+Virtuous Ability
+Mighty Display: You can add 2&quot; to March and charge moves made for this model.
+
+Lay Low The Tyrants
+
+Pledge
+If a model from your army destroyed 1 or more Warlord, Knight or Titan units during a battle round with a melee attack, then at the end of that battle round you gain 1 Honour point.
+
+Troth
+If less than 2 enemy units have been destroyed by attacks made by units from your army during that battle round, then you lose 1 Honour point.
+
+Honoured Ability
+Martial Pride: Each time this model is selected to shoot or fight, you can re-roll one hit roll.
+
+Virtuous Ability
+Martial Legacy: Once per battle round, when you make a hit roll or saving throw for one model from your army, you can change the result of that roll to a 6</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="732b-38a6-718e-6cd6" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
