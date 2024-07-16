@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="144" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="149" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -1578,11 +1578,7 @@
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="03dd-2851-05ce-db90" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="03dd-2851-05ce-db90" name="Fear" hidden="false" targetId="f558-751c-9a08-4cbf" type="rule"/>
         <infoLink id="8129-e17b-f5c5-23ea" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1641,11 +1637,7 @@
             <modifier type="set" field="name" value="Invulnerable Save (6+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="7192-4ae1-f5ce-5d06" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="7192-4ae1-f5ce-5d06" name="Fear" hidden="false" targetId="f558-751c-9a08-4cbf" type="rule"/>
         <infoLink id="bcbb-d4ee-21e2-ae9c" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
         <infoLink id="2437-018c-0ec8-f02f" name="Swarm" hidden="false" targetId="2902-ccbe-8caf-5bc7" type="rule"/>
         <infoLink id="7416-fe71-b17a-614b" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
@@ -1756,11 +1748,7 @@
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="9d62-95b2-3bd2-b6b9" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="9d62-95b2-3bd2-b6b9" name="Fear" hidden="false" targetId="f558-751c-9a08-4cbf" type="rule"/>
         <infoLink id="2b22-0244-ab96-4de1" name="Regeneration" hidden="false" targetId="c828-5bd3-be2b-48d0" type="rule"/>
         <infoLink id="9012-47a7-acf7-f5a2" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
@@ -1817,11 +1805,7 @@
             <modifier type="set" field="name" value="Invulnerable Save (5+)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="50ea-d6cd-e259-fb51" name="Dread Aura (X)" hidden="false" targetId="69ee402d-f5eb-46bb-bf2b-ee527adc0a62" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Dread Aura (4&quot;)"/>
-          </modifiers>
-        </infoLink>
+        <infoLink id="50ea-d6cd-e259-fb51" name="Fear" hidden="false" targetId="f558-751c-9a08-4cbf" type="rule"/>
         <infoLink id="2094-6d18-c6c1-836e" name="Deep Strike" hidden="false" targetId="77556ab2-aeff-4c23-9df4-6c10efd2c250" type="rule"/>
       </infoLinks>
       <entryLinks>
@@ -2154,6 +2138,7 @@
         </infoLink>
         <infoLink id="df3d-6ab6-dfae-65e3" name="Warhound Titan" hidden="false" targetId="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" type="profile"/>
         <infoLink id="75f2-9d5a-2dea-12ba" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+        <infoLink id="885e-af89-efb5-f33f" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="60d8-ea00-4d36-ed69" name="Titan (5)" hidden="false" targetId="7a41b1fd-e6bc-4b2f-ab4f-ae2bfd02dd87" primary="false"/>
@@ -3150,7 +3135,7 @@
           </modifiers>
         </infoLink>
         <infoLink id="f0d5-11b6-2747-f6d1" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
-        <infoLink id="ad6b-7de3-fa1d-aab6" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
+        <infoLink id="ad6b-7de3-fa1d-aab6" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
         <infoLink id="851a-986b-6f97-9cc9" name="Dire Wolf Titan" hidden="false" targetId="401b-8175-19e0-9921" type="profile"/>
         <infoLink id="89ea-576d-0f52-4b4d" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
       </infoLinks>
@@ -3445,10 +3430,6 @@ Weapons with the Bunker Buster trait can damage Structures.</description>
     </rule>
     <rule id="b31e6b46-df95-4b76-b9ce-cae01cf885f0" name="Point Defence" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="82" hidden="false">
       <description>A weapon with the Point Defence trait represents a weapon system tailored towards defensive fire, be that heavy bolter sponsons on a Vehicle or the Ardex weapons of some Titans.
-
-A Detachment which contains one or models with weapons with the Point Defence trait may fire those weapons during the Movement phase, Fire Fire or the Advance Fire phase. During the Movement phase, a Detachment may fire its Point Defence weapons immediately after it is activated or at the end of its activation; if fired at the start of its activation, the firing is resolved and then the Detachment completes its activation as normal. A Detachment can only fire its Point Defence weapons once per round - if it fires one or more of its Point Defence weapons in the Movement phase, it cannot fire any Point Defence weapons in the Fire First or Advance FIre phase.
-
-If fired during the First Fire or Advance Fire phase, a weapon with the Point Defence trait is fired like any other weapon. Models with Point Defence weapons may fire them at a different target from the Detachment&apos;s main target.
 
 Point Defence weapons can be fired as part of an Overwatch attack. When fired as part of an Overwatch attack, Point Defence weapons ignore the -2 penalty to Hit rolls and instead fire as normal (i.e., use the To Hit value of the weapon then apply any positive or negative modifiers).</description>
     </rule>
@@ -3785,7 +3766,7 @@ When a Detachment with the Outflank special rule that is in Reserve is activated
       <description>Any model, friend or foe, including the model with this special rule, within 6&quot; of a model with the Shield Generator (X) special rule, gains an Invulnerable Save equal to the number shown in brackets. This Save can only be made against Hits scored by models more than 6&quot; from the Shield Generator model, i.e., if they firing model and the target are both benefitting from a Save given by the same model with this special rule then the target cannot use that Save.</description>
     </rule>
     <rule id="ea1-6996-9b3e-1dc1" name="Scout" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="95" hidden="false">
-      <description>Models with the Scout special rule improve any Cover Save they have by 1, to a maximum of 2+.</description>
+      <description>Models with the Scout special rule are deployed as normal. After both players have finished deployment, a Detachment with this special rule may redeploy within the player&apos;s deployment zone. This re-deployment does not have to be in formation coherency.</description>
     </rule>
     <rule id="27a1431d-1fc8-46e8-8633-f2a15ea02e21" name="Skimmer" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="95" hidden="false">
       <description>Models with the Skimmer special rule can move over all other models and areas of terrain, suffering no movement penalties for doing so, such as due to Difficult terrain or moving over an Obstacle. Models with the Skimmer special rule cannot end their movement overlapping other models, nor can they end their movement within an enemy model&apos;s Engagement Zone unless they are Engaged with it. They can move over Impassable terrain but cannot end their movement overlapping it - any model that ends its movement overlapping an area of Impassable terrain is destroyed.
@@ -3881,6 +3862,12 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
     <rule id="c828-5bd3-be2b-48d0" name="Regeneration" hidden="false">
       <description>At the end of each round, if a Detachment has lost any models with the Regeneration special rule but the detachment is not destroyed or Falling Back, add back any lost models with the Regeneration special rule on the battlefield with the same Detachment.</description>
     </rule>
+    <rule id="f558-751c-9a08-4cbf" name="Fear" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
+      <description>Detachments engaged with one or more models with the Fear special rule subtract 1 from the result of any Morale check they make. Models with this special rule are unaffected by another model with Fear.</description>
+    </rule>
+    <rule id="8ed3-ecb0-8471-f959" name="Frenzy" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="88" hidden="false">
+      <description>Detachments with this special rule must charge if within charge range. Detachments with this special rule gain the Accurate trait with melee attacks.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="faaef022-e3e3-4911-9288-8fbca6b1bab4" name="Questoris Knight" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -3925,7 +3912,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">4</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Void Shields (2), Nimble</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Scout, Void Shields (2), Nimble</characteristic>
       </characteristics>
     </profile>
     <profile id="eda58121-69ec-4b82-87f1-4c51909ea813" name="Drop Pod" hidden="false" typeId="654f-da76-0b3e-9e23" typeName="Model">
@@ -3988,7 +3975,7 @@ An Automata model fires any other weapon at the closest eligible enemy Detachmen
         <characteristic name="Sv" typeId="535f-6cc6-83ea-24d1">2+</characteristic>
         <characteristic name="Morale" typeId="95ab-2193-7eea-0530">-</characteristic>
         <characteristic name="W" typeId="cf02-ebac-aa4c-7750">4</characteristic>
-        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Infiltate, Void Shields (2), Nimble</characteristic>
+        <characteristic name="Traits" typeId="b4db-c43f-148e-920a">Agile, Scout, Void Shields (2), Nimble</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

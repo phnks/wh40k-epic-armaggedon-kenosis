@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a36fb12e-54bb-4475-94cc-3f70e3e096af" name="Maggotkin of Nurgle" revision="47" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="140" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="a36fb12e-54bb-4475-94cc-3f70e3e096af" name="Maggotkin of Nurgle" revision="48" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="144" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="c906-2c57-4bcf-42d6" name="&quot;Plague Legion&quot; Host" hidden="false">
       <categoryLinks>
@@ -85,6 +85,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0627-f0f4-3c94-dd06" name="&quot;Insubstantial Entities&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -94,7 +95,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       </constraints>
       <rules>
         <rule id="f65f-91fa-6d66-bad2" name="&quot;Insubstantial Entities&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the movement phase. Select one Detachment. That Detachment may move through enemies or terain until the end of the round.</description>
+          <description>Use this Stratagem during your movement phase. Select one Detachment. That Detachment may move through enemies or terain until the end of the round.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -103,6 +104,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e0f3-2179-62b7-2eb8" name="&quot;Denizens of the Warp&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -121,6 +123,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6005-87a2-5793-fd36" name="&quot;Realm of Chaos&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -139,6 +142,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8514-3823-137c-1412" name="&quot;Warp Surge&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -148,7 +152,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       </constraints>
       <rules>
         <rule id="df4d-87c2-04bf-fef9" name="&quot;Warp Surge&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the movement phase. Select one Detachment. That Detachment may perform a Charge even if it Marched this round.</description>
+          <description>Use this Stratagem during your movement phase. Select one Detachment. That Detachment may perform a Charge even if it Marched this round.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -157,6 +161,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="29ac-d185-4601-5222" name="&quot;Daemon infestation&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -175,6 +180,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2e84-a6f8-6839-1f2e" name="&quot;Cloud of Flies&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -184,7 +190,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       </constraints>
       <rules>
         <rule id="a453-6172-a2d2-fb56" name="&quot;Cloud of Flies&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the fire fire or advance fire phases. Select one Detachment. Until the end of the round any ranged attacks allocated to that Detachment treat their range as 12&quot;.</description>
+          <description>Use this Stratagem during your fire fire or advance fire phases. Select one Detachment. Until the end of the round any ranged attacks allocated to that Detachment treat their range as 12&quot;.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -193,6 +199,7 @@ Until the end of the round, enemy Strategic Reserve units can only be set up as 
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

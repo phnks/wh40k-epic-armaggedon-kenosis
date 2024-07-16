@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="10d42b05-8c22-4ef9-bbeb-65a1a7a74bc3" name="Imperial Knights" revision="50" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="10d42b05-8c22-4ef9-bbeb-65a1a7a74bc3" name="Imperial Knights" revision="52" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="149" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="bad7-48ae-c53d-fd26" name="&quot;Questor Imperialis&quot; Knight Lance" hidden="false">
       <modifiers>
@@ -35,7 +35,7 @@
         </modifier>
         <modifier type="increment" field="3750-3116-4286-e28b" value="1.0">
           <repeats>
-            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
           </repeats>
           <conditionGroups>
             <conditionGroup type="and">
@@ -165,6 +165,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="3f221a07-f57e-41d7-a57d-4f4dedc6b068" name="Acheron Pattern Flame Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -195,6 +196,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="9c5b849d-ff82-4eb6-9437-1ff40ba1a573" name="Twin-linked Heavy Bolters" hidden="false" collective="true" import="true" type="upgrade">
@@ -216,12 +218,14 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="daa42adc-d291-4893-8759-c776d691def7" name="Knight Castigator" hidden="false" collective="false" import="true" type="model">
@@ -273,6 +277,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="7c793c4e-a77a-4c40-a560-6261cfa03158" name="Castigator Pattern Bolt Cannon" hidden="false" collective="true" import="true" type="upgrade">
@@ -304,12 +309,14 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8d16b9ef-f5ba-4a0e-9040-0ad6d8b15fdb" name="Knight Lancer" hidden="false" collective="false" import="true" type="model">
@@ -365,6 +372,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2cd167dd-8ebb-4ee0-8052-a6a5da7291e9" name="Shock Lance" hidden="false" collective="true" import="true" type="upgrade">
@@ -390,12 +398,14 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="a6bd2d1e-7e86-42c8-b268-28316548827a" name="Cerastus Knight Atrapos" hidden="false" collective="false" import="true" type="model">
@@ -454,6 +464,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="2929918e-d44b-46e6-91e0-95c5c1986892" name="Atrapos Lascutter" hidden="false" collective="true" import="true" type="upgrade">
@@ -493,12 +504,14 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="20.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -507,6 +520,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="215.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="88e411da-2a50-47aa-8783-1056cb090d58" name="Acastus Knight Banner" hidden="false" collective="false" import="true" type="unit">
@@ -615,6 +629,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="abcf7930-a913-42f1-8a67-c8f4dc2e816f" name="Volkite Culverin" hidden="false" collective="true" import="true" type="upgrade">
@@ -644,6 +659,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="1ec2c80b-f176-4f39-90cf-8aedbf512341" name="Karacnos Mortar Battery" hidden="false" collective="true" import="true" type="upgrade">
@@ -674,12 +690,14 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="270.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="46ed5191-0bc8-4840-9f4d-774da00975f9" name="Acastus Knight Porphyrion" hidden="false" collective="false" import="true" type="model">
@@ -733,6 +751,7 @@
                   <costs>
                     <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                     <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                    <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -768,6 +787,7 @@
                       <costs>
                         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="a61bfffe-e995-47c3-b816-d14775d301ab" name="Ironstorm Missile Pod" hidden="false" collective="false" import="true" type="upgrade">
@@ -793,6 +813,7 @@
                       <costs>
                         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -826,6 +847,7 @@
                       <costs>
                         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                       </costs>
                     </selectionEntry>
                     <selectionEntry id="c07a66c8-01d8-4c4a-a1e0-c31565e79166" name="Acastus Lascannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -851,6 +873,7 @@
                       <costs>
                         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
                       </costs>
                     </selectionEntry>
                   </selectionEntries>
@@ -859,6 +882,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="250.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -867,6 +891,140 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b107-7983-ac11-7411" name="&quot;Titanic Duel&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fd2-190b-e2ec-979c" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e49b-e0c3-6fcb-e61a" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d3c7-78bd-3da8-a874" name="&quot;Titanic Duel&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem at the start of the Fight phase. Select a model that is engaged with an enemy Knight or Titan model. Both you and your opponent pick a number from 1-3. Then reveal at the same time. If the numbers differ, then you may add as many attacks as the number you picked to your model for the remainder of that fight.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="2a2b-6b43-6e59-a7b2" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c811-95ad-7e97-ca0e" name="&quot;Trophy Claim&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bef7-c900-f6a6-9e03" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bfe6-db0f-00bd-44b6" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c39d-7a26-4f0b-2275" name="&quot;Trophy Claim&quot; Stratagem" hidden="false">
+          <description>Use this stratagem when one of your Knight models destroys and enemy Knight or Titan model. That model gains +1 attacks until the end of the battle </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3ce8-3770-3e2f-6e78" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="91a8-c05b-c0b1-946a" name="&quot;Crushed&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05bf-38b9-7cbc-2949" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0513-2f13-7150-6b79" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="f4e2-16a4-3b41-3a81" name="&quot;Crushed&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during your fight phase. Select one of your Detachments that is in a fight with an enemy Detachment. Perform a roll off with your opponent (add 1 to your result if your models have more wounds than the enemy models). If you win the roll off your melee attacks ignore invulnerable saves and gain +1 AP. Otherwise they do zero damage </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a1a6-6eb7-a7c0-9f50" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8b25-6a84-18b9-40e0" name="&quot;Valiant Last Stand&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd3c-aebe-7afb-fca6" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6b4-7f99-454f-b4ac" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="2153-f2fd-767c-c8d1" name="&quot;Valiant Last Stand&quot; Stratagem" hidden="false">
+          <description>Use this stratagem when one of your Knight models is destroyed in a fight. Do not immediately remove the model, until that model has made it&apos;s full number of possible attacks. Then remove the model</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5c79-9b68-8cfc-8ba1" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4776-e0cd-7233-e7ee" name="&quot;Point Blank Barrage&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="772c-59bd-b27b-d0b7" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d72-f0c9-b75d-93b9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="8c80-3c4f-20a3-be00" name="&quot;Point Blank Barrage&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during your first fire or advance fire phases. Select one Detachment in a fight. That Detachment may fire all it&apos;s ranged weapons into the engaged enemy Detachment even if it is pinned </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="ff4e-f248-8f0a-9374" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ae2f-da41-ef63-ad23" name="&quot;Hurled Wreckage&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be7c-9dd6-821e-cf82" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9d1-afda-d8fd-8135" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="5ed8-8c48-e60b-0d98" name="&quot;Hurled Wreckage&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during your fight phase when one of your Detachments destroys an enemy vehicle model. That Detachment may make a ranged attack, throwing the destroyed vehicle, at a target detachment within 9&quot;. The attack hits on a 2+ and has -2 AP</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="6fd0-6b45-0337-02e6" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0b3d-4834-cca4-9ca9" name="&quot;Thunderstomp&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86d4-b72f-6f98-065e" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e3-57eb-10ba-b9e5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="467d-f087-7cfc-1832" name="&quot;Thunderstomp&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during your first fire, advance fire or fight phase. Select a Detachment. Until the end of the round that Detachment cannot harm vehicle, super heavy vehicle, knight, titan or monster units, but gets +1 to hit</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="19cd-0e3b-045d-8278" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

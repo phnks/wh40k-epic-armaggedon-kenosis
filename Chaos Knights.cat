@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="46" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="140" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e4bb956-59b3-4ad3-bf1a-e66ecd1ab23c" name="Chaos Knights" revision="47" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="144" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="8483-f441-9ebf-6bc3" name="&quot;Questor Traitoris&quot; Knight Lance" hidden="false">
       <modifiers>
@@ -145,7 +145,7 @@ Doom: While an enemy unit is within 12&quot; of this model, if an enemy Detachme
       </constraints>
       <rules>
         <rule id="b7c7-eadc-0adb-a67a" name="&quot;Pterrorshades&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the first fire, advance fire, or fight phases. Select one Detachment. Anytime that Detachment, for the remainder of the round, causes an enemy Detachment to fail a Morale test, one model in this Detachment regains 1 wound. </description>
+          <description>Use this Stratagem during your first fire, advance fire, or fight phases. Select one Detachment. Anytime that Detachment, for the remainder of the round, causes an enemy Detachment to fail a Morale test, one model in this Detachment regains 1 wound. </description>
         </rule>
       </rules>
       <categoryLinks>
@@ -154,6 +154,7 @@ Doom: While an enemy unit is within 12&quot; of this model, if an enemy Detachme
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5650-0950-6c93-022c" name="&quot;Disdain for the Weak&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -163,7 +164,7 @@ Doom: While an enemy unit is within 12&quot; of this model, if an enemy Detachme
       </constraints>
       <rules>
         <rule id="2d07-ec1c-a623-5821" name="&quot;Disdain for the Weak&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the fight phase. Select one Detachment. That Detachment gains the Feel No Pain 6+ special rule for the remainder of the fight phase.</description>
+          <description>Use this Stratagem during your fight phase. Select one Detachment. That Detachment gains the Feel No Pain 6+ special rule for the remainder of the fight phase.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -172,6 +173,7 @@ Doom: While an enemy unit is within 12&quot; of this model, if an enemy Detachme
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f241-1c6a-5ed2-fac5" name="&quot;Daemonic Surge&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -194,6 +196,7 @@ Gain +1 attacks in melee for the rest of the round.
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1ea-7867-30d6-e947" name="&quot;Beseech the Dark Gods&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -213,6 +216,7 @@ Gain +1 attacks in melee for the rest of the round.
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d1da-6a99-be27-01dc" name="&quot;Pack Hunters&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -222,7 +226,7 @@ Gain +1 attacks in melee for the rest of the round.
       </constraints>
       <rules>
         <rule id="f509-ada1-6594-db1d" name="&quot;Pack Hunters&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the Fight phase. Select a Detachment that includes Wardogs. Gain +1 attacks on each Wardog, for each Wardog engaged in melee.
+          <description>Use this Stratagem during your fight phase. Select a Detachment that includes Wardogs. Gain +1 attacks on each Wardog, for each Wardog engaged in melee.
 </description>
         </rule>
       </rules>
@@ -232,6 +236,7 @@ Gain +1 attacks in melee for the rest of the round.
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72ec-9d80-c53c-cc47" name="&quot;Death Grip&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
@@ -241,7 +246,7 @@ Gain +1 attacks in melee for the rest of the round.
       </constraints>
       <rules>
         <rule id="3573-40f3-5762-7916" name="&quot;Death Grip&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the Fight phase. Select a Detachment that is engaged. Roll off with your opponent, if your Detachment contains models with more wounds than your opponent then add 1 to your roll. If you win the roll off, for the remainder of that fight, your Detachment can ignore Invulernability Saves and gains +1 AP.
+          <description>Use this Stratagem during your fight phase. Select a Detachment that is engaged. Roll off with your opponent, if your Detachment contains models with more wounds than your opponent then add 1 to your roll. If you win the roll off, for the remainder of that fight, your Detachment can ignore Invulernability Saves and gains +1 AP.
 </description>
         </rule>
       </rules>
@@ -251,24 +256,26 @@ Gain +1 attacks in melee for the rest of the round.
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="c5d1-0716-a829-7d9a" name="&quot;Titanic Duel&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="d031-b6e3-1b93-8dfe" name="&quot;Titanic Duel&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a252-0c2f-5353-77da" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d5a-ecd4-70b6-3c5f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="813d-dada-61d2-13c9" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="81d8-8d73-2862-e8a3" type="max"/>
       </constraints>
       <rules>
-        <rule id="8226-c998-451f-aa0b" name="&quot;Titanic Duel&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the Fight phase. Select a model that is engaged with an enemy Knight or Titan model. Both you and your opponent pick a number from 1-3. Then reveal at the same time. If the numbers differ, then you may add as many attacks as the number you picked to your model for the remainder of that fight.</description>
+        <rule id="11af-41a9-a973-0dd1" name="&quot;Titanic Duel&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your fight phase. Select a model that is engaged with an enemy Knight or Titan model. Both you and your opponent pick a number from 1-3. Then reveal at the same time. If the numbers differ, then you may add as many attacks as the number you picked to your model for the remainder of that fight.</description>
         </rule>
       </rules>
       <categoryLinks>
-        <categoryLink id="7ad4-cc75-8543-c292" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+        <categoryLink id="3050-daa0-81c7-27e0" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

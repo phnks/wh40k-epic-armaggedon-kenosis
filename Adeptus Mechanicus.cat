@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="101" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="135" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="102" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="144" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -1369,6 +1369,139 @@ Reduce the Save characteristic of models in this unit by 1.</description>
       </rules>
       <categoryLinks>
         <categoryLink id="5534-0f64-25da-798b" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="87aa-8022-0dc3-35f8" name="&quot;Elimination Volley&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c6-298e-c9cb-08f6" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddc0-195a-37e2-ca67" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="25b1-d245-43f8-fd92" name="&quot;Elimination Volley&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during the start of the fire first or advance fire phases. Select a Detachment. That Detachment gains the Accurate special rule on all ranged attacks if it did not move this round</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="aa39-be1c-3d81-01ca" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a365-e301-18f6-f626" name="&quot;Machine Spirit&apos;s Revenge&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68fb-4417-f8c9-42b2" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5bd-3ad8-efcb-2248" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="e1a4-7c75-3015-8a7f" name="&quot;Machine Spirit&apos;s Revenge&quot; Stratagem" hidden="false">
+          <description>Use this stratagem when one of your vehicle or super heavy vehicle models is destroyed. It explodes, dealing 1 automatic hit at AP-1 to each enemy model in engagement range</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="1c05-d89b-98c2-0efc" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a788-c93f-788c-9137" name="&quot;Tactica Obliqua&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e29a-e5f1-3fb6-8fbe" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad61-3cc2-0f29-f638" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="62f8-7f66-990f-4c6c" name="&quot;Tactica Obliqua&quot; Stratagem" hidden="false">
+          <description>Use this stratagem when an enemy Detachment declares a charge against your Detachment. You may move that Detachment one full move. Your opponent may declare a new target for their charge</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7468-290b-9784-d464" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d980-10d7-6354-78b5" name="&quot;Info slave Skull&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dbd2-da00-8eda-aa6b" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb9a-f5c1-2a7f-6bec" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="7aee-50bb-c927-9a4f" name="&quot;Info slave Skull&quot; Stratagem" hidden="false">
+          <description>Use this stratagem when your opponent deploys reinforcements within 12&quot; of one of your Detachments. That Detachment may immediately perform shooting attacks as if it were your first fire phase against the reinforced enemy Detachment </description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3208-ad4d-f57d-0a63" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bd57-3b2a-7d59-a151" name="&quot;Extinction Order&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c8a-5a22-6985-33af" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="adf9-0f0e-3ce0-8fd6" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="bd29-7659-fa2d-b37d" name="&quot;Extinction Order&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during your first fire or advance fire phase. Select one area 12x12 &quot; or one building. Until the end of the round any of your Detachments that targets an enemy Detachment in that area gets +1 AP</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7aeb-23e0-b237-36fb" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dabd-9c1e-f06b-84cb" name="&quot;Isolate and Destroy&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="413f-e345-2914-77e5" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c399-03cf-6de8-91b6" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="9d62-ac03-b26a-9f04" name="&quot;Isolate and Destroy&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during your first fire or advance fire phase. Select one of your Detachments. If that Detachment is making a ranged attack against and enemy Detachment that does not have another enemy Detachment within 6&quot;, gain +1 AP</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="da62-e0b5-154e-7c3d" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d1b0-cfaa-2d65-bbd8" name="&quot;Expedited Purge Protocols&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c07b-159d-ab89-6690" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1235-2763-9e08-73ec" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="c29a-d2e7-d908-23d8" name="&quot;Expedited Purge Protocols&quot; Stratagem" hidden="false">
+          <description>Use this stratagem during your charge phase. Select one of your Detachments. That Detachment may declare a charge even if it Marched this round</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="a9ed-1898-0121-2610" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
       </categoryLinks>
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>

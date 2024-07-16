@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="49" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="143" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f5873bf6-3c97-446b-9c76-d847960e5bac" name="Chaos Titans" revision="52" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="148" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="c010-2f8c-318e-4f27" name="&quot;Titanica Traitoris&quot; Titan Maniple" hidden="false">
       <modifiers>
@@ -110,25 +110,6 @@ After rolling on the Plasma Reactor Overload Table, perform damage control on ea
         <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7955-d1e9-a2c6-707a" name="&quot;Titanic Duel&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9823-034b-1b3f-bc8c" type="min"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="950e-18a4-b901-9b48" type="max"/>
-      </constraints>
-      <rules>
-        <rule id="a7eb-f484-0f49-cc0f" name="&quot;Titanic Duel&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of the Fight phase. Select a model that is engaged with an enemy Knight or Titan model. Both you and your opponent pick a number from 1-3. Then reveal at the same time. If the numbers differ, then you may add as many attacks as the number you picked to your model for the remainder of that fight.</description>
-        </rule>
-      </rules>
-      <categoryLinks>
-        <categoryLink id="0b67-cbba-4d77-6571" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
-      </categoryLinks>
-      <costs>
-        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
-        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
-        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="4c1a-cb46-2fbf-717d" name="&quot;Cull the Weak&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a8b-dc0a-4f39-0a51" type="min"/>
@@ -174,7 +155,7 @@ After rolling on the Plasma Reactor Overload Table, perform damage control on ea
       </constraints>
       <rules>
         <rule id="30e7-c483-6ad6-127e" name="&quot;Blood Thirst&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of either the first fire, advance fire, charge, or fight phases. Select a Detachment. That Detachment gains 2&quot; to charges and +2 to hit rolls if shooting an enemy within 2&quot;</description>
+          <description>Use this Stratagem during your first fire, advance fire, charge, or fight phases. Select a Detachment. That Detachment gains 2&quot; to charges and +2 to hit rolls if shooting an enemy within 2&quot;</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -193,7 +174,7 @@ After rolling on the Plasma Reactor Overload Table, perform damage control on ea
       </constraints>
       <rules>
         <rule id="86b8-ac76-c27a-0b55" name="&quot;Warp Displacement&quot; Stratagem" hidden="false">
-          <description>Use this Stratagem at the start of your movement phase. All your Detachments move 2d6&quot; straight forward.</description>
+          <description>Use this Stratagem during your movement phase. All your Detachments move 2d6&quot; straight forward.</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -243,6 +224,25 @@ After rolling on the Plasma Reactor Overload Table, perform damage control on ea
         <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="6039-d90a-c409-6bf2" name="&quot;Titanic Duel&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c22f-b31a-0a6f-cf05" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3091-808e-e62a-f8a0" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="ccc7-b085-00f1-aa26" name="&quot;Titanic Duel&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your fight phase. Select a model that is engaged with an enemy Knight or Titan model. Both you and your opponent pick a number from 1-3. Then reveal at the same time. If the numbers differ, then you may add as many attacks as the number you picked to your model for the remainder of that fight.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5c8a-75c8-e176-6d62" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </selectionEntries>
   <entryLinks>
     <entryLink id="7adc-28a9-9c02-71d0" name="Nurgle Warhound Titan" hidden="false" collective="false" import="true" targetId="d0ff59f3-1b79-407d-befa-5dbdd657cf0a" type="selectionEntry">
@@ -270,11 +270,12 @@ After rolling on the Plasma Reactor Overload Table, perform damage control on ea
         <infoLink id="a24e178b-6920-4eff-908b-811b7e789f25" name="Warhound Titan" hidden="false" targetId="012a1e4e-9c1e-49b2-8f43-a2670d4a4bce" type="profile">
           <modifiers>
             <modifier type="set" field="name" value="Nurgle Warhound Titan"/>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Void Shields (2), Mark of Nurgle, Nimble"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Void Shields (2), Mark of Nurgle, Nimble, Scout"/>
             <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
           </modifiers>
         </infoLink>
         <infoLink id="eb93-6abe-ca51-4dcc" name="Nimble" hidden="false" targetId="d15e3189-6b12-40cc-ac1d-49b8ba74f43b" type="rule"/>
+        <infoLink id="752d-ad14-dd15-d1ce" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
       </infoLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="f9ee226b-81d5-4204-9552-723b3919075a" name="Weapons" hidden="false" collective="false" import="true">
@@ -377,13 +378,13 @@ After rolling on the Plasma Reactor Overload Table, perform damage control on ea
       <infoLinks>
         <infoLink id="c874-cced-0920-869c" name="Dire Wolf Titan" hidden="false" targetId="401b-8175-19e0-9921" type="profile">
           <modifiers>
-            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Infiltrate, Void Shields (2), Mark of Nurgle, Nimble"/>
+            <modifier type="set" field="b4db-c43f-148e-920a" value="Agile, Scout, Void Shields (2), Mark of Nurgle, Nimble"/>
             <modifier type="set" field="abb2-3af0-6b13-5cbf" value="9&quot;"/>
             <modifier type="set" field="name" value="Nurgle Dire Wolf Titan"/>
           </modifiers>
         </infoLink>
         <infoLink id="25a4-f0fa-d3cb-7d4c" name="Agile" hidden="false" targetId="36b7-c82d-3af9-3a0" type="rule"/>
-        <infoLink id="d410-20f2-ce38-6f08" name="Infiltrate" hidden="false" targetId="cb4c7871-d8d3-40e9-8336-4c2fdca7e1ae" type="rule"/>
+        <infoLink id="d410-20f2-ce38-6f08" name="Scout" hidden="false" targetId="ea1-6996-9b3e-1dc1" type="rule"/>
         <infoLink id="5f57-8b49-780c-39ad" name="Void Shields (X)" hidden="false" targetId="b1613660-3082-48b7-b123-9ac68cc3457a" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Void Shields (2)"/>

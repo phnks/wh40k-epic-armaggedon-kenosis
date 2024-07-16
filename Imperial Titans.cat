@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="7a9e7b45-fd65-4d48-9d07-bfdff336c140" name="Imperial Titans" revision="51" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="133" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7a9e7b45-fd65-4d48-9d07-bfdff336c140" name="Imperial Titans" revision="54" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="149" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="04c2-81da-5889-7c97" name="&quot;Collegia Titanica&quot; Titan Maniple" hidden="false">
       <modifiers>
         <modifier type="increment" field="b986-d2a8-140e-5e9a" value="1.0">
           <repeats>
-            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
+            <repeat field="77763349-2c1a-45ff-b5ec-539c4de137d4" scope="roster" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="any" repeats="1" roundUp="false"/>
           </repeats>
           <conditionGroups>
             <conditionGroup type="and">
@@ -138,6 +138,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="54d50349-d33e-40b2-bd66-8206189d7649" name="Reaver Power Fist" hidden="false" collective="false" import="true" type="upgrade">
@@ -175,6 +176,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -243,6 +245,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9007ba4f-b196-42ea-969d-9df82f360c5f" name="Reaver Vulcan Mega-bolter" hidden="false" collective="false" import="true" type="upgrade">
@@ -265,6 +268,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1b31455b-581f-4efe-889e-a3cb7b00720a" name="Reaver Titan Warp Missile" hidden="false" collective="false" import="true" type="upgrade">
@@ -300,6 +304,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="e3dadb34-b566-4660-b0f2-820620353d05" name="Reaver Turbo-laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
@@ -320,6 +325,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f40ed10a-9fc6-41bf-8af2-bfccfc6c7c19" name="Reaver Apocalypse Missile Launcher" hidden="false" collective="false" import="true" type="upgrade">
@@ -340,6 +346,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="afb97b7a-28d0-45eb-a52a-d12ec8e4f9d3" name="Reaver Volkite Eradicator" hidden="false" collective="false" import="true" type="upgrade">
@@ -363,6 +370,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d7ff372c-d4c6-43b1-9bc6-ce81c72e804f" name="Reaver Graviton Eradicator" hidden="false" collective="false" import="true" type="upgrade">
@@ -384,6 +392,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -392,6 +401,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="415.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="72fa6509-6e4b-4a96-8bad-5154baf48515" name="Warbringer Nemesis Titan" hidden="false" collective="false" import="true" type="model">
@@ -451,6 +461,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a6b85383-5a91-4dc9-a919-b58af47224ba" name="Anvillus Pattern Defence Batteries" hidden="false" collective="false" import="true" type="upgrade">
@@ -476,6 +487,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -522,6 +534,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="525.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0734f563-5130-4b0b-8b24-58f1562146aa" name="Warlord Battle Titan" hidden="false" collective="false" import="true" type="model">
@@ -571,6 +584,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="600.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="9260c5aa-c5a6-4c7d-8ee6-8495dcf2c0cc" name="Warlord Sinister Battle Titan" hidden="false" collective="false" import="true" type="model">
@@ -638,6 +652,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="32a21ddd-2879-4435-9b21-6c3a8199b2f4" name="Antipathic Tempest" hidden="false" collective="false" import="true" type="upgrade">
@@ -669,6 +684,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f88ff3fe-e91b-4a37-8de2-a31097fc0b54" name="Sinistramanus Tenebrae" hidden="false" collective="false" import="true" type="upgrade">
@@ -695,6 +711,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -722,6 +739,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="675.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b7251ed4-111c-4cae-a975-7c42a5e76101" name="Warmaster Heavy Battle Titan" hidden="false" collective="false" import="true" type="model">
@@ -789,6 +807,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f2604725-4bc6-4c1e-9a44-63329b78065f" name="Suzerain Class Plasma Destructors" hidden="false" collective="false" import="true" type="upgrade">
@@ -832,6 +851,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -854,6 +874,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="750.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6fa704b6-ec88-4f19-b9fa-9193b495c500" name="Warmaster Iconoclast Titan" hidden="false" collective="false" import="true" type="model">
@@ -918,6 +939,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="19ff1285-d5b3-4b82-a2a5-077193642f0d" name="Cruciator gatling array" hidden="false" collective="false" import="true" type="upgrade">
@@ -945,6 +967,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -978,6 +1001,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="27a3dba0-3aa3-48a2-8f6c-3dbc93451bc5" name="Kirus Grav Imploder" hidden="false" collective="false" import="true" type="upgrade">
@@ -1015,6 +1039,7 @@
               <costs>
                 <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="10.0"/>
                 <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+                <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1039,6 +1064,194 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="750.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="fbdc-c149-f50a-b722" name="&quot;Titanic Duel&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6af-ba48-be26-3fac" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b11-654e-2cca-a4d6" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="78ee-7966-ddb3-6b5d" name="&quot;Titanic Duel&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your fight phase. Select a model that is engaged with an enemy Knight or Titan model. Both you and your opponent pick a number from 1-3. Then reveal at the same time. If the numbers differ, then you may add as many attacks as the number you picked to your model for the remainder of that fight.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7350-2c3c-4205-fb55" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3184-e64d-56a9-4287" name="&quot;Concealment Barrage&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a988-8ab9-5df9-1949" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7d8-1fd8-8632-c130" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="fc36-36bb-f6fa-aa1f" name="&quot;Concealment Barrage&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your first fire or advance fire phase. Select a model. You may place a 5&quot; marker within 20&quot; of that model. This marker acts as a line of sight blocker.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="5e0e-3754-b990-9d7f" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6e4c-dde5-f523-839d" name="&quot;Blessings of the Omnissiah&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4df5-2826-a2b3-1215" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="790b-9e36-f50d-de46" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3204-0092-78ed-fa55" name="&quot;Blessings of the Omnissiah&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem when one of your Titan models is about to lose it&apos;s last void shield. Ignore the hit that would take down your void shields.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="bc54-a9af-5a9e-8066" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="219e-5b4d-30a8-34a2" name="&quot;Methodical Advance&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be58-3db4-417f-cdf7" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b512-cdd9-041a-fcd9" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="ecbf-9f48-dbc5-11af" name="&quot;Methodical Advance&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your movement phase. Select a titan size, scout, battle, or heavy battle. All titans of that size may perform one move.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7b20-bbcc-fe40-3782" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7a9c-1d63-7ac0-bde4" name="&quot;The Long Retreat&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6e2-1383-58b6-7480" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07cb-3309-5127-d629" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="b276-d4ec-4421-c640" name="&quot;The Long Retreat&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your movement phase. Select a Titan model. That Titan model does not suffer half movement if moving outside it&apos;s front arc.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3793-c2e6-f8f3-2cbd" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="bfbf-e758-224f-68a6" name="&quot;Auspex Bafflers&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7da5-0e84-eaa8-a13a" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7614-af8e-5045-993b" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="71ce-7b70-5eec-1816" name="&quot;Auspex Bafflers&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem during your opponents fire fire or advance fire phase. Select a model. Increase the to hit penality against that model by 1.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="b8c6-0b83-5dc4-f06b" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ec05-70dd-8696-74ed" name="&quot;Machine Defiance&quot; Stratagem" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="57c0-d57d-f71d-01b6" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0398-989b-a0a1-7ba5" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="88b1-d480-d554-073e" name="&quot;Machine Defiance&quot; Stratagem" hidden="false">
+          <description>Use this Stratagem when one of your Titan models loses it&apos;s void shields. Roll one d6 for each shield, on each 5+ one void shield comes back up.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="cda7-966a-38b1-1ece" name="Stratagem" hidden="false" targetId="5062-0268-13d2-47b5" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c436-a697-45f7-6f66" name="&quot;God Machines of the Omnissiah&quot; Army Ability" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="95d2-2544-96bf-7efe" type="min"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dfa-b7c2-6c40-6ae4" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="d4a4-3f16-083f-3546" name="&quot;God Machines of the Omnissiah&quot; Army Ability" hidden="false">
+          <description>Each unit in your army is equipped with a plasma reactor. This reactor can be overloaded to gain additional benefits, but overloading it too much can result in catastrophic failure. The Plasma Reactor overload chart appears as follows:
+
+(green 1) -&gt; (green 2) -&gt; (yellow 1) -&gt; (yellow 2) -&gt; (orange 1) -&gt; (orange 2) -&gt; (red 1)
+
+For each phase of the battle, you can overload the reactor to gain a benefit. When you do this increase the reactor oerload chart by 1 step.
+
+Start of Round
+Shut it Down! Resets plasma reactor back to (green 1). Unit loses all void shields and cannot perform any actions this round
+
+Movement Phase
+Power to Locomotors! Unit gains 2&quot; of movement
+Power to Stabilisers! Unit gains 1 more 45 degree turn
+
+Fire Fire/Advance Fire Phase
+Voids to Full! Roll 1d6 for each hit against the unit, on a 4+ the void shield doesn&apos;t go down
+Weapons to Maximum!  Unit gains +1 to hit on ranged weapons
+
+Charge Phase
+Power to Locomotors!  Unit gains 2&quot; of movement
+
+FIght Phase
+Weapons to Maximum! Unit gains +1 to hit on melee weapons
+
+At the start of each round, you must roll to see the effects of any reactor overloads.
+If the plasma reactor is in yellow: roll 1d6, if in red roll 2d6 against the following table:
+
+Plasma Reactor Overload Table:
+1-3 Reactor Housing Damaged. Unit takes 1 hit at AP-2 bypassing void shields
+4-6 Power Failure. Unit loses all void shields. If the unit has no void shields, then use Plasma Leak 
+7-10 Plasma Leak. Unit takes D3 hits at AP-2 bypassing void shields
+11-12 Reactor Meltdown. The unit is destroyed. 
+
+After rolling on the Plasma Reactor Overload Table, perform damage control on each unit. Roll 4d6, on each 4+ decrease the reactor level by 1.
+
+
+</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="7121-2b1c-a8b8-6ae1" name="Configuration" hidden="false" targetId="913754bf-ea5a-4767-90c0-2503b4668699" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
+        <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1069,6 +1282,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0c9a9dd4-31ec-4979-b1b6-78e00085f7b8" name="Reaver Laser Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -1093,6 +1307,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bfb1caaf-121d-4f41-ba1b-c3c006eea737" name="Reaver Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1133,6 +1348,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e1a7553c-00a1-4970-a040-46a62aeaaf71" name="Reaver Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1162,6 +1378,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a3ef8962-bd3c-41e1-bbc4-22d1b62c8037" name="Mori Quake Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1192,6 +1409,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="481da682-4b08-4da5-b74e-fbb5f6925f60" name="Belicosa Volcano Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1221,6 +1439,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="093e74b4-fb50-4aa4-afff-86817626bbe1" name="Ardex-defensor Mauler Bolt Cannon Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -1246,6 +1465,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="bda925d7-e0fd-49ac-96b0-a83ae9a3e781" name="Ardex-defensor Lascannon turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -1276,6 +1496,7 @@
       <costs>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+        <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1311,6 +1532,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="85200398-f38d-4fde-bc14-97c771866f0b" name="Paired Gatling Blasters" hidden="false" collective="false" import="true" type="upgrade">
@@ -1335,6 +1557,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="45445ba7-8cc9-4905-bd5c-af38abfd2708" name="Paired Turbo-laser Destructors" hidden="false" collective="false" import="true" type="upgrade">
@@ -1360,6 +1583,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1a38f3ad-8d6b-4462-a1c5-5d5f04c55672" name="Paired Laser Blasters" hidden="false" collective="false" import="true" type="upgrade">
@@ -1384,6 +1608,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="12d5d61b-18c0-41f2-8bfe-3ce47d5f3f79" name="Apocalypse Missile Launchers" hidden="false" collective="false" import="true" type="upgrade">
@@ -1409,6 +1634,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1440,6 +1666,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="87cbf15d-45ee-4b89-a918-4924eb6a0145" name="Volkite Destructor" hidden="false" collective="false" import="true" type="upgrade">
@@ -1471,6 +1698,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4f8ab145-5d2c-46e1-91f6-4c455fedbc58" name="Macro-gatling Blaster" hidden="false" collective="false" import="true" type="upgrade">
@@ -1499,6 +1727,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="e4b5f2f0-617d-4c54-80e0-95b01f8a6135" name="Warlord Graviton Ruinator" hidden="false" collective="false" import="true" type="upgrade">
@@ -1528,6 +1757,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="cb81bb72-bd28-4b74-9c19-5fd15e89704f" name="Conversion Beam Extripator" hidden="false" collective="false" import="true" type="upgrade">
@@ -1574,6 +1804,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3d75ffe8-c585-4f28-9f21-ba25307a35f8" name="Arioch Power Claw" hidden="false" collective="false" import="true" type="upgrade">
@@ -1624,6 +1855,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1674,6 +1906,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="f87c933e-6a66-41c7-8137-bf84914a5c84" name="Apocalypse Missile Array" hidden="false" collective="false" import="true" type="upgrade">
@@ -1702,6 +1935,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1e6b6891-73fe-4368-8fee-74a1a4c82f5a" name="Turbo-laser Destructor" hidden="false" collective="false" import="true" type="upgrade">
@@ -1730,6 +1964,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="9e67de64-937a-4f7a-8abb-b692859fa5f4" name="Melta Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -1773,6 +2008,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="5361e5f6-3aa9-416b-a1d4-f1badcd84623" name="Plasma Blastgun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1800,6 +2036,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="2b022c6b-b6c3-4814-bc04-1e511dead03b" name="Inferno Gun" hidden="false" collective="false" import="true" type="upgrade">
@@ -1830,6 +2067,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -1859,6 +2097,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c63dd138-4273-4873-9030-915b3f0de12b" name="Ardes-defensor Bombard Turrets" hidden="false" collective="false" import="true" type="upgrade">
@@ -1881,6 +2120,7 @@
           <costs>
             <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
             <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
+            <cost name="CP" typeId="d33c-3a34-eea0-0cd9" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
