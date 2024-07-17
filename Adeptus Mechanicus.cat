@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="103" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="150" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="78cda401-5c05-4d41-9455-80ac6c623bea" name="Adeptus Mechanicus" revision="105" battleScribeVersion="2.03" library="false" gameSystemId="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" gameSystemRevision="153" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="200f8047-27ad-46d2-9435-58ba4111fa6f" name="&quot;Ordo Reductor&quot; Armoured Company" hidden="false">
       <categoryLinks>
@@ -627,6 +627,13 @@
           </selectionEntryGroups>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="2e30-37de-c2d0-9d41" name="Warlord" hidden="false" collective="false" import="true" targetId="8248-2b5b-9fd5-4156" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f097-7928-5e85-70b7" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Transport Usage" typeId="2cba2e16-49ec-4402-b74e-c5f145ad4e03" value="0.0"/>
         <cost name="points" typeId="77763349-2c1a-45ff-b5ec-539c4de137d4" value="0.0"/>
@@ -2613,7 +2620,7 @@ Reduce the Save characteristic of models in this unit by 1.</description>
     <selectionEntry id="9eb3-f9e0-2553-b984" name="Skitarii Marshal w/ Skitarii Rangers" hidden="false" collective="false" import="true" type="model">
       <rules>
         <rule id="ec99-f186-4e3e-03c0" name="Control Edict" hidden="false">
-          <description>Once per round, at the start of any phase, select one Scout Battle Maniple or Vanguard Battle Maniple Detachment within 8&quot;. That Detachment may immediately perform a Move, Charge, First Fire, or Advance Fire order. The order issued can be one that normally cannot be issued (i.e. a Fire Fire even though the Detachment moved this round). </description>
+          <description>Once per round, at the start of any phase a Detachment this model is attached to may immediately perform a Move, Charge, First Fire, or Advance Fire order. The order issued can be one that normally cannot be issued (i.e. a Fire Fire even though the Detachment moved this round). </description>
         </rule>
       </rules>
       <infoLinks>

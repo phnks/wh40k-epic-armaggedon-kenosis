@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="152" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="fe96f0c3-d63c-4829-8c99-eb09fcdeed4f" name="Warhammer 40,000 Epic - Kenosis Edition" revision="153" battleScribeVersion="2.03" authorName="BSData Team" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="6059cfec-6b66-495b-be9a-63e2f3b3156b" name="Legions Imperialis Rulebook" shortName="LI" publicationDate="2023" publisherUrl="https://thehorusheresy.com/legions-imperialis"/>
     <publication id="092c4a42-4ffd-4e9b-ab12-e455e8a4139e" name="GitHub" shortName="BSData/Horus-Heresy-Legions-Imperialis" publisherUrl="https://github.com/BSData/Horus-Heresy-Legions-Imperialis"/>
@@ -3647,7 +3647,7 @@ An Automated Sentry model fires any other weapon at the closest eligible enemy D
 Automated Sentry Detachments can fire when Engaged &amp; Pinned. When selecting targets, they ignore any Detachment which is Engaged &amp; Pinned, including any Detachment they are Engaged &amp; Pinned with.</description>
     </rule>
     <rule id="b65bfea2-7562-42fd-be28-fc1fec052405" name="Battlesmith" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="87" hidden="false">
-      <description>If a friendly Walker, Vehicle or Super-heavy Vehicle, or a model with the Automata or Automated Sentry special rule, within 3&quot; of a model with this rule suffers a Wound due to a special rule or one that is inflicted by a weapon with an AP of -2 or worse, roll a D6. On a 5+, that Wound is ignored and has no effect. Battlesmith cannot be used against Wounds suffered in a Fight.</description>
+      <description>If a friendly Walker, Vehicle or Super-heavy Vehicle, or a model with the Automata or Automated Sentry special rule is attached to a model with this rule suffers a Wound due to a special rule or one that is inflicted by a weapon roll a D6. On a 5+, that Wound is ignored and has no effect. Battlesmith cannot be used against Wounds suffered in a Fight.</description>
     </rule>
     <rule id="750f8e31-fd62-4057-be7f-a50367684b84" name="Blessed Auto-simulacra" publicationId="6059cfec-6b66-495b-be9a-63e2f3b3156b" page="87" hidden="false">
       <description>During the Resolve End Phase Effects stage of the End phase, roll a D6 for each Wound a model with the Blessed Auto-simulacra special rule has lost. On a 5+, the model regains a Wound.</description>
